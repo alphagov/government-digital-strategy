@@ -1,0 +1,9 @@
+{
+  "name": "gdspublications",
+  "title": "GDS Publications Tool",
+  "description": "GDS Publications Tool",
+  "version": "1.0.0",
+  "dependencies": {
+    "clean-css": "~0.8.2"
+  }
+}

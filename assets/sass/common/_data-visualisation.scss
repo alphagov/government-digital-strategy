@@ -1,0 +1,165 @@
+// DATA VISUALISATION MIXINS
+
+
+// BASE CHART STYLES
+@mixin chart{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border-collapse: separate;
+  border-bottom: 1px solid $blue;
+  padding-bottom: 10px;
+  border-spacing: 2px;
+  caption{
+    caption-side: bottom;
+    font-weight: bold;
+    margin: 1em 0;
+    text-align: left;
+    em{
+      font-weight: 300;
+    }
+  }
+}
+
+// SINGLE BAR CHART
+@mixin breakdown-chart($colour: $blue){
+  // A simple chart with a coloured bar on the left
+  // The bar is broken into sections
+  // Each section has a description to its right
+  @include chart;
+  thead{
+    display: none;
+  }
+
+  td {
+    text-align: center;
+    border-bottom: 0 solid;
+    &:nth-child(even){
+      color: $colour;
+      background-color: lighten($light-grey, 15%);
+      padding: 10px;
+      text-align: left;
+    }
+    &:nth-child(odd){
+      width: 10%;
+      color: #FFF;
+      padding: 0;
+    }
+  }
+
+  // Lighten background colour by 5% each row
+  // (Cycles after ten rows)
+  @for $i from 0 to 9 {
+    tr:nth-child(10n+#{$i}){background-color: lighten($colour, percentage($i/20))};
+  }
+
+  // IE styles (replaces nth-child)
+  @include ie-lte(8) {
+    tr{
+      background-color: $blue;
+      color: #fff;
+      td + td {
+        color: $colour;
+        text-align: left;
+        background-color: lighten($light-grey, 15%);
+        padding: 10px;
+      }
+    }
+  }
+}
+
+// BAR CHART
+@mixin bar-chart($colour: $blue){
+  // A horizontal bar chart
+  // Place x-axis values in the table head
+  @include chart;
+  thead{
+    display: table-footer-group;
+  }
+  th, td{
+    border-bottom: 0 solid;
+    margin-right: 5px;
+    padding: 5px 0 0 0;
+  }
+  th, td{
+    text-align: center;
+    width: 10%;
+    display: inline-block;
+  }
+  td{
+    color: $colour;
+    border-bottom: 0 solid;
+    color: #fff;
+    vertical-align: bottom;
+  }
+  // Lighten background colour by 5% each bar
+  // (Cycles after ten rows)
+  @for $i from 0 to 9 {
+    td:nth-child(10n+#{$i}){background-color: lighten($colour, percentage($i/20))};
+  }
+}
+
+// BAR CHART
+@mixin horizontal-bar-chart($colour: $blue){
+  // A horizontal bar chart
+  // Place x-axis values in the table head
+  margin-top: 0em;
+  padding-top: 0.5em;
+  margin-bottom: 2.5em;
+  font-size: 16px;
+  border-collapse: separate;
+  &.cyclical{
+  }
+  padding-bottom: 10px;
+  border-spacing: 2px;
+  thead{
+    display: none;
+  }
+  td{
+    margin-right: 5px;
+    padding: 5px 0 0 0;
+    border-bottom: 0 solid;
+  }
+  th, td {      
+    padding-right: 5px;
+  }
+  td:nth-child(odd){
+    text-align: right;
+    color: $colour;
+    width: 35%;
+  }
+  td:nth-child(even){
+    background-color: $blue;
+    color: #fff;
+    display: inline-block;
+  }
+  &.cyclical {
+    border-collapse: collapse;
+    tbody {
+      border-top: 15px solid white;
+    }
+    tr:nth-child(5n+1) td:nth-child(even){background-color: $dark-blue;}
+    tr:nth-child(5n+2) td:nth-child(even){background-color: $blue;}
+    tr:nth-child(5n+3) td:nth-child(even){background-color: $light-blue;}
+    tr:nth-child(5n+4) td:nth-child(even){background-color: $turquoise;}
+    tr:nth-child(5n+5) td:nth-child(even){background-color: $green;}
+  }
+  
+  // Lighten background colour by 5% each bar
+  // (Cycles after ten rows)
+  @for $i from 0 to 19 {
+    tr:nth-child(19n+#{$i}) td:nth-child(even){
+      background-color: lighten($colour, percentage($i/40));
+    }
+  }
+
+  @include ie-lte(9) {
+    tbody td{
+      text-align: left !important;
+      background-color: #fff !important;
+      color: #333 !important;
+    } 
+  }
+
+
+}

@@ -1,0 +1,76 @@
+// PRINT STYLESHEET COMPILER
+
+// STYLEGUIDE
+// Mixins to be shared across gov.uk sites. Anything set in these
+// files can be used in the view files.
+
+$is-print: true;
+@import "common/_typography.scss";
+@import "common/_templates.scss";
+
+// OUTPUT
+// The following files and inline CSS will form the output of print.css
+
+html {
+  font-size: 62.5%;
+}
+
+.section-title .title-index {
+  height: auto;
+  background: transparent;
+  text-decoration: none;
+}
+.title-index,
+.section-subtitle .index {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.container {
+  margin: 0 2em;
+  color: #000;
+}
+
+.header{
+  padding-left: 0;
+}
+.document-title .title h2 {
+margin-left: 0;
+}
+
+a:link,
+a:visited{
+  text-decoration: none;
+  color: #000;
+}
+
+#markdown-toc li ul{
+  display: none;
+}
+
+.case-study img{
+  display: none;
+}
+
+.footer{
+  border: 0 solid;
+  background-color: transparent;
+  .copyright{
+    display: none;
+  }
+}
+
+table{
+  width: 100%;
+}
+
+@page { margin: 0.5cm; }
+
+p a:after { content: " (" attr(href) ")"; font-size: 80%; }
+a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ")"; font-size: 90%;}
+p a:after { content: " (http://www.publications.cabinetoffice.gov.uk" attr(href) ")"; }
+p a[href^="#"]:after { display: none; }
+p a { word-wrap: break-word; }
+p a{ color: blue;}
+
+.figure-permalink { display: none; }

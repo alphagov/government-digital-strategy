@@ -1,0 +1,14 @@
+markdown-out/
+.DS_Store
+built/
+compiling/markdown-out/
+.sass-cache
+*.scssc
+/_site/*
+assets/css/
+*.sublime-project
+*.sublime-workspace
+temp/
+node_modules/
+assets/javascripts/built.js
+deploy/
