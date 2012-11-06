@@ -25,33 +25,22 @@ html {
   display: inline-block;
   padding-right: 0.5em;
 }
-
 .container {
   margin: 0 2em;
   color: #000;
 }
-
 .header{
   padding-left: 0;
 }
 .document-title .title h2 {
 margin-left: 0;
 }
-
-a:link,
-a:visited{
-  text-decoration: none;
-  color: #000;
-}
-
 #markdown-toc li ul{
   display: none;
 }
-
 .case-study img{
   display: none;
 }
-
 .footer{
   border: 0 solid;
   background-color: transparent;
@@ -59,18 +48,59 @@ a:visited{
     display: none;
   }
 }
-
 table{
   width: 100%;
 }
+img{ max-width: 100%; }
 
-@page { margin: 0.5cm; }
+@page { margin: 1cm; }
+@page {
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+  }
+}
+h2 {
+  page-break-before: always;
+}
 
-p a:after { content: " (" attr(href) ")"; font-size: 80%; }
-a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ")"; font-size: 90%;}
+
+// LINKS
+a:link,
+a:visited{
+  text-decoration: none;
+  color: #000;
+}
+p a:after { content: " (" attr(href) ")";}
+a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ")";}
 p a:after { content: " (http://www.publications.cabinetoffice.gov.uk" attr(href) ")"; }
 p a[href^="#"]:after { display: none; }
 p a { word-wrap: break-word; }
 p a{ color: blue;}
 
-.figure-permalink { display: none; }
+// Suppress URLs from page header
+.case-study p:first-child a:after,
+.header a:after{content: "";};
+
+// ORPHANS AND WIDOWS
+p, h2, h3 { orphans: 3; widows: 3; } 
+
+// HIDE THESE ELEMENTS
+.collection-link,
+.cookie-link,
+.title-index .title-text,
+#contents{
+  display: none;
+}
+.section {
+  .figure-permalink,
+  .pull,
+  .big-pull { 
+    display: none;
+  }
+}
+
+// TITLE
+.title{
+  margin-bottom: 2em;
+}
+

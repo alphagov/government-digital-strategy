@@ -216,9 +216,6 @@ hr {
     a:visited{
       color: #8E8E89;
     }
-    @if $is-print == true {
-      display: none;
-    } 
   }
   .collection-link{  
     margin-left: 12px;
