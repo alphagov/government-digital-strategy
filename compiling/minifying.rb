@@ -25,13 +25,20 @@ class Minifying
       puts "--> minifying #{file} to assets/css/#{file_no_ext}.min.css"
       %x[./node_modules/clean-css/bin/cleancss -o assets/css/#{file_no_ext}.min.css #{file}]
       puts "--> updating stylesheet links"
-      Dir.glob("built/**/*.html").each do |file|
-        content = Utils.read_from_file(file)
-        content.gsub!(/<link href="(.+)\/(.+?)\.css" (.+)>/) { |match|
+      Dir.glob("built/**/*.html").each do |html_file|
+        content = Utils.read_from_file(html_file)
+        # content.gsub!(/<link href="(.+)\/(.+?)\.css" (.+)>/) { |match|
+        #   puts "Matched Link: #{match} in file #{file}"
+        #   "<link href='#{$1}/#{$2}.min.css' #{$3}>"
+        # }
+        file_name = file.split "/"
+        file_name = file_name.last.split(".")[0]
+        puts file_name
+        content.gsub!(/\/assets\/css\/#{file_name}.css/) { |match|
           puts "Matched Link: #{match} in file #{file}"
-          "<link href='#{$1}/#{$2}.min.css' #{$3}>"
+          "/assets/css/#{file_name}.min.css"
         }
-        Utils.write_to_file(content, file)
+        Utils.write_to_file(content, html_file)
       end
     end
 
