@@ -41,7 +41,7 @@ Figure 3: Which of the following services do you regularly use online? (Q11)
 | Total online adults               | 82%  |
 | Email/messenger                   | 64%  |
 | Search engines                    | 60%  |
-| Online shopping                   | 58%  |
+| Online shopping                   | 57%  |
 | News & weather                    | 52%  |
 | Online banking                    | 52%  |
 | Social networking                 | 43%  |
@@ -62,11 +62,11 @@ Figure 4: What are your reasons for using government services online? (Q7)
 Note: This question was asked only of the 554 people in the study who had used government services online
 
 
-| Reasons used service online | Percentage of UK adult population   |
-| --------------------------------- | ----------------------------- |
-| Saves time                        | 85%                           |
-| Clear and easy to use             | 62%                           |
-| Do it 24/7                        | 61%                           |
-| Less hassle than the phone        | 59%                           |
+| Reasons used service online | Percentage of UK adult population    |
+| ---------------------------------- | ----------------------------- |
+| Saves time                         | 85%                           |
+| Clear and easy to use              | 62%                           |
+| I could do it outside office hours | 61%                           |
+| Less hassle than the phone         | 55%                           |
 {: .horizontal-bar-chart}
 
