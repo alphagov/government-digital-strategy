@@ -17,9 +17,6 @@ should be met:
 * node.js and npm are installed
 * Ruby (1.9+) is installed
 
-Those attempting to run the application should be comfortable using the command
-line (also known as the 'shell', or 'terminal').
-
 # Local Build Script
 
 Run the shell script:
