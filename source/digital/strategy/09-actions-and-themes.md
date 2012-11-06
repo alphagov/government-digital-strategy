@@ -333,7 +333,7 @@ Figure 5: Existing transformation programmes supported by Government Digital Ser
 
 *“Simpler, clearer and faster for users”*
 
-####Action 07: Corporate publishing activities of all 24 central government departments will move onto [GOV.UK](https://www.gov.uk/) by March 2013, with agency and arm's length bodies' online publishing to follow by March 2014
+####Action 07: Corporate publishing activities of all 24 central government departments will move onto GOV.UK by March 2013, with agency and arm's length bodies' online publishing to follow by March 2014
 
 -   resources for the transition to GOV.UK will be included in
     departmental digital strategies
