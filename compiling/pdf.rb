@@ -53,7 +53,7 @@ class CompilePdf
     File.open("#{folder}/index-pdf.html", "w") { |f| f.write(code) }
     # compile PDF from new file
     name = folder.split("/").last
-    `/usr/local/bin/wkhtmltopdf --disable-javascript #{folder}/index-pdf.html #{folder}/#{self.pdf_names[name] || name}.pdf`
+    `wkhtmltopdf --disable-javascript #{folder}/index-pdf.html #{folder}/#{self.pdf_names[name] || name}.pdf`
     # `rm #{folder}/index-pdf.html`
 
 
