@@ -34,4 +34,12 @@ FileUtils.cp_r("assets/data", "deploy/assets/data")
 #### IMGS ####
 FileUtils.cp_r("assets/images", "deploy/assets/images")
 
+#### PDFS ####
+Dir.glob("built/**/*.pdf").each do |pdf|
+  file_path = pdf.split "/"
+  file_path.shift
+  file_path = file_path.join "/"
+  FileUtils.cp(pdf, "deploy/#{file_path}")
+end
+
 

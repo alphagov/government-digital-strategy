@@ -1,7 +1,6 @@
 {include _analytics/la-ida-review.html}
 <div class="title">
-
-##Local Authority Review
+#Local Authority Review
 {:.no_toc}
 
 ###Citizen Online Identity Assurance

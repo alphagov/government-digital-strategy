@@ -102,17 +102,17 @@ Note: This question was asked of 1,064 people who are online. This data is selec
 
 | Occasions                                         | n    |
 | --------------------------------------------------|------|
-| When I'm home alone                               | 82%  |
-| Weekends                                          | 64%  |
-| When I've got a couple of hours to spare          | 60%  |
-| When I've got 10 minutes to spare                 | 58%  |
-| When I'm waiting for people/things to happen      | 52%  |
-| First thing in the morning                        | 52%  |
-| A break at work/school (e.g. lunchtime)            | 52%  |
-| Just before I go to bed                           | 52%  |
-| Straight after work/college                       | 43%  |
-| When I'm at work/school                           | 43%  |
-| When with family                                  | 43%  |
-| When I'm doing other things                       | 43%  |
+| When I'm home alone                               | 62%  |
+| Weekends                                          | 60%  |
+| When I've got a couple of hours to spare          | 59%  |
+| When I've got 10 minutes to spare                 | 40%  |
+| When I'm waiting for people/things to happen      | 33%  |
+| First thing in the morning                        | 30%  |
+| A break at work/school (e.g. lunchtime)           | 28%  |
+| Just before I go to bed                           | 27%  |
+| Straight after work/college                       | 27%  |
+| When I'm at work/school                           | 26%  |
+| When with family                                  | 25%  |
+| When I'm doing other things                       | 21%  |
 {: .horizontal-bar-chart}
 

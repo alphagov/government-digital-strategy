@@ -1,5 +1,5 @@
 <div class="title">
-##Digital Landscape Research
+#Digital Landscape Research
 {:.no_toc}
 
 ####November 2012
