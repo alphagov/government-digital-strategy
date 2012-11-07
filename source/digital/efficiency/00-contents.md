@@ -6,16 +6,16 @@
 {:.no_toc}
 </div>
 
-####Contents
-{:.no_toc}
-
-
-* Will be replaced with the table of contents. (Everything marked with .no_toc is excluded.)
-{:toc}
-
 {::comment}
 * Last edited on {TIMESTAMP}
 {:/comment}
 * Also available in {PDF=digital-efficiency-report.pdf}
 {:.no_toc .meta}
+
+####Contents
+{:.no_toc}
+
+* Will be replaced with the table of contents. (Everything marked with .no_toc is excluded.)
+{:toc}
+
 
