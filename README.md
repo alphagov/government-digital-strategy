@@ -5,17 +5,26 @@
 This repository contains the code and content behind the Government Digital
 Strategy site as seen online at [http://publications.cabinetoffice.gov.uk/digital/](http://publications.cabinetoffice.gov.uk/digital/ "Government Digital Strategy online publication")
 
-By following the instructions below anyone comfortable with using command line
-can set up a local, working, copy of the site, and view the content as it
-appears online.
+By following the instructions below anyone comfortable with using command line can set up a local, working, copy of the site, and view the content as it appears online.
 
 ## Prerequisites
 
-Before attempting to install and run the application, the following prerequisites
-should be met:
+Before attempting to install and run the application, the following dependencies should be installed:
 
-* node.js and npm are installed
-* Ruby (1.9+) is installed
+* Node.js (0.8+) and npm.
+* Ruby (1.9+) and bundler.
+
+
+# Before running the build script
+
+Make sure you've got Node & npm installed, and then CD into the directory and run:
+
+```
+npm install
+```
+
+This uses the `package.json` file to install dependencies.
+
 
 # Local Build Script
 
@@ -24,6 +33,10 @@ Run the shell script:
 ```
 ./local-build.sh
 ```
+
+This compiles everything into the `built` folder. To view it locally, run `ruby server.rb` and head to `localhost:8080`.
+
+
 # Production Build Script
 
 The local-build script is great for viewing locally but doesn't do any of the performance stuff we want - minifying CSS, JS and so on. The production build script does.
@@ -40,15 +53,8 @@ Once it's done, you're left with a `deploy/` folder which is the production-read
 
 If you want to test that the deploy folder works fine, run `ruby deploy-server.rb`, which serves up the `deploy/` folder on port 9090.
 
-## Before running the build script
+The production build script also creates all the PDFs.
 
-Make sure you've got Node & npm installed, and then CD into the directory and run:
-
-```
-npm install
-```
-
-This uses the `package.json` file to install dependencies.
 
 
 # PDF
