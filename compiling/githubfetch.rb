@@ -28,18 +28,11 @@ class GithubFetch
       commit.files.each { |cf|
         filename = cf.filename
         if filename.include?(folder)
-          puts "commit does include #{folder}"
-          puts "Date #{folder} last updated: #{commit.author["date"]}"
-          foundDate = true
-          break
+          return DateTime.parse(commit.date)
         end
       }
-      break unless !foundDate
     }
   end
 end
-
-g = GithubFetch.new 'alphagov', 'government-digital-strategy'
-g.get_latest_date_for_folder('digital/efficiency')
 
 

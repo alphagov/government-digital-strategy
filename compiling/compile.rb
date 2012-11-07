@@ -225,13 +225,18 @@ class Compile
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
     contents.gsub!(/{TIMESTAMP}/) {
-      #TODO: CHANGE THIS DATE
-      date = GithubFetch.get_date_for_repo('alphagov', 'government-digital-strategy').to_time
-      if folder
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
-      else
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](http://github.com/government-digital-strategy-prerelease)"
+      date = Time.now
+      begin
+        github = GithubFetch.new 'alphagov', 'government-digital-strategy'
+        date = ( folder ? github.get_latest_date_for_folder(folder) : github.get_latest_date_for_repo )
+      rescue
+        puts "-> Limited by Github, so just using Time.now"
       end
+        if folder
+          "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
+        else
+          "[#{date.stamp("1 Nov 2012 at 12:30 am")}](http://github.com/government-digital-strategy-prerelease)"
+        end
     }
     contents.gsub!(/{PDF=(.+)}/) {
       "[PDF format](#{$1})"
