@@ -1,5 +1,5 @@
 <div class="title">
-##Digital Efficiency Report
+#Digital Efficiency Report
 {:.no_toc}
 
 ####November 2012

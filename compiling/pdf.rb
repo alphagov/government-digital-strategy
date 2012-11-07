@@ -35,7 +35,7 @@ class CompilePdf
     #   puts "MATCHED: #{match}"
     #   "http://localhost:8080/assets/css/print.css"
     # }
-    code.gsub!(/<link href="\/assets\/css\/print\.css" rel="stylesheet" media="print">/) { |match|
+    code.gsub!(/<link href="\/assets\/css\/print\.min\.css" rel="stylesheet" media="print">/) { |match|
       puts "MATCHED: #{match}"
       '<link href="http://localhost:8080/assets/css/print.css" rel="stylesheet" media="screen">'
     }

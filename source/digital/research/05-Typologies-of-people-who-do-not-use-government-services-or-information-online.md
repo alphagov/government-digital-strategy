@@ -192,3 +192,9 @@ Figure 9: Groupings of people who do not use government transactional services o
 ####Not using government sites because of lack of awareness and bad user-experiences
 * Don’t make the connection between government and digital services
 * Imagine that government sites might not be as easy as other sites they are familiar with
+
+####These people say
+* “I use the internet for everything – communicating, blogging, music, browsing photos, education, research – even to make money with eBay”
+* “I’m not as techy as my cousin, he does website development and coding – I’d love to be able to do that”
+* “It’s convenient to do ANYTHING on the web – look up information, be entertained, go shopping and communicate with people”
+* “I learnt how to use the internet in IT class in school – it was amazing, it still is pretty amazing. IT class taught me how to stay safe online and feel confident using it.”
