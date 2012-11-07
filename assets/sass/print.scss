@@ -24,8 +24,15 @@ $is-print: true;
 .document-title .title h2 {
   margin-left: 0;
 }
-#markdown-toc li ul{
-  display: none;
+#markdown-toc{
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  li {
+    ul{
+      display: none;
+    }
+  }
 }
 .section-title .title-index {
   height: auto;
@@ -128,7 +135,8 @@ p a{ color: blue;}
 .cookie-link,
 .title-index .title-text,
 .case-study img,
-#contents{
+#contents,
+.meta li:last-child{
   display: none;
 }
 .section {
