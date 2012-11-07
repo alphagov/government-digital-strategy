@@ -228,7 +228,7 @@ class Compile
       #TODO: CHANGE THIS DATE
       date = GithubFetch.get_date_for_repo('alphagov', 'government-digital-strategy').to_time
       if folder
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy-prerelease/commits/master/source/#{folder})"
+        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
       else
         "[#{date.stamp("1 Nov 2012 at 12:30 am")}](http://github.com/government-digital-strategy-prerelease)"
       end

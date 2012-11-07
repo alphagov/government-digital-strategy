@@ -12,8 +12,6 @@
 * Will be replaced with the table of contents
 {:toc}
 
-{::comment}
 * Last edited on {TIMESTAMP}
-{:/comment}
 * Also available in {PDF=government-digital-strategy.pdf}
 {:.no_toc .meta}
