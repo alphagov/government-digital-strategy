@@ -1,20 +1,32 @@
-// PRINT STYLESHEET COMPILER
-
-// STYLEGUIDE
-// Mixins to be shared across gov.uk sites. Anything set in these
-// files can be used in the view files.
+// -------------------------------------------------------------------------
+// PRINT STYLESHEET
+//
 
 $is-print: true;
+
+// -------------------------------------------------------------------------
+// BASIC TYPOGRAPHIC AND TEMPLATE STYLES
+//
+
 @import "common/_typography.scss";
 @import "common/_templates.scss";
 
-// OUTPUT
-// The following files and inline CSS will form the output of print.css
+// -------------------------------------------------------------------------
+// HEADERS AND FOOTERS
+//
 
-html {
-  font-size: 62.5%;
+.header{
+  padding-left: 0;
 }
-
+.title{
+  margin-bottom: 2em;
+}
+.document-title .title h2 {
+  margin-left: 0;
+}
+#markdown-toc li ul{
+  display: none;
+}
 .section-title .title-index {
   height: auto;
   background: transparent;
@@ -25,46 +37,76 @@ html {
   display: inline-block;
   padding-right: 0.5em;
 }
-.container {
-  margin: 0 2em;
-  color: #000;
-}
-.header{
-  padding-left: 0;
-}
-.document-title .title h2 {
-margin-left: 0;
-}
-#markdown-toc li ul{
-  display: none;
-}
-.case-study img{
-  display: none;
-}
 .footer{
   border: 0 solid;
   background-color: transparent;
   .copyright{
     display: none;
   }
-}
-table{
-  width: 100%;
-}
-img{ max-width: 100%; }
+} 
+// Page margins
+@page { margin: 3cm 3cm 3.2cm 3cm; }
 
-@page { margin: 1cm; }
+// Page numbers
 @page {
   @bottom-right {
     content: counter(page) " of " counter(pages);
   }
 }
-h2 {
-  page-break-before: always;
+// Add page numbers to the table of contents
+#markdown-toc a::after {
+  content: leader('.') target-counter(attr(href), page);
+} 
+
+// Print page headers
+#contents {
+  page: blank;
+}
+@page :left {
+  @top-left {
+    content: "Cabinet Office";
+  }
+}
+@page blank :left {
+  @top-left {
+    content: normal;
+  }
+}
+@page :right {
+  @top-right {
+    content: string(header, first); 
+  }
 }
 
+// -------------------------------------------------------------------------
+// CONTENT
+//
 
-// LINKS
+html {
+  font-size: 62.5%;
+}
+.container {
+  margin: 0 2em;
+  color: #000;
+}
+table{
+  width: 100%;
+}
+img{ max-width: 100%; }
+// Start sections on a new page
+h2 {
+  string-set: header content();
+  page-break-before: always;
+  margin-bottom: 1cm;
+}
+h1, h2{
+  color: $blue;
+  font-size: 36pt;
+}
+// Orphans and widows
+p, h2, h3 { orphans: 3; widows: 3; } 
+
+// Links
 a:link,
 a:visited{
   text-decoration: none;
@@ -81,13 +123,11 @@ p a{ color: blue;}
 .case-study p:first-child a:after,
 .header a:after{content: "";};
 
-// ORPHANS AND WIDOWS
-p, h2, h3 { orphans: 3; widows: 3; } 
-
-// HIDE THESE ELEMENTS
+// Hide these elements from print
 .collection-link,
 .cookie-link,
 .title-index .title-text,
+.case-study img,
 #contents{
   display: none;
 }
@@ -98,9 +138,3 @@ p, h2, h3 { orphans: 3; widows: 3; }
     display: none;
   }
 }
-
-// TITLE
-.title{
-  margin-bottom: 2em;
-}
-
