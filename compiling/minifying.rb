@@ -33,9 +33,7 @@ class Minifying
         # }
         file_name = file.split "/"
         file_name = file_name.last.split(".")[0]
-        puts file_name
         content.gsub!(/\/assets\/css\/#{file_name}.css/) { |match|
-          puts "Matched Link: #{match} in file #{file}"
           "/assets/css/#{file_name}.min.css"
         }
         Utils.write_to_file(content, html_file)
