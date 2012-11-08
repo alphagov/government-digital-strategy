@@ -31,11 +31,9 @@ class CompilePdf
       puts "MATCHED: #{match}"
       "http://localhost:8080/assets/images"
     }
-    # code.gsub!(/\/assets\/css\/print\.css/) { |match|
-    #   puts "MATCHED: #{match}"
-    #   "http://localhost:8080/assets/css/print.css"
-    # }
-    code.gsub!(/<link href="\/assets\/css\/print\.min\.css" rel="stylesheet" media="print">/) { |match|
+
+    # find the link to the print CSS and make it the screen sheet so the PDF generator uses it properly
+    code.gsub!(/<link href="\/assets\/css\/print(\.min)?\.css" rel="stylesheet" media="print">/) { |match|
       puts "MATCHED: #{match}"
       '<link href="http://localhost:8080/assets/css/print.css" rel="stylesheet" media="screen">'
     }
@@ -53,7 +51,7 @@ class CompilePdf
     File.open("#{folder}/index-pdf.html", "w") { |f| f.write(code) }
     # compile PDF from new file
     name = folder.split("/").last
-    `wkhtmltopdf --disable-javascript #{folder}/index-pdf.html #{folder}/#{self.pdf_names[name] || name}.pdf`
+    `wkhtmltopdf --disable-javascript -B 30mm -L 30mm -R 30mm -T 20mm #{folder}/index-pdf.html #{folder}/#{self.pdf_names[name] || name}.pdf`
     # `rm #{folder}/index-pdf.html`
 
 

@@ -232,12 +232,12 @@ class Compile
       rescue Github::Error::Forbidden => e
         puts "-> Limited by Github, so just using Time.now"
         puts e.message
-      end
         if folder
           "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
         else
           "[#{date.stamp("1 Nov 2012 at 12:30 am")}](http://github.com/government-digital-strategy-prerelease)"
         end
+      end
     }
     contents.gsub!(/{PDF=(.+)}/) {
       "[PDF format](#{$1})"

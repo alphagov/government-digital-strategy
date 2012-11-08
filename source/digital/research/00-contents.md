@@ -6,14 +6,14 @@
 {:.no_toc}
 </div>
 
-####Contents
-{:.no_toc}
-
-* Will be replaced with the table of contents
-{:toc}
-
 {::comment}
 * Last edited on {TIMESTAMP}
 {:/comment}
 * Also available in {PDF=digital-landscape-research.pdf}
 {:.no_toc .meta}
+
+####Contents
+{:.no_toc}
+
+* Will be replaced with the table of contents
+{:toc}
