@@ -2,9 +2,9 @@
 require 'rubygems'
 require 'commander/import'
 require 'sass'
-require_relative "./compiling/compile.rb"
-require_relative "./compiling/utils.rb"
-require_relative "./compiling/minifying.rb"
+require_relative "./compile.rb"
+require_relative "./utils.rb"
+require_relative "./minifying.rb"
 require "shell/executer.rb"
 
 default_command :build
