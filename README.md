@@ -7,7 +7,7 @@ Strategy site as seen online at [http://publications.cabinetoffice.gov.uk/digita
 
 By following the instructions below anyone comfortable with using command line can set up a local, working, copy of the site, and view the content as it appears online.
 
-## Prerequisites
+# Prerequisites
 
 Before attempting to install and run the application, the following dependencies should be installed:
 
@@ -30,6 +30,19 @@ Similarly, run `bundle` to make sure all the Gems are installed
 ```
 bundle
 ```
+
+# Quick Start
+
+1. Install [Node.js](http://nodejs.org/), and [npm](https://npmjs.org/). Most installs of Node come with npm. To check, run `node -v` and `npm -v` on the command line.
+2. Install [Ruby](http://www.ruby-lang.org/en/) v1.9+ and [RubyGems](http://rubygems.org/). Check these versions with `ruby -v` and `gem -v`. We recommend you don't install over the system version of Ruby. Tools like [rbenv](https://github.com/sstephenson/rbenv) let you manage Ruby versions nicely.
+3. Install the [Bundler gem](http://gembundler.com/) with `gem install bundler`.
+4. Clone the project: `git clone git@github.com:alphagov/government-digital-strategy.git` (you may decide to fork and clone your own version).
+5. `cd` into the project directory.
+6. Run `npm install` to install all Node dependencies.
+7. Run `bundle` (short for `bundle install`) to install all Ruby dependencies.
+8. Run the deploy script `./deploy.sh.`
+9. Run the server: `ruby deploy-server.rb`
+10. Visit `http://localhost:9090/digital` to view.
 
 
 # Local Build Script
