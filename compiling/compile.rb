@@ -229,8 +229,9 @@ class Compile
       begin
         github = GithubFetch.new 'alphagov', 'government-digital-strategy'
         date = ( folder ? github.get_latest_date_for_folder(folder) : github.get_latest_date_for_repo )
-      rescue
+      rescue Github::Error::Forbidden => e
         puts "-> Limited by Github, so just using Time.now"
+        puts e.message
       end
         if folder
           "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
