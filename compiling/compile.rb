@@ -305,7 +305,7 @@ class Compile
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"
         # markdown
-        partial_contents = Kramdown::Document.new(self.pre_process(partial_contents)).to_html
+        partial_contents = Kramdown::Document.new(self.pre_process(partial_contents), { :entity_output => :symbolic, :parse_block_html => true }).to_html
       end
       partial_contents
     }
