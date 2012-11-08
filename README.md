@@ -25,6 +25,12 @@ npm install
 
 This uses the `package.json` file to install dependencies.
 
+Similarly, run `bundle` to make sure all the Gems are installed
+
+```
+bundle
+```
+
 
 # Local Build Script
 
@@ -34,7 +40,7 @@ Run the shell script:
 ./local-build.sh
 ```
 
-This compiles everything into the `built` folder. To view it locally, run `ruby server.rb` and head to `localhost:8080`.
+This compiles everything into the `built` folder. To view it locally, run `ruby built-server.rb` and head to `localhost:8080`.
 
 
 # Production Build Script
@@ -60,7 +66,7 @@ The production build script also creates all the PDFs.
 # PDF
 
 ```
-ruby build-pdf.rb --folder source/government-digital-strategy
+./pdf.sh built/digital/strategy
 ```
 
 Need to have `wkhtmltopdf` installed and you need to be running the server on localhost:8080
@@ -122,6 +128,3 @@ To assign a template to a HTML file, insert, at the very top of the HTML file, a
 That would look for `asset/templates/home_template.html`. The above contents would be put into the template where `<!--REPLACE-->` is.
 
 The digital documents use the `digital_doc_template.html`. The others use `generic_template.html`. Individual files can use any template they like, as defined above.
-# Running It Locally
-
-To view it locally run `ruby server.rb` and visit `http://localhost:8080`
