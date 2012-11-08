@@ -18,14 +18,14 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 5. `cd` into the project directory.
 6. Run `npm install` to install all Node dependencies.
 7. Run `bundle` (short for `bundle install`) to install all Ruby dependencies.
-8. Run the deploy script `./deploy.sh.`
-9. Run the server: `ruby deploy-server.rb`
+8. Run the deploy script `./deploy.sh`.
+9. Run the server: `ruby deploy-server.rb`.
 10. Visit `http://localhost:9090/digital` to view.
 
 
 # Before running the build script
 
-Make sure you've got Node & npm installed ( see links above ), and then CD into the directory and run:
+Make sure you've got Node & npm installed (see links above), and then CD into the directory and run:
 
 ```
 npm install
@@ -51,7 +51,7 @@ Run the shell script:
 ./local-build.sh
 ```
 
-This compiles everything into the `built` folder. To view it locally, run `ruby built-server.rb` and head to `localhost:8080`.
+This compiles everything into the `built` folder. To view it locally, run `ruby built-server.rb` and head to `http://localhost:8080`.
 
 
 # Production Build Script
@@ -66,7 +66,7 @@ It will compile and minify the JS. This uses the RequireJS optimizer.
 
 It will also minify all CSS.
 
-Once it's done, you're left with a `deploy/` folder which is the production-ready files. This is what should be put on the server.
+Once it's done, you're left with a `deploy/` folder which is the production-ready files. This is what should be deployed to the server.
 
 If you want to test that the deploy folder works fine, run `ruby deploy-server.rb`, which serves up the `deploy/` folder on port 9090.
 
@@ -82,17 +82,21 @@ The production build script also creates all the PDFs.
 
 Need to have `wkhtmltopdf` installed and you need to be running the server on localhost:8080
 
-install `wkhtmltopdf` per instructions at http://stackoverflow.com/a/10931279
+Install `wkhtmltopdf`:
 
-# Notes
+* Grab yourself a copy of [fresh wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/downloads/detail?name=wkhtmltopdf.dmg&can=2&q=)
+* Open it and drag to Applications
+* Then `cd /usr/local/bin` && `ln -s /Applications/wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf wkhtmltopdf`. You don't have to use `/usr/local/bin`, but it's recommended. As long as the folder is in your `$PATH`, it should be fine.
 
-All CSS should be written in Sass (using the SCSS syntax) and live in `assets/sass`
+(Instructions taken from: http://stackoverflow.com/a/10931279)
 
-These get compiled to `assets/css`.
+# Assets
+
+All CSS should be written in Sass (using the SCSS syntax) and live in `assets/sass`. These get compiled to `assets/css`. __Never edit the CSS directly__, as it will get overwritten by the build script.
 
 __NEVER EDIT A FILE IN built/__. These get overwritten by the build script and are not tracked by Github. The same goes for the `deploy/` folder.
 
-Code, images, etc goes in assets/ and content goes into source/
+Templates, partials, code, images and so on live in `assets/`. Content goes into `source/`
 
 # Partials and Templates and Syntax
 
