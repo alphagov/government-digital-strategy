@@ -25,7 +25,7 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 
 # Before running the build script
 
-Make sure you've got Node & npm installed, and then CD into the directory and run:
+Make sure you've got Node & npm installed ( see links above ), and then CD into the directory and run:
 
 ```
 npm install
@@ -38,6 +38,8 @@ Similarly, run `bundle` to make sure all the Gems are installed
 ```
 bundle
 ```
+
+
 
 
 
