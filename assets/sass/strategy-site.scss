@@ -229,7 +229,8 @@ margin-left: -3 * $base-unit;
   } 
 }
 
-.case-study-page {
+.case-study-page,
+.action-page {
   .content-wrapper{
     margin-bottom: 0;
   }
@@ -596,3 +597,11 @@ margin-left: -3 * $base-unit;
 .departments .bar.office-of-the-leader-of-the-house-of-lords     { background-color:#fff;}
 .departments .bar.scotland-office                    { background-color:#002663;}
 .departments .bar.wales-office                     { background-color:#a33038;}
+
+
+.action-page .section h3{
+  margin-left: 50px;
+  font-size: 16px;
+  width: 200px;
+  position: absolute;
+}
