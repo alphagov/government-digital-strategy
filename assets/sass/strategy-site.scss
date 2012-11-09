@@ -13,18 +13,16 @@
 
 // DEFAULTS
 
-$left-margin: 240px + 65px;                     // Left margin of the page
-$section-index-width: $left-margin - 70;  			// Width of the section indexes
-
 $content-width: 80%;                      			// Width of the main content area
 $colour-scheme: $blue;                    			// Sets primary colour for document
 
 
 // --------------------------------------------------------------------------------
 // PAGE HEADERS
-
+//
 
 .home-header,
+.action-header,
 .case-study-header{
   overflow: hidden;
   *zoom: 1;  
@@ -57,6 +55,79 @@ $colour-scheme: $blue;                    			// Sets primary colour for document
 }
 
 // --------------------------------------------------------------------------------
+// ACTION PAGE HEADER
+//
+
+.logo-wrapper,
+.prev-link,
+.next-link{
+  margin-top: 77px;
+  a{
+    width: $base-unit;
+    &:hover span{
+      border-width: 8px;
+    }
+  }
+  .arrow-prev,
+  .arrow-next{
+    display: inline-block;
+    border-color: #fff;
+  }
+}
+.logo-wrapper,
+.prev-link{
+float: left;
+width: 3 * $base-unit;
+margin-left: -100%;
+}
+.prev-link{
+  a{
+    margin-left: $base-unit / 2;
+  }
+}
+.next-link{
+float: left;
+width: $base-unit;
+margin-left: -3 * $base-unit;
+}
+
+.action-footer{
+  //border-top: 5px solid $blue;
+  width: 90%;
+  padding: 50px 0 100px 0;
+  .prev-link,
+  .next-link{
+    margin: 0;
+    a{
+      display: block;
+      width: 3 * $base-unit;
+    }
+    span{
+      border-color: $blue;
+    }
+    span, p{
+      display: inline-block;
+      vertical-align: middle;
+      text-decoration: none;
+    }
+  }
+  .prev-link{
+    float: left;
+    margin-left: $base-unit;
+    a{
+      margin-left: 25px;
+    }
+  }
+  .next-link{
+    float: right;
+  }
+}
+
+
+
+
+
+// --------------------------------------------------------------------------------
 // HOME PAGE HEADER
 //
 
@@ -79,7 +150,8 @@ $colour-scheme: $blue;                    			// Sets primary colour for document
 // CASE STUDY PAGE HEADER
 //
 
-.case-study-header {
+.case-study-header,
+.action-header{
   .title{
     margin: 0 0 0 $margin;
     h1, 
@@ -111,6 +183,11 @@ $colour-scheme: $blue;                    			// Sets primary colour for document
       width: 70%;
     }
   }
+}
+
+.action-header .content-wrapper .title p{
+  @include core-19;
+  margin-top: 10px;
 }
 
 // --------------------------------------------------------------------------------
@@ -400,11 +477,70 @@ $colour-scheme: $blue;                    			// Sets primary colour for document
 
 .case-study-page .section a{
   img{
-    border: 1px solid $light-grey;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    //border: 1px solid $light-grey;
+    //margin-top: 25px;
+    //margin-bottom: 25px;
   }
   &:hover img{
     border-color: $blue;
   }
-} 
+}
+
+
+// --------------------------------------------
+// ARROWS
+//
+
+.arrow-next,
+.arrow-prev{
+  height: 50px;
+  width: 50px;
+  -moz-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+}
+.arrow-next{
+  border-top: 5px solid $light-grey;
+  border-right: 5px solid $light-grey;
+}
+.arrow-prev{
+  border-bottom: 5px solid $light-grey;
+  border-left: 5px solid $light-grey;
+}
+
+
+
+// ---------------------------------------------------------
+// ACTION PAGE STYLES
+
+
+// PREV / NEXT BUTTONS
+
+.prev-next{
+  border-top: 5px solid $blue;
+  margin-left: $base-unit;
+  .previous-action,
+  .next-action{
+    //background-color: #ebebeb;
+    display: inline-block;
+    width: 50%;
+    font-size: 2.4rem;
+    a{
+      padding: 35px;
+      display: inline-block;
+    }
+  }
+  .previous-action{
+    &:before{
+      content: "<";
+    }
+  }
+  .next-action{
+    text-align: right;
+    &:after{
+      content: ">";
+    }
+  }
+}

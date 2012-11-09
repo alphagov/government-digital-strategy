@@ -194,6 +194,29 @@ hr {
       position: absolute;
     }
   }
+  // CASE STUDIES
+  .case-study{
+    overflow: hidden;
+    *zoom: 1;
+    background-color: lighten($light-grey, 15%);
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    p{
+      margin: 0;
+    }
+    p:first-child{
+      float: right;
+      margin: -10px -15px -17px 15px;
+    }
+    img{
+      margin: 0;
+      width: 300px;
+    }
+    h5{
+      font-size: 19px;
+      font-weight: 500;
+    }
+  }
 }
 
 // ------------------------------------------------------------------------------
