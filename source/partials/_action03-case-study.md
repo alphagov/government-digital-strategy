@@ -1,5 +1,5 @@
 {div .case-study}
-[![Watch the video](/assets/images/strategy/roger.png)](case-studies/digital-capabilities/)
+[![Watch the video](/assets/images/strategy/case-studies/digital-capabilities/roger.png)](case-studies/digital-capabilities/)
 
 ##### Case study
 

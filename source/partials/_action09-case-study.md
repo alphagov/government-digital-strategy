@@ -1,5 +1,5 @@
 {div .case-study}
-[![Watch the video](/assets/images/strategy/marketa.png)](case-studies/assisted-digital/)
+[![Watch the video](/assets/images/strategy/case-studies/assisted-digital/marketa.png)](case-studies/assisted-digital/)
 
 ##### Case study
 
