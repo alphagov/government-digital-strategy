@@ -8,7 +8,7 @@ class GithubFetch
     @github = Github::Repos.new :user => user
   end
   def commits
-    @github.commits.all @user, @repo
+    @commits ||= @github.commits.all @user, @repo
   end
 
   def get_latest_date_for_repo
@@ -18,12 +18,15 @@ class GithubFetch
   end
 
   def get_individual_commit(sha)
+    puts "hitting Github"
     @github.commits.get @user, @repo, sha
   end
 
   def get_latest_date_for_folder(folder)
     foundDate = false
+    puts "hitting Github"
     self.commits.each { |c|
+      puts "hitting Github"
       commit = get_individual_commit(c.sha)
       commit.files.each { |cf|
         filename = cf.filename
