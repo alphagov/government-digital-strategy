@@ -54,19 +54,6 @@ class CompilePdf
     `wkhtmltopdf --disable-javascript -B 30mm -L 30mm -R 30mm -T 20mm #{folder}/index-pdf.html #{folder}/#{self.pdf_names[name] || name}.pdf`
     `rm #{folder}/index-pdf.html`
 
-
-    # puts self.upload(folder)
-
-  end
-
-  def self.upload(folder)
-    file_name = folder.split("/").last
-    file_name = self.pdf_names[file_name] || file_name
-    save_path = "#{folder}/#{file_name}.pdf"
-    puts save_path
-    `scp #{save_path} stevena@94.236.18.105:/var/www/strategy/government-digital-strategy-prerelease/#{folder}/#{file_name}.pdf `
-    puts "PDF Uploaded to #{save_path}"
-    #scp -r assets sgreig@94.236.18.106:/var/www/publications/assets
   end
 end
 
