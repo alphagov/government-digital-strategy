@@ -1,5 +1,5 @@
 {div .case-study}
-[![Watch the video](/assets/images/strategy/john.png)](case-studies/government-as-platform/)
+[![Watch the video](/assets/images/strategy/case-studies/government-as-platform/john.png)](case-studies/government-as-platform/)
 
 ##### Case study
 

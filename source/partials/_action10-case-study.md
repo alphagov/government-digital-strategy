@@ -1,5 +1,5 @@
 {div .case-study}
-[![Watch the video](/assets/images/strategy/tim.png)](case-studies/procurement/)
+[![Watch the video](/assets/images/strategy/case-studies/procurement/tim.png)](case-studies/procurement/)
 
 ##### Case study
 

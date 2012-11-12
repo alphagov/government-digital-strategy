@@ -283,7 +283,6 @@ class Compile
       template_contents = Utils.read_from_file("assets/templates/#{template}_template.html")
       template_contents.gsub!(/<!--REPLACE-->/, file_contents)
       template_contents.gsub!(/<!--META-->/) {
-        puts "PP: #{parent_path}"
         File.exists?("source/#{parent_path}/meta.html") ? Utils.read_from_file("source/#{parent_path}/meta.html") : ""
       }
       # deal with any partials that might exist in the template

@@ -7,9 +7,6 @@
 @import "common/templates";                     // Template styles
 @import "common/data-visualisation";            // Charts n' graphs
 
-
-$colour-scheme: $blue;  // Sets primary colour for document
-
 // ------------------------------------------------------------------------------
 // DOCUMENT TITLE
 //
@@ -51,7 +48,7 @@ $colour-scheme: $blue;  // Sets primary colour for document
   @include left-margin;
   padding-left: 0;
   @include media(desktop){
-    margin-top: 20px;
+    margin-top: 28px;
   }
   li { 
     list-style: none;
@@ -83,7 +80,7 @@ $colour-scheme: $blue;  // Sets primary colour for document
     margin-left: $margin - 7px;
   }
   display: block;
-  margin-top: 2px;
+  margin-top: 10px;
   width: $section-index-width;
   padding-bottom: 15px;
   background-color: #fff;
@@ -118,7 +115,7 @@ $colour-scheme: $blue;  // Sets primary colour for document
 //
 .meta{
   @include left-margin;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-bottom: 0;
   padding: 0;
   font-size: 16px;
@@ -151,21 +148,21 @@ $colour-scheme: $blue;  // Sets primary colour for document
     @include left-margin;
   }
   >.pull{
-    border-top: 5px solid $blue;
-    color: $blue;
+    border-top: 5px solid $colour-scheme;
+    color: $colour-scheme;
     margin-top: -10px;
   }
   // Figure captions
   .fig {
-    @include copy-14;
-    padding: 10px 100px 25px 0;
-    color: $colour-scheme;
-    border-bottom: 1px solid $colour-scheme;
+    font-size: 16px;
+    padding: 10px 100px 10px 0;
+    color: $black;
+    border-bottom: 1px solid $black;
     .figure-permalink{
       display: block;
       font-size: 14px;
       float: right;
-      margin-top: 6px;
+      margin-top: 2px;
       margin-right: -100px;
     }
   }

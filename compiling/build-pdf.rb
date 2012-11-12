@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 require 'rubygems'
 require 'commander/import'
-require_relative "./compiling/pdf.rb"
+require_relative "./pdf.rb"
 require "shell/executer.rb"
 
 =begin

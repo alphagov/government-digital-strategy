@@ -3,10 +3,10 @@ echo "Running local build script"
 ./local-build.sh deploy
 
 echo "Compiling PDFs"
-ruby build-pdf.rb --folder built/digital/strategy
-ruby build-pdf.rb --folder built/digital/efficiency
-ruby build-pdf.rb --folder built/digital/research
-ruby build-pdf.rb --folder built/la-ida-review
+./pdf.sh built/digital/strategy
+./pdf.sh built/digital/efficiency
+./pdf.sh built/digital/research
+./pdf.sh built/la-ida-review
 
 
 echo "Moving files into deploy folder"

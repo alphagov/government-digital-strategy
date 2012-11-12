@@ -60,20 +60,20 @@ a{
   &:active  {color: $link-active;}
 }
 table{
-  width: 77%;
+  width: 75.3%;
   border-collapse: collapse;
   text-align: left;
   margin-bottom: 25px;
-  color: $blue;
+  //color: $colour-scheme;
   font-size: 14px;
   th,td {
     padding: 15px;
   }
   td {
-    border-bottom: 1px solid $blue;
+    border-bottom: 1px solid $colour-scheme;
   }
   th {
-    border-bottom: 3px solid $blue;
+    border-bottom: 3px solid $colour-scheme;
   }
 }
 blockquote {
@@ -174,7 +174,7 @@ hr {
     font-size: 48px;
     line-height: 54px;
     font-weight: 500;
-    color: $blue;
+    color: $colour-scheme;
     letter-spacing: -0.025em;
     quotes: "\201C" "\201D" "\2018" "\2019";
     &:before{ 
