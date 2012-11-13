@@ -6,16 +6,6 @@ require_relative "./utils.rb"
 require_relative "./githubfetch.rb"
 
 
-###
-# rewrite: what we need
-# method to compile SASS
-# method to take any HTML or Markdown file, and replace all partials within it
-# method to take a folder of markdown files, and merge them into one markdown_joined
-# method to take any file, and wrap the template around it
-# method to take contents of an MD file and preprocess and return those contents
-###
-
-
 class Compile
   def self.run
     puts "-> Compiling Sass"
@@ -225,8 +215,6 @@ class Compile
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
     contents.gsub!(/{TIMESTAMP}/) {
-      #TODO: CHANGE THIS DATE
-      # date = GithubFetch.get_date_for_repo('alphagov', 'government-digital-strategy').to_time
       date = Time.now # for now...
       if folder
         "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy-prerelease/commits/master/source/#{folder})"
