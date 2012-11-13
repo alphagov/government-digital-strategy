@@ -1,7 +1,7 @@
 require "fileutils"
 require "wicked_pdf"
 require "pdfcrowd"
-
+require "yaml"
 # get contents
 
 class CompilePdf
@@ -50,14 +50,18 @@ class CompilePdf
     }
     name = folder.split("/").last
     File.open("#{folder}/index-pdf.html", "w") { |f| f.write(code) }
-    client = Pdfcrowd::Client.new(ENV["pdfcrowduser"], ENV["pdfcrowdpass"])
+    pdf_config_raw = File.read("config/pdf.config.yml")
+    pdf_config = YAML.load(pdf_config_raw)
+    puts pdf_config
+
+    client = Pdfcrowd::Client.new(pdf_config["user"], pdf_config["key"])
     client.enableImages(true)
     client.enableBackgrounds(true)
     client.usePrintMedia(true)
     client.enableJavaScript(false)
     url_path = folder.gsub(/built\//, "")
     # File.open("#{folder}/#{self.pdf_names[name]}.pdf", 'wb') { |f| client.convertFile("#{folder}/index-pdf.html", f) }
-    pdf = client.convertURI("http://publications.cabinetoffice.gov.uk/#{url_path}/")
+    pdf = client.convertURI("#{pdf_config["url"]}/#{url_path}/")
     File.open("#{folder}/#{self.pdf_names[name]}.pdf", 'wb') { |f| f.write(pdf) }
     puts "Remaining tokens: #{client.numTokens()}"
 
