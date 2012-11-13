@@ -178,8 +178,8 @@ class Compile
     contents.force_encoding("UTF-8")
 
     # sort out partials first so everything else can use them fine
-    contents.gsub!(/{include _(.+)\.(.+)}/) { |match|
-      puts "--> Replacing partial #{match}"
+    contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
+      puts "--> Replacing partial #{match}, #{$1.strip!}, #{$2.strip!}"
       self.get_partial_content $1, $2
     }
 
