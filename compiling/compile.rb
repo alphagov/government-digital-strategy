@@ -179,7 +179,7 @@ class Compile
 
     # sort out partials first so everything else can use them fine
     contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
-      puts "--> Replacing partial #{match}, #{$1.strip!}, #{$2.strip!}"
+      puts "--> Replacing partial #{match}"
       self.get_partial_content $1, $2
     }
 
