@@ -98,6 +98,14 @@ To include a Markdown, in either your HTML or MD file, use:
 
 That would look for `source/partials/_action-text.md`
 
+You can put partials within subfolders:
+
+```
+{include digital/action-01.md}
+```
+
+Looks for `source/partials/digital/_action-01.md`.
+
 If you include a MD partial in an HTML page, the MD is compiled first.
 
 # Templates
