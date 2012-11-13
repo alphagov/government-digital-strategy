@@ -236,14 +236,17 @@ hr {
       &:hover{
         text-decoration: underline;
       }
+      img{
+        width: 39px;
+        height: 34px;
+        margin: 0 0 0 8px;
+      }
       .cabinet-office{
-        padding: 38px 0 0 10px;
+        padding: 0 0 0 10px;
         line-height: 19px;
         margin-top: -3px;
         display:block;
         color: $black;
-        background: transparent url(/assets/images/rcoa.gif) 6px 0 no-repeat;
-
         @include ie(6) {
           zoom: 1;
         }
