@@ -111,7 +111,7 @@ A partial can contain Markdown or HTML, just name it as `.md` or `.html`
 To include a Markdown, in either your HTML or MD file, use:
 
 ```
-{include _action-text.md}
+{include action-text.md}
 ```
 
 That would look for `source/partials/_action-text.md`

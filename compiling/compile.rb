@@ -287,9 +287,10 @@ class Compile
   def self.process_html_partials(file)
     puts "--> process partials in #{file}"
     file_contents = Utils.read_from_file("source/#{file}")
-    file_contents.gsub!(/{include _(.+)\.(.+)}/) { |match|
+    file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
       puts "--> Found partial #{match} in #{file}"
       # partial_contents = Utils.read_from_file("source/partials/_#{$1}.#{$2}")
+      puts "Found template partial: #{match}"
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"
         # markdown
@@ -303,8 +304,9 @@ class Compile
   def self.process_template_partial(template_contents)
     # TODO: this and the above method are not very DRY - abstract into utils?
     file_contents = template_contents
-    file_contents.gsub!(/{include _(.+)\.(.+)}/) { |match|
+    file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
       # partial_contents = Utils.read_from_file("source/partials/_#{$1}.#{$2}")
+      puts "Found template partial: #{match}"
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"
         # markdown
