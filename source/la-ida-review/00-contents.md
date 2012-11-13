@@ -1,4 +1,4 @@
-{include  analytics/la-ida-review.html}
+{include analytics/la-ida-review.html}
 <div class="title">
 #Local Authority Review
 {:.no_toc}
