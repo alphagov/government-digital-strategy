@@ -1,13 +1,13 @@
-##Document Title
+<div class="title">
+#Document Title
 {:.no_toc}
 
 ###Date
 {:.no_toc}
+</div>
 
 You can use the TIMESTAMP tag to get the time that this was compiled at: {TIMESTAMP}
-
-This will link to the Github repository of the document (at least, it will when we go public)
-
+{:.no_toc .meta}
 
 * * * * * 
 
