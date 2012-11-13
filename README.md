@@ -70,25 +70,7 @@ Once it's done, you're left with a `deploy/` folder which is the production-read
 
 If you want to test that the deploy folder works fine, run `ruby deploy-server.rb`, which serves up the `deploy/` folder on port 9090.
 
-The production build script also creates all the PDFs.
 
-
-
-# PDF
-
-```
-./pdf.sh built/digital/strategy
-```
-
-Need to have `wkhtmltopdf` installed and you need to be running the server on localhost:8080
-
-Install `wkhtmltopdf`:
-
-* Grab yourself a copy of [fresh wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/downloads/detail?name=wkhtmltopdf.dmg&can=2&q=)
-* Open it and drag to Applications
-* Then `cd /usr/local/bin` && `ln -s /Applications/wkhtmltopdf.app/Contents/MacOS/wkhtmltopdf wkhtmltopdf` (You don't have to use `/usr/local/bin`, but it's recommended. As long as the folder is in your `$PATH`, it should be fine.)
-
-(Instructions taken from: http://stackoverflow.com/a/10931279)
 
 # Assets
 
