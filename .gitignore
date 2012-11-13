@@ -12,3 +12,4 @@ temp/
 node_modules/
 assets/javascripts/built.js
 deploy/
+config/pdf.config.yml
