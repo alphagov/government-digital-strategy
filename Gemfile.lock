@@ -29,6 +29,7 @@ GEM
     kramdown (0.14.0)
     libwebsocket (0.1.5)
       addressable
+    listen (0.5.3)
     metaclass (0.0.1)
     mocha (0.12.7)
       metaclass (~> 0.0.1)
@@ -66,6 +67,7 @@ DEPENDENCIES
   commander
   github_api
   kramdown
+  listen
   pdfcrowd
   pdfkit
   sass
