@@ -228,7 +228,8 @@ class Compile
       date = Time.now
       begin
         github = GithubFetch.new 'alphagov', 'government-digital-strategy'
-        date = ( folder ? github.get_latest_date_for_folder(folder) : github.get_latest_date_for_repo )
+        dates = github.get_latest_date_for_documents
+        date = ( folder ? dates[folder] : github.get_latest_date_for_repo )
       rescue Github::Error::Forbidden => e
         puts "-> Limited by Github, so just using Time.now"
         puts e.message

@@ -30,12 +30,34 @@ class GithubFetch
     puts folder
     self.commits.each { |c|
       commit = get_individual_commit(c.sha)
-      puts "files for commit #{c.sha}: #{commit.files}"
       commit.files.each { |cf|
+        puts "Seeing if #{cf.filename} includes #{folder}: #{cf.filename.include?(folder)}"
         filename = cf.filename
         if filename.include?(folder)
           return DateTime.parse(commit.date)
         end
+      }
+    }
+  end
+
+  def get_latest_date_for_documents
+    resp = {}
+    docs = [ "digital/strategy", "digital/efficiency", "digital/research", "la-ida-review" ]
+    commits.each { |c|
+      puts resp
+      break if resp.has_key?(docs[0]) && resp.has_key?(docs[1]) && resp.has_key(docs[2]) && resp.has_key(docs[3])
+      commit = get_individual_commit(c.sha)
+      commit.files.each { |cf|
+        filename = cf.filename
+        docs.each { |doc|
+          unless resp.has_key?(doc)
+            puts "Seeing if #{filename} includes #{doc}"
+            if filename.include?(doc)
+              resp[doc] = DateTime.parse(commit.date)
+              next
+            end
+          end
+        }
       }
     }
   end
