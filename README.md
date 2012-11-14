@@ -22,6 +22,15 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 9. Run the server: `ruby deploy-server.rb`
 10. Visit `http://localhost:9090/digital` to view.
 
+If you're editing the documents, run the watch task, which will auto-compile every time it detects a change.
+
+```
+ruby built-server.rb
+ruby watch-build.rb
+```
+
+Then hit up `http://localhost:8080`. Now everytime a file in `source/` or `assets/` gets updated, it's automatically built. You will need to refresh the browser though, but there's tools out there that will even do that bit for you.
+
 
 # Before running the build script
 
@@ -38,9 +47,6 @@ Similarly, run `bundle` to make sure all the Gems are installed
 ```
 bundle
 ```
-
-
-
 
 
 # Local Build Script
