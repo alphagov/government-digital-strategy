@@ -3,7 +3,6 @@ require "kramdown"
 require "fileutils"
 require "stamp"
 require_relative "./utils.rb"
-require_relative "./githubfetch.rb"
 require "shell/executer.rb"
 
 
