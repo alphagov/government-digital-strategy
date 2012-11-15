@@ -7,16 +7,6 @@ require_relative "./githubfetch.rb"
 require "shell/executer.rb"
 
 
-###
-# rewrite: what we need
-# method to compile SASS
-# method to take any HTML or Markdown file, and replace all partials within it
-# method to take a folder of markdown files, and merge them into one markdown_joined
-# method to take any file, and wrap the template around it
-# method to take contents of an MD file and preprocess and return those contents
-###
-
-
 class Compile
   def self.run
     puts "-> Compiling Sass"
@@ -189,7 +179,7 @@ class Compile
     contents.force_encoding("UTF-8")
 
     # sort out partials first so everything else can use them fine
-    contents.gsub!(/{include _(.+)\.(.+)}/) { |match|
+    contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
       puts "--> Replacing partial #{match}"
       self.get_partial_content $1, $2
     }
@@ -305,9 +295,10 @@ class Compile
   def self.process_html_partials(file)
     puts "--> process partials in #{file}"
     file_contents = Utils.read_from_file("source/#{file}")
-    file_contents.gsub!(/{include _(.+)\.(.+)}/) { |match|
+    file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
       puts "--> Found partial #{match} in #{file}"
       # partial_contents = Utils.read_from_file("source/partials/_#{$1}.#{$2}")
+      puts "Found template partial: #{match}"
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"
         # markdown
@@ -321,8 +312,9 @@ class Compile
   def self.process_template_partial(template_contents)
     # TODO: this and the above method are not very DRY - abstract into utils?
     file_contents = template_contents
-    file_contents.gsub!(/{include _(.+)\.(.+)}/) { |match|
+    file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
       # partial_contents = Utils.read_from_file("source/partials/_#{$1}.#{$2}")
+      puts "Found template partial: #{match}"
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"
         # markdown
