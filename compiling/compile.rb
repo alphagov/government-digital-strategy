@@ -4,6 +4,7 @@ require "fileutils"
 require "stamp"
 require_relative "./utils.rb"
 require_relative "./githubfetch.rb"
+require "shell/executer.rb"
 
 
 ###
@@ -226,18 +227,17 @@ class Compile
     contents.gsub!(/{\/collapsed}/, "</div>")
     contents.gsub!(/{TIMESTAMP}/) {
       date = Time.now
-      begin
-        github = GithubFetch.new 'alphagov', 'government-digital-strategy'
-        dates = github.get_latest_date_for_documents
-        date = ( folder ? dates[folder] : github.get_latest_date_for_repo )
-      rescue Github::Error::Forbidden => e
-        puts "-> Limited by Github, so just using Time.now"
-        puts e.message
-        if folder
-          "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
-        else
-          "[#{date.stamp("1 Nov 2012 at 12:30 am")}](http://github.com/government-digital-strategy-prerelease)"
-        end
+      if folder
+        puts folder
+        date = Shell.execute("git log -1 source/#{folder}/ | cut -d \" \" -f 1-5").stdout.gsub!("\e[34m","").gsub!("\n","")
+        puts "date: #{date}"
+        date = DateTime.parse(date)
+      end
+
+      if folder
+        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
+      else
+        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](http://github.com/government-digital-strategy-prerelease)"
       end
     }
     contents.gsub!(/{PDF=(.+)}/) {
