@@ -12,10 +12,8 @@
 
 </div>
 
-{::comment}
-* Last edited on [06 Mar 2012 at 16:45](http://github.com/path to last commit of markdown file "See the full document history on Github.com")
-{:/comment}
 * Also available in [PDF format](la-ida-review.pdf "Download the PDF version of this document")
+* Last edited on {TIMESTAMP}
 {:.no_toc .meta}
 
 ####Contents

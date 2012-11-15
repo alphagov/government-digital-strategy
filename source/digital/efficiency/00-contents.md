@@ -6,10 +6,8 @@
 {:.no_toc}
 </div>
 
-{::comment}
-* Last edited on {TIMESTAMP}
-{:/comment}
 * Also available in {PDF=digital-efficiency-report.pdf}
+* Last edited on {TIMESTAMP}
 {:.no_toc .meta}
 
 ####Contents

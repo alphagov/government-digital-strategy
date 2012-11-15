@@ -6,10 +6,8 @@
 {:.no_toc}
 </div>
 
-{::comment}
-* Last edited on {TIMESTAMP}
-{:/comment}
 * Also available in {PDF=government-digital-strategy.pdf}
+* Last edited on {TIMESTAMP}
 {:.no_toc .meta}
 
 ####Contents
@@ -18,6 +16,3 @@
 * Will be replaced with the table of contents
 {:toc}
 
-* Last edited on {TIMESTAMP}
-* Also available in {PDF=government-digital-strategy.pdf}
-{:.no_toc .meta}
