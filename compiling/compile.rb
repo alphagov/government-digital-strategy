@@ -17,6 +17,9 @@ class Compile
     puts "-> Dealing with single *.html files in source/"
     Compile.process_single_html_files
 
+    puts "-> Moving caption XML files over"
+    Compile.process_xml_files
+
     puts "-> Compiling markdown to HTML"
     Compile.apply_template_compile
 
@@ -55,6 +58,14 @@ class Compile
       Shell.execute("mkdir -p built/#{parent_dirs.join('/')}")
       self.process_html_template(file)
       # FileUtils.cp("source/#{file}", "built/#{file}")
+    end
+  end
+
+  def self.process_xml_files
+    Dir.glob("**/*.xml").map { |f|
+      f.gsub!("source/", "")
+    }.each do |file|
+      FileUtils.cp("source/#{file}", "built/#{file}")
     end
   end
 
