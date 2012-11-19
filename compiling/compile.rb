@@ -229,7 +229,7 @@ class Compile
       date = Time.now
       if folder
         puts folder
-        date = Shell.execute("git log -1 source/#{folder}/ | cut -d \" \" -f 1-5").stdout.gsub!("\e[34m","").gsub!("\n","")
+        date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
         puts "date: #{date}"
         date = DateTime.parse(date)
       end

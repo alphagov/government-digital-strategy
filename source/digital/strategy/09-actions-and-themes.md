@@ -216,6 +216,8 @@ For the remaining departments:
 
 ####Action 06: From April 2014, all new or redesigned transactional services will meet the digital by default service standard
 
+{include action06-case-study.md}
+
 Government Digital Service will:
 
 -   publish the digital by default service standard, which will
