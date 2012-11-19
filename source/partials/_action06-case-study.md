@@ -1,7 +1,7 @@
 {div .case-study}
-[![Watch the video](/assets/images/strategy/phil.png)](case-studies/third-parties/)
+[![Watch the video](/assets/images/strategy/case-studies/third-parties/phil.png)](case-studies/third-parties/)
 
 ##### Case study
 
-Phil Pavitt ... [Read more »](case-studies/third-parties/)
+Phil Pavitt talks about HMRC's efforts to update and modernise its services. [Read more »](case-studies/third-parties/)
 {/div}
