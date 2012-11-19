@@ -3,5 +3,5 @@
 
 ##### Case study
 
-Phil Pavitt ... [Read more »](case-studies/third-parties/)
+Phil Pavitt talks about HMRC's efforts to update and modernise its services. [Read more »](case-studies/third-parties/)
 {/div}
