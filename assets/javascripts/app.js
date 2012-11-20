@@ -5,9 +5,9 @@ require(['modules/generate_player'], function(player) {
 
 
 //bar charts
-require(['modules/barcharts'], function(barCharts) {
-  $(barCharts);
-});
+// require(['modules/barcharts'], function(barCharts) {
+//   $(barCharts);
+// });
 
 //set up sticky headings
 require(['modules/stickyheaders'], function(setupStickyHeaders) {
@@ -21,6 +21,12 @@ require(['modules/anchor_scrolling'], function(scrollToAnchor) {
   });
   $("#contents").on("click", function() {
     scrollToAnchor('html');
+  });
+});
+
+require(['modules/magna-charta.min'], function() {
+  $(".horizontal-bar-chart").each(function(i, item) {
+    $.magnaCharta($(item).hide(), { outOf: 80, outdentTextLevel: 1 });
   });
 });
 

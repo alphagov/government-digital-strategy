@@ -7,6 +7,9 @@
 @import "common/templates";                     // Template styles
 @import "common/data-visualisation";            // Charts n' graphs
 
+// magna charta
+@import "magna-charta";
+
 // ------------------------------------------------------------------------------
 // DOCUMENT TITLE
 //
@@ -144,7 +147,8 @@
   >table,
   >.fig,
   >.case-study,
-  >blockquote {
+  >blockquote,
+  .mc-chart {
     @include left-margin;
   }
   >.pull{
@@ -197,9 +201,9 @@
   >.bar-chart{
     @include bar-chart($colour-scheme);
   }
-  >.horizontal-bar-chart{
-    @include horizontal-bar-chart($colour-scheme);
-  }
+  // >.horizontal-bar-chart{
+  //   @include horizontal-bar-chart($colour-scheme);
+  // }
 
   // SECTION TITLES
   .section-title {
