@@ -56,7 +56,7 @@ critical to achieving successful service transformation.
 
 Outside government, organisations in the public and private sector are
 learning that empowered, experienced and highly skilled managers (often
-called ‘product managers’ in the commercial world) are necessary to
+called Product Managers in the commercial world) are necessary to
 deliver high-quality digital services.
 
 Government will adopt the same model, and ensure each of its
@@ -506,7 +506,7 @@ nation in the world.
 
 {include action10-case-study.md}
 
-It will
+It will:
 
 -   work with departments as part of its strategic supplier management
     function to maintain a forward looking pipeline of digital work,
@@ -615,7 +615,7 @@ The Government Digital Service is also developing a data insight
 platform that will combine a range of data including analytics, web
 operations and financial information. Using clear visualisations, it
 will provide high level performance reports for leaders and more
-detailed data for service managers.
+detailed data for Service Managers.
 
 
 ### Principle: Remove unnecessary legislative barriers
@@ -695,7 +695,7 @@ of indicators. These will include:
     cost-effective set of delivery channels and whether users are
     choosing to use more or less expensive channels to complete their
     transaction
--   user satisfaction. This enables service owners to identify
+-   user satisfaction. This enables Service Managers to identify
     potential weaknesses in a service and areas to focus improvement
     efforts
 -   transaction completion rates. This may highlight possible process
@@ -739,7 +739,7 @@ consultation. It has the potential to transform democratic participation in the 
 
 We have already developed better skills in listening and responding to
 public feedback through digital channels. In May 2012, social media
-guidelines were issued to civil servants based on six principles – that
+guidelines were issued to civil servants based on 6 principles – that
 government should:
 
 -   communicate with citizens in the places they already are
