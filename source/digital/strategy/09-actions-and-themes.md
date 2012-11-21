@@ -739,7 +739,7 @@ consultation. It has the potential to transform democratic participation in the 
 
 We have already developed better skills in listening and responding to
 public feedback through digital channels. In May 2012, social media
-guidelines were issued to civil servants based on six principles – that
+guidelines were issued to civil servants based on 6 principles – that
 government should:
 
 -   communicate with citizens in the places they already are
