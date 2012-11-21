@@ -506,7 +506,7 @@ nation in the world.
 
 {include action10-case-study.md}
 
-It will
+It will:
 
 -   work with departments as part of its strategic supplier management
     function to maintain a forward looking pipeline of digital work,
