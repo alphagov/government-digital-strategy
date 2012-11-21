@@ -12,6 +12,7 @@ Better informed decision-makers make better decisions
 [A lot of the information now being collected is about performance](https://www.gov.uk/performance). How well is a particular government service doing at the moment? How has its performance improved since the service was last updated by the technical team? 
 
 [![Image of the GOV.UK performance dashboard](/assets/images/strategy/case-studies/management-info/Richard--GOV.UK-Performance.png)](/assets/images/strategy/case-studies/management-info/Richard--GOV.UK-Performance-ret.png)
+{: .with-border}
 
 *"You wouldn't buy a car without a dashboard,"* he says. The instruments on a car's dashboard tell the driver about progress or potential problems. The same thing applies when civil servants are making decisions about services that millions of people might use.
 

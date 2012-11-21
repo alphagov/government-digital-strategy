@@ -6,7 +6,8 @@ John Sheridan leads this. His team had the challenge of building a publishing sy
 
 The whole site has been built using open standards. Everything that can be shared with the rest of the world, has been shared. 
 
-![Screenshot of legislation.gov.uk](/assets/images/strategy/case-studies/government-as-platform/Build-gov-as-a-platform--Legislation.gov.uk-ret.png)
+[![Screenshot of legislation.gov.uk](/assets/images/strategy/case-studies/government-as-platform/Build-gov-as-a-platform--Legislation.gov.uk.png)](http://www.legislation.gov.uk)
+{: .with-border}
 
 *“All of the data we have can be used for free. All of our source code is available for free. We’ve used open standards for everything. We make it very easy to use the data in your own product or service.”*
 
