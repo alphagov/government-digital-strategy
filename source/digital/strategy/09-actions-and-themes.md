@@ -695,7 +695,7 @@ of indicators. These will include:
     cost-effective set of delivery channels and whether users are
     choosing to use more or less expensive channels to complete their
     transaction
--   user satisfaction. This enables service owners to identify
+-   user satisfaction. This enables Service Managers to identify
     potential weaknesses in a service and areas to focus improvement
     efforts
 -   transaction completion rates. This may highlight possible process
