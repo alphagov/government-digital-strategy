@@ -5,7 +5,7 @@ high quality for a new or redesigned digital transactional service. It
 will be used across government to ensure that all digital services are
 of a consistently high standard.
 
-The guidance and tools supporting the standard will help service owners
+The guidance and tools supporting the standard will help Service Managers
 to design trusted, cost-effective government services that are embraced
 by users and meet their needs first time. Government Digital Service
 will ensure there is a common understanding across government of what
@@ -25,7 +25,7 @@ The standard will be accompanied by:
     *   content style guides
 *   a reporting tool that makes it simple to demonstrate the
     performance of new and redesigned services against the standard, and
-    provides service owners with an easy-to-use dashboard to monitor the
+    provides Service Managers with an easy-to-use dashboard to monitor the
     progress of a service’s redesign against the capabilities required
     to pass the standard
 *   a governance structure detailing what level of assessment against
@@ -48,8 +48,8 @@ departments on the details of the standard.
 
 Judgements about the quality of a redesigned service should ultimately
 be made by its users. The digital standard will set out metrics for monitoring and evaluating how well user needs are being met
-by redesigned services, and a capability checklist to guide service
-owners and designers in building the transactions to meet those needs. All new and redesigned services must perform well
+by redesigned services, and a capability checklist to guide Service
+Managers and designers in building the transactions to meet those needs. All new and redesigned services must perform well
 across a range of areas to meet this standard. 
 
 Government Digital Service will consult with departments on the details
@@ -62,7 +62,7 @@ of the digital standard over the next 6 months.
     expected user demographics and in line with service-specific user research and feedback. This will be used for forecasting and setting targets; whilst these will vary service by service, general best practice suggests that an outcome of around 80% of transactions 
 completed digitally without assistance within 5 years of launch could be achievable
 -   progress against the uptake trajectory will be monitored by
-    service owners continuously, and by Government Digital Service at
+    Service Managers continuously, and by Government Digital Service at
     intervals set according to the size and/or impact of the service
 
 ####Cost per transaction
@@ -152,8 +152,8 @@ Transactional services will be redesigned to:
 
 ###The guidance
 
-Government Digital Service will actively support transactional service
-owners in helping them to commission, design, build and iteratively
+Government Digital Service will actively support transactional Service
+Managers in helping them to commission, design, build and iteratively
 improve services that meet and maintain the digital by default standard.
 
 Government Digital Service has already produced a number of best
@@ -169,18 +169,18 @@ core capability requirements set out in the standard.
 Government Digital Service will work closely with departments on the
 development of the guidance and ensure it remains a working document. It
 will seek to iteratively improve this as further examples of good practice
-come to light, and encourage service owners to inform future versions.
+come to light, and encourage Service Managers to inform future versions.
 
 To accompany the written guidance, Government Digital Service will set
-up a series of training and tutorial opportunities for service owners.
+up a series of training and tutorial opportunities for Service Managers.
 These will be based around a core curriculum that covers the
 capabilities as set out in the standard, and focused on areas which the
-service owners themselves raise as being particularly valuable in terms
+Service Managers themselves raise as being particularly valuable in terms
 of targeted support and expert advice.
 
 Government Digital Service will bring in government and external experts
 from areas such as web analytics, data visualisation and user testing to
-support this curriculum, and give service owners the networks,
+support this curriculum, and give Service Managers the networks,
 opportunities and forums to share knowledge between themselves.
 
 Where departments have nominated specific large transactional services
@@ -192,18 +192,14 @@ scope.
 ###How services will be assessed
 
 For all new and redesigned services, progress should be continually
-measured against performance outcomes by service owners, using the
+measured against performance outcomes by Service Managers, using the
 reporting tool built by Government Digital Service. Government Digital
 Service will monitor at intervals according to the size of the service.
 
 All services will undergo a formal review ahead of launch. After launch,
-they will continue to be continually monitored by service owners and by
+they will continue to be continually monitored by Service Managers and by
 Government Digital Service at regular intervals to ensure that the
 standard is being maintained and services are iteratively improved.
-
-<!--
-![Assessment process](/assets/images/strategy/image03.png)
--->
 
 Figure 6: Digital by default assessment process
 {: .fig #fig-6}

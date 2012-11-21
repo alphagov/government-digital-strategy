@@ -192,6 +192,9 @@
       font-size: 19px;
       font-weight: 500;
     }
+    h5+p {
+      a { display: block; }
+    }
   }
 
   // CHARTS

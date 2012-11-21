@@ -62,7 +62,7 @@ class Compile
   end
 
   def self.process_xml_files
-    Dir.glob("**/*.xml").map { |f|
+    Dir.glob("source/**/*.xml").map { |f|
       f.gsub!("source/", "")
     }.each do |file|
       FileUtils.cp("source/#{file}", "built/#{file}")

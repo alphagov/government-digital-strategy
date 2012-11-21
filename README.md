@@ -141,3 +141,37 @@ To assign a template to a HTML file, insert, at the very top of the HTML file, a
 That would look for `asset/templates/home_template.html` and the above contents would be put into the template where `<!--REPLACE-->` is.
 
 The digital documents use the `digital_doc_template.html`. The others use `generic_template.html`. Individual files can use any template they like, as defined above.
+
+## Changelist
+
+_These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
+
+
+__21/11/12__
+- replacing "service owner" / "service manager" text with "Service Manager" to be consistent.
+- bump every "Read More" link in case-study down onto its own line, to avoid awkward line breaks in the middle of the link which don't look right.
+
+__19/11/12__
+- added in Phil Pavett case study.
+- added Carolyn Williams profile image to case study.
+
+__15/11/12__
+- added in timestamps for each document that show the last updated date, generated automatically from Git for us, and linking to the relevant document folder on Github.
+
+__14/11/12__
+- added watch task to automatically build locally on changes ( run `ruby watch-build.rb` ).
+
+__13/11/12__
+- switched to retina resolution logo.
+- CO crest now in HTML rather than CSS BG image.
+- updated the Partials syntax so it's easier and more clear.
+
+__9/11/12__
+- fixed some labelling on some of the graphs that made it unclear (extra "-").
+- added profile images to case study pages.
+
+__8/11/12__
+- stopped using blue for words within charts, so they don't look like links.
+
+__7/11/12__
+- initial release!
