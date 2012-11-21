@@ -11,6 +11,9 @@ That means hiring people for what aren’t often considered ‘traditional’ ci
 
 For example, they are currently developing a digital tool to enable users to find out whether they’re eligible for legal aid; last year the department helped 1.9 million people with these enquiries. According to Roger, *"This should provide people with a quicker and more convenient way to find out if they can get legal aid, and save us money by helping to ensure that only those eligible are passed on to a specialist advisor. People who aren’t eligible will be automatically directed to other forms of help and information"*. The result? The right outcome for users and less reliance on call centres.
 
+![Legal Aid entitlement calculator](/assets/images/strategy/case-studies/digital-capabilities/Roger--Entitlement-calculator.png)
+{: .with-border}
+
 This, along with other projects, are pioneering, pace-setting efforts. Roger’s work is expected to be the template for future similar digital divisions in other government departments. This is new territory, and Roger and his team are the trailblazers.
 
 He relishes the challenge: *“You’ve got to have a very clear vision of what you’re trying to achieve. You need to be focused on the fact that you’re not going to be able to do everything for everybody.”*
