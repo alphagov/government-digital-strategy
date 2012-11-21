@@ -56,7 +56,7 @@ critical to achieving successful service transformation.
 
 Outside government, organisations in the public and private sector are
 learning that empowered, experienced and highly skilled managers (often
-called ‘product managers’ in the commercial world) are necessary to
+called Product Managers in the commercial world) are necessary to
 deliver high-quality digital services.
 
 Government will adopt the same model, and ensure each of its
@@ -615,7 +615,7 @@ The Government Digital Service is also developing a data insight
 platform that will combine a range of data including analytics, web
 operations and financial information. Using clear visualisations, it
 will provide high level performance reports for leaders and more
-detailed data for service managers.
+detailed data for Service Managers.
 
 
 ### Principle: Remove unnecessary legislative barriers

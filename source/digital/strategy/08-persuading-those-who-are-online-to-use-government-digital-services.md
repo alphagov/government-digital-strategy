@@ -53,8 +53,8 @@ digital transformation such as high street banks or the BBC:
     co-located team during any redesign of a digital service
 -   specialist technical architecture, development, design and
     analytics skills are essential, alongside new senior leadership
-    roles, including that of a fully accountable and empowered service
-    manager
+    roles, including that of a fully accountable and empowered Service
+    Manager
 -   once services are redesigned to meet user needs, they need to be
     communicated and marketed effectively, by targeting appropriate
     messages to identified user groups through a range of trusted

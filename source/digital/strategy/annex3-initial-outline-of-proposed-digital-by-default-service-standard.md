@@ -48,8 +48,8 @@ departments on the details of the standard.
 
 Judgements about the quality of a redesigned service should ultimately
 be made by its users. The digital standard will set out metrics for monitoring and evaluating how well user needs are being met
-by redesigned services, and a capability checklist to guide service
-owners and designers in building the transactions to meet those needs. All new and redesigned services must perform well
+by redesigned services, and a capability checklist to guide Service
+Managers and designers in building the transactions to meet those needs. All new and redesigned services must perform well
 across a range of areas to meet this standard. 
 
 Government Digital Service will consult with departments on the details
@@ -152,8 +152,8 @@ Transactional services will be redesigned to:
 
 ###The guidance
 
-Government Digital Service will actively support transactional service
-owners in helping them to commission, design, build and iteratively
+Government Digital Service will actively support transactional Service
+Managers in helping them to commission, design, build and iteratively
 improve services that meet and maintain the digital by default standard.
 
 Government Digital Service has already produced a number of best
