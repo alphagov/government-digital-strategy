@@ -26,7 +26,7 @@ require(['modules/anchor_scrolling'], function(scrollToAnchor) {
 
 require(['modules/magna-charta.min'], function() {
   $(".horizontal-bar-chart").each(function(i, item) {
-    $.magnaCharta($(item).hide(), { outOf: 80, outdentTextLevel: 1 });
+    $.magnaCharta($(item), { outOf: 80, outdentTextLevel: 1 });
   });
 });
 

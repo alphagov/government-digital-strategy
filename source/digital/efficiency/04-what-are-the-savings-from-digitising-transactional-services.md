@@ -122,7 +122,7 @@ Figure 4: Annual savings (£ millions) per 1% shift to digital - by current digi
 | 40 - 60                   | 0.25  |
 | 60 - 80                   | 0.22  |
 | 80 - 100                  | 0.15  |
-{: .horizontal-bar-chart .no-key .mc-outdented}
+{: .horizontal-bar-chart .no-key}
 
 Many government transactional services have already begun the process of
 digitisation. However, there is a wide range in the level of take-up
@@ -181,7 +181,11 @@ billion. The equivalent top-down figure is £1.7 billion.
 Figure 5: Projected total annual savings, split by public spending / cost recovery receipt of savings
 {: .fig #fig-5}
 
-![Figure 5](/assets/images/efficiency/fig5.png)
+| Projected Total Annual Savings | Fiscal | Cost Recovery | Total |
+|----|----|---|---|
+| Bottom-up | 1.162bn | 0.612bn | 1.78bn |
+| Top-down | 1.1bn | 0.623bn | 1.72bn |
+{: .horizontal-bar-chart .mc-stacked}
 
 As mentioned previously, our analysis estimated that the total
 transaction-related spend across government as being £6 billion to £9
