@@ -148,7 +148,8 @@ _These document all the larger updates to the site we've done sinch the launch. 
 
 
 __21/11/12__
-- replacing "service owner" / "service manager" text with "Service Manager" to be consistent
+- replacing "service owner" / "service manager" text with "Service Manager" to be consistent.
+- bump every "Read More" link in case-study down onto its own line, to avoid awkward line breaks in the middle of the link which don't look right.
 
 __19/11/12__
 - added in Phil Pavett case study.
