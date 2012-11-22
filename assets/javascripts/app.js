@@ -32,6 +32,13 @@ require(['modules/magna-charta.min'], function() {
     }
     if($(item).hasClass("mc-stacked")) {
       opts.barPadding = 4;
+    } else if ($(item).hasClass("mc-negative")) {
+      opts.barPadding = 6;
+    }
+
+    // some special cases
+    if(item.id == "fig-15-efficiency-table") {
+      opts.barPadding = 15;
     }
     $.magnaCharta($(item), opts);
   });
