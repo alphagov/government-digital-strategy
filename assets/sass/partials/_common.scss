@@ -2,16 +2,15 @@
 // ------------------------------------------------------------------------------
 // TEMPLATE STYLES
 //
-// Styles used across documents and collection pages
+// Styles used across publications and collection pages
 
 // IMPORTS
 
 @import "yui-reset";                                // Reset base HTML styles
 @import "typography";                               // Typographic styles
 @import "colours";                                  // Cabinet Office colour palette
-@import "../govuk_frontend_toolkit/css3";           // Vendor prefix helpers
-@import "../govuk_frontend_toolkit/conditionals";   // Media queries
-@import "../design-patterns/utils";                 // CSS helpers
+@import "css3";                           // Vendor prefix helpers
+@import "conditionals";                   // Media queries
 
 // DEFAULT VALUES
 
@@ -37,6 +36,13 @@ $content-width: 80%;                      // Width of main content area
     @include media(desktop){
       margin-left: $column-width;
     }
+}
+
+// CLEARFIX
+
+@mixin clearfix {
+  overflow: hidden;
+  *zoom: 1;
 }
 
 // ------------------------------------------------------------------------------

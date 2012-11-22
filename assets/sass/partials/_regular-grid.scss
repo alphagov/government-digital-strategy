@@ -2,8 +2,7 @@
 // REGULAR GRID
 //
 
-@import "utils";
-@import "../govuk_frontend_toolkit/conditionals";
+@import "conditionals";
 
 @mixin regular-grid($columns: 1, $min-height:"") {
   margin: 0;
@@ -11,7 +10,8 @@
     margin-bottom: 1em;
   }
   padding: 0;
-  @include clearfix;
+  overflow: hidden;
+  *zoom: 1;
   > * { 
     display: block;
     margin: 0;

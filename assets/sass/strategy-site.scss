@@ -3,21 +3,19 @@
 // Style for supporting pages
 
 // MIXINS
-@import "govuk_frontend_toolkit/css3";          // Vendor prefixes
-@import 'govuk_frontend_toolkit/conditionals';  // Media queries  
-@import 'govuk_frontend_toolkit/shims';         // Shims   
-@import 'design-patterns/regular-grid';         // Regular grid              
-@import "common/typography";              			// Typographic styles
-@import "common/colours";                 			// Cabinet Office colour palette
-@import "common/templates";                 		// Template styles
+
+@import "partials/css3";                   // Vendor prefixes
+@import 'partials/conditionals';           // Media queries  
+@import 'partials/shims';                  // Shims   
+@import 'partials/regular-grid';           // Regular grid              
+@import "partials/common";                 // Global template styles
 
 // DEFAULTS
 
-$left-margin: 240px + 65px;                     // Left margin of the page
-$section-index-width: $left-margin - 70;  			// Width of the section indexes
-
-$content-width: 80%;                      			// Width of the main content area
-$colour-scheme: $blue;                    			// Sets primary colour for document
+$left-margin: 240px + 65px;                // Left margin of the page
+$section-index-width: $left-margin - 70;   // Width of the section indexes
+$content-width: 80%;                       // Width of the main content area
+$colour-scheme: $blue;               			 // Sets primary colour for document
 
 
 // --------------------------------------------------------------------------------

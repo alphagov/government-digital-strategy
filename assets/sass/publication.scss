@@ -3,9 +3,9 @@
 //
 
 // MIXINS AND DEFAULTS
-
-@import "common/templates";                     // Template styles
-@import "common/data-visualisation";            // Charts n' graphs
+   
+@import "partials/common";                        // Global template styles
+@import "partials/data-visualisation";            // Charts n' graphs
 
 // ------------------------------------------------------------------------------
 // DOCUMENT TITLE
