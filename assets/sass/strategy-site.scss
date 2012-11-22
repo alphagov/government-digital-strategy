@@ -345,32 +345,37 @@ $colour-scheme: $blue;                    			// Sets primary colour for document
 
 // MEDIA PLAYER
 
+$large-player-width:  730px;
+$medium-player-width: 640px;
+$small-player-width:  426px;
+$aspect-ratio: 0.56;
+
 .media-player{
   @include left-margin;
   @include media(mobile){
-    width: 426px;
+    width: $small-player-width;
   }   
   @include media(tablet){ 
-    width: 640px;
+    width: $medium-player-width;
   }
   @include media(desktop){
-    width: 853px;
+    width: $large-player-width;
   }
   .media-player-wrapper{
     margin: 0;
     .player-container{
       .video{  
         @include media(mobile){
-          width: 426px;
-          height: 240px;
+          width: $small-player-width;
+          height: $aspect-ratio * $small-player-width;
         }  
         @include media(tablet){ 
-          width: 640px;
-          height: 360px;
+          width: $medium-player-width;
+          height: $aspect-ratio * $medium-player-width;
         }
         @include media(desktop){
-          width: 853px;
-          height: 480px;
+          width: $large-player-width;
+          height: $aspect-ratio * $large-player-width;
         }
       }
     }
