@@ -84,7 +84,24 @@ services or individual transactions.  
 Figure 7: Number of transactional services by department
 {: .fig #fig-7}
 
-![Figure 7](/assets/images/efficiency/fig7.png)
+| Number of transactional services by department | Digital Not Available | Digital Available | Total |
+|---|---|---|---|
+| MOD         | 0   | 3  | 3   |
+| DCLG        | 1   | 1  | 2   |
+| DFID        | 1   | 4  | 4   |
+| FCO         | 1   | 4  | 5   |
+| DfE         | 2   | 23 | 25  |
+| AGO         | 3   | 2  | 5   |
+| DCMS        | 6   | 43 | 49  |
+| MOJ         | 6   | 6  | 12  |
+| HMRC        | 11  | 28 | 39  |
+| DWP         | 15  | 6  | 21  |
+| DECC        | 22  | 31 | 53  |
+| DfT         | 24  | 31 | 55  |
+| Home Office | 31  | 14 | 45  |
+| Defra       | 57  | 37 | 94  |
+| BIS         | 142 | 97 | 239 |
+{: .horizontal-bar-chart .mc-stacked }
 
 Figure 8: Volume of completed transactions by department[^12]
 {: .fig #fig-8}
@@ -173,7 +190,7 @@ DFID - lower          | 0
 MOD - upper           | 0
 MOD - lower           | 0
 --------------------- | ------------------------------
-{: .cyclical .horizontal-bar-chart}
+{: .cyclical .horizontal-bar-chart .mc-outdented}
 
 This report does not set out specific details about how and where
 departments may realise savings and efficiencies, as this would require

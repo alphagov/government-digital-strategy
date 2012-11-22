@@ -26,7 +26,14 @@ require(['modules/anchor_scrolling'], function(scrollToAnchor) {
 
 require(['modules/magna-charta.min'], function() {
   $(".horizontal-bar-chart").each(function(i, item) {
-    $.magnaCharta($(item), { outOf: 80, outdentTextLevel: 1 });
+    var opts = {
+      outOf: 80,
+      outdentTextLevel: 1
+    }
+    if($(item).hasClass("mc-stacked")) {
+      opts.barPadding = 4;
+    }
+    $.magnaCharta($(item), opts);
   });
 });
 
