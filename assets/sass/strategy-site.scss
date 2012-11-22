@@ -396,15 +396,4 @@ $colour-scheme: $blue;                    			// Sets primary colour for document
     margin-right: 15px;
     float: left;
   }
-}
-
-.case-study-page .section a{
-  img{
-    border: 1px solid $light-grey;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  &:hover img{
-    border-color: $blue;
-  }
 } 

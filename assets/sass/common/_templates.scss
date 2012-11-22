@@ -194,6 +194,17 @@ hr {
       position: absolute;
     }
   }
+  // BORDERS FOR IMAGES
+  .with-border{
+    img{
+      border: 1px solid $light-grey;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+    a:hover img{
+      border-color: $blue;
+    }
+  }
 }
 
 // ------------------------------------------------------------------------------
