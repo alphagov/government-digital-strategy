@@ -86,21 +86,21 @@ Figure 7: Number of transactional services by department
 
 | Number of transactional services by department | Digital Not Available | Digital Available | Total |
 |---|---|---|---|
-| MOD         | 0   | 3  | 3   |
-| DCLG        | 1   | 1  | 2   |
-| DFID        | 1   | 4  | 4   |
-| FCO         | 1   | 4  | 5   |
-| DfE         | 2   | 23 | 25  |
-| AGO         | 3   | 2  | 5   |
-| DCMS        | 6   | 43 | 49  |
-| MOJ         | 6   | 6  | 12  |
-| HMRC        | 11  | 28 | 39  |
-| DWP         | 15  | 6  | 21  |
-| DECC        | 22  | 31 | 53  |
-| DfT         | 24  | 31 | 55  |
-| Home Office | 31  | 14 | 45  |
-| Defra       | 57  | 37 | 94  |
 | BIS         | 142 | 97 | 239 |
+| Defra       | 57  | 37 | 94  |
+| Home Office | 31  | 14 | 45  |
+| DfT         | 24  | 31 | 55  |
+| DECC        | 22  | 31 | 53  |
+| DWP         | 15  | 6  | 21  |
+| HMRC        | 11  | 28 | 39  |
+| MOJ         | 6   | 6  | 12  |
+| DCMS        | 6   | 43 | 49  |
+| AGO         | 3   | 2  | 5   |
+| DfE         | 2   | 23 | 25  |
+| FCO         | 1   | 4  | 5   |
+| DFID        | 1   | 4  | 4   |
+| DCLG        | 1   | 1  | 2   |
+| MOD         | 0   | 3  | 3   |
 {: .horizontal-bar-chart .mc-stacked }
 
 Figure 8: Volume of completed transactions by department[^12]
