@@ -3,9 +3,9 @@
 //
 
 // MIXINS AND DEFAULTS
-
-@import "common/templates";                     // Template styles
-@import "common/data-visualisation";            // Charts n' graphs
+   
+@import "partials/common";                        // Global template styles
+@import "partials/data-visualisation";            // Charts n' graphs
 
 // magna charta
 @import "magna-charta";
@@ -196,6 +196,8 @@
       a { display: block; }
     }
   }
+  
+
 
   // CHARTS
   >.breakdown-chart{
@@ -259,6 +261,8 @@
     }
   }
 }
+
+
 // Titles when stuck at top of page
 .sticky-wrapper{
   display: none; // Hide from non-desktop devices

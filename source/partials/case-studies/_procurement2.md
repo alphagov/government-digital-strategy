@@ -14,7 +14,10 @@ Cloudstore lets small companies do business with government. It widens the marke
 One aim is to make it possible for a much wider variety of small and medium-sized companies to supply IT services to government and the wider pubic sector, so they can compete against the big names that have done it in the past. CloudStore removes barriers that made it hard for those smaller businesses to compete.
 
 *“CloudStore is one of the first programmes to let small companies do business with the public sector in a way that’s not too costly for them. It widens the marketplace,”* says Denise. CloudStore sticks to the rules of traditional procurement, and meets all the requirements of national and EU legislation. But it does so in a new and innovative way.
-So all a public sector buyer needs to do is search on what they want and then buy it. It’s simple, legal and efficient.  
+So all a public sector buyer needs to do is search on what they want and then buy it. It’s simple, legal and efficient.
+
+[![CloudStore](/assets/images/strategy/case-studies/procurement/procurement--cloudstore.png)](http://gcloud.civilservice.gov.uk/cloudstore/)
+{: .with-border}
 
 The result is an online store of services, priced up and ready to go. A sort of technology supermarket that Denise compares to an app store you might find on your mobile phone.
 

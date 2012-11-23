@@ -8,8 +8,7 @@ $is-print: true;
 // BASIC TYPOGRAPHIC AND TEMPLATE STYLES
 //
 
-@import "common/_typography.scss";
-@import "common/_templates.scss";
+@import "partials/common";
 
 // -------------------------------------------------------------------------
 // HEADERS AND FOOTERS
@@ -107,7 +106,7 @@ h2 {
   margin-bottom: 1cm;
 }
 h1, h2{
-  color: $blue;
+  //color: $blue;
   font-size: 36pt;
 }
 // Orphans and widows

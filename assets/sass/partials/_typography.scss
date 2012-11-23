@@ -1,7 +1,6 @@
-@import '_font_stack.scss';
-@import '_conditionals.scss';
+@import 'conditionals';
 
-//  GOV.UK typography palettes
+//  Cabinet Office typography styles (adapted from GOV.UK)
 
 //  ANATOMY OF A TYPE STYLE
 //  -----------------------
@@ -140,8 +139,10 @@ $is-print: false !default;
 @mixin core-14($line-height: (20 / 14), $line-height-640: (15 / 12)) {
   //font-family: $NTA-Light;
   @if $is-print == false {
-    font-size: 14px;
-    font-size: 1.4rem;
+    //font-size: 14px;
+    //font-size: 1.4rem;
+    font-size: 19px;
+    //font-size: 1.25rem;
   } @else {
     font-size: 11pt;
   }
