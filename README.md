@@ -146,6 +146,8 @@ The digital documents use the `digital_doc_template.html`. The others use `gener
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
 
+__26/11/12__
+- no more bar chart images! We've switched to using our own JS bar chart plugin, [Magna Charta](http://github.com/alphagov/magna-charta).
 
 __21/11/12__
 - replacing "service owner" / "service manager" text with "Service Manager" to be consistent.
