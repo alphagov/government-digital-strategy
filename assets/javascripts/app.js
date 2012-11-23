@@ -34,6 +34,10 @@ require(['modules/magna-charta.min'], function() {
     // some special cases
     $.magnaCharta($(item), opts);
   });
+  $('.proportional.breakdown-chart tbody tr td:first-child').css('height', function(index) {
+    var height = +($(this).text().replace('%', '')) * 4;
+    return height;
+  });
 });
 
 
