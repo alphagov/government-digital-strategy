@@ -4,11 +4,6 @@ require(['modules/generate_player'], function(player) {
 });
 
 
-//bar charts
-// require(['modules/barcharts'], function(barCharts) {
-//   $(barCharts);
-// });
-
 //set up sticky headings
 require(['modules/stickyheaders'], function(setupStickyHeaders) {
   setupStickyHeaders();
