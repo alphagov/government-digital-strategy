@@ -127,15 +127,15 @@ $bar-colours:  $dark-blue,
   @for $i from 0 to $len {
    .mc-tr .mc-td.mc-bar-cell.mc-bar-#{$i+1} {
      background-color: nth($bar-colours, $i + 1);
-     border-left: 1px solid nth($bar-colours, $i + 1);
+     // border-left: 1px solid nth($bar-colours, $i + 1);
    }
    .mc-tr .mc-th.mc-key-#{$i+1} {
      border-left-color: nth($bar-colours, $i+1);
    }
 
-   .mc-tr .mc-td.mc-bar-cell.mc-bar-negative {
-     border-left: none;
-   }
+   // .mc-tr .mc-td.mc-bar-cell.mc-bar-negative {
+   //   border-left: none;
+   // }
 
   }
 
