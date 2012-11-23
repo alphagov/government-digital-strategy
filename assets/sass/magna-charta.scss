@@ -9,7 +9,7 @@
 
 // DEFAULT CHART STYLES
 
-$label-width: 40%;          // Horizontal width taken up by the bar labels
+$label-width: 30%;          // Horizontal width taken up by the bar labels
 $label-align: right;        // Label alignment
 $font-size: 16px;           // For bar text, label text and related padding
 $compact-font-size: 12px;   // For the 'compact' bar style
@@ -127,9 +127,14 @@ $bar-colours:  $dark-blue,
   @for $i from 0 to $len {
    .mc-tr .mc-td.mc-bar-cell.mc-bar-#{$i+1} {
      background-color: nth($bar-colours, $i + 1);
+     border-left: 1px solid nth($bar-colours, $i + 1);
    }
    .mc-tr .mc-th.mc-key-#{$i+1} {
      border-left-color: nth($bar-colours, $i+1);
+   }
+
+   .mc-tr .mc-td.mc-bar-cell.mc-bar-negative {
+     border-left: none;
    }
 
   }
@@ -168,7 +173,9 @@ $bar-colours:  $dark-blue,
 }
 
 .mc-outdented .mc-td.mc-bar-cell { color: #111; }
-
+.mc-bar-outdented span { color: #111; white-space: nowrap; }
+// TODO: this can be nicer! Temporary solution (by JF)
+.mc-stacked .mc-tr .mc-td.mc-bar-cell { border-left: none !important; }
 
 .visually-hidden {
   // Hides content (eg. the table) visually, but not from screen readers

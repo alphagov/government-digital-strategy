@@ -70,7 +70,7 @@ Figure 15: 95% confidence intervals on potential annual savings per 1% shift to 
 | Requesting benefits/grants/loans   | £0.00m  | £0.10m  | £0.21m |
 | Requesting a license/authorisation | £0.05m  | £0.07m  | £0.19m |
 | Booking an appointment             | -£0.02m | £0.06m  | £0.13m |
-{: #fig-15-efficiency-table .horizontal-bar-chart .mc-negative }
+{: #fig-15-efficiency-table .horizontal-bar-chart .mc-negative .mc-auto-outdent }
 
 
 The analysis of digital penetration shows some variation in savings at

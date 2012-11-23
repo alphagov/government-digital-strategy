@@ -28,18 +28,13 @@ require(['modules/magna-charta.min'], function() {
   $(".horizontal-bar-chart").each(function(i, item) {
     var opts = {
       outOf: 80,
-      outdentTextLevel: 1
+      autoOutdent: true
     }
     if($(item).hasClass("mc-stacked")) {
-      opts.barPadding = 4;
-    } else if ($(item).hasClass("mc-negative")) {
-      opts.barPadding = 6;
+      opts.barPadding = 5;
     }
 
     // some special cases
-    if(item.id == "fig-15-efficiency-table") {
-      opts.barPadding = 15;
-    }
     $.magnaCharta($(item), opts);
   });
 });

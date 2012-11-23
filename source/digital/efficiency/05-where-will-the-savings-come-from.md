@@ -106,7 +106,25 @@ Figure 7: Number of transactional services by department
 Figure 8: Volume of completed transactions by department[^12]
 {: .fig #fig-8}
 
-![Figure 8](/assets/images/efficiency/fig8.png)
+| Number of transactional services by department | Non Digital | Digital | Total |
+|---|---|---|---|
+| HMRC        | 93 | 547 | 640 |
+| DWP         | 53 | 2   | 55  |
+| DfT         | 49 | 42  | 91  |
+| BIS         | 16 | 36  | 52  |
+| HO          | 11 | 5   | 16  |
+| Defra       | 13 | 10  | 23  |
+| MOJ         | 10 | 2   | 12  |
+| DCMS        | 5  | 9   | 14  |
+| DECC        | 1  | 1   | 2   |
+| DfE         | 1  | 2   | 3   |
+| AGO         | 0  | 0   | 0   |
+| DCLG        | 0  | 1   | 1   |
+| DFID        | 0  | 0   | 0   |
+| FCO         | 0  | 0   | 0   |
+| MOD         | 0  | 0   | 0   |
+{: .horizontal-bar-chart .mc-stacked }
+
 
 ###The future potential                           
 
