@@ -141,7 +141,7 @@ Figure 25: Mid-range estimates of total potential annual savings by department (
 |  Mid-range estimates of total potential annual savings by department (£m), split by public spending / cost recovery realisation | Public Spending | Cost recovery | Total |
 |---|---|---|---|
 | HMRC        | 255 | 0   | 255 |
-| DfT         | 0   | 116 | 2   |
+| DfT         | 0   | 116 | 166 |
 | DWP         | 326 | 0   | 326 |
 | BIS         | 164 | 176 | 340 |
 | DEFRA       | 177 | 16  | 193 |

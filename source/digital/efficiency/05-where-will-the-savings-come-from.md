@@ -208,7 +208,7 @@ DFID - lower          | 0
 MOD - upper           | 0
 MOD - lower           | 0
 --------------------- | ------------------------------
-{: .cyclical .horizontal-bar-chart .mc-outdented}
+{: .cyclical .horizontal-bar-chart .mc-outdented .no-key}
 
 This report does not set out specific details about how and where
 departments may realise savings and efficiencies, as this would require

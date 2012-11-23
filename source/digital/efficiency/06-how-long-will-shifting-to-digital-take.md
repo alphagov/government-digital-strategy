@@ -40,7 +40,7 @@ Year    | Cumulative savings (£ billions)
 2014/15 | 0.60
 2015/16 | 0.89
 2016/17 | 1.04
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 The time frame of this S-curve starkly contrasts with what is delivered
 by today’s high-performing transactional services. It is reasonable to
@@ -145,5 +145,5 @@ Year    | Cumulative savings (£ billions)
 2014/15 | 1.35
 2015/16 | 1.96
 2016/17 | 2.17
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 

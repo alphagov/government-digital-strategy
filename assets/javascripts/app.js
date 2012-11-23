@@ -27,11 +27,13 @@ require(['modules/anchor_scrolling'], function(scrollToAnchor) {
 require(['modules/magna-charta.min'], function() {
   $(".horizontal-bar-chart").each(function(i, item) {
     var opts = {
-      outOf: 80,
+      outOf: 70,
       autoOutdent: true
     }
     if($(item).hasClass("mc-stacked")) {
       opts.barPadding = 5;
+    } else if(!$(item).hasClass("mc-negative")) {
+      opts.barPadding = 2;
     }
 
     // some special cases
