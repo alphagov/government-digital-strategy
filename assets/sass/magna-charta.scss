@@ -94,7 +94,7 @@ $bar-colours:  $dark-blue,
 
   // STACKED CHARTS
   &.mc-stacked {
-    .mc-th:last-child{
+    .mc-header-total {
       display: none;
     }
     .mc-th:nth-last-child(2){
