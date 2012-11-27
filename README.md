@@ -76,6 +76,10 @@ Once it's done, you're left with a `deploy/` folder which is the production-read
 
 If you want to test that the deploy folder works fine, run `ruby deploy-server.rb`, which serves up the `deploy/` folder on port 9090.
 
+# PDFs
+
+The PDFs are generated through PDF Crowd. You'll need to register for a free account and get a username and API Key. Then edit `config/pdf.config.yml.sample`, adding the details. Then rename the file, removing `.sample` from the end.
+
 
 
 # Assets
