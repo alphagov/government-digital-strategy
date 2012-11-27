@@ -1,4 +1,3 @@
 user: { pdf crowd username }
 key: { pdf crowd API key }
-url: { URL to compile PDFs from }
 
