@@ -26,20 +26,25 @@ class CompilePdf
 
     self.compile_zip(folder)
     name = folder.split("/").last
+
     pdf_config_raw = File.read("config/pdf.config.yml")
     pdf_config = YAML.load(pdf_config_raw)
 
     client = Pdfcrowd::Client.new(pdf_config["user"], pdf_config["key"])
+
+
     client.enableImages(true)
     client.enableBackgrounds(true)
     client.usePrintMedia(false)
     client.enableJavaScript(true)
+    # %p == page number
     client.setFooterHtml("<div style='text-align: right; font-size: 13px; '>%p</div>")
+
     url_path = folder.gsub(/built\//, "")
-    # File.open("#{folder}/#{self.pdf_names[name]}.pdf", 'wb') { |f| client.convertFile("#{folder}/index-pdf.html", f) }
-    # pdf = client.convertURI("#{pdf_config["url"]}#{url_path}/")
+
     pdf = client.convertFile("#{folder}/pdf.zip")
     File.open("#{folder}/#{self.pdf_names[name]}.pdf", 'wb') { |f| f.write(pdf) }
+
     puts "Created #{folder}/#{self.pdf_names[name]}.pdf"
     puts "Remaining tokens: #{client.numTokens()}"
 
@@ -58,8 +63,11 @@ class CompilePdf
     # merge print + magna-charta CSS into one file
     print_css = IO.read "assets/css/print.css"
     magna_css = IO.read "assets/css/magna-charta.css"
+
     combined = print_css + "\n\n" + magna_css
     File.open("#{pdf_path}/style.css", 'w') { |f| f.write(combined) }
+
+    # lets do some regexing on the HTML
     index = IO.read "#{folder}/index.html"
 
     # find all images
@@ -86,7 +94,6 @@ class CompilePdf
     Shell.execute("cd #{folder} && zip -vr pdf.zip pdf/")
     # delete folder
     FileUtils.rm_r(pdf_path)
-    # done
   end
 end
 
