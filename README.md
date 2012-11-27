@@ -81,6 +81,9 @@ If you want to test that the deploy folder works fine, run `ruby deploy-server.r
 The PDFs are generated through PDF Crowd. You'll need to register for a free account and get a username and API Key. Then edit `config/pdf.config.yml.sample`, adding the details. Then rename the file, removing `.sample` from the end.
 
 
+Then simply run `./pdf.sh`, passing in the folder name. For example: `./pdf.sh built/digital/efficiency`. There's no need to do a build first, the PDF script does it for you.
+
+
 
 # Assets
 
