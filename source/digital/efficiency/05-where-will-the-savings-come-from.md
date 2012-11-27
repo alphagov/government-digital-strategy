@@ -161,54 +161,24 @@ the back-end processes. 
 Figure 9: Range of projected total annual savings (£ millions) by department[^13]
 {: .fig #fig-9}
 
-Department            | Projected savings (£ millions)
---------------------- | ------------------------------
-DWP - upper           | 430
-DWP - lower           | 260
---------------------- | ------------------------------
-BIS - upper           | 350
-BIS - lower           | 230
---------------------- | ------------------------------
-HMRC - upper          | 270
-HMRC - lower          | 240
---------------------- | ------------------------------
-Home Office - upper   | 240
-Home Office - lower   | 180
---------------------- | ------------------------------
-Defra - upper         | 230
-Defra - lower         | 160
---------------------- | ------------------------------
-DFT - upper           | 190
-DFT - lower           | 80
---------------------- | ------------------------------
-DFE - upper           | 130
-DFE - lower           | 35
---------------------- | ------------------------------
-DCMS - upper          | 75
-DCMS - lower          | 30
---------------------- | ------------------------------
-MOJ - upper           | 50
-MOJ - lower           | 30
---------------------- | ------------------------------
-DECC - upper          | 35
-DECC - lower          | 15
---------------------- | ------------------------------
-FCO - upper           | 3
-FCO - lower           | 2
---------------------- | ------------------------------
-AGO - upper           | 2
-AGO - lower           | 1
---------------------- | ------------------------------
-DCLG - upper          | 0
-DCLG - lower          | 0
---------------------- | ------------------------------
-DFID - upper          | 0
-DFID - lower          | 0
---------------------- | ------------------------------
-MOD - upper           | 0
-MOD - lower           | 0
---------------------- | ------------------------------
-{: .cyclical .horizontal-bar-chart .mc-outdented .no-key}
+Department            | Projected savings (upper) | Projected savings (lower) |
+--------------------- | ------------------------------|------|
+DWP         | 430 | 260 |
+BIS         | 350 | 230 |
+HMRC        | 270 | 240 |
+Home Office | 240 | 180 |
+Defra       | 230 | 160 |
+DFT         | 190 | 80  |
+DFE         | 130 | 35  |
+DCMS        | 75  | 30  |
+MOJ         | 50  | 30  |
+DECC        | 35  | 15  |
+FCO         | 3   | 2   |
+AGO         | 2   | 1   |
+DCLG        | 0   | 0   |
+DFID        | 0   | 0   |
+MOD         | 0   | 0   |
+{: .horizontal-bar-chart}
 
 This report does not set out specific details about how and where
 departments may realise savings and efficiencies, as this would require
