@@ -183,6 +183,7 @@
     p:first-child{
       float: right;
       margin: -10px -15px -17px 15px;
+      @include media(mobile){margin-bottom: 10px;}
     }
     img{
       margin: 0;
@@ -206,9 +207,6 @@
   >.bar-chart{
     @include bar-chart($colour-scheme);
   }
-  // >.horizontal-bar-chart{
-  //   @include horizontal-bar-chart($colour-scheme);
-  // }
 
   // SECTION TITLES
   .section-title {
@@ -300,4 +298,14 @@
       margin-top: 0;
     }
   }
+}
+// ------------------------------------------------------------------------------
+// MANUAL PAGE BREAKS
+// Allows authors to specify that there should be a page break in the PDF at this point
+
+@media all {
+  .page-break  { display: none; }
+}
+@media print {
+  .page-break  { display: block; page-break-before: always; }
 }

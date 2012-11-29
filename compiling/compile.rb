@@ -223,6 +223,7 @@ class Compile
     contents.gsub!(/[–]/, "--")
     contents.gsub!(/\^(.+)\^/) { "<sup>#{$1}</sup>" }
     contents.gsub!(/\u00a0/, " ")
+    contents.gsub!(/{page-break}/, "<div class='page-break'></div>")
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
     contents.gsub!(/{TIMESTAMP}/) {
