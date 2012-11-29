@@ -227,7 +227,6 @@ class Compile
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
     contents.gsub!(/{TIMESTAMP}/) {
-      date = Time.now
       if folder
         date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
         if date == ""
