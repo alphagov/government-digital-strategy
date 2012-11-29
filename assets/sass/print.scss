@@ -43,6 +43,7 @@ $is-print: true;
   display: inline-block;
   padding-right: 0.5em;
 }
+
 .footer{
   border: 0 solid;
   background-color: transparent;
@@ -145,3 +146,10 @@ p a{ color: blue;}
     display: none;
   }
 }
+
+  .mc-chart .mc-td.mc-key-cell {
+    width: 50%;
+  }
+  .mc-chart .mc-td.mc-bar-cell, .mc-chart .mc-th.mc-bar-cell{
+    padding: 4px 0;
+  }

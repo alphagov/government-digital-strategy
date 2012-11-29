@@ -35,10 +35,12 @@ class CompilePdf
 
     client.enableImages(true)
     client.enableBackgrounds(true)
-    client.usePrintMedia(false)
+    client.usePrintMedia(true)
     client.enableJavaScript(true)
     # %p == page number
-    client.setFooterHtml("<div style='text-align: right; font-size: 13px; '>%p</div>")
+    client.setFooterHtml("%p")
+    client.setHorizontalMargin("2.5cm")
+    client.setVerticalMargin("2.5cm")
 
     url_path = folder.gsub(/built\//, "")
 
@@ -64,7 +66,7 @@ class CompilePdf
     print_css = IO.read "assets/css/print.css"
     magna_css = IO.read "assets/css/magna-charta.css"
 
-    combined = print_css + "\n\n" + magna_css
+    combined = magna_css + "\n\n" + print_css
     File.open("#{pdf_path}/style.css", 'w') { |f| f.write(combined) }
 
     # lets do some regexing on the HTML
@@ -84,7 +86,7 @@ class CompilePdf
     # not removing old ones doesn't matter - it just wont find them
     # add them just before </head>
     index.gsub!(/<\/head>/) {
-      new_assets = '<script src="jquery.min.js"></script><script src="magna-charta.min.js"></script><script src="pdf.js"></script><link rel="stylesheet" href="style.css" />'
+      new_assets = '<script src="jquery.min.js"></script><script src="magna-charta.min.js"></script><script src="pdf.js"></script><link rel="stylesheet" href="style.css" media="print" />'
       "#{new_assets}\n\n</head>"
     }
 

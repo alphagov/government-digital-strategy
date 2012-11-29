@@ -183,6 +183,7 @@
     p:first-child{
       float: right;
       margin: -10px -15px -17px 15px;
+      @include media(mobile){margin-bottom: 10px;}
     }
     img{
       margin: 0;
@@ -206,9 +207,6 @@
   >.bar-chart{
     @include bar-chart($colour-scheme);
   }
-  // >.horizontal-bar-chart{
-  //   @include horizontal-bar-chart($colour-scheme);
-  // }
 
   // SECTION TITLES
   .section-title {
