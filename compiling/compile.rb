@@ -230,7 +230,11 @@ class Compile
       date = Time.now
       if folder
         date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
-        date = DateTime.parse(date)
+        if date == ""
+          date = Time.now
+        else
+          date = DateTime.parse(date)
+        end
       end
 
       if folder
