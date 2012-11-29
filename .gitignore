@@ -13,4 +13,4 @@ node_modules/
 assets/javascripts/built.js
 deploy/
 config/pdf.config.yml
-source/assisted-digital
+source/digital/assisted
