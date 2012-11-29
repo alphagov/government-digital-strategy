@@ -150,6 +150,8 @@ p a{ color: blue;}
   .mc-chart .mc-td.mc-key-cell {
     width: 50%;
   }
-  .mc-chart .mc-td.mc-bar-cell, .mc-chart .mc-th.mc-bar-cell{
-    padding: 4px 0;
+
+  .page-break {
+    display: block;
+    page-break-before: always; 
   }

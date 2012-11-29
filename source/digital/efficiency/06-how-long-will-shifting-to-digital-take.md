@@ -135,6 +135,8 @@ historic data. This has been chosen to illustrate the effect of faster
 digitisation on potential in-year savings, rather than in expectation
 that this specific rate of take-up will be achieved.
 
+{page-break}
+
 Figure 12: Estimated cumulative savings (£ billions) by year, based on compressed S-curve
 {: .fig #fig-12}
 

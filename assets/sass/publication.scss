@@ -299,3 +299,13 @@
     }
   }
 }
+// ------------------------------------------------------------------------------
+// MANUAL PAGE BREAKS
+// Allows authors to specify that there should be a page break in the PDF at this point
+
+@media all {
+  .page-break  { display: none; }
+}
+@media print {
+  .page-break  { display: block; page-break-before: always; }
+}
