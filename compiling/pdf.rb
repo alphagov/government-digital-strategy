@@ -10,7 +10,9 @@ class CompilePdf
     {
       "strategy" => "government-digital-strategy",
       "efficiency" => "digital-efficiency-report",
-      "research" => "digital-landscape-research"
+      "research" => "digital-landscape-research",
+      "assisted" => "assisted-digital",
+      "la-ida-review" => "la-ida-review"
     }
   end
 
@@ -19,6 +21,7 @@ class CompilePdf
       "government-digital-strategy" => "/digital/strategy",
       "digital-efficiency-report" => "/digital/efficiency",
       "digital-landscape-research" => "/digital/research",
+      "assisted-digital" => "/digital/assisted",
       "la-ida-review" => "/la-ida-review"
     }
   end
