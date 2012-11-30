@@ -31,6 +31,7 @@ class CloudfrontInvalidator
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
     res = http.request(req)
+    puts res
     # it was successful if response code was a 201
     return res.code == '201'
   end
