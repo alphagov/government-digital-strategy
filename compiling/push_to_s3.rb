@@ -1,4 +1,9 @@
 require "aws-sdk"
+require 'openssl'
+require 'digest/sha1'
+require 'net/https'
+require 'base64'
+require 'open-uri'
 
 config_raw = File.read("config/s3.config.yml")
 config = YAML.load(config_raw)
@@ -17,4 +22,7 @@ files.each do |file|
   obj = bucket.objects[file_path]
   obj.write(Pathname.new(file))
 end
+
+puts "-> Done"
+
 
