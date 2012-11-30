@@ -74,9 +74,7 @@ class CompilePdf
 
     # find all images
     index.gsub!(/<img[^']*?src=\"([^']*?)\"[^']*?>/) { |m|
-      puts "Matched image: #{m}"
       image_name = $1.split("/").last
-      puts "Imagename: #{image_name}"
       # copy that image into PDF dir
       FileUtils.cp($1[1..-1], "#{pdf_path}/#{image_name}")
       # return just the image name
