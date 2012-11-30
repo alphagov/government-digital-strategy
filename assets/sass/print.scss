@@ -120,9 +120,9 @@ a:visited{
   text-decoration: none;
   color: #000;
 }
-p a:after { content: " (" attr(href) ")";}
-a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ")";}
-p a:after { content: " (http://www.publications.cabinetoffice.gov.uk" attr(href) ")"; }
+p a:after { content: " (" attr(href) ")"; text-decoration: underline; }
+a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ")"; text-decoration: underline; }
+p a:after { content: " (http://www.publications.cabinetoffice.gov.uk" attr(href) ")"; text-decoration: underline; }
 p a[href^="#"]:after { display: none; }
 p a { word-wrap: break-word; }
 p a{ color: blue;}
