@@ -22,5 +22,6 @@ _regular-grid.scss      | Mixin for doing regular grids of content. Used by stra
 _css3.scss | Mixins for vendor prefixes. Part of the GOV.UK Website Toolkit |
 _conditionals.scss | Mixins for designing for screen-size, browser and print. Part of the GOV.UK Website Toolkit |
 _shims.scss | Mixins for plugging known gaps in browser CSS support. Part of the GOV.UK Website Toolkit |
+magna-charta.scss | Styles for creating baic charts using [Magn Charta](https://github.com/alphagov/magna-charta) |
 
 

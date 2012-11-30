@@ -65,12 +65,9 @@ class CompilePdf
     pdf_path = "#{folder}/pdf"
 
 
-    # merge print + magna-charta CSS into one file
     print_css = IO.read "assets/css/print.css"
-    magna_css = IO.read "assets/css/magna-charta.css"
 
-    combined = magna_css + "\n\n" + print_css
-    File.open("#{pdf_path}/style.css", 'w') { |f| f.write(combined) }
+    File.open("#{pdf_path}/style.css", 'w') { |f| f.write(print_css) }
 
     # lets do some regexing on the HTML
     index = IO.read "#{folder}/index.html"
