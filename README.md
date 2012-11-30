@@ -70,7 +70,7 @@ The local-build script is great for viewing locally but doesn't do any of the pe
 
 It will compile and minify the JS. This uses the RequireJS optimizer.
 
-It will also minify all CSS.
+It will also minify all CSS and generate the PDFs.
 
 Once it's done, you're left with a `deploy/` folder which is the production-ready files. This is what should be deployed to the server.
 
@@ -83,17 +83,59 @@ The PDFs are generated through PDF Crowd. You'll need to register for a free acc
 
 Then simply run `./pdf.sh`, passing in the folder name. For example: `./pdf.sh built/digital/efficiency`. There's no need to do a build first, the PDF script does it for you.
 
+# Uploading
+
+Make sure the S3 credentials are okay in `config/s3.config.yml`. Then run:
+
+```
+./deploy.sh
+ruby compiling/push_to_s3.rb
+```
+Or you can shortcut it:
+
+```
+./deploy.sh upload
+```
+
+Which does the same thing. Then you need to check the site, and once you're happy, invalidate the Cloudfront cache so the live site updates.
+
+```
+ruby compiling/clear_s3_cache.rb
+```
 
 
 # Assets
 
-All CSS should be written in Sass (using the SCSS syntax) and live in the `assets/sass` folder. These get compiled to the `assets/css` folder. __Never edit the CSS directly__, as it will get overwritten by the build script.
-
 __NEVER EDIT A FILE in the `built/` folder__. These get overwritten by the build script and are not tracked by Github. The same goes for the `deploy/` folder.
+
+__Never edit the CSS directly__, as it will get overwritten by the build script
 
 Templates, partials, code, images and so on live in `assets/`
 
 Content goes into `source/`
+
+All the CSS lives in `/assets/css`. The files in this folder are generated from the .scss files in `/assets/sass`.
+
+/assets/sass/  | Notes
+----------------------- | --------------------------------------------------------|
+strategy-site.scss      | Styles for the Strategy home page and action pages |
+publication.scss        | Styles for the 'web publication' format (ie. the Strategy, Research, Report etc.) |
+...ie6,7,8,9.scss       | Versions of the above files for specific IE browsers |
+print.scss              | Print and PDF styles for the  'web publication' format |
+media-player.scss       | Styles for the Nomensa media player used on the assets pages |
+
+/assets/sass/partials/  | Notes
+----------------------- | --------------------------------------------------------|
+_common.scss            | Styles that are common to both the 'web publication' format and the Strategy site pages |
+_colours.scss           | Sass variables for colours used throughout the site. Used by _common.scss |
+_typography.scss        | Typographic styles. Used by _common.scss |
+_yui-reset.scss         | Basic cross-browser styles reset. Used by _common.scss |
+_regular-grid.scss      | Mixin for doing regular grids of content. Used by strategy-site.scss for laying out the document links towards the bottom of the home page |
+_css3.scss | Mixins for vendor prefixes. Part of the GOV.UK Website Toolkit |
+_conditionals.scss | Mixins for designing for screen-size, browser and print. Part of the GOV.UK Website Toolkit |
+_shims.scss | Mixins for plugging known gaps in browser CSS support. Part of the GOV.UK Website Toolkit |
+magna-charta.scss | Styles for creating baic charts using [Magn Charta](https://github.com/alphagov/magna-charta) |
+
 
 # Partials and Templates and Syntax
 
