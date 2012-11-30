@@ -143,8 +143,8 @@ p a{ color: blue;}
 .section {
   .figure-permalink,
   .pull,
-  .big-pull { 
-    display: none;
+  .big-pull {
+    display: none !important;
   }
 }
 
