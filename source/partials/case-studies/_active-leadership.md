@@ -20,6 +20,17 @@ Antonia Romeo is one those high level leaders, in charge of transformation at th
 
 ![Chart showing annual paper and online transactions for four government services](/assets/images/strategy/case-studies/active-leadership/Active-Leadership--Transactions-at-Scale-ret.png)
 
+Figure 1: Annual paper and online transactions (£ millions) for four government services
+{: .fig #fig-1}
+
+| Transaction           | Online | Paper | Total |
+|-----------------------|--------|-------|-------|
+| Cattle tracing        | 10     | 3.05  | 13.05 |
+| Prison visits         | 0.8    | 8     | 8.85   |
+| Court fines           | 0.25   | 1.6   | 1.85  |
+| Fishing rod licences  | 0.25   | 1.25  | 1.5   |
+{: .horizontal-bar-chart .mc-stacked }
+
 
 Ian Trenholm is doing similar work at DEFRA, the Department for Environment, Food, and Rural Affairs. He thinks it’s important for civil servants to think more radically. 
 

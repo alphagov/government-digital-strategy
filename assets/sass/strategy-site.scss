@@ -166,7 +166,8 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
     >blockquote,
     >.video,
     >.case-study,
-    >.tweet{
+    >.tweet,
+    >.horizontal-bar-chart{
       @include left-margin;
     }
     >.pull {
