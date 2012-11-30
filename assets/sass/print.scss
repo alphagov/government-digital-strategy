@@ -148,8 +148,12 @@ p a{ color: blue;}
   }
 }
 
+.mc-chart { font-size: 13px;}
+.mc-chart .mc-td, td {
+  page-break-inside: avoid;
+}
   .mc-chart .mc-td.mc-key-cell {
-    width: 50%;
+    width: 30%;
   }
 
   .page-break {
