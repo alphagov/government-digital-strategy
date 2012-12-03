@@ -195,6 +195,12 @@ The digital documents use the `digital_doc_template.html`. The others use `gener
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
 
+__03/12/12__
+- added V3 of Magna Charta, toggle links on charts to switch between chart and table view
+- Fixed some small CSS mobile bugs
+- added "title" attribute values to "Read More" links
+- Tweaked Print CSS - added underlines to links, general tidying
+
 __27/11/12__
 - new script to auto-generate PDF, that gives us bar-charts in our PDFs instead of the tables.
 
