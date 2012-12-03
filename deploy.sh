@@ -14,16 +14,11 @@ echo "And then try again!"
 ./pdf.sh built/digital/assisted
 
 
-echo "Moving files into deploy folder"
 ruby compiling/deploy.rb
 
 if [ "$1" = "upload" ]
 then
-  echo "Uploading to S3"
   ruby compiling/push_to_s3.rb
 fi
-
-echo "DONE"
-echo "Run ruby deploy-server.rb to view the results on Port 9090"
 
 

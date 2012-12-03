@@ -4,33 +4,39 @@ require "fileutils"
 require "stamp"
 require_relative "./utils.rb"
 require "shell/executer.rb"
+require "formatador"
+require "paint"
 
 
 class Compile
   def self.run
-    puts "-> Compiling Sass"
+    @f = Formatador.new
+    @f.display_line(Paint["Compiling Sass", :blue])
     Compile.compile_sass
 
-    puts "-> Merging Markdown into One"
+    @f.display_line(Paint["Merging Markdown into One", :blue])
     Compile.merge_markdown
 
-    puts "-> Dealing with single *.html files in source/"
+    @f.display_line(Paint["Dealing with single HTML files in source", :blue])
     Compile.process_single_html_files
 
-    puts "-> Moving caption XML files over"
+    @f.display_line(Paint["Moving caption XML files over", :blue])
     Compile.process_xml_files
 
-    puts "-> Compiling markdown to HTML"
+    @f.display_line(Paint["Compiling Markdown to HTML", :blue])
     Compile.apply_template_compile
 
-    puts "-> Done"
+    @f.display_line(Paint["Done!", :green])
+
   end
 
   # compiles all sass
   def self.compile_sass
     Dir.foreach("assets/sass") do |file|
       if file.split(".").last == "scss"
-        puts "--> Compiling #{file}"
+        @f.indent {
+          @f.display_line("Compiling #{file}")
+        }
         Sass.compile_file("assets/sass/#{file}", "assets/css/#{file.split(".").first}.css")
       end
     end
@@ -57,7 +63,6 @@ class Compile
       parent_dirs.pop
       Shell.execute("mkdir -p built/#{parent_dirs.join('/')}")
       self.process_html_template(file)
-      # FileUtils.cp("source/#{file}", "built/#{file}")
     end
   end
 
@@ -82,7 +87,9 @@ class Compile
           template = temp.read
         end
       end
-      puts "--> Compiling #{mj}"
+      @f.indent {
+        @f.display_lines("Compiling #{mj}")
+      }
       self.compile_single_markdown_joined mj, self.process_template_partial( template.clone )
     end
   end
@@ -190,7 +197,9 @@ class Compile
 
     # sort out partials first so everything else can use them fine
     contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
-      puts "--> Replacing partial #{match}"
+      @f.indent {
+        @f.display_line("Replacing partial #{match}")
+      }
       self.get_partial_content $1, $2
     }
 
@@ -296,7 +305,6 @@ class Compile
         html_file.puts template_contents
       end
     else
-      puts "--> Didn't find a template, so just copying #{file} to built"
       # need to write file_contents to built/#{file}
       File.open("built/#{file}", "w") do |html_file|
         html_file.puts file_contents
@@ -305,12 +313,11 @@ class Compile
   end
 
   def self.process_html_partials(file)
-    puts "--> process partials in #{file}"
+    @f.indent {
+      @f.display_line("Processing partials in #{file}")
+    }
     file_contents = Utils.read_from_file("source/#{file}")
     file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
-      puts "--> Found partial #{match} in #{file}"
-      # partial_contents = Utils.read_from_file("source/partials/_#{$1}.#{$2}")
-      puts "Found template partial: #{match}"
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"
         # markdown
@@ -325,8 +332,6 @@ class Compile
     # TODO: this and the above method are not very DRY - abstract into utils?
     file_contents = template_contents
     file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
-      # partial_contents = Utils.read_from_file("source/partials/_#{$1}.#{$2}")
-      puts "Found template partial: #{match}"
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"
         # markdown

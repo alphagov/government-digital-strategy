@@ -3,6 +3,8 @@
 require "shell/executer.rb"
 require "fileutils"
 require_relative "./utils.rb"
+require "formatador"
+require "paint"
 
 # remove deploy folder
 Shell.execute("rm -r deploy")

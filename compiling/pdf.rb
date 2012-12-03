@@ -3,6 +3,8 @@ require "wicked_pdf"
 require "pdfcrowd"
 require "yaml"
 require "shell/executer.rb"
+require "formatador"
+require "paint"
 # get contents
 
 class CompilePdf
@@ -26,7 +28,9 @@ class CompilePdf
     }
   end
   def self.compile(folder)
+    @f = Formatador.new
 
+    @f.display_line(Paint["Creating PDF for #{folder}", :blue])
     self.compile_zip(folder)
     name = folder.split("/").last
 
@@ -50,8 +54,10 @@ class CompilePdf
     pdf = client.convertFile("#{folder}/pdf.zip")
     File.open("#{folder}/#{self.pdf_names[name]}.pdf", 'wb') { |f| f.write(pdf) }
 
-    puts "Created #{folder}/#{self.pdf_names[name]}.pdf"
-    puts "Remaining tokens: #{client.numTokens()}"
+    @f.indent {
+      @f.display_line("Created #{folder}/#{self.pdf_names[name]}.pdf")
+      @f.display_line("Remaining tokens: #{client.numTokens()}")
+    }
 
     # remove zip
     Shell.execute("cd #{folder} && rm pdf.zip")

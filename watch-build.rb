@@ -1,15 +1,16 @@
 require "listen"
+require "formatador"
 
 def run_build
-  puts "Running Build Script"
-  puts `./local-build.sh`
-  puts "Waiting for the next file change"
+  Formatador.display_line("Running Build script")
+  Formatador.display_line(`./local-build.sh`)
+  Formatador.display_line("Waiting for next file change")
 end
 
 run_build
 
 listener = Listen::MultiListener.new('source', 'assets', :ignore => %r{^css/}) do |modified, added, removed|
-  puts "Detected File Change: #{modified.inspect}"
+  Formatador.display_line("Detected File Change: #{modified.inspect}")
   run_build
 end
 listener.latency(1)
