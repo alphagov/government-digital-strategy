@@ -12,3 +12,6 @@ gem 'pdfcrowd'
 gem 'listen'
 gem 'rb-fsevent', '~> 0.9.1'
 gem 'aws-sdk'
+
+gem 'paint'
+gem 'formatador'
