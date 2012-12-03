@@ -3,7 +3,7 @@ require_relative "./utils.rb"
 class Minifying
   def self.minify_js
     puts "-> Running R.js optimizer"
-    %x[cd assets/javascripts && node ../../r.js -o name=app out=built.js baseUrl=. && cd ../../]
+    %x[cd assets/javascripts && node ../../node_modules/requirejs/bin/r.js -o name=app out=built.js baseUrl=. && cd ../../]
     puts "-> Replacing JS links in all files"
     Dir.glob("built/**/*.html").each do |file|
       content = Utils.read_from_file(file)
