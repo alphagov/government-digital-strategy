@@ -31,6 +31,7 @@ $bar-colours:  $dark-blue,
 
 // THE STYLES
 
+.horizontal-bar-chart { margin-top: 20px; }
 
 .mc-chart {
   font-size: $font-size;
@@ -39,6 +40,7 @@ $bar-colours:  $dark-blue,
   border-spacing: 0 $bar-spacing;
   padding: $font-size 0;
   position: relative;
+  margin-top: 30px;
 
 
   // KEY
@@ -63,6 +65,7 @@ $bar-colours:  $dark-blue,
       }
     }
   }
+
 
   .mc-tbody{
     display: table-row-group;
@@ -158,6 +161,9 @@ $bar-colours:  $dark-blue,
       text-align: right;
       text-indent: 8px;
     }
+    &.mc-value-overflow {
+      text-indent: -99999px;
+    }
   }
   caption{
     caption-side: $caption-side;
@@ -174,8 +180,6 @@ $bar-colours:  $dark-blue,
 
 .mc-outdented .mc-td.mc-bar-cell { color: #111; }
 .mc-bar-outdented span { color: #111; white-space: nowrap; }
-// TODO: this can be nicer! Temporary solution (by JF)
-.mc-stacked .mc-tr .mc-td.mc-bar-cell { border-left: none !important; }
 
 .visually-hidden {
   // Hides content (eg. the table) visually, but not from screen readers
@@ -189,3 +193,8 @@ $bar-colours:  $dark-blue,
   overflow: hidden;
 }
 
+// toggle links
+.mc-toggle-link {
+  float: right;
+  font-size: 15px;
+}
