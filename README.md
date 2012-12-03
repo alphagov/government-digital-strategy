@@ -208,6 +208,7 @@ __03/12/12__
 - Fixed some small CSS mobile bugs
 - added "title" attribute values to "Read More" links
 - Tweaked Print CSS - added underlines to links, general tidying
+- moved R.js out of the root and use the Require JS npm module.
 
 __27/11/12__
 - new script to auto-generate PDF, that gives us bar-charts in our PDFs instead of the tables.
