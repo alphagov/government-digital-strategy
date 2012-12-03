@@ -1,5 +1,9 @@
 #!/bin/bash
-echo "Running local build script"
+echo "If you get any errors, you probably need to update your dependencies."
+echo "Run: bundle && npm install"
+echo "And then try again!"
+
+
 ./local-build.sh deploy
 
 # echo "Compiling PDFs"
