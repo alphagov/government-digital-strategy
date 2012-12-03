@@ -30,12 +30,6 @@ Shell.execute("cd #{pwd} && rm -r /source/digital/assisted")
 FileUtils.cp_r("/tmp/get_external/assisted-digital-prerelease/source/digital/assisted", "#{pwd}/source/digital")
 
 @f.indent {
-  @f.display_line("Taking assets from assisted-digital")
-}
-
-FileUtils.cp_r("/tmp/get_external/assisted-digital-prerelease/assets/images/assisted-digital", "#{pwd}/assets/images")
-
-@f.indent {
   @f.display_line("Tidying up /tmp")
 }
 Shell.execute("cd /tmp/get_external && rm -r assisted-digital-prerelease")
