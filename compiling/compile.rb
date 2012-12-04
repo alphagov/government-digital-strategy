@@ -101,9 +101,12 @@ class Compile
     parent_path = parent_path.join("/")
     Shell.execute("mkdir -p built/#{parent_path}")
     File.open("built/#{parent_path}/index.html", "w") do |index|
+
+      # replace the template content with the HTML - sub out the placeholder text for the actual content
+
       template.gsub!(/<!--TIME-->/, Time.now.to_s)
       template.gsub!(/<!--META-->/) {
-        File.exists?("source/#{parent_path}/meta.html") ? Utils.read_from_file("source/#{parent_path}/meta.html") : ""
+        File.exists?("source/#{parent_path}/meta.html") ? Utils.read_from_file("source/#{parent_path}/meta.html") : "Government Digital Strategy"
       }
       template.gsub!(/<!--REPLACE-->/) {
         data = ""
@@ -275,10 +278,10 @@ class Compile
     contents
   end
 
-  # replace HTML templates
+  # replace HTML templates wihin a file
   def self.process_html_template(file)
     template = ""
-    # file_contents = Utils.read_from_file("source/#{file}")
+
     parent_path = file.split "/"
     parent_path.pop
     parent_path = parent_path.join "/"
