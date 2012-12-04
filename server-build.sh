@@ -11,6 +11,8 @@ git pull
 echo "Bundling"
 /usr/local/bin/bundle
 
-./local-build.sh
+/usr/local/bin/ruby compiling/get_assisted_digital.rb
+/usr/local/bin/ruby compiling/build.rb $1 --trace
+
 echo "Finished"
 echo `date +%Y%m%d" at "%H:%M`
