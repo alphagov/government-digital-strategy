@@ -101,9 +101,12 @@ class Compile
     parent_path = parent_path.join("/")
     Shell.execute("mkdir -p built/#{parent_path}")
     File.open("built/#{parent_path}/index.html", "w") do |index|
+
+      # replace the template content with the HTML - sub out the placeholder text for the actual content
+
       template.gsub!(/<!--TIME-->/, Time.now.to_s)
       template.gsub!(/<!--META-->/) {
-        File.exists?("source/#{parent_path}/meta.html") ? Utils.read_from_file("source/#{parent_path}/meta.html") : ""
+        File.exists?("source/#{parent_path}/meta.html") ? Utils.read_from_file("source/#{parent_path}/meta.html") : "Government Digital Strategy"
       }
       template.gsub!(/<!--REPLACE-->/) {
         data = ""
@@ -275,10 +278,10 @@ class Compile
     contents
   end
 
-  # replace HTML templates
+  # replace HTML templates wihin a file
   def self.process_html_template(file)
     template = ""
-    # file_contents = Utils.read_from_file("source/#{file}")
+
     parent_path = file.split "/"
     parent_path.pop
     parent_path = parent_path.join "/"
@@ -312,25 +315,22 @@ class Compile
     end
   end
 
+  # takes in a single HTML file, reads its contents and returns the contents with all partials compiled
   def self.process_html_partials(file)
     @f.indent {
       @f.display_line("Processing partials in #{file}")
     }
     file_contents = Utils.read_from_file("source/#{file}")
-    file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
-      partial_contents = self.get_partial_content($1, $2)
-      if $2 == "md"
-        # markdown
-        partial_contents = Kramdown::Document.new(self.pre_process(partial_contents)).to_html
-      end
-      partial_contents
-    }
-    file_contents
+    self.find_compile_partial(file_contents)
   end
 
+  # takes the contents of a template, and compiles the partials within
   def self.process_template_partial(template_contents)
-    # TODO: this and the above method are not very DRY - abstract into utils?
-    file_contents = template_contents
+    self.find_compile_partial(template_contents)
+  end
+
+  # takes contents, finds the partials, and compile them and put the content in place
+  def self.find_compile_partial(file_contents)
     file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
       partial_contents = self.get_partial_content($1, $2)
       if $2 == "md"

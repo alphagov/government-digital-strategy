@@ -17,7 +17,12 @@ end
 @f.indent {
   @f.display_line("Cloning the Assisted Digital to /tmp/get_external")
 }
-Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/assisted-digital-prerelease.git')
+if Shell.execute('cat ~/.ssh/config').success?
+  # on a server, so use the deploy key
+  Shell.execute('cd /tmp/get_external && git clone git@github-assisted-digital:alphagov/assisted-digital-prerelease.git')
+else
+  Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/assisted-digital-prerelease.git')
+end
 
 @f.indent {
   @f.display_line("Removing old Assisted Digital")
