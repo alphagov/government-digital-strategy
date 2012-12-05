@@ -182,7 +182,6 @@ class Compile
     file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
       partial_contents = CompileUtils.get_partial_content($1, $2)
       if $2 == "md"
-        # markdown
         partial_contents = Kramdown::Document.new(ProcessContents.process(partial_contents)).to_html
       end
       partial_contents
