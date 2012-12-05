@@ -50,7 +50,7 @@ class Compile
 
   # process all html files that are floating around in source
   def self.process_single_html_files
-    self.find_single_html_files_in_source.each do |file|
+    CompileUtils.find_single_html_files_in_source.each do |file|
       parent_dirs = file.split("/")
       parent_dirs.pop
       Shell.execute("mkdir -p built/#{parent_dirs.join('/')}")
@@ -61,7 +61,7 @@ class Compile
   # take all markdown_joined files and move them into html
   def self.apply_template_compile
     template = ""
-    self.get_markdown_joined_files.each do |mj|
+    CompileUtils.get_markdown_joined_files.each do |mj|
       if mj.index("digital/") != nil
         File.open("assets/templates/digital_doc_template.html", "r") do |temp|
           template = temp.read
@@ -106,18 +106,6 @@ class Compile
   end
 
 
-  # find all markdown files within the source folder
-  def self.fetch_markdown(folder)
-    Dir.glob("source/#{folder}/*.md").map { |x| x.split("/").last }
-  end
-
-
-  # find all HTML files with source/
-  def self.find_single_html_files_in_source
-    Dir.glob("source/**/*.html").select { |x|
-      ! ( x.include?("source/partials") || x.include?("meta") )
-    }.map { |x| x.gsub("source/", "") }
-  end
 
 
   # merge markdown files in a folder into one markdown_joined.md file within temp/
@@ -143,23 +131,8 @@ class Compile
   end
 
 
-  # find all the markdown_joined files within temp
-  def self.get_markdown_joined_files
-    Dir.glob("temp/**/markdown_joined.md").map { |x| x.gsub("temp/", "")}
-  end
 
 
-  # reads in the contents of a partial
-  # deals with partials being in a sub directory or just in the root of source/partials/
-  def self.get_partial_content(file_path, type)
-    path = file_path.split("/")
-    if path.length > 1
-      file_name = path.pop
-      partial_content = Utils.read_from_file("source/partials/#{path.join "/"}/_#{file_name}.#{type}")
-    else
-      partial_content = Utils.read_from_file("source/partials/_#{path.first}.#{type}")
-    end
-  end
   # pre-process the Markdown before compilation to deal with our extra stuff
   def self.pre_process(contents, folder = "")
     contents.force_encoding("UTF-8")
@@ -169,7 +142,7 @@ class Compile
       @f.indent {
         @f.display_line("Replacing partial #{match}")
       }
-      self.get_partial_content $1, $2
+      CompileUtils.get_partial_content $1, $2
     }
 
     # match section title headlines
@@ -301,7 +274,7 @@ class Compile
   # takes contents, finds the partials, and compile them and put the content in place
   def self.find_compile_partial(file_contents)
     file_contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
-      partial_contents = self.get_partial_content($1, $2)
+      partial_contents = CompileUtils.get_partial_content($1, $2)
       if $2 == "md"
         # markdown
         partial_contents = Kramdown::Document.new(self.pre_process(partial_contents)).to_html
