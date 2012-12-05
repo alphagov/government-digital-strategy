@@ -7,15 +7,15 @@ require "paint"
 require "stamp"
 
 require_relative "./utils.rb"
-require_relative "./compile_sass.rb"
-require_relative "./xml_files.rb"
+require_relative "./compilesass.rb"
+require_relative "./xmlfiles.rb"
 
 
 class Compile
   def self.run
     @f = Formatador.new
     @f.display_line(Paint["Compiling Sass", :blue])
-    Compile_sass.compile_sass_files("assets/sass")
+    CompileSass.compile_sass_files("assets/sass")
 
     @f.display_line(Paint["Merging Markdown into One", :blue])
     Compile.merge_markdown
@@ -24,7 +24,7 @@ class Compile
     Compile.process_single_html_files
 
     @f.display_line(Paint["Moving caption XML files over", :blue])
-    Xml_files.process_xml_files("source/**/*.xml", "source", "built")
+    XmlFiles.process_xml_files("source/**/*.xml", "source", "built")
 
     @f.display_line(Paint["Compiling Markdown to HTML", :blue])
     Compile.apply_template_compile
@@ -104,8 +104,6 @@ class Compile
     end
   end
 
-  # from here on in, these methods are only called by the methods above
-  # they are kept public for tests (TODO: find a better way to do this)
 
   # lists all the sub directories of a particular folder within source
   def self.get_sub_directories(folder)

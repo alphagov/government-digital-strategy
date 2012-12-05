@@ -1,5 +1,5 @@
 require "formatador"
-class Xml_files
+class XmlFiles
   def self.process_xml_files(glob, source, dest)
     Dir.glob(glob).map { |f|
       f.gsub!("#{source}/", "")

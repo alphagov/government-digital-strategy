@@ -2,7 +2,7 @@ require "sass"
 require "formatador"
 require "paint"
 
-class Compile_sass
+class CompileSass
   def self.compile_sass_files(path)
     @f = Formatador.new
     Dir.foreach(path) do |file|
