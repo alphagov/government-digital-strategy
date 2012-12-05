@@ -36,7 +36,7 @@ class Compile
 
   # merge the markdown files into the markdown joined files
   def self.merge_markdown
-    tlf = self.top_level_folders
+    tlf = CompileUtils.top_level_folders
     tlf.each do |t|
       folders = CompileUtils.get_sub_directories t
       folders.each do |folder|
@@ -105,20 +105,6 @@ class Compile
     end
   end
 
-
-
-  # sets up the correct folder structure in built/ for the folder within source/
-  def self.make_built_directories(folder)
-    folders = CompileUtils.get_sub_directories folder
-    folders.each do |folder|
-      Utils.make_if_not_exists("built/#{folder}")
-    end
-  end
-
-  # list all the top level folders in source
-  def self.top_level_folders
-    Dir.glob("source/*/").select { |x| x != "source/partials/" }.map { |x| x.gsub("source/", "")[0..-2] }
-  end
 
   # find all markdown files within the source folder
   def self.fetch_markdown(folder)
