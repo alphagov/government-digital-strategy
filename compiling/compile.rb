@@ -235,20 +235,9 @@ class Compile
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
     contents.gsub!(/{TIMESTAMP}/) {
-      if folder
-        date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
-        if date == ""
-          date = Time.now
-        else
-          date = DateTime.parse(date)
-        end
-      end
-
-      if folder
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
-      else
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](http://github.com/government-digital-strategy-prerelease)"
-      end
+      date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
+      date = (date == "" ? Time.now : DateTime.parse(date))
+      "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
     }
     contents.gsub!(/{PDF=(.+)}/) {
       "[PDF format](#{$1})"
