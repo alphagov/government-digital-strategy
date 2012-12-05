@@ -206,18 +206,14 @@ class Compile
       self.get_partial_content $1, $2
     }
 
-    contents.gsub!(/##([0-9]+) (.+)/) { |match|
+    contents.gsub!(/##(?:Annex\s)?([0-9]+) (?:-)?(.+)/) { |match|
       number = $1
+      if match.include? "Annex"
+        number = "Annex #{number}"
+      end
       title = $2
       slug = $2.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
       "{::options auto_ids='false' /}\n\n##<span class='title-index'>#{number}</span> <span class='title-text'>#{title.strip}</span>\n{: .section-title ##{slug}}\n{::options auto_ids='true' /}"
-    }
-
-    contents.gsub!(/##Annex ([0-9]) - (.+)/) {
-      number = $1
-      title = $2
-      slug = $2.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-      "{::options auto_ids='false' /}\n\n##<span class='title-index'>Annex #{number}</span> <span class='title-text'>#{title}</span>\n{: .section-title ##{slug}}\n{::options auto_ids='true' /}"
     }
 
     #add links to figures
