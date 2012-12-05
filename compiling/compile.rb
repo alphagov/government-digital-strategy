@@ -7,6 +7,7 @@ require "paint"
 require "stamp"
 
 require_relative "./utils.rb"
+require_relative "./compileutils.rb"
 require_relative "./compilesass.rb"
 require_relative "./xmlfiles.rb"
 
@@ -37,7 +38,7 @@ class Compile
   def self.merge_markdown
     tlf = self.top_level_folders
     tlf.each do |t|
-      folders = self.get_sub_directories t
+      folders = CompileUtils.get_sub_directories t
       folders.each do |folder|
         if Utils.contains_markdown_in_root("source/#{folder}")
           Utils.make_if_not_exists("temp/#{folder}")
@@ -105,14 +106,10 @@ class Compile
   end
 
 
-  # lists all the sub directories of a particular folder within source
-  def self.get_sub_directories(folder)
-    Dir.glob("source/#{folder}/**/").map { |x| x.gsub("source/", "")[0..-2] }
-  end
 
   # sets up the correct folder structure in built/ for the folder within source/
   def self.make_built_directories(folder)
-    folders = Compile.get_sub_directories folder
+    folders = CompileUtils.get_sub_directories folder
     folders.each do |folder|
       Utils.make_if_not_exists("built/#{folder}")
     end
