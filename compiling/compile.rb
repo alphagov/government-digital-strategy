@@ -1,18 +1,21 @@
 # encoding: utf-8
 require "kramdown"
 require "fileutils"
-require "stamp"
-require_relative "./utils.rb"
 require "shell/executer.rb"
 require "formatador"
 require "paint"
+require "stamp"
+
+require_relative "./utils.rb"
+require_relative "./compile_sass.rb"
+require_relative "./xml_files.rb"
 
 
 class Compile
   def self.run
     @f = Formatador.new
     @f.display_line(Paint["Compiling Sass", :blue])
-    Compile.compile_sass
+    Compile_sass.compile_sass_files("assets/sass")
 
     @f.display_line(Paint["Merging Markdown into One", :blue])
     Compile.merge_markdown
@@ -21,25 +24,13 @@ class Compile
     Compile.process_single_html_files
 
     @f.display_line(Paint["Moving caption XML files over", :blue])
-    Compile.process_xml_files
+    Xml_files.process_xml_files("source/**/*.xml", "source", "built")
 
     @f.display_line(Paint["Compiling Markdown to HTML", :blue])
     Compile.apply_template_compile
 
     @f.display_line(Paint["Done!", :green])
 
-  end
-
-  # compiles all sass
-  def self.compile_sass
-    Dir.foreach("assets/sass") do |file|
-      if file.split(".").last == "scss"
-        @f.indent {
-          @f.display_line("Compiling #{file}")
-        }
-        Sass.compile_file("assets/sass/#{file}", "assets/css/#{file.split(".").first}.css")
-      end
-    end
   end
 
   # merge the markdown files into the markdown joined files
@@ -63,14 +54,6 @@ class Compile
       parent_dirs.pop
       Shell.execute("mkdir -p built/#{parent_dirs.join('/')}")
       self.process_html_template(file)
-    end
-  end
-
-  def self.process_xml_files
-    Dir.glob("source/**/*.xml").map { |f|
-      f.gsub!("source/", "")
-    }.each do |file|
-      FileUtils.cp("source/#{file}", "built/#{file}")
     end
   end
 
@@ -185,6 +168,8 @@ class Compile
   end
 
 
+  # reads in the contents of a partial
+  # deals with partials being in a sub directory or just in the root of source/partials/
   def self.get_partial_content(file_path, type)
     path = file_path.split("/")
     if path.length > 1
