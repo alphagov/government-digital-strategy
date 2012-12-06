@@ -6,6 +6,6 @@ He gives an example of how Apple rethought the mobile phone, with companies goin
 
 Tim believes that the real mark of success for government will be when government establishes the baseline set of things that it absolutely needs to do and then exposes a robust, rich set of service end points that will let people in the private sector add value to that minimal “must do” set.
 
-*“Then we can hit some real magic because we will get more and more service for citizens with more and more ingenuity, without any procurement at all because the government made it possible for people outside to build interesting things.”*
+*“Then we can hit some real magic because we will get more and more services for citizens with more and more ingenuity, without any procurement at all because the government made it possible for people outside to build interesting things.”*
 
-Tim finishes with an enlightening story that has stuck with him. It is an old story of the first two British shoe salesmen that went to Africa. The first thought there was no opportunity because nobody in Africa wore shoes. The second, however, wrote home saying ‘send more people, nobody wears shoes’! For Tim, the latter is the entrepreneurial attitude that the government should be, and is, adopting. 
+Tim finishes with an enlightening story that has stuck with him. It is an old story of the first 2 British shoe salesmen that went to Africa. The first thought there was no opportunity because nobody in Africa wore shoes. The second, however, wrote home saying ‘send more people, nobody wears shoes’! For Tim, the latter is the entrepreneurial attitude that the government should be, and is, adopting. 
