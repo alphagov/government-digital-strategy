@@ -198,3 +198,12 @@ $bar-colours:  $dark-blue,
   float: right;
   font-size: 15px;
 }
+
+// TODO (JF): refactor this into the Sass and get rid of !important 
+.assisted-digital-stacked .mc-key-cell {
+  width: 40% !important;
+}
+
+.assisted-digital-stacked .mc-stacked-total {
+  display: none !important;
+}
