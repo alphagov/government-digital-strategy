@@ -19,19 +19,19 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 6. Run `npm install` to install all Node dependencies.
 7. Run `bundle` (short for `bundle install`) to install all Ruby dependencies.
 8. Run the deploy script `./deploy.sh`
-9. Run the server: `ruby deploy-server.rb`
+9. Run the server: `ruby scripts/deploy-server.rb`
 10. Visit `http://localhost:9090/digital` to view.
 
 If you're editing the documents, run the watch task, which will auto-compile every time it detects a change.
 
 ```
-ruby watch-build.rb
+ruby scripts/watch-build.rb
 ```
 
 And also run a server:
 
 ```
-ruby built-server.rb
+ruby scripts/built-server.rb
 ```
 
 Then hit up `http://localhost:8080`. Now everytime a file in `source/` or `assets/` gets updated, it's automatically built. You will need to refresh the browser though, but there's tools out there that will even do that bit for you.
@@ -91,7 +91,7 @@ It will also minify all CSS and generate the PDFs.
 
 Once it's done, you're left with a `deploy/` folder which is the production-ready files. This is what should be deployed to the server.
 
-If you want to test that the deploy folder works fine, run `ruby deploy-server.rb`, which serves up the `deploy/` folder on port 9090.
+If you want to test that the deploy folder works fine, run `ruby scripts/deploy-server.rb`, which serves up the `deploy/` folder on port 9090.
 
 # PDFs
 
@@ -106,18 +106,15 @@ Make sure the S3 credentials are okay in `config/s3.config.yml`. Then run:
 
 ```
 ./deploy.sh
-ruby compiling/push_to_s3.rb
+ruby scripts/push_to_s3.rb
 ```
 Or you can shortcut it:
 
-```
-./deploy.sh upload
-```
 
 Which does the same thing. Then you need to check the site, and once you're happy, invalidate the Cloudfront cache so the live site updates.
 
 ```
-ruby compiling/clear_s3_cache.rb
+ruby scripts/clear_s3_cache.rb
 ```
 
 
@@ -211,6 +208,12 @@ The digital documents use the `digital_doc_template.html`. The others use `gener
 ## Changelist
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
+
+__06/12/12__
+- add Tim O'Reilly video to "Government as a Platform" case study.
+- refactored the Ruby compilation scripts to be much tidier.
+- moved Ruby scripts into `/scripts` folder.
+- tidied up command line output of the scripts, much easier to follow now.
 
 __03/12/12__
 - added V3 of Magna Charta, toggle links on charts to switch between chart and table view

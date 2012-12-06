@@ -16,9 +16,5 @@ echo "And then try again!"
 
 ruby compiling/deploy.rb
 
-if [ "$1" = "upload" ]
-then
-  ruby compiling/push_to_s3.rb
-fi
 
 
