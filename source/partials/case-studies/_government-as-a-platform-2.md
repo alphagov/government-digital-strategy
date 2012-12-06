@@ -1,4 +1,4 @@
-According to Tim O’Reilly *‘government needs to start thinking about itself as a platform’*. And Tim’s opinion matters, as the founder and CEO of O'Reilly Media - one of the world’s most respected computer book publishers.
+According to Tim O’Reilly *"government needs to start thinking about itself as a platform"*. And Tim’s opinion matters, as the founder and CEO of O'Reilly Media - one of the world’s most respected computer book publishers.
 
 Tim believes that government is right in wanting to create service end points that will allow outside developers to build applications against its data. Why? *“Because it enables you build web services rather than just websites and apps, and when you publish those end points it enables people to use government data in a way that nobody expected”*. For Tim, *“that’s when you get that incredible revolution”*.
 
