@@ -67,6 +67,15 @@ Run the shell script:
 
 This compiles everything into the `built` folder. To view it locally, run `ruby built-server.rb` and head to `http://localhost:8080`
 
+# Offline Build Script
+
+Useful for if you're sans-internet but want to build. Just run:
+
+```
+./offline-build.sh
+```
+
+This wont attempt to pull in any content from other Github repositories.
 
 # Production Build Script
 
