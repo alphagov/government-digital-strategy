@@ -24,3 +24,51 @@ $link-active: $blue;
 $link-visited: $blue;
 
 $colour-scheme: $blue; // Sets primary colour for documents
+
+// DEPARTMENT COLOURS
+
+$hm-government: #0076c0;
+$treasury: #af292e;
+$cabinet-office: #005abb;
+$department-for-education: #003a69;
+$department-for-transport: #006c56;
+$home-office: #9325b2;
+$department-of-health: #00ad93;
+$ministry-of-justice: #231f20;
+$ministry-of-defence: #4d2942;
+$foreign-and-commonwealth-office: #003e74;
+$department-for-communities-and-local-government: #00857e;
+$department-for-energy-and-climate-change: #009ddb;
+$department-for-culture-media-and-sport: #d40072;
+$department-for-environment-food-and-rural-affairs: #898700;
+$department-for-work-and-pensions: #00beb7;
+$department-for-business-innovation-and-skills: #003479;
+$department-for-international-development: #002878;
+$government-equalities-office: #9325b2;
+$attorney-generals-office: #9f1888;
+$scotland-office: #002663;
+$wales-office: #a33038;
+
+@mixin department-colours($selector, $property) {
+  .hm-government #{$selector} { #{$property}: $hm-government; }
+  .treasury #{$selector} { #{$property}: $treasury; }
+  .cabinet-office #{$selector} { #{$property}: $cabinet-office; }
+  .department-for-education #{$selector} { #{$property}: $department-for-education; }
+  .department-for-transport #{$selector} { #{$property}: $department-for-transport; }
+  .home-office #{$selector} { #{$property}: $home-office; }
+  .department-of-health #{$selector} { #{$property}: $department-of-health; }
+  .ministry-of-justice #{$selector} { #{$property}: $ministry-of-justice; }
+  .ministry-of-defence #{$selector} { #{$property}: $ministry-of-defence; }
+  .foreign-and-commonwealth-office #{$selector} { #{$property}: $foreign-and-commonwealth-office; }
+  .department-for-communities-and-local-government #{$selector} { #{$property}: $department-for-communities-and-local-government; }
+  .department-for-energy-and-climate-change #{$selector} { #{$property}: $department-for-energy-and-climate-change; }
+  .department-for-culture-media-and-sport #{$selector} { #{$property}: $department-for-culture-media-and-sport; }
+  .department-for-environment-food-and-rural-affairs #{$selector} { #{$property}: $department-for-environment-food-and-rural-affairs; }
+  .department-for-work-and-pensions #{$selector} { #{$property}: $department-for-work-and-pensions; }
+  .department-for-business-innovation-and-skills #{$selector} { #{$property}: $department-for-business-innovation-and-skills; }
+  .department-for-international-development #{$selector} { #{$property}: $department-for-international-development; }
+  .government-equalities-office #{$selector} { #{$property}: $government-equalities-office; }
+  .attorney-generals-office #{$selector} { #{$property}: $attorney-generals-office; }
+  .scotland-office #{$selector} { #{$property}: $scotland-office; }
+  .wales-office #{$selector} { #{$property}: $wales-office; }
+}

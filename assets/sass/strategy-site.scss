@@ -8,7 +8,8 @@
 @import 'partials/conditionals';           // Media queries  
 @import 'partials/shims';                  // Shims   
 @import 'partials/regular-grid';           // Regular grid              
-@import "partials/common";                 // Global template styles
+@import "partials/common";                 // Global template styles  
+@import "partials/organisations";                 // 
 
 // DEFAULTS
 
@@ -258,6 +259,23 @@ margin-left: -3 * $base-unit;
       @include ie(7) {
         margin-left: 0;
       }
+    }
+  }
+}
+
+.action-page{
+  .department{
+    margin-left: $base-unit;
+    margin-top: $base-unit;
+    @extend %contain-floats;
+    h2{
+      width: 200px;
+      float: left;
+      margin-top: 10px;
+    }
+    .statement{
+      float: left;
+      width: 78%;
     }
   }
 }
