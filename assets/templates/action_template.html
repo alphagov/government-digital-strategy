@@ -2,21 +2,24 @@
 <!--[if lt IE 9]><html class="lte-ie8 " lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
 <!--<![endif]--><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Government Digital Strategy</title>
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<!--META-->
+    {include favicon.html}
+    
+    <link href="/assets/css/media-player.css" media="screen" rel="stylesheet" type="text/css">
 <!--[if gt IE 8]><!--><link href="/assets/css/strategy-site.css" rel="stylesheet" type="text/css" media="screen">
 <!--<![endif]--><!--[if IE 6]><link href="/assets/css/strategy-site-ie6.css" rel="stylesheet" type="text/css" media="screen"><![endif]--><!--[if IE 7]><link href="/assets/css/strategy-site-ie7.css" rel="stylesheet" type="text/css" media="screen"><![endif]--><!--[if IE 8]><link href="/assets/css/strategy-site-ie8.css" rel="stylesheet" type="text/css" media="screen"><![endif]-->
     
     <link href="/assets/css/print.css" rel="stylesheet" type="text/css" media="print">
-    <!--<script src="/assets/javascripts/require.js" data-main="/assets/javascripts/app.js"></script>-->
+    {include javascriptscripts.html}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
+  <body class="action-page">
     <div class="container">
     {include header-digital.html}
 
 <!--REPLACE-->
-
     {include footer.html}
   </div>
+  {include analytics/digital.html}
 </body>
 </html>
