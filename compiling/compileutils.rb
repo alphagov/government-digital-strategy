@@ -23,6 +23,7 @@ class CompileUtils
   # find all HTML files with source/
   def self.find_single_html_files_in_source
     Dir.glob("source/**/*.html").select { |x|
+      # need to ignore those within partials or the meta files
       ! ( x.include?("source/partials") || x.include?("meta") )
     }.map { |x| x.gsub("source/", "") }
   end
