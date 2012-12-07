@@ -1,4 +1,4 @@
-define(['modules/jquery.history', 'modules/jquery.sticky'], function() {
+define(['modules/jquery.sticky'], function() {
   return function() {
     // Duplicate section titles under section index
     $('h2.section-title .title-text').each(function(index) {

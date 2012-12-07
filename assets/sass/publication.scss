@@ -148,12 +148,16 @@
   .mc-chart {
     @include left-margin;
   }
-  .media-player {
+  .media-player-outside {
     @include left-margin;
-    margin-bottom: 80px;
     height: 500px;
-    .media-player-wrapper {
-      margin: 0;
+    min-height: 500px;
+    max-height: 500px;
+    margin-bottom: 130px;
+    .media-player {
+      .media-player-wrapper {
+        margin: 0;
+      }
     }
   }
   >.pull{

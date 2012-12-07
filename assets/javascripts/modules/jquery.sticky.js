@@ -129,10 +129,8 @@ define(['modules/jquery.history'], function() {
         $.error('Method ' + method + ' does not exist on jQuery.sticky');
       }
     };
-    // $(function() {
-    //   setTimeout(scroller, 0);
-    // });
-    // run on page load
-    $(scroller);
+    $(function() {
+      setTimeout(scroller, 0);
+    });
   })(jQuery);
 });

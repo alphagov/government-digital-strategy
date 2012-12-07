@@ -1,3 +1,8 @@
+$(function() {
+  $('.proportional.breakdown-chart tbody tr td:first-child').css('height', function(index) {
+    return +($(this).text().replace('%', '')) * 4;
+  });
+});
 //nomensa
 require(['modules/generate_player'], function(player) {
   $(player);
@@ -26,9 +31,6 @@ require(['modules/magna-charta.min'], function() {
       outOf: 70,
       autoOutdent: true,
     });
-  });
-  $('.proportional.breakdown-chart tbody tr td:first-child').css('height', function(index) {
-    return +($(this).text().replace('%', '')) * 4;
   });
 });
 
