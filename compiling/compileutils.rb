@@ -38,4 +38,13 @@ class CompileUtils
       partial_content = Utils.read_from_file("source/partials/_#{path.first}.#{type}")
     end
   end
+
+  def self.strip_file_from_path(path)
+    # split it, remove the last bit, and join it again
+    # this gets rid of the file from the path
+    # eg turns /foo/bar/baz.html to /foo/bar
+    parent_path = path.split("/")
+    parent_path.pop
+    parent_path.join("/")
+  end
 end

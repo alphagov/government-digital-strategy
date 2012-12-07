@@ -81,9 +81,8 @@ class Compile
 
   # takes a single markdown joined file, and the template HTML, and compiles
   def self.compile_single_markdown_joined(path, template)
-    parent_path = path.split("/")
-    parent_path.pop
-    parent_path = parent_path.join("/")
+    parent_path = CompileUtils.strip_file_from_path(path)
+
     Shell.execute("mkdir -p built/#{parent_path}")
     File.open("built/#{parent_path}/index.html", "w") do |index|
 
@@ -135,15 +134,13 @@ class Compile
   def self.process_html_template(file)
     template = ""
 
-    parent_path = file.split "/"
-    parent_path.pop
-    parent_path = parent_path.join "/"
+    parent_path = CompileUtils.strip_file_from_path(file)
 
     # deal with partials
     file_contents = self.process_html_partials(file)
 
     file_contents.gsub!(/{(.+)_template}/) { |match|
-      # save variable for use below and replace the template tag
+      # save variable for use below and replace the template tag with nothing
       template = $1
       ""
     }
