@@ -4,6 +4,9 @@ Ask Marketa Mach to spell out her aims, and the answer is simple and ambitious:
 
 She leads a charity backed by an eclectic mix of private sector and third sector supporters. It aims to raise awareness of the importance of UK digital capability, highlight how critical it is for everyone to have the skills to get online, and create action that drives the development of online skills in Britain. 
 
+[![Users](/assets/images/strategy/case-studies/assisted-digital/Assisted-Digital--Users.jpg)](/assets/images/strategy/case-studies/assisted-digital/Assisted-Digital--Users-ret.jpg)
+{: .with-border}
+
 What’s important, she says, is that the internet isn’t treated like it’s something separate, or something alien. It’s part of our lives now, entwined with our daily routines:
 
 *“The internet is not another place, it’s an extension of the world we live in. The same people who live here, live there. The same people that tell stories here, tell stories there.”*

@@ -84,12 +84,47 @@ services or individual transactions.  
 Figure 7: Number of transactional services by department
 {: .fig #fig-7}
 
-![Figure 7](/assets/images/efficiency/fig7.png)
+| Number of transactional services by department | Digital Not Available | Digital Available | Total |
+|---|---|---|---|
+| BIS         | 142 | 97 | 239 |
+| Defra       | 57  | 37 | 94  |
+| Home Office | 31  | 14 | 45  |
+| DfT         | 24  | 31 | 55  |
+| DECC        | 22  | 31 | 53  |
+| DWP         | 15  | 6  | 21  |
+| HMRC        | 11  | 28 | 39  |
+| MOJ         | 6   | 6  | 12  |
+| DCMS        | 6   | 43 | 49  |
+| AGO         | 3   | 2  | 5   |
+| DfE         | 2   | 23 | 25  |
+| FCO         | 1   | 4  | 5   |
+| DFID        | 1   | 4  | 4   |
+| DCLG        | 1   | 1  | 2   |
+| MOD         | 0   | 3  | 3   |
+{: .horizontal-bar-chart .mc-stacked }
 
 Figure 8: Volume of completed transactions by department[^12]
 {: .fig #fig-8}
 
-![Figure 8](/assets/images/efficiency/fig8.png)
+| Number of transactional services by department | Non Digital | Digital | Total |
+|---|---|---|---|
+| HMRC        | 93 | 547 | 640 |
+| DWP         | 53 | 2   | 55  |
+| DfT         | 49 | 42  | 91  |
+| BIS         | 16 | 36  | 52  |
+| HO          | 11 | 5   | 16  |
+| Defra       | 13 | 10  | 23  |
+| MOJ         | 10 | 2   | 12  |
+| DCMS        | 5  | 9   | 14  |
+| DECC        | 1  | 1   | 2   |
+| DfE         | 1  | 2   | 3   |
+| AGO         | 0  | 0   | 0   |
+| DCLG        | 0  | 1   | 1   |
+| DFID        | 0  | 0   | 0   |
+| FCO         | 0  | 0   | 0   |
+| MOD         | 0  | 0   | 0   |
+{: .horizontal-bar-chart .mc-stacked }
+
 
 ###The future potential                           
 
@@ -126,54 +161,24 @@ the back-end processes. 
 Figure 9: Range of projected total annual savings (£ millions) by department[^13]
 {: .fig #fig-9}
 
-Department            | Projected savings (£ millions)
---------------------- | ------------------------------
-DWP - upper           | 430
-DWP - lower           | 260
---------------------- | ------------------------------
-BIS - upper           | 350
-BIS - lower           | 230
---------------------- | ------------------------------
-HMRC - upper          | 270
-HMRC - lower          | 240
---------------------- | ------------------------------
-Home Office - upper   | 240
-Home Office - lower   | 180
---------------------- | ------------------------------
-Defra - upper         | 230
-Defra - lower         | 160
---------------------- | ------------------------------
-DFT - upper           | 190
-DFT - lower           | 80
---------------------- | ------------------------------
-DFE - upper           | 130
-DFE - lower           | 35
---------------------- | ------------------------------
-DCMS - upper          | 75
-DCMS - lower          | 30
---------------------- | ------------------------------
-MOJ - upper           | 50
-MOJ - lower           | 30
---------------------- | ------------------------------
-DECC - upper          | 35
-DECC - lower          | 15
---------------------- | ------------------------------
-FCO - upper           | 3
-FCO - lower           | 2
---------------------- | ------------------------------
-AGO - upper           | 2
-AGO - lower           | 1
---------------------- | ------------------------------
-DCLG - upper          | 0
-DCLG - lower          | 0
---------------------- | ------------------------------
-DFID - upper          | 0
-DFID - lower          | 0
---------------------- | ------------------------------
-MOD - upper           | 0
-MOD - lower           | 0
---------------------- | ------------------------------
-{: .cyclical .horizontal-bar-chart}
+Department            | Projected savings (upper) | Projected savings (lower) |
+--------------------- | ------------------------------|------|
+DWP         | 430 | 260 |
+BIS         | 350 | 230 |
+HMRC        | 270 | 240 |
+Home Office | 240 | 180 |
+Defra       | 230 | 160 |
+DFT         | 190 | 80  |
+DFE         | 130 | 35  |
+DCMS        | 75  | 30  |
+MOJ         | 50  | 30  |
+DECC        | 35  | 15  |
+FCO         | 3   | 2   |
+AGO         | 2   | 1   |
+DCLG        | 0   | 0   |
+DFID        | 0   | 0   |
+MOD         | 0   | 0   |
+{: .horizontal-bar-chart}
 
 This report does not set out specific details about how and where
 departments may realise savings and efficiencies, as this would require

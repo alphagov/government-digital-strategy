@@ -8,8 +8,8 @@ $is-print: true;
 // BASIC TYPOGRAPHIC AND TEMPLATE STYLES
 //
 
-@import "common/_typography.scss";
-@import "common/_templates.scss";
+@import "partials/common";
+@import "partials/magna-charta";
 
 // -------------------------------------------------------------------------
 // HEADERS AND FOOTERS
@@ -44,6 +44,7 @@ $is-print: true;
   display: inline-block;
   padding-right: 0.5em;
 }
+
 .footer{
   border: 0 solid;
   background-color: transparent;
@@ -119,9 +120,9 @@ a:visited{
   text-decoration: none;
   color: #000;
 }
-p a:after { content: " (" attr(href) ")";}
-a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ")";}
-p a:after { content: " (http://www.publications.cabinetoffice.gov.uk" attr(href) ")"; }
+p a:after { content: " (" attr(href) ")"; text-decoration: underline; }
+a[href^="http://"]:after, a[href^="https://"]:after { content: " (" attr(href) ")"; text-decoration: underline; }
+p a:after { content: " (http://www.publications.cabinetoffice.gov.uk" attr(href) ")"; text-decoration: underline; }
 p a[href^="#"]:after { display: none; }
 p a { word-wrap: break-word; }
 p a{ color: blue;}
@@ -136,13 +137,26 @@ p a{ color: blue;}
 .title-index .title-text,
 .case-study img,
 #contents,
-.meta li:last-child{
+.meta {
   display: none;
 }
 .section {
   .figure-permalink,
   .pull,
-  .big-pull { 
-    display: none;
+  .big-pull {
+    display: none !important;
   }
 }
+
+.mc-chart { font-size: 13px;}
+.mc-chart .mc-td, td {
+  page-break-inside: avoid;
+}
+  .mc-chart .mc-td.mc-key-cell {
+    width: 30%;
+  }
+
+  .page-break {
+    display: block;
+    page-break-before: always; 
+  }

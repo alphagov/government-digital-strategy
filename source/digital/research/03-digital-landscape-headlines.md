@@ -48,7 +48,7 @@ Figure 3: Which of the following services do you regularly use online? (Q11)
 | Price comparison                  | 39%  |
 | General information               | 39%  |
 | Government information & services | 27%  |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 
 Note: 'Government information & services' is any central or local government website or digital service
@@ -68,5 +68,5 @@ Note: This question was asked only of the 554 people in the study who had used g
 | Clear and easy to use              | 62%                           |
 | I could do it outside office hours | 61%                           |
 | Less hassle than the phone         | 55%                           |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 

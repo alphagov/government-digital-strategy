@@ -11,7 +11,8 @@ Better informed decision-makers make better decisions
 
 [A lot of the information now being collected is about performance](https://www.gov.uk/performance). How well is a particular government service doing at the moment? How has its performance improved since the service was last updated by the technical team? 
 
-[![Image of the GOV.UK performance dashboard](/assets/images/strategy/casestudies/management-info/Richard--GOV.UK-Performance.png)](/assets/images/strategy/casestudies/management-info/Richard--GOV.UK-Performance-ret.png)
+[![Image of the GOV.UK performance dashboard](/assets/images/strategy/case-studies/management-info/Richard--GOV.UK-Performance.png)](/assets/images/strategy/case-studies/management-info/Richard--GOV.UK-Performance-ret.png)
+{: .with-border}
 
 *"You wouldn't buy a car without a dashboard,"* he says. The instruments on a car's dashboard tell the driver about progress or potential problems. The same thing applies when civil servants are making decisions about services that millions of people might use.
 
@@ -23,7 +24,7 @@ The result was a [series of design prototypes](http://digital.cabinetoffice.gov.
 
 Time is short for decision-makers. Presenting data this way helps them focus on the information that matters, so they can do their job better.
 
-[![Process diagram](/assets/images/strategy/casestudies/management-info/Richard--Process.png)](/assets/images/strategy/casestudies/management-info/Richard--Process-ret.png)
+[![Process diagram](/assets/images/strategy/case-studies/management-info/Richard--Process.png)](/assets/images/strategy/case-studies/management-info/Richard--Process-ret.png)
 
 The team is also working on ways to automate and standardise the data gathering process. Rather than asking analysts to manually enter their data records into circulated spreadsheets, the aim is to get online services to collate it automatically, saving a great deal of time and effort. 
 

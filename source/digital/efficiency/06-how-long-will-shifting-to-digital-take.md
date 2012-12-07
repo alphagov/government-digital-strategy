@@ -40,7 +40,7 @@ Year    | Cumulative savings (£ billions)
 2014/15 | 0.60
 2015/16 | 0.89
 2016/17 | 1.04
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 The time frame of this S-curve starkly contrasts with what is delivered
 by today’s high-performing transactional services. It is reasonable to
@@ -135,6 +135,8 @@ historic data. This has been chosen to illustrate the effect of faster
 digitisation on potential in-year savings, rather than in expectation
 that this specific rate of take-up will be achieved.
 
+{page-break}
+
 Figure 12: Estimated cumulative savings (£ billions) by year, based on compressed S-curve
 {: .fig #fig-12}
 
@@ -145,5 +147,5 @@ Year    | Cumulative savings (£ billions)
 2014/15 | 1.35
 2015/16 | 1.96
 2016/17 | 2.17
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 

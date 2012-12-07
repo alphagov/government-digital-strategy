@@ -6,7 +6,7 @@ To make that happen, government departments need to have proven leaders in place
 
 *“It is only ever likely to be a success if you have support at the top level of an organisation,”* says Martha.
 
-![Digital by default](/assets/images/strategy/casestudies/active-leadership/digital-by-default.png)
+![Digital by default](/assets/images/strategy/case-studies/active-leadership/digital-by-default.png)
 
 It’s vital, she says, that there are people at the top who understand technology and can see its potential. *“These people need an ability to inspire and lead, and put out the art of the possible.”*
 
@@ -18,7 +18,17 @@ Antonia Romeo is one those high level leaders, in charge of transformation at th
 
 ####Transactions at scale
 
-![Chart showing annual paper and online transactions for four government services](/assets/images/strategy/casestudies/active-leadership/Active-Leadership--Transactions-at-Scale-ret.png)
+Figure 1: Annual paper and online transactions (£ millions) for four government services
+{: .fig #fig-1}
+
+| Transaction           | Online | Paper | Total |
+|-----------------------|--------|-------|-------|
+| Cattle tracing        | 10     | 3     | 13    |
+| Prison visits         | 0.83   | 8.01  | 8.84  |
+| Court fines           | 0.25   | 1.63  | 1.88  |
+| Fishing rod licences  | 0.25   | 1.25  | 1.50  |
+{: .horizontal-bar-chart .mc-stacked }
+
 
 
 Ian Trenholm is doing similar work at DEFRA, the Department for Environment, Food, and Rural Affairs. He thinks it’s important for civil servants to think more radically. 

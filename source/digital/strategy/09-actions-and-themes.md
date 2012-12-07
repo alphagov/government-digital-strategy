@@ -13,7 +13,7 @@ digital by default.
 
 ####Action 01: Departmental and transactional agency boards will include an active digital leader
 
-{include _action01-case-study.md}
+{include action01-case-study.md}
 
 -   departments will have in place engaged, active,
     board-level leadership of service transformation
@@ -23,7 +23,7 @@ digital by default.
 
 ####Action 02: Services handling over 100,000 transactions each year will be re-designed, operated and improved by a skilled, experienced and empowered Service Manager
 
-{include _action02-case-study.md}
+{include action02-case-study.md}
 
 -   Service Managers will be in place for new and redesigned
     transactions from April 2013
@@ -56,7 +56,7 @@ critical to achieving successful service transformation.
 
 Outside government, organisations in the public and private sector are
 learning that empowered, experienced and highly skilled managers (often
-called ‘product managers’ in the commercial world) are necessary to
+called Product Managers in the commercial world) are necessary to
 deliver high-quality digital services.
 
 Government will adopt the same model, and ensure each of its
@@ -105,7 +105,7 @@ designing and prototyping a digital service.
 
 ####Action 03: All departments will ensure that they have appropriate digital capability in-house, including specialist skills
 
-{include _action03-case-study.md}
+{include action03-case-study.md}
 
 -   departments will have sufficient specialist capability to assess
     and manage their portfolio of digital services
@@ -116,7 +116,7 @@ designing and prototyping a digital service.
 
 ####Action 04: Cabinet Office will support improved digital capability across departments
 
-{include _action04-case-study.md}
+{include action04-case-study.md}
 
 -   Service Managers will be offered an extensive programme of
     training and support, run by Government Digital Service from summer
@@ -215,6 +215,8 @@ For the remaining departments:
 
 
 ####Action 06: From April 2014, all new or redesigned transactional services will meet the digital by default service standard
+
+{include action06-case-study.md}
 
 Government Digital Service will:
 
@@ -429,7 +431,7 @@ facilitating channel shift.
 
 ####Action 09: There will be a cross-government approach to assisted digital. This means that people who have rarely or never been online will be able to access services offline, and we will provide additional ways for them to use the digital services
 
-{include _action09-case-study.md}
+{include action09-case-study.md}
 
 This means that people who have rarely or never been online will be
 able to access services offline, and we will provide additional ways for
@@ -502,9 +504,9 @@ nation in the world.
 
 ####Action 10: Cabinet Office will offer leaner and more lightweight tendering processes, as close to the best practice in industry as our regulatory requirements allow
 
-{include _action10-case-study.md}
+{include action10-case-study.md}
 
-It will
+It will:
 
 -   work with departments as part of its strategic supplier management
     function to maintain a forward looking pipeline of digital work,
@@ -578,7 +580,7 @@ digital procurement and commissioning reform.
 
 ####Action 11: Cabinet Office will lead in the definition and delivery of a new suite of common technology platforms which will underpin the new generation of digital services
 
-{include _action11-case-study.md}
+{include action11-case-study.md}
 
 -   the IT Reform Group in the Cabinet Office will explain the
     benefits of a platform approach to departments and then incorporate
@@ -613,7 +615,7 @@ The Government Digital Service is also developing a data insight
 platform that will combine a range of data including analytics, web
 operations and financial information. Using clear visualisations, it
 will provide high level performance reports for leaders and more
-detailed data for service managers.
+detailed data for Service Managers.
 
 
 ### Principle: Remove unnecessary legislative barriers
@@ -655,7 +657,7 @@ smoother joint working.
 
 ####Action 13: Departments will supply a consistent set of management information (as defined by Cabinet Office) for their transactional services
 
-{include _action13-case-study.md}
+{include action13-case-study.md}
 
 -   departments will begin reporting against defined data-sets from
     April 2013
@@ -693,7 +695,7 @@ of indicators. These will include:
     cost-effective set of delivery channels and whether users are
     choosing to use more or less expensive channels to complete their
     transaction
--   user satisfaction. This enables service owners to identify
+-   user satisfaction. This enables Service Managers to identify
     potential weaknesses in a service and areas to focus improvement
     efforts
 -   transaction completion rates. This may highlight possible process
@@ -714,7 +716,7 @@ of indicators. These will include:
 
 ####Action 14: Policy teams will use digital tools and techniques to engage with and consult the public
 
-{include _action14-case-study.md}
+{include action14-case-study.md}
 
 -   departments will incorporate plans in their departmental digital
     strategies to listen to and understand conversations in social
@@ -737,7 +739,7 @@ consultation. It has the potential to transform democratic participation in the 
 
 We have already developed better skills in listening and responding to
 public feedback through digital channels. In May 2012, social media
-guidelines were issued to civil servants based on six principles – that
+guidelines were issued to civil servants based on 6 principles – that
 government should:
 
 -   communicate with citizens in the places they already are

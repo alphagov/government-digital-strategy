@@ -18,7 +18,7 @@ Figure 1: Benefits perceived for citizens by LAs
 | Privacy                           | 3  |
 | More joined up Response to Needs  | 3  |
 | More personalised Services        | 2  |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 Figure 2: Benefits perceived for LAs by LAs
 {: .fig #fig-2}
@@ -33,7 +33,7 @@ Figure 2: Benefits perceived for LAs by LAs
 | Supporting citizen trust          | 1  |
 | Providing integrity               | 1  |
 | Cross-selling of digital services | 1  |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 
 

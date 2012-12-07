@@ -138,7 +138,24 @@ The cost recovery % figure estimates, to the nearest 10%, the proportion of savi
 Figure 25: Mid-range estimates of total potential annual savings by department (£m), split by public spending / cost recovery realisation
 {: .fig #fig-25}
 
-![Figure 25](/assets/images/efficiency/fig25.png)
+|  Mid-range estimates of total potential annual savings by department (£m), split by public spending / cost recovery realisation | Public Spending | Cost recovery | Total |
+|---|---|---|---|
+| HMRC        | 255 | 0   | 255 |
+| DfT         | 0   | 116 | 166 |
+| DWP         | 326 | 0   | 326 |
+| BIS         | 164 | 176 | 340 |
+| DEFRA       | 177 | 16  | 193 |
+| HO          | 41  | 187 | 227 |
+| DCMS        | 0   | 63  | 63  |
+| MoJ         | 49  | 0   | 49  |
+| DfE         | 83  | 0   | 83  |
+| DECC        | 27  | 0   | 27  |
+| DCLG        | 0   | 0   | 0   |
+| FCO         | 0   | 2   | 2   |
+| AGO         | 2   | 0   | 2   |
+| DFID        | 0   | 0   | 0   |
+| MoD         | 0   | 0   | 0   |
+{: .horizontal-bar-chart .mc-stacked }
 
 As in Figure 9, these savings estimates are based on historic 11/12 financial data. New policy initiatives, 
 such as Universal Credit, are likely to affect both the total savings potential of specific Departments. The 

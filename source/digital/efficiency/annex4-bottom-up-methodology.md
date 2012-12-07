@@ -47,7 +47,13 @@ volume of over 8 million will offer greater savings than one with fewer.
 Figure 14: 95% confidence intervals on potential annual savings per 1% shift to digital - by volume
 {: .fig #fig-14}
 
-![Figure 14](/assets/images/efficiency/fig14.png)
+| Number of transactional services by department | Low | Medium | High |
+|---|---|---|---|
+| Under 1 million | -£0.04m | £0.06m  | £0.17m  |
+| 1 - 8 million   | £0.11m  | £0.15m  | £0.19m  |
+| Over 8 million  | £0.21m  | £0.29m  | £0.37m  |
+{: .horizontal-bar-chart .mc-negative }
+
 
 Function also has a significant impact. However, we cannot prove to 95%
 confidence, on the basis of their function alone, that some of the
@@ -56,7 +62,16 @@ simpler transactions will offer the potential for any savings.
 Figure 15: 95% confidence intervals on potential annual savings per 1% shift to digital - by function
 {: .fig #fig-15}
 
-![Figure 15](/assets/images/efficiency/fig15.png)
+| 95% confidence intervals on potential annual savings per 1% shift to digital - by function | Low | Medium | High |
+|---|---|---|---|
+| Ordering Goods                     | £0.31m  | £0.39m  | £0.48m |
+| Providing Information              | £0.10m  | £0.18m  | £0.26m |
+| Making a payment (taxes and fines) | £0.05m  | £0.11m  | £0.18m |
+| Requesting benefits/grants/loans   | £0.00m  | £0.10m  | £0.21m |
+| Requesting a license/authorisation | £0.05m  | £0.07m  | £0.19m |
+| Booking an appointment             | -£0.02m | £0.06m  | £0.13m |
+{: #fig-15-efficiency-table .horizontal-bar-chart .mc-negative .mc-auto-outdent }
+
 
 The analysis of digital penetration shows some variation in savings at
 different levels, but it is not possible to say with 95% confidence that
@@ -67,50 +82,26 @@ digital could be broadly constant.
 Figure 16: 95% confidence intervals on potential annual savings per 1% shift to digital - by digital take-up
 {: .fig #fig-16}
 
-Digital take up - confidence         | n 
------------------------------------- | ------
-0 - 20% - low    | 0.07	
-0 - 20% - mid    | 0.13
-0 - 20% - high   | 0.2 
------------------------------------- | ------
-20 - 40% - low   | 0.05
-20 - 40% - mid   | 0.12
-20 - 40% - high  | 0.2
------------------------------------- | ------
-40 - 60% - low   | 0.13
-40 - 60% - mid   | 0.23
-40 - 60% - high  | 0.33
------------------------------------- | ------
-60 - 80% - low   | 0.14
-60 - 80% - mid   | 0.22
-60 - 80% - high  | 0.31
------------------------------------- | ------
-80 - 100% - low  | 0.07
-80 - 100% - mid  | 0.15
-80 - 100% - high | 0.22
------------------------------------- | ------
-{: .cyclical .horizontal-bar-chart}
+Digital take up - confidence         | Low | Medium | High |
+------------------------------------ | ------ | --- | ---- |
+0 - 20%   | 0.07 | 0.13 | 0.20 |
+20 - 40%  | 0.05 | 0.12 | 0.20 |
+40 - 60%  | 0.13 | 0.23 | 0.33 |
+60 - 80%  | 0.14 | 0.22 | 0.31 |
+80 - 100% | 0.07 | 0.15 | 0.22 |
+{: .horizontal-bar-chart }
 
 The same goes for customer type; there is some variation but the confidence intervals are large.
 
 Figure 17: 95% confidence intervals on potential annual savings per 1% shift to digital - by customer type
 {: .fig #fig-17}
 
-Customer type - confidence           | n
------------------------------------- | ----
-business - low             | 0.13
-business - mid             | 0.18
-business - high            | 0.22
------------------------------------------ | ----
-mainstream consumer - low  | 0.06
-mainstream consumer - mid  | 0.12
-mainstream consumer - high | 0.19
------------------------------------------ | ----
-challenged consumer - low  | 0.03
-challenged consumer - mid  | 0.15
-challenged consumer - high | 0.28
------------------------------------------ | ----
-{: .cyclical .horizontal-bar-chart}
+Customer type - confidence           | Low | Medium | High |
+------------------------------------ | ----| ------ | ---- |
+business             | 0.13 | 0.18 | 0.22 |
+mainstream consumer  | 0.06 | 0.12 | 0.19 |
+challenged consumer  | 0.03 | 0.15 | 0.28 |
+{: .horizontal-bar-chart }
 
 In contrast to the confidence intervals on the individual indicators of
 savings potential, the confidence on the total estimate is tighter. This
@@ -131,7 +122,7 @@ Figure 18: 95% confidence intervals on total annual savings estimates (£ billio
 | Low confidence interval            | 1.4   |
 | Mid case                           | 1.8   |
 | High confidence interval           | 2.2   |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 
 ###In-year savings

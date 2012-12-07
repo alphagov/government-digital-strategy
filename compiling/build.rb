@@ -6,7 +6,10 @@ require_relative "./compile.rb"
 require_relative "./utils.rb"
 require_relative "./minifying.rb"
 require "shell/executer.rb"
+require "paint"
+require "formatador"
 
+@f = Formatador.new
 default_command :build
 program :name, 'GDS Build Tool'
 program :version, '1.0.0'
@@ -19,24 +22,25 @@ command :build do |c|
 
   def run_script
 
-    puts "-> Removing old Files"
+    Formatador.display_line(Paint["Removing old files", :blue])
     remove_old_files
 
-    puts "-> Making any folders we need"
+    Formatador.display_line(Paint["Making any folders we need", :blue])
     make_initial_folders
 
-    puts "-> Lets go!"
+    Formatador.display_line(Paint["Ready to Rock!", :green])
 
     Compile.run
-    puts "-> Symlinking assets"
+
+    Formatador.display_line(Paint["Symlinking Assets", :blue])
     symlink_assets
 
 
     if ARGV.length > 0 && ARGV[0] == "deploy"
       ## passed with argument, so need to do compiliation and minification of JS step
-      puts "-> Minifying JS"
+      Formatador.display_line(Paint["Minifying JavaScript", :blue])
       Minifying.minify_js
-      puts "-> Minifying CSS"
+      Formatador.display_line(Paint["Minifying CSS", :blue])
       Minifying.minify_css
     end
   end
@@ -54,10 +58,14 @@ command :build do |c|
 
   def symlink_assets
     unless Utils.folder_exists?("built/assets")
-      puts "-> Creating new symlink"
+      @f.indent {
+        @f.display_line("Creating new Symlink")
+      }
       Shell.execute("ln -s ../assets/ built/assets")
     else
-      puts "-> Symlink already exists"
+      @f.indent {
+        @f.display_line("Symlink already exists")
+      }
     end
   end
 

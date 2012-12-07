@@ -1,0 +1,303 @@
+// ------------------------------------------------------------------------------
+// CABINET OFFICE DIGITAL DOCUMENT FORMAT STYLES
+//
+
+// MIXINS AND DEFAULTS
+   
+@import "partials/common";                        // Global template styles
+@import "partials/data-visualisation";            // Charts n' graphs
+
+// ------------------------------------------------------------------------------
+// DOCUMENT TITLE
+//
+
+.document-title{
+  h1, h2{
+    @include heading-36;
+  }
+  h3{
+    @include copy-19;
+  }
+  h4{
+    @include copy-14;
+  }
+  .title{
+    padding:35px 0;
+    margin-bottom: 15px;
+    h1,
+    h2, 
+    h3, 
+    h4,{
+      margin-top: 0;
+      @include left-margin;
+      font-weight: 300;
+      @if $is-print == false {
+        color:#fff;
+      }
+    }
+    width: 100%;
+    @include gradient($blue, #52BBD9);
+  }
+}
+
+// ------------------------------------------------------------------------------
+// TABLE OF CONTENTS
+//
+
+#markdown-toc{
+  @include left-margin;
+  padding-left: 0;
+  @include media(desktop){
+    margin-top: 28px;
+  }
+  li { 
+    list-style: none;
+    ul{
+      display: none; // Hide links to subsections
+    }
+  }
+  a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .title-index {
+    padding-right: 3px;
+  }
+}
+
+// ------------------------------------------------------------------------------
+// TABLE OF CONTENTS HEADER / LINK
+//
+
+#contents{
+  @include media(desktop){
+    position: absolute;
+    @include ie-lte(7) {
+      position: static;
+    }
+    margin-left: $margin - 7px;
+  }
+  display: block;
+  margin-top: 10px;
+  width: $section-index-width;
+  padding-bottom: 15px;
+  background-color: #fff;
+  font-size: 19px;
+  padding-left: 7px;
+  &:before{
+    content: "\2191 ";
+    color: #fff;
+  }
+  // Link style when it's stuck at top of page
+  &.is-sticky{
+    &:before{
+      color: $blue;
+    }
+    color: $blue;
+    z-index: 10;
+    @extend a;
+    &:hover{
+      text-decoration: underline;
+    }
+    @include media(desktop){
+      width: 5em;
+      background-color: transparent;
+      padding-bottom: 0;
+      border-bottom: 0 solid;
+    }
+  }
+}
+
+// ------------------------------------------------------------------------------
+// DOCUMENT META DATA (edit date, PDF link etc.)
+//
+.meta{
+  @include left-margin;
+  margin-top: 35px;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+// ------------------------------------------------------------------------------
+// SECTIONS
+//
+
+.section { 
+  margin: 20px 20px 20px 0;
+  @include media(desktop){
+    margin: 20px 0;
+    width: $content-width;
+  }
+
+  // BASIC ELEMENTS
+  >p,
+  >ul,
+  >ol,
+  >dl,
+  >h5,
+  >h3,
+  >h4,
+  >table,
+  >.fig,
+  >.case-study,
+  >blockquote,
+  .mc-chart {
+    @include left-margin;
+  }
+  .media-player {
+    @include left-margin;
+    margin-bottom: 80px;
+    height: 500px;
+    .media-player-wrapper {
+      margin: 0;
+    }
+  }
+  >.pull{
+    border-top: 5px solid $colour-scheme;
+    color: $colour-scheme;
+    margin-top: -10px;
+  }
+  // Case studies
+  .case-study{
+    overflow: hidden;
+    *zoom: 1;
+    background-color: lighten($light-grey, 15%);
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    p{
+      margin: 0;
+    }
+    p:first-child{
+      float: right;
+      margin: -10px -15px -17px 15px;
+      @include media(mobile){margin-bottom: 10px;}
+    }
+    img{
+      margin: 0;
+      width: 300px;
+    }
+    h5{
+      font-size: 19px;
+      font-weight: 500;
+    }
+    h5+p {
+      a { display: block; }
+    }
+  }
+  
+
+>>>>>>> master
+
+  // CHARTS
+  >.breakdown-chart{
+    @include breakdown-chart($colour-scheme);
+  }
+  >.bar-chart{
+    @include bar-chart($colour-scheme);
+  }
+
+  // SECTION TITLES
+  .section-title {
+    position: relative;
+    margin: 50px 0 25px 0;
+    padding-top: 0;
+    color: $black;
+    .title-text,
+    .title-index {
+      top: 0;
+      display: block;
+      @include border('top');
+      background-color: white;
+    }
+    .title-text{
+      @include media(mobile){ min-height: 60px;}
+      @include media(tablet){ min-height: 80px;}
+      @include media(desktop){ min-height: 110px;}
+      display: block;
+      padding: 5px 0;
+      @include left-margin;
+      @include border('bottom');
+    }
+    .title-index {
+      position: absolute;
+      left: 0px;
+      float: left;
+      height: 300px;
+      width: $section-index-width;
+      margin-left: $margin;
+      padding-bottom: 15px;
+      border-bottom: 0 solid;
+      @include heading-27;
+      font-weight: 400;
+      // Duplicated headers in left column
+      .title-text{
+        position: relative;
+        height: 49px;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        border: 0 solid;
+        overflow: hidden;
+        color: #8e8e89;
+        @include copy-14;
+        background-color: transparent;
+        opacity: 0;
+        @include transition(opacity, 0.2s, ease-in-out);
+      }
+    }
+  }
+}
+
+
+// Titles when stuck at top of page
+.sticky-wrapper{
+  display: none; // Hide from non-desktop devices
+}
+@include media(desktop){
+  .sticky-wrapper {
+    display: block;
+    width: $section-index-width;
+    .is-sticky.title-index{
+      display: block;
+      .title-text{
+        opacity: 1;
+        height: auto;
+      }
+    }
+  }
+}
+
+// ------------------------------------------------------------------------------
+// FOOTNOTES
+//
+#footnotes{
+  @include left-margin;
+}
+.footnotes ol li{
+  @include left-margin;
+  width: 60%;
+  font-size: 16px;
+  @include ie(7) {
+    display: list-item;
+    vertical-align:top;
+  }
+  p {
+    @include ie(7) {
+      margin-top: 0;
+    }
+  }
+}
+// ------------------------------------------------------------------------------
+// MANUAL PAGE BREAKS
+// Allows authors to specify that there should be a page break in the PDF at this point
+
+@media all {
+  .page-break  { display: none; }
+}
+@media print {
+  .page-break  { display: block; page-break-before: always; }
+}

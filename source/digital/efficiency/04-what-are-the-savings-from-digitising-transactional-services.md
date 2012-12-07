@@ -34,7 +34,7 @@ Transaction volume | Savings (£ millions)
 Under 1 million    | 0.06
 1-8 million        | 0.15
 Over 8 million     | 0.32
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 Our analysis suggests that transaction volume is a good linear indicator
 of a service’s savings potential. Higher volume services appear to
@@ -60,7 +60,7 @@ Figure 2: Annual savings (£ millions) per 1% shift to digital - by function
 | Requesting benefits/grants/loans   | 0.10  |
 | Requesting a licence/authorisation | 0.07  |
 | Booking an appointment             | 0.06  |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 Transactional services can be categorised into 6 broad function types.
 Function serves as a proxy for the complexity of a transactional
@@ -86,7 +86,7 @@ Figure 3: Annual savings (£ millions) per 1% shift to digital - by customer typ
 | Government&nbsp;to&nbsp;business                   | 0.18 |
 | Government&nbsp;to&nbsp;consumer&nbsp;(challenged) | 0.15 |
 | Government&nbsp;to&nbsp;consumer&nbsp;(mainstream) | 0.14 |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 Government transactions cover a wide customer base. To simplify this,
 each of the 650-plus transactional services was categorised using one of
@@ -122,7 +122,7 @@ Figure 4: Annual savings (£ millions) per 1% shift to digital - by current digi
 | 40 - 60                   | 0.25  |
 | 60 - 80                   | 0.22  |
 | 80 - 100                  | 0.15  |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 Many government transactional services have already begun the process of
 digitisation. However, there is a wide range in the level of take-up
@@ -181,7 +181,11 @@ billion. The equivalent top-down figure is £1.7 billion.
 Figure 5: Projected total annual savings, split by public spending / cost recovery receipt of savings
 {: .fig #fig-5}
 
-![Figure 5](/assets/images/efficiency/fig5.png)
+| Projected Total Annual Savings | Fiscal | Cost Recovery | Total |
+|----|----|---|---|
+| Bottom-up | 1.162bn | 0.612bn | 1.78bn |
+| Top-down | 1.1bn | 0.623bn | 1.72bn |
+{: .horizontal-bar-chart .mc-stacked}
 
 As mentioned previously, our analysis estimated that the total
 transaction-related spend across government as being £6 billion to £9

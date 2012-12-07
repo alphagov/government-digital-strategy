@@ -25,7 +25,7 @@ Figure 3: Barriers and issues perceived by LAs
 | Technical               |  1  |
 | Digital Exclusion       |  1  |
 | Security                |  1  |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 Gaining consensus across the organization (LA) and understanding of
 purpose, LA financial constraints, lack of consistent data (e.g. in one

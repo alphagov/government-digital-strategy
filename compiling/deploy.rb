@@ -3,6 +3,8 @@
 require "shell/executer.rb"
 require "fileutils"
 require_relative "./utils.rb"
+require "formatador"
+require "paint"
 
 # remove deploy folder
 Shell.execute("rm -r deploy")
@@ -42,4 +44,9 @@ Dir.glob("built/**/*.pdf").each do |pdf|
   FileUtils.cp(pdf, "deploy/#{file_path}")
 end
 
+#### DOCS WE DONT NEED ####
+FileUtils.rm_r("deploy/digital/assisted")
+FileUtils.rm_r("deploy/sample-document")
+FileUtils.rm("deploy/actions.html")
+FileUtils.rm("deploy/departments.html")
 

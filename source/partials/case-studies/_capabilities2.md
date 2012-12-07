@@ -17,7 +17,7 @@ Redesigned digital services are put in front of fresh eyes. Mat and his colleagu
 
 *“That’s usually when you find out that everything you thought you knew was wrong,”* he says wryly. That doesn’t equal failure, though: it’s just another step along the journey to something that does work, and is a success.
 
-![Image showing the evolution of the GOV.UK homepage over several iterations](/assets/images/strategy/casestudies/digital-capabilities/Mat-Chris-Anna--Homepage.jpg)
+![Image showing the evolution of the GOV.UK homepage over several iterations](/assets/images/strategy/case-studies/digital-capabilities/Mat-Chris-Anna--Homepage.jpg)
 
 All 3 use something called ['agile'](http://digital.cabinetoffice.gov.uk/2011/05/13/agile-does-work-in-government/), a way of working that’s deeply embedded into everything that Government Digital Service does.
 

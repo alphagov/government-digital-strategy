@@ -11,7 +11,7 @@ Start with the smallest, simplest thing that could possibly work, and build from
 
 One of these projects is for the [Office of the Public Guardian](http://www.justice.gov.uk/about/opg). It handles the process of setting up lasting power of attorney for people who, for one reason or another, need someone else to take over the handling of their financial and legal affairs. 
 
-![Our new digital form asks for 70% less information](/assets/images/strategy/casestudies/digital-services/Roo--70-less.png)
+![Our new digital form asks for 70% less information](/assets/images/strategy/case-studies/digital-services/Roo--70-less.png)
 
 The only way this was possible until now was by filling in a lengthy and intimidating paper form. The majority of applicants had to get legal experts to help them fill it in, and even those experts sometimes made mistakes. 
 
@@ -19,7 +19,7 @@ The only way this was possible until now was by filling in a lengthy and intimid
 
 A prototype web service was built within weeks, and is now undergoing user testing.
 
-![Image showing how the prototype underwent several iterations during the design phase](/assets/images/strategy/casestudies/digital-services/Roo--OPG-dev.png)
+![Image showing how the prototype underwent several iterations during the design phase](/assets/images/strategy/case-studies/digital-services/Roo--OPG-dev.png)
 
 Another example: to support the government's proposed change from household to individual voter registration, the new service will be digitised. The Electoral Registration Transformation Programme aims to make the whole process faster and easier and to cut down on the huge amount of paperwork currently handled by electoral services teams nationwide. 
 

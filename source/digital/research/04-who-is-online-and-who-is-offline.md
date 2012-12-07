@@ -73,7 +73,7 @@ Note: The table below shows responses from 1,064 people who are online and 234 w
 | Handheld gaming device           |  24%    |
 | Tablet                           |  19%    |
 | Personal digital assistant (PDA) |  2%     |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 ###Devices people use to access the internet
 
@@ -91,7 +91,7 @@ Note: This data is selected from more detailed information found in Sections N2 
 | Games console with internet          | 13%  |
 | Handheld games console with internet | 5%   |
 | Personal digital assistant (PDA)     | 1%   |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 
 ###When people access the internet
 
@@ -114,5 +114,5 @@ Note: This question was asked of 1,064 people who are online. This data is selec
 | When I'm at work/school                           | 26%  |
 | When with family                                  | 25%  |
 | When I'm doing other things                       | 21%  |
-{: .horizontal-bar-chart}
+{: .horizontal-bar-chart .no-key}
 

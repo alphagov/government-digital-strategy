@@ -3,18 +3,20 @@
 // Style for supporting pages
 
 // MIXINS
-@import "govuk_frontend_toolkit/css3";          // Vendor prefixes
-@import 'govuk_frontend_toolkit/conditionals';  // Media queries  
-@import 'govuk_frontend_toolkit/shims';         // Shims   
-@import 'design-patterns/regular-grid';         // Regular grid              
-@import "common/typography";              			// Typographic styles
-@import "common/colours";                 			// Cabinet Office colour palette
-@import "common/templates";                 		// Template styles
+
+@import "partials/css3";                   // Vendor prefixes
+@import 'partials/conditionals';           // Media queries  
+@import 'partials/shims';                  // Shims   
+@import 'partials/regular-grid';           // Regular grid              
+@import "partials/common";                 // Global template styles
 
 // DEFAULTS
 
-$content-width: 80%;                      			// Width of the main content area
-$colour-scheme: $blue;                    			// Sets primary colour for document
+$left-margin: 240px + 65px;                // Left margin of the page
+$section-index-width: $left-margin - 70;   // Width of the section indexes
+$content-width: 80%;                       // Width of the main content area
+$colour-scheme: $blue;               			 // Sets primary colour for document
+
 
 
 // --------------------------------------------------------------------------------
@@ -247,7 +249,8 @@ margin-left: -3 * $base-unit;
     >blockquote,
     >.video,
     >.case-study,
-    >.tweet{
+    >.tweet,
+    >.horizontal-bar-chart{
       @include left-margin;
     }
     >.pull {
@@ -424,32 +427,37 @@ margin-left: -3 * $base-unit;
 
 // MEDIA PLAYER
 
+$large-player-width:  730px;
+$medium-player-width: 640px;
+$small-player-width:  426px;
+$aspect-ratio: 0.56;
+
 .media-player{
   @include left-margin;
   @include media(mobile){
-    width: 426px;
+    width: $small-player-width;
   }   
   @include media(tablet){ 
-    width: 640px;
+    width: $medium-player-width;
   }
   @include media(desktop){
-    width: 853px;
+    width: $large-player-width;
   }
   .media-player-wrapper{
     margin: 0;
     .player-container{
       .video{  
         @include media(mobile){
-          width: 426px;
-          height: 240px;
+          width: $small-player-width;
+          height: $aspect-ratio * $small-player-width;
         }  
         @include media(tablet){ 
-          width: 640px;
-          height: 360px;
+          width: $medium-player-width;
+          height: $aspect-ratio * $medium-player-width;
         }
         @include media(desktop){
-          width: 853px;
-          height: 480px;
+          width: $large-player-width;
+          height: $aspect-ratio * $large-player-width;
         }
       }
     }
@@ -475,6 +483,7 @@ margin-left: -3 * $base-unit;
     margin-right: 15px;
     float: left;
   }
+
 }
 
 .case-study-page .section a{
@@ -605,3 +614,4 @@ margin-left: -3 * $base-unit;
   width: 200px;
   position: absolute;
 }
+} 
