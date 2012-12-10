@@ -37,36 +37,6 @@
   border-left: 2px solid;
 }
 
-
-// Plain single identity
-.organisation-logo-single-identity {
-  @extend .organisation-logo-identity;
-
-  padding: 3px 0 2px 35px;
-  background-image: url("/assets/images/crests/org_crest_13px.png");
-  background-position: 5px center;
-  background-size: auto 20px;
-}
-.organisation-logo-stacked-single-identity {
-  @extend .organisation-logo-identity;
-
-  padding: 20px 0 0 6px;
-  background-image: url("/assets/images/crests/org_crest_13px.png");
-  background-position: 5px top;
-  background-size: auto 20px;
-}
-.organisation-logo-stacked-single-identity span {
-  display: block;
-  position: relative;
-  top: 3px;
-}
-@media all and (-webkit-min-device-pixel-ratio: 2) {
-  .organisation-logo-single-identity,
-  .organisation-logo-stacked-single-identity {
-    background-image: url("/assets/images/crests/org_crest_13px_x2.png");
-  }
-}
-
 .medium-logo {
   padding: 28px 0 0 6px;
   background-position: 5px top;
@@ -106,6 +76,9 @@
   }
   .logo-mod > span {
     background-image: url("/assets/images/crests/mod_crest_18px_x2.png");
+  }
+  .logo-single > span {
+    background-image: url("/assets/images/crests/org_crest_18px_x2.png");
   }
 }
 
