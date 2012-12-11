@@ -47,31 +47,36 @@ class ProcessContents
     contents.gsub!(/([€])/, '&euro;')
     contents.gsub!(/[”“]/, '"')
     contents.gsub!(/[‘’]/, "'")
-    contents.gsub!(/[…]/, "...")
+    contents.gsub!(/[…]/, "&ellipsis;")
     contents.gsub!(/[–]/, "--")
 
     # lets us do ^5^ => <sup>5</sup>
     contents.gsub!(/\^(.+)\^/) { "<sup>#{$1}</sup>" }
+
     # this is some weird non-breaking-space unicode that was causing us problems with random chars appearing.
     contents.gsub!(/\u00a0/, " ")
+
+    # some more custom syntax for formatting things
     contents.gsub!(/{page-break}/, "<div class='page-break'></div>")
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
-    contents.gsub!(/{TIMESTAMP}/) {
-      date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
-      # if we dont get a date, just go for the current time.
-      date = (date == "" ? Time.now : DateTime.parse(date))
-      "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
-    }
+
+    # add last edited date to top of each document, taken from Git logs
+    if folder
+      contents.gsub!(/{TIMESTAMP}/) {
+        date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
+        # if we dont get a date, just go for the current time.
+        date = (date == "" ? Time.now : DateTime.parse(date))
+        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
+      }
+    end
+
     # shortcut for PDF linking
+    # turns {PDF=x.pdf} into [PDF format](x.pdf)
     contents.gsub!(/{PDF=(.+)}/) {
       "[PDF format](#{$1})"
     }
-    contents.gsub!(/###theme(.+)/) { |match|
-      m = $1
-      m.strip!
-      "####{m}\n {: .theme-head}"
-    }
+
 
     # shortcut that allows for HTML element inputs
     # eg {div .foo} => <div class="foo">
