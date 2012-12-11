@@ -5,8 +5,12 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 
-echo "Pulling from main repository"
-git pull
+echo "Pulling all branches down"
+git checkout master
+git pull origin
+
+echo "Switching to add-departmental-strategies branch"
+git checkout add-departmental-strategies
 
 echo "Bundling"
 /usr/local/bin/bundle
