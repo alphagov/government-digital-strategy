@@ -6,7 +6,7 @@ require "formatador"
 class ProcessContents
 
   # pre-process the Markdown before compilation to deal with our extra stuff
-  def self.process(contents, folder)
+  def self.process(contents, folder=false)
     @f = Formatador.new
     contents.force_encoding("UTF-8")
 
