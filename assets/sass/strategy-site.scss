@@ -10,6 +10,10 @@
 @import 'partials/regular-grid';           // Regular grid              
 @import "partials/common";                 // Global template styles  
 @import "partials/organisations";                 // 
+@import 'partials/conditionals';           // Media queries
+@import 'partials/shims';                  // Shims
+@import 'partials/regular-grid';           // Regular grid
+@import "partials/common";                 // Global template styles
 
 // DEFAULTS
 
@@ -28,7 +32,7 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
 .action-header,
 .case-study-header{
   overflow: hidden;
-  *zoom: 1;  
+  *zoom: 1;
   .content-wrapper{
     float: left;
     width: 100%;
@@ -41,7 +45,7 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
     }
     .title{
       margin-left: $margin;
-      
+
       @include media(mobile){
         margin-left: $margin / 2;
         padding-right: 25px;
@@ -157,7 +161,7 @@ margin-left: -3 * $base-unit;
 .action-header{
   .title{
     margin: 0 0 0 $margin;
-    h1, 
+    h1,
     p{
       vertical-align: top;
       margin-top: 0;
@@ -173,7 +177,7 @@ margin-left: -3 * $base-unit;
       // The number
       display: inline-block;
       padding: 0;
-      
+
       @include ie(7) {
         display: inline;
         zoom: 1;
@@ -182,7 +186,7 @@ margin-left: -3 * $base-unit;
     h1{
       width: 4 * $base-unit;
     }
-    p{    
+    p{
       width: 70%;
     }
   }
@@ -207,12 +211,12 @@ margin-left: -3 * $base-unit;
   @include ie(6) {
     margin-left: $margin;
   }
-  >h2, 
+  >h2,
   >h3,
   >h4,
-  >h5, 
-  >p, 
-  >ol, 
+  >h5,
+  >p,
+  >ol,
   >ul,
   >img,
   >blockquote,
@@ -221,15 +225,15 @@ margin-left: -3 * $base-unit;
   >.documents,
   >.departments{
     @include media(mobile){
-      margin-left: $margin / 2; 
+      margin-left: $margin / 2;
     }
     @include media(tablet){
-      margin-left: $margin / 2; 
+      margin-left: $margin / 2;
     }
     @include media(desktop){
-      margin-left: $margin; 
+      margin-left: $margin;
     }
-  } 
+  }
 }
 
 .case-study-page,
@@ -239,12 +243,12 @@ margin-left: -3 * $base-unit;
   }
   .section{
     margin-top: 0;
-    >h2, 
+    >h2,
     >h3,
     >h4,
     >h5,
-    >p, 
-    >ol, 
+    >p,
+    >ol,
     >ul,
     >img,
     >blockquote,
@@ -347,7 +351,7 @@ margin-left: -3 * $base-unit;
   background-color: lighten($light-grey, 15%);
   text-decoration: none;
   // Hover state
-  
+
   &:hover{
     background-color: lighten($light-grey, 10%);
     .text{
@@ -355,7 +359,7 @@ margin-left: -3 * $base-unit;
     }
   }
 }
-  
+
 .actions .action{
   @include media(mobile){
     margin-bottom: $margin / 2;
@@ -454,8 +458,8 @@ $aspect-ratio: 0.56;
   @include left-margin;
   @include media(mobile){
     width: $small-player-width;
-  }   
-  @include media(tablet){ 
+  }
+  @include media(tablet){
     width: $medium-player-width;
   }
   @include media(desktop){
@@ -464,12 +468,12 @@ $aspect-ratio: 0.56;
   .media-player-wrapper{
     margin: 0;
     .player-container{
-      .video{  
+      .video{
         @include media(mobile){
           width: $small-player-width;
           height: $aspect-ratio * $small-player-width;
-        }  
-        @include media(tablet){ 
+        }
+        @include media(tablet){
           width: $medium-player-width;
           height: $aspect-ratio * $medium-player-width;
         }
@@ -501,7 +505,6 @@ $aspect-ratio: 0.56;
     margin-right: 15px;
     float: left;
   }
-
 }
 
 .case-study-page .section a{
