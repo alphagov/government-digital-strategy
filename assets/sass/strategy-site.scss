@@ -401,7 +401,10 @@ margin-left: -3 * $base-unit;
 
 .documents{
   @include media(desktop){
-    @include regular-grid(3, 200px);
+    @include regular-grid(4, 150px);
+    .document {
+      min-height: 220px;
+    }
   }
 }
 
