@@ -1,5 +1,5 @@
 {{DEPARTMENTRESPONSE}}
-#Action 01: Departmental and transactional agency boards will include an active digital leader
+#Action 08: Raise awareness of digital services so that more people know about, and use, them
 
 {div .section}
 <h2>What the departments are doing</h2>
@@ -25,4 +25,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 {navigation}
+
 

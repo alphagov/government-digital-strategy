@@ -1,5 +1,5 @@
 {{DEPARTMENTRESPONSE}}
-#Action 01: Departmental and transactional agency boards will include an active digital leader
+#Action 06: Ensure all new or redesigned transactional services meet the digital by default service standard from April 2014
 
 {div .section}
 <h2>What the departments are doing</h2>
@@ -25,4 +25,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 {navigation}
+
 

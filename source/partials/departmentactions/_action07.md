@@ -1,5 +1,6 @@
+
 {{DEPARTMENTRESPONSE}}
-#Action 01: Departmental and transactional agency boards will include an active digital leader
+#Action 07: Move the publishing activities of central government departments onto GOV.UK by March 2013, with agency and arm's length bodies' to follow by March 2014
 
 {div .section}
 <h2>What the departments are doing</h2>
@@ -25,4 +26,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 {navigation}
+
 
