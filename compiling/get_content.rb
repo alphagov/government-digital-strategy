@@ -18,11 +18,12 @@ end
 @f.indent {
   @f.display_line("Cloning to /tmp/get_external")
 }
-# if Shell.execute('cat ~/.ssh/config').success?
-#   # on a server, so use the deploy key
-#   Shell.execute('cd /tmp/get_external && git clone git@github-assisted-digital:alphagov/assisted-digital-prerelease.git')
-# else
-Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/government-digital-strategy-content.git')
+if Shell.execute('cat ~/.ssh/config').success?
+  # on a server, so use the deploy key
+  Shell.execute('cd /tmp/get_external && git clone git@github-gds-content:alphagov/government-digital-strategy-content.git')
+else
+  Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/government-digital-strategy-content.git')
+end
 
 # get current branch
 b = `git branch`.split("\n").delete_if { |i| i.strip.chars.first != "*" }

@@ -15,7 +15,7 @@ git checkout add-departmental-strategies
 echo "Bundling"
 /usr/local/bin/bundle
 
-/usr/local/bin/ruby compiling/get_assisted_digital.rb
+/usr/local/bin/ruby compiling/get_content.rb
 /usr/local/bin/ruby compiling/build.rb $1 --trace
 
 echo "Finished"
