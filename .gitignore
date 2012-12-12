@@ -1,7 +1,5 @@
-markdown-out/
 .DS_Store
 built/
-compiling/markdown-out/
 .sass-cache
 *.scssc
 /_site/*
@@ -14,4 +12,4 @@ assets/javascripts/built.js
 deploy/
 config/pdf.config.yml
 config/s3.config.yml
-source/digital/assisted
+source
