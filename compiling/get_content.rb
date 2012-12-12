@@ -30,17 +30,18 @@ end
 
 # on the server we always want to use the add-departmental-strategies branch
 # locally we use whatever branch is currently active
-unless on_server
+if on_server
+  branch = "add-departmental-strategies"
+else
   # get current branch
   b = `git branch`.split("\n").delete_if { |i| i.strip.chars.first != "*" }
   branch = b.first.gsub("* ","")
-
-  @f.indent {
-    @f.display_line("Using branch #{branch}")
-  }
-  Shell.execute("cd /tmp/get_external/government-digital-strategy-content && git pull origin && git checkout #{branch}")
 end
 
+@f.indent {
+  @f.display_line("Using branch #{branch}")
+}
+Shell.execute("cd /tmp/get_external/government-digital-strategy-content && git pull origin && git checkout #{branch}")
 
 
 @f.indent {
