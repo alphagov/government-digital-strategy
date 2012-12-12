@@ -23,6 +23,7 @@ end
 #   Shell.execute('cd /tmp/get_external && git clone git@github-assisted-digital:alphagov/assisted-digital-prerelease.git')
 # else
 Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/government-digital-strategy-content.git')
+Shell.execute('cd /tmp/get_external/government-digital-strategy-content && git pull origin && git checkout add-departmental-strategies')
 
 @f.indent {
   @f.display_line("Removing old source folder")
