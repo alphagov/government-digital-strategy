@@ -25,6 +25,17 @@ end
 Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/government-digital-strategy-content.git')
 Shell.execute('cd /tmp/get_external/government-digital-strategy-content && git pull origin && git checkout add-departmental-strategies')
 
+# get current branch
+b = `git branch`.split("\n").delete_if { |i| i.strip.chars.first != "*" }
+branch = b.first.gsub("* ","")
+
+@f.indent {
+  @f.display_line("Using branch #{branch}")
+}
+Shell.execute("cd /tmp/get_external/government-digital-strategy-content && git pull origin && git checkout #{branch}")
+
+
+
 @f.indent {
   @f.display_line("Removing old source folder")
 }
