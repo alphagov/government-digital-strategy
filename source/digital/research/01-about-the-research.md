@@ -1,5 +1,0 @@
-##01 About the research
-
-This independent research was conducted by <a href="http://www.2cv.co.uk/">2CV</a> to provide a comprehensive view of UK adults’ use of the internet and of government information and transactional services online.
-
-There are a number of existing sources of data on people’s use and non-use of the internet (including the <a href="http://www.ons.gov.uk/ons/rel/rdit2/internet-access-quarterly-update/2012-q2/stb-internet-access-2012-q2.html">Office for National Statistics (ONS) Internet Access Quarterly Update</a>, <a href="http://microsites.oii.ox.ac.uk/oxis/">Oxford Internet Survey</a>, <a href="http://stakeholders.ofcom.org.uk/market-data-research/media-literacy/archive/medlitpub/medlitpubrss/adultmedialitreport/">Ofcom UK Adults’ Media Literacy Report</a>, <a href="http://downloads.bbc.co.uk/learning/learningoverview/bbcmedialiteracy_26072012.pdf">BBC Media Literacy: Understanding Digital Capabilities</a>). These sources were reviewed at the start of this project, and the decision was made to focus this research on people’s use of government services and information online, about which there is less existing data.
