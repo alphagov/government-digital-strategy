@@ -18,6 +18,7 @@ end
 @f.indent {
   @f.display_line("Cloning to /tmp/get_external")
 }
+Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/government-digital-strategy-content.git')
 
 on_server = Shell.execute('cat ~/.ssh/config').success?
 if on_server
@@ -28,6 +29,7 @@ else
 end
 
 # on the server we always want to use the add-departmental-strategies branch
+# locally we use whatever branch is currently active
 unless on_server
   # get current branch
   b = `git branch`.split("\n").delete_if { |i| i.strip.chars.first != "*" }
