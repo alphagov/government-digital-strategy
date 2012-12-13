@@ -577,15 +577,11 @@ $aspect-ratio: 0.56;
 // ---------------------------------------------------------
 // DEPARTMENTS LIST
 
-.departments li a.inactive .bar{
-  background-color: $grey;
-  background-image: url(/assets/images/rcoa-small-grey.png);
-}
 
 .departments {
   @include media(desktop){
     @include regular-grid(2);
-    margin-top: 50px;
+    margin-top: 25px;
   }
   ul{
     list-style-type: none;
@@ -593,38 +589,12 @@ $aspect-ratio: 0.56;
   }
   li{
     font-size: 16px;
-    //padding-left: 36px;
-    //border-left: 2px solid $blue;
-    //background: url(/assets/images/rcoa-small.png) no-repeat 0 6px;
   }
 }
 
-
-
-
-.departments .bar.department-for-business-innovations-and-skills   { background-color:#003479;}
-.departments .bar.department-for-communities-and-local-government    { background-color:#00857e;}
-.departments .bar.department-for-culture-media-and-sport       { background-color:#d40072;}
-.departments .bar.department-for-education               { background-color:#003a69;}
-.departments .bar.department-for-environment-food-and-rural-affairs  { background-color:#898700;}
-.departments .bar.department-for-international-development       { background-color:#002878;}
-.departments .bar.department-for-transport               { background-color:#006c56;}
-.departments .bar.department-for-work-and-pensions           { background-color:#00beb7;}
-.departments .bar.department-for-energy-and-climate-change       { background-color:#009ddb;}
-.departments .bar.department-of-health                 { background-color:#00ad93;}
-.departments .bar.foreign-and-commonwealth-office            { background-color:#003e74;}
-.departments .bar.government-equalities-office             { background-color:#9325b2;}
-.departments .bar.her-majestys-treasury                { background-color:#af292e;}
-.departments .bar.home-office                      { background-color:#9325b2;}
-.departments .bar.ministry-of-defence                  { background-color:#4d2942;}
-.departments .bar.ministry-of-justice                  { background-color:#231f20;}
-.departments .bar.northern-ireland-office                { background-color:#fff;}
-.departments .bar.office-of-the-advocate-general-for-scotland      { background-color:#fff;}
-.departments .bar.office-of-the-leader-of-the-house-of-commons     { background-color:#fff;}
-.departments .bar.office-of-the-leader-of-the-house-of-lords     { background-color:#fff;}
-.departments .bar.scotland-office                    { background-color:#002663;}
-.departments .bar.wales-office                     { background-color:#a33038;}
-
+.read-strategies{
+  margin-top: 25px;
+}
 
 .action-page .section h3{
   margin-left: 50px;
