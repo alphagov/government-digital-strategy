@@ -66,6 +66,14 @@ a{
   &:hover   {color: $link-hover; cursor: pointer;}
   &:active  {color: $link-active;}
 }
+
+a[rel="external"]::after, 
+.external-link::after {
+content: url(https://assets.digital.cabinet-office.gov.uk/static/external-link-4e6ac7c7239ef7be0c8a40188c9e87ba.png);
+margin-right: 0.2em;
+margin-left: -0.2em;
+}
+
 table{
   width: 75.3%;
   border-collapse: collapse;
