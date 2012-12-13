@@ -260,10 +260,21 @@ margin-left: -3 * $base-unit;
         margin-left: 0;
       }
     }
+    >.section-title{
+      margin-left: 0;
+      .title-index,
+      .title-text{
+        font-size: 34px;
+      }
+    }
   }
 }
 
 .action-page{
+  .title h1{
+    margin-left: 200px;
+    font-size: 46px;
+  }
   .department{
     margin-left: $base-unit;
     margin-top: $base-unit;

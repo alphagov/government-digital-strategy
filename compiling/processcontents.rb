@@ -25,20 +25,21 @@ class ProcessContents
 
        contents.gsub!("{{DEPARTMENTRESPONSE}}", "")
        # main action headings
-       contents.gsub!(/#Action ([0-9]{2}):\s(.+)/) {
+
+       contents.gsub!(/##Action ([0-9]{2}):\s(.+)/) {
          # group $1 = action number
          action_number = $1
          # group $2 = action description
-         resp = "<div class='action-header'><div class='content-wrapper'><div class='title'>"
-         resp += "<h1><span>Action</span> #{action_number}</h1>"
-         resp += "<p>#{$2}</p></div></div></div>"
+         resp = "<h2 id='action-01' class='section-title'>"
+         resp += "<span class='title-index'><span>Action </span> #{action_number}</span>"
+         resp += "<span class='title-text'>#{$2}</span></h2>"
          resp
        }
 
        # department response heading
        contents.gsub!(/##What the departments are doing/) { |match|
          # section div is closed off later
-        "<div class='section'>\n\n#{match}"
+        "<div class='section'>\n\n"
        }
 
        # each deparment response
@@ -47,7 +48,7 @@ class ProcessContents
        }
 
        # each department response heading
-       contents.gsub!(/##(.+)/) {
+       contents.gsub!(/###(.+)/) {
          "<h2><span class='organisation-logo'><span>#{$1}</span></span></h2>"
        }
 
