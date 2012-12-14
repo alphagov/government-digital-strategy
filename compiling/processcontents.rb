@@ -63,11 +63,15 @@ class ProcessContents
 
     # add last edited date to top of each document, taken from Git logs
     if folder
+      config = Utils.read_config("config/offlinebuilds.config.yml")
+      location = File.expand_path(config["location"])
+      pwd = Shell.execute('pwd').stdout.gsub("\n", "")
       contents.gsub!(/{TIMESTAMP}/) {
-        date = Shell.execute("git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
+        date = Shell.execute("cd #{location} && git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
+        Shell.execute("cd #{pwd}")
         # if we dont get a date, just go for the current time.
         date = (date == "" ? Time.now : DateTime.parse(date))
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
+        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy-content/commits/master/source/#{folder})"
       }
     end
 
