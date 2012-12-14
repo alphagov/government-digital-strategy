@@ -48,7 +48,7 @@ class ProcessContents
        }
 
        # each department response heading
-       contents.gsub!(/###(.+)/) {
+       contents.gsub!(/####(.+)/) {
          "<h2><span class='organisation-logo'><span>#{$1}</span></span></h2>"
        }
 
