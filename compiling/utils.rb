@@ -1,4 +1,5 @@
 require "shell/executer.rb"
+require "yaml"
 
 class Utils
   def self.folder_exists?(folder)
@@ -21,6 +22,10 @@ class Utils
 
   def self.write_to_file(content, file)
     File.open(file, 'w') { |f| f.write(content) }
+  end
+
+  def self.read_config(file)
+    YAML.load(File.read(file))
   end
 
 end
