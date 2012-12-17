@@ -127,8 +127,9 @@ class ProcessContents
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
 
+    on_server = Shell.execute('cat ~/.ssh/config').success?
     # add last edited date to top of each document, taken from Git logs
-    if folder
+    if folder && !on_server
       config = Utils.read_config("config/offlinebuilds.config.yml")
       location = File.expand_path(config["location"])
       pwd = Shell.execute('pwd').stdout.gsub("\n", "")
