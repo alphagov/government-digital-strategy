@@ -7,11 +7,13 @@ Strategy site as seen online at [http://publications.cabinetoffice.gov.uk/digita
 
 By following the instructions below anyone comfortable with using command line can set up a local, working, copy of the site, and view the content as it appears online.
 
+These instructions are based on Mac OS X. They should also work on Linux systems, but will not work on Windows.
+
 # Quick Start
 
 The following 10 steps should get you up and running pretty quickly. All steps are further documented below.
 
-1. Install [Node.js](http://nodejs.org/), and [npm](https://npmjs.org/). Most installs of Node come with npm. To check, run `node -v` and `npm -v` on the command line.
+1. Install [Node.js](http://nodejs.org/), and [npm](https://npmjs.org/). Most installs of Node come with npm, it's very unlikely that you'll need to explicitly install npm. To check, run `node -v` and `npm -v` on the command line.
 2. Install [Ruby](http://www.ruby-lang.org/en/) v1.9+ and [RubyGems](http://rubygems.org/). Check these versions with `ruby -v` and `gem -v` (We recommend you don't install over the system version of Ruby. Tools like [rbenv](https://github.com/sstephenson/rbenv) let you manage Ruby versions nicely.)
 3. Install the [Bundler gem](http://gembundler.com/) with `gem install bundler`
 4. Clone the project: `git clone git@github.com:alphagov/government-digital-strategy.git` (Or you may decide to fork and clone your own version).
@@ -21,21 +23,6 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 8. Run the deploy script `./deploy.sh`
 9. Run the server: `ruby scripts/deploy-server.rb`
 10. Visit `http://localhost:9090/digital` to view.
-
-If you're editing the documents, run the watch task, which will auto-compile every time it detects a change.
-
-```
-ruby scripts/watch-build.rb
-```
-
-And also run a server:
-
-```
-ruby scripts/built-server.rb
-```
-
-Then hit up `http://localhost:8080`. Now everytime a file in `source/` or `assets/` gets updated, it's automatically built. You will need to refresh the browser though, but there's tools out there that will even do that bit for you.
-
 
 # Before running the build script
 
@@ -75,7 +62,7 @@ Useful for if you're sans-internet but want to build. Just run:
 ./offline-build.sh
 ```
 
-This wont attempt to pull in any content from other Github repositories.
+This wont attempt to pull in any content from other Github repositories, so can be run when you're sans-internet.
 
 # Production Build Script
 
@@ -95,10 +82,11 @@ If you want to test that the deploy folder works fine, run `ruby scripts/deploy-
 
 # PDFs
 
-The PDFs are generated through PDF Crowd. You'll need to register for a free account and get a username and API Key. Then edit `config/pdf.config.yml.sample`, adding the details. Then rename the file, removing `.sample` from the end.
-
+The PDFs are generated through [PDF Crowd](http://pdfcrowd.com/). You'll need to register for a free account and get a username and API Key. Then edit `config/pdf.config.yml.sample`, adding the details. Then rename the file, removing `.sample` from the end.
 
 Then simply run `./pdf.sh`, passing in the folder name. For example: `./pdf.sh built/digital/efficiency`. There's no need to do a build first, the PDF script does it for you.
+
+The PDF JavaScript assets are stored within the [pdf-only](https://github.com/alphagov/government-digital-strategy/tree/master/assets/pdf-only) folder. We upload a ZIP to PDF Crowd that contains the JavaScript, some CSS and the HTML we need. This lets us have full control over the generated PDF.
 
 # Uploading
 
@@ -108,15 +96,12 @@ Make sure the S3 credentials are okay in `config/s3.config.yml`. Then run:
 ./deploy.sh
 ruby scripts/push_to_s3.rb
 ```
-Or you can shortcut it:
 
-
-Which does the same thing. Then you need to check the site, and once you're happy, invalidate the Cloudfront cache so the live site updates.
+Then you need to check the site, and once you're happy, invalidate the Cloudfront cache so the live site updates.
 
 ```
 ruby scripts/clear_s3_cache.rb
 ```
-
 
 # Assets
 
