@@ -190,9 +190,69 @@ That would look for `asset/templates/home_template.html` and the above contents 
 
 The digital documents use the `digital_doc_template.html`. The others use `generic_template.html`. Individual files can use any template they like, as defined above.
 
+## Pre-Processing Markdown
+Authors write their content in Markdown, but before it's parsed we do some extra things to it, to help us style it. This is all done in [processcontents.rb](https://github.com/alphagov/government-digital-strategy/blob/master/compiling/processcontents.rb). Below we've listed some of the main ones we do, but for a comprehensive list, check out the source. All the Regexes we use are commented.
+
+#### Section Headings
+```markdown
+##Annex 01 - Lorem Ipsum
+##02 Introduction
+```
+Gets converted to:
+```markdown
+##<span class='title-index'>Annex 01</span><span class='title-text'>Lorem Ipsum</span>\n{: .section-title}
+##<span class='title-index'>02</span><span class='title-text'>Introduction</span>\n{: .section-title}
+```
+
+#### PDF Linking
+```markdown
+{PDF=blah.pdf}
+```
+Gets converted to:
+```markdown
+[PDF Format](blah.pdf)
+```
+
+#### Extra HTML Input
+A slightly easier way for authors to input arbitary HTML. For example, this:
+```markdown
+{div .foo}
+hello world
+{/div}
+```
+Gets turned into:
+```html
+<div class="foo">hello world</div>
+```
+
+This isn't that fully featured through; it only supports adding one class and nothing more.
+
+#### Action Headings
+```markdown
+####Action 01: Lorem Ipsum
+```
+Converted into:
+```markdown
+<h4 id='action-01' class='section-title'><span class='title-index'><span>Action </span> 01</span><span class='title-text'>Lorem Ipsum</span></h4>
+```
+
+#### Last edited Timestamp
+```markdown
+{TIMESTAMP}
+```
+If this is used within a document, we'll use Git to calculate the last time this folder was edited, and provide it as the timestamp, linking to the repository. For example, this might be replaced with something like:
+```markdown
+[1 Dec 2012 at 1:30 pm](http://github.com/alphagov/government-digital-strategy/commits/master/source/digital/strategy)
+```
+
+Remember, all this parsing is done __before__ the Markdown is parsed. Kramdown is very good at parsing HTML within Markdown, which made it perfect for this project.
+
+
+
 ## Changelist
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
+
 
 __17/12/12__
 - fix videos on Print stylesheet. These are hidden and a link is added to Youtube.
