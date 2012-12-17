@@ -7,7 +7,7 @@ export LANGUAGE=en_US.UTF-8
 
 echo "Pulling all branches down"
 git checkout master
-git pull origin
+git pull origin master
 
 echo "Switching to add-departmental-strategies branch"
 git checkout add-departmental-strategies
