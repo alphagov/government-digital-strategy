@@ -5,6 +5,13 @@ require "formatador"
 
 class ProcessContents
 
+  def self.section_title(match1, match2)
+    number = match1
+    title = match2
+    slug = match2.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+    "{::options auto_ids='false' /}\n\n##<span class='title-index'>#{number}</span> <span class='title-text'>#{title.strip}</span>\n{: .section-title ##{slug}}\n{::options auto_ids='true' /}"
+  end
+
   # pre-process the Markdown before compilation to deal with our extra stuff
   def self.process(contents, folder=false)
     @f = Formatador.new
@@ -85,18 +92,19 @@ class ProcessContents
 
     end
 
-    # match section title headlines
-    # these are either Annex ones in the form ##Annex 1 - Foo Bar
-    # or section titiles in the form: ##09 Foo Bar
-    # this regex matches both
-    contents.gsub!(/##(?:Annex\s)?([0-9]+) (?:-)?(.+)/) { |match|
-      number = $1
-      if match.include? "Annex"
-        number = "Annex #{number}"
-      end
-      title = $2
-      slug = $2.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-      "{::options auto_ids='false' /}\n\n##<span class='title-index'>#{number}</span> <span class='title-text'>#{title.strip}</span>\n{: .section-title ##{slug}}\n{::options auto_ids='true' /}"
+    # match annex headings
+    # matches both:
+    # Annex 01 - Blah Blah ($1 = 01, $2 = Blah Blah)
+    # Annex - Blah Blah ($1 = , $2 = Blah Blah)
+    # $1 == the number, $2 = text
+    contents.gsub!(/##Annex ([0-9]+\s)?-\s(.+)/) {
+      number = "Annex #{$1}"
+      ProcessContents.section_title number, $2
+    }
+
+    # match section headings
+    contents.gsub!(/##([0-9]{2})\s(.+)/) {
+      ProcessContents.section_title $1, $2
     }
 
     #add links to figures
