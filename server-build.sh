@@ -11,6 +11,7 @@ git pull origin
 
 echo "Switching to add-departmental-strategies branch"
 git checkout add-departmental-strategies
+git pull origin add-departmental-strategies
 
 echo "Bundling"
 /usr/local/bin/bundle
