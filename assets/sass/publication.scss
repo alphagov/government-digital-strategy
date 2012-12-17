@@ -151,8 +151,6 @@
   .media-player-outside {
     @include left-margin;
     height: 500px;
-    min-height: 500px;
-    max-height: 500px;
     margin-bottom: 130px;
     .media-player {
       .media-player-wrapper {
