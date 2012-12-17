@@ -209,6 +209,12 @@ The digital documents use the `digital_doc_template.html`. The others use `gener
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
 
+__17/12/12__
+- fix videos on Print stylesheet. These are hidden and a link is added to Youtube.
+- added transcripts to every video on the site
+- fixed bug that made the page jump when it first loaded
+- fixed Markdown parsing bug
+
 __06/12/12__
 - add Tim O'Reilly video to "Government as a Platform" case study.
 - refactored the Ruby compilation scripts to be much tidier.
