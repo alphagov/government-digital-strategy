@@ -72,7 +72,7 @@ class ProcessContents
         Shell.execute("cd #{pwd}")
         # if we dont get a date, just go for the current time.
         date = (date == "" ? Time.now : DateTime.parse(date))
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy-content/commits/master/source/#{folder})"
+        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
       }
     end
 
