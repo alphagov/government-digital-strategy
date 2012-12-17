@@ -26,13 +26,13 @@ class ProcessContents
        contents.gsub!("{{DEPARTMENTRESPONSE}}", "")
        # main action headings
 
-       contents.gsub!(/##Action ([0-9]{2}):\s(.+)/) {
+       contents.gsub!(/#Action ([0-9]{2}):\s(.+)/) {
          # group $1 = action number
          action_number = $1
          # group $2 = action description
-         resp = "<h2 id='action-01' class='section-title'>"
-         resp += "<span class='title-index'><span>Action </span> #{action_number}</span>"
-         resp += "<span class='title-text'>#{$2}</span></h2>"
+         resp = "<div class='action-header'><div class='content-wrapper'><div class='title'>"
+         resp += "<h1><span>Action</span> #{action_number}</h1>"
+         resp += "<p>#{$2}</p></div></div></div>"
          resp
        }
 
@@ -48,7 +48,7 @@ class ProcessContents
        }
 
        # each department response heading
-       contents.gsub!(/###(.+)/) {
+       contents.gsub!(/##(.+)/) {
          "<h2><span class='organisation-logo'><span>#{$1}</span></span></h2>"
        }
 
@@ -61,27 +61,28 @@ class ProcessContents
 
        # navigation links
        contents.gsub!(/{navigation}/) {
-         resp = "<div class='section'><div class='action-footer'>"
+         resp = "<div class='department-intro'>"
          # next link
          resp += "<div class='next-link'>"
          unless action_number == "14"
            next_number = action_number.to_i + 1
            next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
-           resp += "<a href='../#{next_number}' title='Next action'><span>Action #{next_number}</span><span class='arrow-next'></span></a>\n"
+           resp += "<a href='../#{next_number}' title='Next action'><span>Next action</span></a>\n"
          end
          resp += "</div>"
          resp += "<div class='prev-link'>"
          unless action_number == "01"
            next_number = action_number.to_i - 1
            next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
-           resp += "<a href='../#{next_number}' title='Prev action'>"
-           resp += "<span class='arrow-prev'></span><span>Action #{next_number}</span></a>\n"
+           resp += "<a href='../#{next_number}' title='Previous action'>"
+           resp += "<span>Previous action</span></a>\n"
          end
          resp += "</div>\n"
-
-         resp += "</div></div>"
+         resp += "This action forms part of the [Government Digital Strategy](publications.cabinetoffice.gov.uk/digital/strategy/).\n"
+         resp += "</div>"
 
        }
+
     end
 
     # match section title headlines
