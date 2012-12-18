@@ -72,9 +72,13 @@ The local-build script is great for viewing locally but doesn't do any of the pe
 ./deploy.sh
 ```
 
-It will compile and minify the JS. This uses the RequireJS optimizer.
+It will compile and minify the JS and CSS. This uses the RequireJS optimizer.
 
-It will also minify all CSS and generate the PDFs.
+To make it generate the PDFs, you need to pass in the argument:
+
+```
+./deploy.sh pdf
+```
 
 Once it's done, you're left with a `deploy/` folder which is the production-ready files. This is what should be deployed to the server.
 
