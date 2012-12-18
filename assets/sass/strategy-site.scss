@@ -440,7 +440,8 @@ margin-left: -100%;
 }
 
 
-.profile{
+.profile,
+.profiles{
   font-size: 18px;
   border: 1px solid $light-grey;
   padding: 10px;
@@ -455,7 +456,12 @@ margin-left: -100%;
     margin-right: 15px;
     float: left;
   }
-
+}
+.profiles{
+  padding-right: 0;
+  strong{
+    display: block;
+  }
 }
 
 .case-study-page .section a{

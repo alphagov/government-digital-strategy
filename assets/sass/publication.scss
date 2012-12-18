@@ -8,6 +8,9 @@
 @import "partials/data-visualisation";            // Charts n' graphs
 @import "partials/media-player";                  // styling for videos
 
+
+@include details-and-summary;
+
 // ------------------------------------------------------------------------------
 // DOCUMENT TITLE
 //
@@ -143,6 +146,7 @@
   >h3,
   >h4,
   >table,
+  .show-hide,
   >.fig,
   >.case-study,
   >.department-link,
