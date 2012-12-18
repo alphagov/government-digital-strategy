@@ -160,3 +160,9 @@ p a{ color: blue;}
     display: block;
     page-break-before: always; 
   }
+
+// media videos
+.media-player-outside {
+  height: auto;
+}
+.media-player { display: none; }

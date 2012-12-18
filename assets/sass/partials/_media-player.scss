@@ -1,0 +1,38 @@
+// MEDIA PLAYER
+
+$large-player-width:  730px;
+$medium-player-width: 640px;
+$small-player-width:  426px;
+$aspect-ratio: 0.56;
+
+.media-player{
+  @include left-margin;
+  @include media(mobile){
+    width: $small-player-width;
+  }
+  @include media(tablet){
+    width: $medium-player-width;
+  }
+  @include media(desktop){
+    width: $large-player-width;
+  }
+  .media-player-wrapper{
+    margin: 0;
+    .player-container{
+      .video{
+        @include media(mobile){
+          width: $small-player-width;
+          height: $aspect-ratio * $small-player-width;
+        }
+        @include media(tablet){
+          width: $medium-player-width;
+          height: $aspect-ratio * $medium-player-width;
+        }
+        @include media(desktop){
+          width: $large-player-width;
+          height: $aspect-ratio * $large-player-width;
+        }
+      }
+    }
+  }
+}

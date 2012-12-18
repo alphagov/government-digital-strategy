@@ -6,6 +6,7 @@
    
 @import "partials/common";                        // Global template styles
 @import "partials/data-visualisation";            // Charts n' graphs
+@import "partials/media-player";                  // styling for videos
 
 // ------------------------------------------------------------------------------
 // DOCUMENT TITLE
@@ -146,20 +147,9 @@
   >.case-study,
   >.department-link,
   >blockquote,
-  .mc-chart {
+  .mc-chart,
+  .media-player-outside > p {
     @include left-margin;
-  }
-  .media-player-outside {
-    @include left-margin;
-    height: 500px;
-    min-height: 500px;
-    max-height: 500px;
-    margin-bottom: 130px;
-    .media-player {
-      .media-player-wrapper {
-        margin: 0;
-      }
-    }
   }
   >.pull{
     border-top: 5px solid $colour-scheme;

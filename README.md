@@ -7,11 +7,13 @@ Strategy site as seen online at [http://publications.cabinetoffice.gov.uk/digita
 
 By following the instructions below anyone comfortable with using command line can set up a local, working, copy of the site, and view the content as it appears online.
 
+These instructions are based on Mac OS X. They should also work on Linux systems, but will not work on Windows.
+
 # Quick Start
 
 The following 10 steps should get you up and running pretty quickly. All steps are further documented below.
 
-1. Install [Node.js](http://nodejs.org/), and [npm](https://npmjs.org/). Most installs of Node come with npm. To check, run `node -v` and `npm -v` on the command line.
+1. Install [Node.js](http://nodejs.org/), and [npm](https://npmjs.org/). Most installs of Node come with npm, it's very unlikely that you'll need to explicitly install npm. To check, run `node -v` and `npm -v` on the command line.
 2. Install [Ruby](http://www.ruby-lang.org/en/) v1.9+ and [RubyGems](http://rubygems.org/). Check these versions with `ruby -v` and `gem -v` (We recommend you don't install over the system version of Ruby. Tools like [rbenv](https://github.com/sstephenson/rbenv) let you manage Ruby versions nicely.)
 3. Install the [Bundler gem](http://gembundler.com/) with `gem install bundler`
 4. Clone the project: `git clone git@github.com:alphagov/government-digital-strategy.git` (Or you may decide to fork and clone your own version).
@@ -21,21 +23,6 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 8. Run the deploy script `./deploy.sh`
 9. Run the server: `ruby scripts/deploy-server.rb`
 10. Visit `http://localhost:9090/digital` to view.
-
-If you're editing the documents, run the watch task, which will auto-compile every time it detects a change.
-
-```
-ruby scripts/watch-build.rb
-```
-
-And also run a server:
-
-```
-ruby scripts/built-server.rb
-```
-
-Then hit up `http://localhost:8080`. Now everytime a file in `source/` or `assets/` gets updated, it's automatically built. You will need to refresh the browser though, but there's tools out there that will even do that bit for you.
-
 
 # Before running the build script
 
@@ -75,7 +62,7 @@ Useful for if you're sans-internet but want to build. Just run:
 ./offline-build.sh
 ```
 
-This wont attempt to pull in any content from other Github repositories.
+This wont attempt to pull in any content from other Github repositories, so can be run when you're sans-internet.
 
 # Production Build Script
 
@@ -95,10 +82,11 @@ If you want to test that the deploy folder works fine, run `ruby scripts/deploy-
 
 # PDFs
 
-The PDFs are generated through PDF Crowd. You'll need to register for a free account and get a username and API Key. Then edit `config/pdf.config.yml.sample`, adding the details. Then rename the file, removing `.sample` from the end.
-
+The PDFs are generated through [PDF Crowd](http://pdfcrowd.com/). You'll need to register for a free account and get a username and API Key. Then edit `config/pdf.config.yml.sample`, adding the details. Then rename the file, removing `.sample` from the end.
 
 Then simply run `./pdf.sh`, passing in the folder name. For example: `./pdf.sh built/digital/efficiency`. There's no need to do a build first, the PDF script does it for you.
+
+The PDF JavaScript assets are stored within the [pdf-only](https://github.com/alphagov/government-digital-strategy/tree/master/assets/pdf-only) folder. We upload a ZIP to PDF Crowd that contains the JavaScript, some CSS and the HTML we need. This lets us have full control over the generated PDF.
 
 # Uploading
 
@@ -108,15 +96,12 @@ Make sure the S3 credentials are okay in `config/s3.config.yml`. Then run:
 ./deploy.sh
 ruby scripts/push_to_s3.rb
 ```
-Or you can shortcut it:
 
-
-Which does the same thing. Then you need to check the site, and once you're happy, invalidate the Cloudfront cache so the live site updates.
+Then you need to check the site, and once you're happy, invalidate the Cloudfront cache so the live site updates.
 
 ```
 ruby scripts/clear_s3_cache.rb
 ```
-
 
 # Assets
 
@@ -205,9 +190,75 @@ That would look for `asset/templates/home_template.html` and the above contents 
 
 The digital documents use the `digital_doc_template.html`. The others use `generic_template.html`. Individual files can use any template they like, as defined above.
 
+## Pre-Processing Markdown
+Authors write their content in Markdown, but before it's parsed we do some extra things to it, to help us style it. This is all done in [processcontents.rb](https://github.com/alphagov/government-digital-strategy/blob/master/compiling/processcontents.rb). Below we've listed some of the main ones we do, but for a comprehensive list, check out the source. All the Regexes we use are commented.
+
+#### Section Headings
+```markdown
+##Annex 01 - Lorem Ipsum
+##02 Introduction
+```
+Gets converted to:
+```markdown
+##<span class='title-index'>Annex 01</span><span class='title-text'>Lorem Ipsum</span>\n{: .section-title}
+##<span class='title-index'>02</span><span class='title-text'>Introduction</span>\n{: .section-title}
+```
+
+#### PDF Linking
+```markdown
+{PDF=blah.pdf}
+```
+Gets converted to:
+```markdown
+[PDF Format](blah.pdf)
+```
+
+#### Extra HTML Input
+A slightly easier way for authors to input arbitary HTML. For example, this:
+```markdown
+{div .foo}
+hello world
+{/div}
+```
+Gets turned into:
+```html
+<div class="foo">hello world</div>
+```
+
+This isn't that fully featured through; it only supports adding one class and nothing more.
+
+#### Action Headings
+```markdown
+####Action 01: Lorem Ipsum
+```
+Converted into:
+```markdown
+<h4 id='action-01' class='section-title'><span class='title-index'><span>Action </span> 01</span><span class='title-text'>Lorem Ipsum</span></h4>
+```
+
+#### Last edited Timestamp
+```markdown
+{TIMESTAMP}
+```
+If this is used within a document, we'll use Git to calculate the last time this folder was edited, and provide it as the timestamp, linking to the repository. For example, this might be replaced with something like:
+```markdown
+[1 Dec 2012 at 1:30 pm](http://github.com/alphagov/government-digital-strategy/commits/master/source/digital/strategy)
+```
+
+Remember, all this parsing is done __before__ the Markdown is parsed. Kramdown is very good at parsing HTML within Markdown, which made it perfect for this project.
+
+
+
 ## Changelist
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
+
+
+__17/12/12__
+- fix videos on Print stylesheet. These are hidden and a link is added to Youtube.
+- added transcripts to every video on the site
+- fixed bug that made the page jump when it first loaded
+- fixed Markdown parsing bug
 
 __06/12/12__
 - add Tim O'Reilly video to "Government as a Platform" case study.
