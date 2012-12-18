@@ -257,6 +257,8 @@ Remember, all this parsing is done __before__ the Markdown is parsed. Kramdown i
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
 
+__18/12/12__
+- fixed bug with the video on the strategy site that meant it wouldn't work in some versions of Firefox.
 
 __17/12/12__
 - fix videos on Print stylesheet. These are hidden and a link is added to Youtube.
