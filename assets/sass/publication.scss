@@ -8,9 +8,6 @@
 @import "partials/data-visualisation";            // Charts n' graphs
 @import "partials/media-player";                  // styling for videos
 
-
-@include details-and-summary;
-
 // ------------------------------------------------------------------------------
 // DOCUMENT TITLE
 //
@@ -217,6 +214,24 @@
         opacity: 1;
         height: auto;
       }
+    }
+  }
+}
+
+.show-hide{
+  h3{
+    @include copy-14;
+    color: $link;
+    text-decoration: underline;
+    &:hover{
+      cursor: pointer;
+      color: $link-hover;
+    }
+  }
+  .media-player-outside {
+    .media-player,
+    p{
+      margin-left: 0;
     }
   }
 }
