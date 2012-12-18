@@ -10,12 +10,11 @@ define([], function() {
       return this.each(function() {
         var wrapper = $(this);
         var toggle = wrapper.find(settings.headingSelector).show();
-        var content = wrapper.find(settings.contentSelector).hide();
+        var content = wrapper.find(settings.contentSelector);
+        content.hide();
         toggle.on("click", function(e) {
-          console.log("clicked");
-          console.log(content);
+          content.slideToggle();
           e.preventDefault();
-          content.toggle();
         });
       });
     }
