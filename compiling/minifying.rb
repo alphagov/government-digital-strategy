@@ -1,11 +1,17 @@
 require_relative "./utils.rb"
 require "formatador"
 require "paint"
+require "cssminify"
 
 class Minifying
+  # this is a little weird, in that the Ruby class uses the R.js Node optimiser
+  # we use the RequireJS optimiser because it can do an awesome job based on
+  # our usage of it and how we define dependencies
   def self.minify_js
     @f = Formatador.new
-    @f.indent { @f.display_line("Running R.js optimizer") }
+    @f.indent {
+      @f.display_line("Running R.js optimizer")
+    }
     %x[cd assets/javascripts && node ../../node_modules/requirejs/bin/r.js -o name=app out=built.js baseUrl=. && cd ../../]
     Dir.glob("built/**/*.html").each do |file|
       content = Utils.read_from_file(file)
@@ -16,6 +22,7 @@ class Minifying
       Utils.write_to_file(content, file)
     end
   end
+
   def self.minify_css
     @f = Formatador.new
     Dir.glob("built/assets/css/*.css").each do |file|
@@ -26,7 +33,10 @@ class Minifying
       @f.indent {
         @f.display_line("minifying #{file} to assets/css/#{file_no_ext}.min.css")
       }
-      %x[./node_modules/clean-css/bin/cleancss -o assets/css/#{file_no_ext}.min.css #{file}]
+      compressed_css = CSSminify.compress(File.read file)
+      Utils.write_to_file(compressed_css, "assets/css/#{file_no_ext}.min.css")
+
+      # go through the HTML and update the links to CSS to point to the minified versions
       Dir.glob("built/**/*.html").each do |html_file|
         content = Utils.read_from_file(html_file)
         file_name = file.split "/"
