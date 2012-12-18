@@ -146,7 +146,8 @@
   >.fig,
   >.case-study,
   >blockquote,
-  .mc-chart {
+  .mc-chart,
+  .media-player-outside > p {
     @include left-margin;
   }
   >.pull{
