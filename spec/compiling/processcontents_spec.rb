@@ -38,7 +38,6 @@ describe ProcessContents do
     end
   end
 
-
   describe "figure links" do
     it "should match figure links" do
       content = "Figure 1{: .fig #fig-1}\n"
@@ -89,6 +88,31 @@ describe ProcessContents do
 
     end
   end
+
+  describe "extra department response regexes" do
+    top = "{{DEPARTMENTRESPONSE}}"
+    it "replaces {{DEPARTMENTRESPONSE}}" do
+      call_process("{{DEPARTMENTRESPONSE}}").should be_empty
+    end
+
+    it "matches the main action headings" do
+      expected = "<div class='action-header'><div class='content-wrapper'><div class='title'>"
+      expected += "<h1><span>Action</span> 01</h1>"
+      expected += "<p>Hello</p></div></div></div>"
+      call_process("#{top}#Action 01: Hello").should == expected
+    end
+
+    it "matches department response tags" do
+      call_process("#{top}{department}").should == "<div class='department'>"
+    end
+
+    it "matches department response headings" do
+      expected = "<h2><span class='organisation-logo'><span>Introduction</span></span></h2>"
+      call_process("#{top}##Introduction").should == expected
+    end
+
+  end
+
 
 
 

@@ -37,67 +37,61 @@ class ProcessContents
     # more regex replacing for the department responses
     # need to check and we don't want to do this stuff usually
     if contents.include?("{{DEPARTMENTRESPONSE}}")
-       action_number = "00"
+      action_number = "00"
 
-       contents.gsub!("{{DEPARTMENTRESPONSE}}", "")
-       # main action headings
+      contents.gsub!("{{DEPARTMENTRESPONSE}}", "")
+      # main action headings
 
-       contents.gsub!(/#Action ([0-9]{2}):\s(.+)/) {
-         # group $1 = action number
-         action_number = $1
-         # group $2 = action description
-         resp = "<div class='action-header'><div class='content-wrapper'><div class='title'>"
-         resp += "<h1><span>Action</span> #{action_number}</h1>"
-         resp += "<p>#{$2}</p></div></div></div>"
-         resp
-       }
+      contents.gsub!(/#Action ([0-9]{2}):\s(.+)/) {
+        # group $1 = action number
+        action_number = $1
+        # group $2 = action description
+        resp = "<div class='action-header'><div class='content-wrapper'><div class='title'>"
+        resp += "<h1><span>Action</span> #{action_number}</h1>"
+        resp += "<p>#{$2}</p></div></div></div>"
+        resp
+      }
 
-       # department response heading
-       contents.gsub!(/##What the departments are doing/) { |match|
-         # section div is closed off later
-        "<div class='section'>\n\n"
-       }
+      # each deparment response
+      contents.gsub!(/{department}/) {
+        "<div class='department'>"
+      }
 
-       # each deparment response
-       contents.gsub!(/{department}/) {
-         "<div class='department'>"
-       }
+      # each department response heading
+      contents.gsub!(/##(.+)/) {
+        "<h2><span class='organisation-logo'><span>#{$1}</span></span></h2>"
+      }
 
-       # each department response heading
-       contents.gsub!(/##(.+)/) {
-         "<h2><span class='organisation-logo'><span>#{$1}</span></span></h2>"
-       }
+      # each department response text
+      contents.gsub!("{statement}", "<div class='statement'>")
+      contents.gsub!("{/statement}", "</div>")
 
-       # each department response text
-       contents.gsub!("{statement}", "<div class='statement'>")
-       contents.gsub!("{/statement}", "</div>")
+      # closing div for each deparment
+      contents.gsub!("{/department}", "</div>")
 
-       # closing div for each deparment
-       contents.gsub!("{/department}", "</div>")
+      # navigation links
+      contents.gsub!(/{navigation}/) {
+        resp = "<div class='department-intro'>"
+        # next link
+        resp += "<div class='next-link'>"
+        unless action_number == "14"
+          next_number = action_number.to_i + 1
+          next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
+          resp += "<a href='../#{next_number}' title='Next action'><span>Next action</span></a>\n"
+        end
+        resp += "</div>"
+        resp += "<div class='prev-link'>"
+        unless action_number == "01"
+          next_number = action_number.to_i - 1
+          next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
+          resp += "<a href='../#{next_number}' title='Previous action'>"
+          resp += "<span>Previous action</span></a>\n"
+        end
+        resp += "</div>\n"
+        resp += "This action forms part of the [Government Digital Strategy](publications.cabinetoffice.gov.uk/digital/strategy/).\n"
+        resp += "</div>"
 
-       # navigation links
-       contents.gsub!(/{navigation}/) {
-         resp = "<div class='department-intro'>"
-         # next link
-         resp += "<div class='next-link'>"
-         unless action_number == "14"
-           next_number = action_number.to_i + 1
-           next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
-           resp += "<a href='../#{next_number}' title='Next action'><span>Next action</span></a>\n"
-         end
-         resp += "</div>"
-         resp += "<div class='prev-link'>"
-         unless action_number == "01"
-           next_number = action_number.to_i - 1
-           next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
-           resp += "<a href='../#{next_number}' title='Previous action'>"
-           resp += "<span>Previous action</span></a>\n"
-         end
-         resp += "</div>\n"
-         resp += "This action forms part of the [Government Digital Strategy](publications.cabinetoffice.gov.uk/digital/strategy/).\n"
-         resp += "</div>"
-
-       }
+      }
 
     end
 
