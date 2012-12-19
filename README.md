@@ -194,6 +194,15 @@ That would look for `asset/templates/home_template.html` and the above contents 
 
 The digital documents use the `digital_doc_template.html`. The others use `generic_template.html`. Individual files can use any template they like, as defined above.
 
+# Tests
+Tests are run with RSpec. While they do not cover every feature of the system, they offer a good indication if everything is working as it should or not.
+
+Tests all live within the `spec` folder.
+
+To run them, run `rspec`. You can also run them through Guard with `bundle exec guard`, which will rerun the tests everytime one of the spec files is changed.
+
+Tests also offer good documentation, in particular `compiling/processcontents_spec.rb` documents all the Regular Expressions we use nicely.
+
 ## Pre-Processing Markdown
 Authors write their content in Markdown, but before it's parsed we do some extra things to it, to help us style it. This is all done in [processcontents.rb](https://github.com/alphagov/government-digital-strategy/blob/master/compiling/processcontents.rb). Below we've listed some of the main ones we do, but for a comprehensive list, check out the source. All the Regexes we use are commented.
 
