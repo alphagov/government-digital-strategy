@@ -15,6 +15,27 @@ class ProcessContents
     "{::options auto_ids='false' /}\n\n##<span class='title-index'>#{number}</span> <span class='title-text'>#{title.strip}</span>\n{: .section-title ##{slug}}\n{::options auto_ids='true' /}"
   end
 
+  def self.next_navigation_link(action_number)
+    resp = ""
+    unless action_number == "14"
+      next_number = action_number.to_i + 1
+      next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
+      resp += "<a href='../#{next_number}' title='Next action'><span>Next action</span></a>\n"
+    end
+    resp
+  end
+
+  def self.prev_navigation_link(action_number)
+    resp = ""
+    unless action_number == "01"
+      next_number = action_number.to_i - 1
+      next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
+      resp += "<a href='../#{next_number}' title='Previous action'>"
+      resp += "<span>Previous action</span></a>\n"
+    end
+    resp
+  end
+
   # pre-process the Markdown before compilation to deal with our extra stuff
   def self.process(contents, folder=false, is_test=false)
     @f = Formatador.new
@@ -72,25 +93,14 @@ class ProcessContents
       # navigation links
       contents.gsub!(/{navigation}/) {
         resp = "<div class='department-intro'>"
-        # next link
         resp += "<div class='next-link'>"
-        unless action_number == "14"
-          next_number = action_number.to_i + 1
-          next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
-          resp += "<a href='../#{next_number}' title='Next action'><span>Next action</span></a>\n"
-        end
+        resp += self.next_navigation_link(action_number)
         resp += "</div>"
         resp += "<div class='prev-link'>"
-        unless action_number == "01"
-          next_number = action_number.to_i - 1
-          next_number = (next_number < 10) ? "0#{next_number}" : next_number.to_s
-          resp += "<a href='../#{next_number}' title='Previous action'>"
-          resp += "<span>Previous action</span></a>\n"
-        end
+        resp += self.prev_navigation_link(action_number)
         resp += "</div>\n"
         resp += "This action forms part of the [Government Digital Strategy](publications.cabinetoffice.gov.uk/digital/strategy/).\n"
         resp += "</div>"
-
       }
 
     end
