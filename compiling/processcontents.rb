@@ -4,6 +4,9 @@ require_relative "./compileutils.rb"
 require "formatador"
 
 class ProcessContents
+  def self.output(&block)
+    yield unless @is_test
+  end
 
   def self.section_title(match1, match2)
     number = match1
@@ -13,14 +16,20 @@ class ProcessContents
   end
 
   # pre-process the Markdown before compilation to deal with our extra stuff
-  def self.process(contents, folder=false)
+  def self.process(contents, folder=false, is_test=false)
     @f = Formatador.new
+
+    # is_test is used just to squish terminal output in our tests
+    @is_test = is_test
+
     contents.force_encoding("UTF-8")
 
     # sort out partials first so everything else can use them fine
     contents.gsub!(/{include\s*(.+)\.(.+)}/) { |match|
-      @f.indent {
-        @f.display_line("Replacing partial #{match}")
+      self.output {
+        @f.indent {
+          @f.display_line("Replacing partial #{match}")
+        }
       }
       CompileUtils.get_partial_content $1, $2
     }

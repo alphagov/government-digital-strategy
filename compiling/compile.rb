@@ -6,11 +6,11 @@ require "formatador"
 require "paint"
 require "stamp"
 
-require_relative "./utils.rb"
-require_relative "./compileutils.rb"
-require_relative "./compilesass.rb"
-require_relative "./xmlfiles.rb"
-require_relative "./processcontents.rb"
+require_relative "utils"
+require_relative "compileutils"
+require_relative "compilesass"
+require_relative "xmlfiles"
+require_relative "processcontents"
 
 
 class Compile
@@ -39,7 +39,7 @@ class Compile
   def self.merge_markdown
     tlf = CompileUtils.top_level_folders
     tlf.each do |t|
-      folders = CompileUtils.get_sub_directories t
+      folders = CompileUtils.get_sub_directories(t)
       folders.each do |folder|
         if Utils.contains_markdown_in_root("source/#{folder}")
           Utils.make_if_not_exists("temp/#{folder}")
@@ -75,7 +75,7 @@ class Compile
       @f.indent {
         @f.display_lines("Compiling #{mj}")
       }
-      self.compile_single_markdown_joined mj, self.find_compile_partial(template.clone)
+      self.compile_single_markdown_joined(mj, self.find_compile_partial(template.clone))
     end
   end
 

@@ -72,9 +72,13 @@ The local-build script is great for viewing locally but doesn't do any of the pe
 ./deploy.sh
 ```
 
-It will compile and minify the JS. This uses the RequireJS optimizer.
+It will compile and minify the JS and CSS. This uses the RequireJS optimizer.
 
-It will also minify all CSS and generate the PDFs.
+To make it generate the PDFs, you need to pass in the argument:
+
+```
+./deploy.sh pdf
+```
 
 Once it's done, you're left with a `deploy/` folder which is the production-ready files. This is what should be deployed to the server.
 
@@ -190,6 +194,15 @@ That would look for `asset/templates/home_template.html` and the above contents 
 
 The digital documents use the `digital_doc_template.html`. The others use `generic_template.html`. Individual files can use any template they like, as defined above.
 
+# Tests
+Tests are run with RSpec. While they do not cover every feature of the system, they offer a good indication if everything is working as it should or not.
+
+Tests all live within the `spec` folder.
+
+To run them, run `rspec`. You can also run them through Guard with `bundle exec guard`, which will rerun the tests everytime one of the spec files is changed.
+
+Tests also offer good documentation, in particular `compiling/processcontents_spec.rb` documents all the Regular Expressions we use nicely.
+
 ## Pre-Processing Markdown
 Authors write their content in Markdown, but before it's parsed we do some extra things to it, to help us style it. This is all done in [processcontents.rb](https://github.com/alphagov/government-digital-strategy/blob/master/compiling/processcontents.rb). Below we've listed some of the main ones we do, but for a comprehensive list, check out the source. All the Regexes we use are commented.
 
@@ -253,6 +266,8 @@ Remember, all this parsing is done __before__ the Markdown is parsed. Kramdown i
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
 
+__18/12/12__
+- fixed bug with the video on the strategy site that meant it wouldn't work in some versions of Firefox.
 
 __17/12/12__
 - fix videos on Print stylesheet. These are hidden and a link is added to Youtube.

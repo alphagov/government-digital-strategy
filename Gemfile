@@ -21,3 +21,8 @@ gem 'formatador'
 # for the watch build task
 gem 'listen'
 gem 'rb-fsevent', '~> 0.9.1'
+
+# testing
+gem 'rspec'
+gem 'guard'
+gem 'guard-rspec'
