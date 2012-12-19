@@ -1,4 +1,4 @@
-require_relative "./utils.rb"
+require_relative "utils"
 
 class CompileUtils
   def self.get_sub_directories(folder)
@@ -7,8 +7,9 @@ class CompileUtils
 
   # list all the top level folders in source
   def self.top_level_folders
-    Dir.glob("source/*/").select {
-      |x| x != "source/partials/"
+    # filter out the partials folder
+    Dir.glob("source/*/").select { |x|
+      x != "source/partials/"
     }.map {
       # the [0..-2] removes the last char
       # which in this case is the / at the end of the path
