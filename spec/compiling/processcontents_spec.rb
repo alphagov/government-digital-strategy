@@ -27,10 +27,17 @@ describe ProcessContents do
     it "should match Annex with a number" do
       content = "##Annex 01 - Introduction"
       result = call_process(content)
-      expected = "{::options auto_ids='false' /}\n\n##<span class='title-index'>Annex 01</span> <span class='title-text'>Introduction</span>\n{: .section-title #introduction}\n{::options auto_ids='true' /}"
+      expected = "{::options auto_ids='false' /}\n\n##<span class='title-index'>Annex 01 </span> <span class='title-text'>Introduction</span>\n{: .section-title #introduction}\n{::options auto_ids='true' /}"
       result.should eq expected
     end
+
+    it "should match Annex without a number" do
+      content = "##Annex - Introduction"
+      expected = "{::options auto_ids='false' /}\n\n##<span class='title-index'>Annex </span> <span class='title-text'>Introduction</span>\n{: .section-title #introduction}\n{::options auto_ids='true' /}"
+      call_process(content).should eq expected
+    end
   end
+
 
   describe "figure links" do
     it "should match figure links" do
