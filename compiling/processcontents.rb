@@ -154,7 +154,6 @@ class ProcessContents
       pwd = Shell.execute('pwd').stdout.gsub("\n", "")
       contents.gsub!(/{TIMESTAMP}/) {
         date = Shell.execute("cd source/#{folder} && git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
-        Shell.execute("cd #{pwd}")
         # if we dont get a date, just go for the current time.
         date = (date == "" ? Time.now : DateTime.parse(date))
         "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
