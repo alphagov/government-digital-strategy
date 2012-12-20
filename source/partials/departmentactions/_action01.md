@@ -21,7 +21,7 @@ The Attorney General's Office has board level responsibility for digital, with o
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Our Executive Management Committee (EMC) has seized upon leadership of the digital agenda and an EMC-level digital sponsor will be identified, focussed inwardly on the workings of Cabinet Office, by April 2013. We will establish a Cabinet Office Digital Steering Committee covering a range of seniority and work areas by February 2013. [Read more »]
+Our Executive Management Committee (EMC) has seized upon leadership of the digital agenda and an EMC-level digital sponsor will be identified, focussed inwardly on the workings of Cabinet Office, by April 2013. We will establish a Cabinet Office Digital Steering Committee covering a range of seniority and work areas by February 2013. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
