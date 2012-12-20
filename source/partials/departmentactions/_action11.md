@@ -22,7 +22,7 @@ The Law Officers’ departments support the use of common platforms and where th
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Through Government Digital Service we will develop a range of common platforms to support redesigned digital services. Internally, we are exploring ways to create flexible and interoperable departmental ICT to support flexible, innovative, collaborative, and effective working. [Read more »]
+Through Government Digital Service we will develop a range of common platforms to support redesigned digital services. Internally, we are exploring ways to create flexible and interoperable departmental ICT to support flexible, innovative, collaborative, and effective working. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
