@@ -360,29 +360,6 @@ margin-left: -100%;
     }
   }
 }
-
-.actions .action {
-  //TODO: Tim, see if you can improve this!
-  @media (max-width: 969px) {
-    .dep-resp {
-      border: none;
-      display: block;
-      width: 100%;
-      margin-right: -10px;
-      padding: 0;
-      text-align: right;
-    }
-  }
-  @media (min-width: 970px) {
-    .dep-resp {
-      width: 15%;
-      display: inline-block;
-      vertical-align: middle;
-      padding-left: 2%;
-      border-left: 3px solid lighten($light-grey, 5%);
-    }
-  }
-}
   
 .actions .action{
   @include media(mobile){
@@ -407,9 +384,9 @@ margin-left: -100%;
     @include media(desktop){
       @include inline-block;
     }
-    padding: 20px 0;
+    padding: 25px 0;
     margin-left: 0;
-    margin-right: 5%;
+    margin-right: 0;
     @include gradient($blue, #52BBD9);
     color: white;
     span{
@@ -418,7 +395,14 @@ margin-left: -100%;
   }
   .text{
     @include media(desktop){
-      width: 55%;
+      width: 76%;
+    }
+    p{
+      margin-top: 0;
+      margin-left: 2%;
+    }
+    a{
+      margin: 10px 2%;
     }
   }
 }
