@@ -220,12 +220,15 @@
   }
 }
 
+.show-hide > p,
+.action-dep-response {
+  background: #F0F0EF;
+  font-size: 22px;
+  padding: 5px 0 5px 5px;
+}
+
+
 .show-hide{
-  >p {
-    background: #F0F0EF;
-    font-size: 22px;
-    padding: 5px 0 5px 5px;
-  }
   .media-player-outside {
     .media-player,
     p{
@@ -266,3 +269,4 @@
 }
 
 @import "partials/no-js";
+
