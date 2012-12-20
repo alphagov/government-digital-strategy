@@ -27,7 +27,8 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
 
 .home-header,
 .action-header,
-.case-study-header{
+.case-study-header,
+.ad-supporting-header{
   overflow: hidden;
   *zoom: 1;  
   .content-wrapper{
@@ -111,7 +112,8 @@ margin-left: -100%;
 //
 
 .case-study-header,
-.action-header{
+.action-header,
+.ad-supporting-header{
   .title{
     margin: 0 0 0 $margin;
     h1, 
@@ -142,6 +144,13 @@ margin-left: -100%;
     p{    
       width: 70%;
     }
+  }
+}
+
+.ad-supporting-header{
+  h1{ 
+    width: 70% !important; 
+    margin-left: 4 * $base-unit;
   }
 }
 
