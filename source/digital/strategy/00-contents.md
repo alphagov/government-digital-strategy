@@ -7,7 +7,7 @@
 </div>
 
 * Also available in {PDF=government-digital-strategy.pdf}
-{::comment}* Last edited on {TIMESTAMP}{:/comment}
+* Last edited on {TIMESTAMP}
 {:.no_toc .meta}
 
 ####Contents

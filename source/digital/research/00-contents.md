@@ -7,7 +7,7 @@
 </div>
 
 * Also available in {PDF=digital-landscape-research.pdf}
-{::comment}* Last edited on {TIMESTAMP}{:/comment}
+* Last edited on {TIMESTAMP}
 {:.no_toc .meta}
 
 ####Contents
