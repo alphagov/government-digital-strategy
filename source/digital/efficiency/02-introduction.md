@@ -24,7 +24,7 @@ government services, the average cost of a digital transaction is almost
 of failed transactions, and therefore the business cost of having to go
 through the same process multiple times.
 
-Consumers have embraced online services in recent years, with [almost two-thirds](http://http://stakeholders.ofcom.org.uk/market-data-research/market-data/communications-market-reports/cmr12/internet-web/)
+Consumers have embraced online services in recent years, with [almost two-thirds](http://stakeholders.ofcom.org.uk/market-data-research/market-data/communications-market-reports/cmr12/internet-web/)
 (64%) of people saying they have used online banking services, and [86% of internet users 
 having shopped online in 2011](/digital/strategy/). As a consequence of this shift, 
 some companies have achieved substantial cost savings. Government bodies are equally keen to
