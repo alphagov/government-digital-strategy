@@ -802,7 +802,7 @@ made a draft Bill openly available for comment online using social media
 in July 2012. This increased openness and made it straightforward for
 people to comment on individual clauses or topics before the Bill was
 introduced to Parliament. This ran alongside other offline stakeholder
-engagement. The Red Tape Challenge website 'crowd sources' views from business, organisations and the public on which regulations should be improved, kept 'as is' or scrapped. These comments have directly influenced [the decisions to scrap or overhaul](https://www.redtapechallenge.cabinetoffice.gov.uk/progress-to-date) over 1,100 regulations (of the 2,300 examined by November 2012).
+engagement. The Red Tape Challenge website 'crowd sources' views from business, organisations and the public on which regulations should be improved, kept 'as is' or scrapped. These comments have directly influenced [the decisions to scrap or overhaul](https://www.redtapechallenge.cabinetoffice.gov.uk/progess-to-date) over 1,100 regulations (of the 2,300 examined by November 2012).
 
 Departments will train and develop policy teams to understand and use a
 wider range of digital methods and channels. They will use these to
