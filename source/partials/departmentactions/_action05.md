@@ -21,7 +21,7 @@ The Law Officers’ departments do not have any services handling over 100,000 t
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-We will transform and iterate the digital solution for the Electoral Registration Transformation Programme, as a transactional service of significant size by volume, by March 2013. [Read more »]
+We will transform and iterate the digital solution for the Electoral Registration Transformation Programme, as a transactional service of significant size by volume, by March 2013. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
