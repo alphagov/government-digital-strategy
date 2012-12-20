@@ -22,7 +22,7 @@ The Law Officers’ departments have supplied management information on transact
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Cabinet Office is in the process of defining a set of management information for transactional services for all departments. Within the department, much of this type of data on the way we run our transactional services is lacking. We will therefore ensure that management information on the performance of digital services drives continual improvement in services and that this improvement loop is embedded in normal working practises. [Read more »]
+Cabinet Office is in the process of defining a set of management information for transactional services for all departments. Within the department, much of this type of data on the way we run our transactional services is lacking. We will therefore ensure that management information on the performance of digital services drives continual improvement in services and that this improvement loop is embedded in normal working practises. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
