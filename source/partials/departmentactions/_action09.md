@@ -128,7 +128,7 @@ HMRC's Assisted Digital Strategy will detail how we will help, support and encou
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-We support the commitments behind the Government Digital Strategy to ensure that every citizen has equal opportunity to access key services and transactions and that no one is left behind in this move to a digital by default approach. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy)
+Coming soon...
 {/div}
 {/div}
 
