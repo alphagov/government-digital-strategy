@@ -12,7 +12,7 @@
 - [Department of Health Digital Strategy](http://digitalhealth.dh.gov.uk/digital-strategy)
 - [Foreign and Commonwealth Office Digital Strategy](https://www.gov.uk/government/publications/the-fco-digital-strategy)
 - [Her Majesty's Revenue & Customs Digital Strategy](http://www.hmrc.gov.uk/about/2012-digital-strategy.pdf)
-- [Her Majesty’s Treasury Digital Strategy](http://www.hm-treasury.gov.uk/digital_strategy)
+- Her Majesty’s Treasury Digital Strategy
 - [Home Office Digital Strategy](http://www.homeoffice.gov.uk/publications/about-us/corporate-publications/ho-digital-strategy/)
 - [Ministry of Defence Digital Strategy](https://www.gov.uk/government/publications/digital-in-defence)
 - [Ministry of Justice Digital Strategy](http://open.justice.gov.uk/digital-strategy/)
