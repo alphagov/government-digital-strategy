@@ -22,7 +22,7 @@ The Attorney General's Office will move to GOV.UK in December 2012. The Law Offi
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Cabinet Office has a number of individual websites and content to consolidate onto GOV.UK. All accurate and useable content will be moved across onto GOV.UK in February 2013. Government Digital Service will also continue to help departments transfer online publishing to GOV.UK, and to operate and improve the platform at no extra cost to departments, agencies or arm’s length bodies. [Read more »]
+Cabinet Office has a number of individual websites and content to consolidate onto GOV.UK. All accurate and useable content will be moved across onto GOV.UK in February 2013. Government Digital Service will also continue to help departments transfer online publishing to GOV.UK, and to operate and improve the platform at no extra cost to departments, agencies or arm’s length bodies. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
