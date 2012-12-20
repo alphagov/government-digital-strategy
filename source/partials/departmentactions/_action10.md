@@ -22,7 +22,7 @@ The Law Officers’ departments support leaner and more lightweight tendering pr
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-To make government more efficient and effective, Cabinet Office will make major changes to government procurement. These changes will foster digital collaborative working with other organisations and ensure that small and medium sized enterprises can compete in open procurement for opportunities to work with government in future digital development. [Read more »]
+To make government more efficient and effective, Cabinet Office will make major changes to government procurement. These changes will foster digital collaborative working with other organisations and ensure that small and medium sized enterprises can compete in open procurement for opportunities to work with government on future digital development. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
