@@ -128,7 +128,7 @@ HMRC’s IT Strategy moves the department from an environment where bespoke, lin
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-This is not applicable to HMT as we do not offer online services. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy)
+Coming soon...
 {/div}
 {/div}
 
