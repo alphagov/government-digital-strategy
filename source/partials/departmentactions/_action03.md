@@ -21,7 +21,7 @@ The Attorney General's Office has a team who are leading on digital and are assi
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Cabinet Office will develop exceptional digital capability within the department to ensure we are continually innovating with the best digital solutions. We will establish a new specialist Digital Unit, including business process and digital service designers. We will also assess the capability and digital literacy of the department as a whole and introduce digital capability training and support for all staff. [Read more »]
+Cabinet Office will develop exceptional digital capability within the department to ensure we are continually innovating with the best digital solutions. We will establish a new specialist Digital Unit, including business process and digital service designers. We will also assess the digital capability of the department as a whole and introduce digital capability training and support for all staff. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
