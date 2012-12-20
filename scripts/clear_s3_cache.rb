@@ -23,12 +23,12 @@ class CloudfrontInvalidator
       'Content-Type' => 'text/xml',
       'Authorization' => "AWS %s:%s" % [@aws_account, digest]
     })
-    path.push "/digital/"
-    path.push "/la-ida-review/"
-    path.push "/digital/strategy/"
-    path.push "/digital/research/"
-    path.push "/digital/efficiency/"
-    path.push "/digital/assisted/"
+    paths.unshift "/digital/"
+    paths.unshift "/la-ida-review/"
+    paths.unshift "/digital/strategy/"
+    paths.unshift "/digital/research/"
+    paths.unshift "/digital/efficiency/"
+    paths.unshift "/digital/assisted/"
     paths.map! { |path|
       "<Path>#{URI::encode("/#{path}")}</Path>"
     }
