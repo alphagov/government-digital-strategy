@@ -24,7 +24,7 @@ The Law Officers’ departments have identified their transactional services. An
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Cabinet Office will audit all transactions, scored against the digital by default service standard, completed and ranked in order of service standard compliance by April 2013. We will ensure that the user receives a consistently high-quality digital experience and that no new or redesigned service will go live unless it meets the digital by default service standard. [Read more »]
+Cabinet Office will audit all transactions, scored against the digital by default service standard, completed and ranked in order of service standard compliance by April 2013. We will ensure that the user receives a consistently high-quality digital experience and that no new or redesigned service will go live unless it meets the digital by default service standard. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
