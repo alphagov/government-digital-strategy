@@ -23,7 +23,7 @@ The Law Officers’ departments do not lead on any policy areas and only have in
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Cabinet Office has a number of teams engaging with the public through social media and digital collaborative techniques and will do more to ensure we are using digital channels to improve policy making, communications and engagement. In 2013 we will begin to learn from policy iteration exercises with users of one service area and will begin a series of good practice seminars on using social media. [Read more »]
+Cabinet Office has a number of teams engaging with the public through social media and digital collaborative techniques and will do more to ensure we are using digital channels to improve policy making, communications and engagement. In 2013 we will begin to learn from policy iteration exercises with users of one service area and will begin a series of good practice seminars on using social media. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
