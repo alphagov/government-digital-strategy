@@ -1,3 +1,5 @@
+require(['modules/respond.min'], function() {});
+
 //nomensa
 require(['modules/generate_player'], function(player) {
   $(player);
