@@ -156,7 +156,7 @@ class ProcessContents
         date = Shell.execute("cd source/#{folder} && git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
         # if we dont get a date, just go for the current time.
         date = (date == "" ? Time.now : DateTime.parse(date))
-        "[#{date.stamp("1 Nov 2012 at 12:30 am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
+        "[#{date.stamp("1 Nov 2012 at 12:30am")}](https://github.com/alphagov/government-digital-strategy/commits/master/source/#{folder})"
       }
     end
 
