@@ -21,7 +21,7 @@ The Law Officers’ departments do not have any transactional services handling 
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-We will appoint a Service Manager to continue to transform and iterate the digital solution for the Electoral Registration Transformation Programme, as a transaction of significant size by volume, by March 2013. [Read more »]
+We will appoint a Service Manager to continue to transform and iterate the digital solution for the Electoral Registration Transformation Programme, as a transaction of significant size by volume, by March 2013. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
