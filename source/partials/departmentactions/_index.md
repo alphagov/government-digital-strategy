@@ -1,7 +1,7 @@
 - [Attorney General’s Office Digital Strategy](https://www.gov.uk/government/publications/law-officers-departments-digital-strategy)
 - [Cabinet Office Digital Strategy](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 - [Department for Business, Innovation and Skills Digital Strategy](http://discuss.bis.gov.uk/digitalstrategy)
-- Department for Communities and Local Government Digital Strategy
+- Department for Communities and Local Government Digital Strategy (Coming soon)
 - [Department for Culture, Media and Sport Digital Strategy](http://www.dcms.gov.uk/publications/9586.aspx)
 - [Department for Education Digital Strategy](http://www.education.gov.uk/digitalstrategy)
 - [Department for Environment, Food and Rural Affairs Digital Strategy](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
@@ -12,7 +12,7 @@
 - [Department of Health Digital Strategy](http://digitalhealth.dh.gov.uk/digital-strategy)
 - [Foreign and Commonwealth Office Digital Strategy](https://www.gov.uk/government/publications/the-fco-digital-strategy)
 - [Her Majesty's Revenue & Customs Digital Strategy](http://www.hmrc.gov.uk/about/2012-digital-strategy.pdf)
-- Her Majesty’s Treasury Digital Strategy
+- Her Majesty’s Treasury Digital Strategy (Coming soon)
 - [Home Office Digital Strategy](http://www.homeoffice.gov.uk/publications/about-us/corporate-publications/ho-digital-strategy/)
 - [Ministry of Defence Digital Strategy](https://www.gov.uk/government/publications/digital-in-defence)
 - [Ministry of Justice Digital Strategy](http://open.justice.gov.uk/digital-strategy/)
