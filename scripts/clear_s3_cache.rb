@@ -26,8 +26,9 @@ class CloudfrontInvalidator
     paths.map! { |path|
       "<Path>#{URI::encode("/#{path}")}</Path>"
     }
-    paths.push "/digital/"
-    paths.push "/la-ida-review/"
+    paths.push "<Path>/digital/</Path>"
+    paths.push "<Path>/la-ida-review/</Path>"
+    puts "Lengths #{paths.length}"
     req.body = "<?xml version='1.0' encoding='UTF-8'?><InvalidationBatch xmlns='http://cloudfront.amazonaws.com/doc/2012-07-01/'><Paths><Quantity>#{paths.length}</Quantity><Items>#{ paths.join("\n") }</Items></Paths><CallerReference>INVALIDATE_#{Time.now.utc.to_i}</CallerReference></InvalidationBatch>"
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
