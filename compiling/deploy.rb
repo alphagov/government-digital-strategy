@@ -48,7 +48,6 @@ end
 
 #### DOCS WE DONT NEED ####
 begin
-  FileUtils.rm_r("deploy/digital/assisted")
   FileUtils.rm_r("deploy/sample-document")
   FileUtils.rm("deploy/actions.html")
   FileUtils.rm("deploy/departments.html")
