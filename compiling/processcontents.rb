@@ -149,14 +149,11 @@ class ProcessContents
     contents.gsub!(/{collapsed}/, "<div class='theme'>")
     contents.gsub!(/{\/collapsed}/, "</div>")
 
-    on_server = Shell.execute('cat ~/.ssh/config').success?
     # add last edited date to top of each document, taken from Git logs
-    if folder && !on_server
-      config = Utils.read_config("config/offlinebuilds.config.yml")
-      location = File.expand_path(config["location"])
+    if folder
       pwd = Shell.execute('pwd').stdout.gsub("\n", "")
       contents.gsub!(/{TIMESTAMP}/) {
-        date = Shell.execute("cd #{location} && git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
+        date = Shell.execute("cd source/#{folder} && git log -1 --pretty=format:'%ad%x09' source/#{folder}").stdout
         Shell.execute("cd #{pwd}")
         # if we dont get a date, just go for the current time.
         date = (date == "" ? Time.now : DateTime.parse(date))
