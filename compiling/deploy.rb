@@ -27,8 +27,10 @@ end
 
 #### JS #####
 Utils.make_if_not_exists("deploy/assets/javascripts")
+Utils.make_if_not_exists("deploy/assets/javascripts/modules")
 FileUtils.cp("assets/javascripts/built.js", "deploy/assets/javascripts/built.js")
 FileUtils.cp("assets/javascripts/require.js", "deploy/assets/javascripts/require.js")
+FileUtils.cp("assets/javascripts/modules/respond.min.js", "deploy/assets/javascripts/modules/respond.min.js")
 
 #### DATA ####
 FileUtils.cp_r("assets/data", "deploy/assets/data")
@@ -52,3 +54,4 @@ begin
 rescue
 end
 
+Formatador.display_line(Paint["Deploy Done!", :blue])

@@ -13,4 +13,3 @@ deploy/
 config/pdf.config.yml
 config/s3.config.yml
 config/offlinebuilds.config.yml
-source/

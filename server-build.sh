@@ -6,13 +6,11 @@ export LC_ALL=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 
 echo "Pulling all branches down"
-git checkout master
 git pull origin master
 
 echo "Bundling"
 /usr/local/bin/bundle
 
-/usr/local/bin/ruby compiling/get_content.rb
 /usr/local/bin/ruby compiling/build.rb $1 --trace
 
 echo "Finished"

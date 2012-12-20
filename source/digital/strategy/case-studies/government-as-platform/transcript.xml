@@ -1,0 +1,145 @@
+<tt xmlns="http://www.w3.org/2006/10/ttaf1"> <body> <div xml:id="captions">
+
+<p begin="00:00:00" end="00:00:05">My name is John Sheridan. I’m the Head of
+Legislation Services at the National Archives.
+</p>
+
+<p begin="00:00:05" end="00:00:09">There are some brilliant examples of people
+who have developed new products and services
+</p>
+
+<p begin="00:00:09" end="00:00:16">using the legislation.gov.uk API. There are
+two iPhone apps. We also have major companies
+</p>
+
+<p begin="00:00:17" end="00:00:23">who are integrating legislation data from
+our API into the core of their products and
+</p>
+
+<p begin="00:00:23" end="00:00:28">services. A good example of that would be
+a company such as the Practical Law Company,
+</p>
+
+<p begin="00:00:28" end="00:00:34">who’ve made great use of the API, and have
+integrated it with other information; other
+</p>
+
+<p begin="00:00:34" end="00:00:39">explanations about legislation text that they
+can include in their own product.
+</p>
+
+<p begin="00:00:39" end="00:00:45">So when people want to use legislation data,
+they’re able to do that under the terms
+</p>
+
+<p begin="00:00:45" end="00:00:50">of the Open Government licence. So that means
+that all of the data that we have can be reused
+</p>
+
+<p begin="00:00:50" end="00:00:55">for free. We’ve also made available the
+source code that we have, that allows people
+</p>
+
+<p begin="00:00:55" end="00:01:00">to process that data in their own applications
+for free, and we’ve put that on a thing
+</p>
+
+<p begin="00:01:00" end="00:01:06">called Github; a code repository.
+We make it very easy for people to pick up
+</p>
+
+<p begin="00:01:06" end="00:01:13">and use the data in the way in which suits
+their own product, or their own service. We’ve
+</p>
+
+<p begin="00:01:13" end="00:01:18">used open standards for everything that we
+have developed. That means that both the data
+</p>
+
+<p begin="00:01:18" end="00:01:23">is very portable. It means that it helps us
+when we need to re-procure the services, because
+</p>
+
+<p begin="00:01:23" end="00:01:26">we can have a good competition from different
+suppliers.
+</p>
+
+<p begin="00:01:26" end="00:01:30">We’ve also made sure that the application
+logic; the code that processes the content,
+</p>
+
+<p begin="00:01:30" end="00:01:36">is also constructed using open standards.
+That means that other people can pick up our
+</p>
+
+<p begin="00:01:36" end="00:01:43">tools, and they can easily adapt them for
+their own purposes. We’re very keen to collaborate,
+</p>
+
+<p begin="00:01:43" end="00:01:49">again, particularly with the private sector.
+We can develop the code, but potentially people
+</p>
+
+<p begin="00:01:49" end="00:01:54">from outside of government can help us by
+improving that codebase, and everyone can
+</p>
+
+<p begin="00:01:54" end="00:01:58">benefit.
+You can’t spec your way into a system as
+</p>
+
+<p begin="00:01:58" end="00:02:05">complicated as legislation.gov.uk. You simply
+could not write a specification for a piece
+</p>
+
+<p begin="00:02:05" end="00:02:11">of work for a system that is that difficult
+to build. Or if you did, you would spend a
+</p>
+
+<p begin="00:02:11" end="00:02:15">year writing the specification, rather than
+a year writing the code.
+</p>
+
+<p begin="00:02:15" end="00:02:21">The story of legislation.gov.uk goes back
+several years. Legislation has always been
+</p>
+
+<p begin="00:02:21" end="00:02:27">published, for a long time in print. It’s
+even published in vellum, still to this day.
+</p>
+
+<p begin="00:02:27" end="00:02:32">To create the high-quality public service
+online that the public expects; a world where
+</p>
+
+<p begin="00:02:32" end="00:02:38">you can just go to Google, type the name of
+your favourite statute and access it in just
+</p>
+
+<p begin="00:02:38" end="00:02:43">one or two clicks, we had to think really
+carefully about how we were going to structure
+</p>
+
+<p begin="00:02:43" end="00:02:49">and organise the content; how we were going
+to develop the service to meet users’ needs
+</p>
+
+<p begin="00:02:49" end="00:02:54">and expectations.
+So if you’re going to build a website, build
+</p>
+
+<p begin="00:02:54" end="00:02:59">the website on top of your own API and associate
+your API and the website really closely, so
+</p>
+
+<p begin="00:02:59" end="00:03:05">that your website – your online presentation
+of the data – documents your raw data. It
+</p>
+
+<p begin="00:03:05" end="00:03:08">will help developers understand how to use
+and consume that data really well.
+</p>
+
+
+
+ </div> </body> </tt>
