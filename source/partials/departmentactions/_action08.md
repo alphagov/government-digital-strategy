@@ -22,7 +22,7 @@ The Law Officers’ departments are raising awareness of their digital services 
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-A digital service promotion plan will be defined for each of the 3 exemplar transactions (Electoral Registration Transformation Programme, Public Appointments, and Honours and Appointments), and the plan will form a template for future digital services. [Read more »]
+A digital service promotion plan will be defined for each of the 3 exemplar transactions (Electoral Registration Transformation Programme, Public Appointments, and Honours and Appointments), and the plan will form a template for future digital services. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
