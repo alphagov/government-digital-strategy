@@ -275,7 +275,10 @@ margin-left: -100%;
     }
     .statement{
       float: left;
-      width: 78%;
+      width: 65%;
+      p > a {
+        display: block;
+      }
     }
   }
 }
