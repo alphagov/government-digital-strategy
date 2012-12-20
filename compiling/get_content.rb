@@ -28,20 +28,7 @@ else
   Shell.execute('cd /tmp/get_external && git clone git@github.com:alphagov/government-digital-strategy-content.git')
 end
 
-# on the server we always want to use the add-departmental-strategies branch
-# locally we use whatever branch is currently active
-if on_server
-  branch = "add-departmental-strategies"
-else
-  # get current branch
-  b = `git branch`.split("\n").delete_if { |i| i.strip.chars.first != "*" }
-  branch = b.first.gsub("* ","")
-end
-
-@f.indent {
-  @f.display_line("Using branch #{branch}")
-}
-Shell.execute("cd /tmp/get_external/government-digital-strategy-content && git pull origin && git checkout #{branch}")
+Shell.execute("cd /tmp/get_external/government-digital-strategy-content && git pull origin && git checkout master")
 
 
 @f.indent {
