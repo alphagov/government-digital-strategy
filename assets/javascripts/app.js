@@ -39,7 +39,7 @@ require(['modules/magna-charta.min'], function() {
 
 // show toggle links
 require(['modules/jquery.toggle'], function() {
-  $(".show-hide").toggle({
+  $(".show-hide").contentToggle({
     headingSelector: "p > a",
     contentSelector: ".show-hide-content"
   });

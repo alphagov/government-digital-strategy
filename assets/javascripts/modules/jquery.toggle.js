@@ -1,7 +1,7 @@
 // plugin for toggling
 define([], function() {
   (function($) {
-    $.fn.toggle = function(opts) {
+    $.fn.contentToggle = function(opts) {
       var defaults = {
         headingSelector: ".toggle-header",
         contentSelector: ".toggle-content"
