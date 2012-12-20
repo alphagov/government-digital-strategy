@@ -127,7 +127,7 @@ To support delivery of our digital strategy, HMRC will develop new organisationa
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-HMT has a dedicated Head of Digital Communications and departmental Digital Leader who is also Head of Communications. He advises the Chancellor and senior officials on all communications issues, including digital, and will ensure that digital enjoys a high profile within the department. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy)
+Coming soon...
 {/div}
 {/div}
 
