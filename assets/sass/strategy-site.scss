@@ -347,12 +347,36 @@ margin-left: -100%;
   display: block;
   background-color: lighten($light-grey, 15%);
   text-decoration: none;
+}
+.documents .document {
   // Hover state
-  
   &:hover{
     background-color: lighten($light-grey, 10%);
     .text{
       color: $black;
+    }
+  }
+}
+
+.actions .action {
+  //TODO: Tim, see if you can improve this!
+  @media (max-width: 969px) {
+    .dep-resp {
+      border: none;
+      display: block;
+      width: 100%;
+      margin-right: -10px;
+      padding: 0;
+      text-align: right;
+    }
+  }
+  @media (min-width: 970px) {
+    .dep-resp {
+      width: 15%;
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 2%;
+      border-left: 3px solid lighten($light-grey, 5%);
     }
   }
 }
@@ -382,7 +406,7 @@ margin-left: -100%;
     }
     padding: 20px 0;
     margin-left: 0;
-    margin-right: $base-unit;
+    margin-right: 5%;
     @include gradient($blue, #52BBD9);
     color: white;
     span{
@@ -391,7 +415,7 @@ margin-left: -100%;
   }
   .text{
     @include media(desktop){
-      width: 60%;
+      width: 55%;
     }
   }
 }
