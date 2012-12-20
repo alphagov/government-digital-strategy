@@ -1,4 +1,5 @@
 $(function() {
+  $("body").removeClass("no-js");
   $('.proportional.breakdown-chart tbody tr td:first-child').css('height', function(index) {
     return +($(this).text().replace('%', '')) * 4;
   });
@@ -37,7 +38,7 @@ require(['modules/magna-charta.min'], function() {
 // show toggle links
 require(['modules/jquery.toggle'], function() {
   $(".show-hide").toggle({
-    headingSelector: "h3",
+    headingSelector: "p > a",
     contentSelector: ".show-hide-content"
   });
 });
