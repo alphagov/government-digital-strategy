@@ -54,3 +54,4 @@ begin
 rescue
 end
 
+Formatador.display_line(Paint["Deploy Done!", :blue])
