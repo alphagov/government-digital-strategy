@@ -99,7 +99,7 @@ class ProcessContents
         resp += "<div class='prev-link'>"
         resp += self.prev_navigation_link(action_number)
         resp += "</div>\n"
-        resp += "This action forms part of the [Government Digital Strategy](publications.cabinetoffice.gov.uk/digital/strategy/).\n"
+        resp += "This action forms part of the [Government Digital Strategy](/digital/strategy).\n"
         resp += "</div>"
       }
 
