@@ -221,14 +221,10 @@
 }
 
 .show-hide{
-  h3{
-    @include copy-14;
-    color: $link;
-    text-decoration: underline;
-    &:hover{
-      cursor: pointer;
-      color: $link-hover;
-    }
+  >p {
+    background: #F0F0EF;
+    font-size: 22px;
+    padding: 5px 0 5px 5px;
   }
   .media-player-outside {
     .media-player,
