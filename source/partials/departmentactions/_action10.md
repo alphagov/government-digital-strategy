@@ -128,7 +128,7 @@ HMRC will work with Cabinet Office to build on existing procurement reform to de
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-While HMT does not offer digital transactional service, we will adapt our procurement processes if appropriate to take advantage of the new leaner and more lightweight tendering processes developed by Cabinet Office. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy)
+Coming soon...
 {/div}
 {/div}
 
