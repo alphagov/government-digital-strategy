@@ -92,7 +92,6 @@ describe ProcessContents do
       content = "####Action 01: Introduction"
       expected = "<h4 id='action-01' class='section-title'><span class='title-index'><span>Action </span> 01</span><span class='title-text'>Introduction</span></h4>"
       call_process(content).should == expected
-
     end
   end
 
@@ -140,9 +139,5 @@ describe ProcessContents do
     end
 
   end
-
-
-
-
 
 end
