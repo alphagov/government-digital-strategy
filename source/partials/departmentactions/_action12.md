@@ -23,7 +23,7 @@ The Law Officers’ departments support the removal of legislative barriers wher
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Through the Government in Parliament Group and Government Digital Service, we will work with departments to identify and amend any unnecessary legislative requirements that are holding back a shift to more straightforward digital services. [Read more »]
+Through the Government in Parliament Group and Government Digital Service, we will work with departments to identify and amend any unnecessary legislative requirements that are holding back a shift to more straightforward digital services. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
