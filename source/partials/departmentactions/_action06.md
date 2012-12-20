@@ -133,7 +133,7 @@ From April 2014, all new or redesigned HMRC transactional services will meet the
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-This is not applicable to HMT as we are not a transactional department. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy)
+Coming soon...
 {/div}
 {/div}
 
