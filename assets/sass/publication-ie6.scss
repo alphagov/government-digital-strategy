@@ -4,3 +4,25 @@ $is-ie: true;
 $ie-version: 6;
 
 @import "publication.scss";
+
+//TODO: Tim, please refactor!
+.pull {
+  float: none !important;
+  clear: both !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  position: static !important;
+}
+
+.fig {
+  display: none !important;
+}
+
+body { padding-left: 10px !important; }
+
+.title-index {
+  position: static !important;
+  height: auto !important;
+  clear: both;
+  float: none;
+}
