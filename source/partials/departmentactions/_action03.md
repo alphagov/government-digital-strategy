@@ -127,7 +127,7 @@ HMRC will create a team with experience and deep digital skills (in design, deve
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-We will deploy a training plan which ensures that all our communications professionals have core digital skills. We will not add in-house developing resource as it is not cost effective for us to do so, but will look to share expertise with other government departments where practical or commission Government Digital Service where appropriate. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy)
+Coming soon...
 {/div}
 {/div}
 
