@@ -1,3 +1,17 @@
+var ie = (function() {
+  var undef,
+  v = 3,
+  div = document.createElement('div'),
+  all = div.getElementsByTagName('i');
+  do {
+    div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->';
+  } while(v < 10 && all[0]);
+
+  return (v > 4) ? v : undef;
+})();
+
+// if it's IE6 or less, just stop here, and don't run any JS
+if(ie && ie < 7) { return; }
 //nomensa
 require(['modules/generate_player'], function(player) {
   $(player);
