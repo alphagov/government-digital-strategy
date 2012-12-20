@@ -13,7 +13,7 @@
 </div>
 
 * Also available in [PDF format](la-ida-review.pdf "Download the PDF version of this document")
-{::comment}* Last edited on {TIMESTAMP}{:/comment}
+* Last edited on {TIMESTAMP}
 {:.no_toc .meta}
 
 ####Contents
