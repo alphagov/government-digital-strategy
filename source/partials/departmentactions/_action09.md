@@ -22,7 +22,7 @@ When designing new services, or redesigning existing services, the Law Officers�
 ##Cabinet<br>Office
 {: .logo-single}
 {div .statement}
-Government Digital Service will set up a consistent cross-government approach to procurement of assisted digital support. Cabinet Office will incorporate assisted digital arrangements in all of our future redesigned transactional services. [Read more »]
+Government Digital Service will set up a consistent cross-government approach to procurement of assisted digital support. Cabinet Office will incorporate assisted digital arrangements in all of our future redesigned transactional services. [Read more »](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
 {/div}
 {/div}
 
