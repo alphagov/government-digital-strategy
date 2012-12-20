@@ -1,0 +1,88 @@
+
+.organisations-icon-list {
+  .organisation {
+    overflow: hidden;
+    list-style: none;
+    padding-bottom: 10px;
+  // stops descenders being cropped off
+  }
+}
+
+.multiple-orgs {
+  .organisation {
+    position: relative;
+    top: 1px;
+    margin-left: 7px;
+    padding-bottom: 6px;
+  }
+}
+
+.organisation-logo {
+  font-family: Helvetica, Arial;
+  font-weight: 400;
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 3px 0 2px 0;
+
+  &:link,
+  &:visited {
+    color: #000;
+  }
+}
+
+.organisation-logo-identity {
+  border-left: 2px solid;
+}
+
+.medium-logo {
+  padding: 28px 0 0 6px;
+  background-position: 5px top;
+  background-size: auto 25px;
+  display: block;
+  position: relative;
+  top: 3px;
+}
+
+
+.department > h2 {
+  @extend .organisation-logo;
+  > span {
+    @extend .organisation-logo-identity;
+    @extend .medium-logo;
+  }
+  &.logo-bis > span {
+    background-image: url("/assets/images/crests/bis_crest_18px.png");
+  }
+  &.logo-ho > span {
+    background-image: url("/assets/images/crests/ho_crest_18px.png");
+  }
+  &.logo-mod > span {
+    background-image: url("/assets/images/crests/mod_crest_18px.png");
+  }
+  &.logo-single > span {
+    background-image: url("/assets/images/crests/org_crest_18px.png");
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  .logo-bis > span {
+    background-image: url("/assets/images/crests/bis_crest_18px_x2.png");
+  }
+  .logo-ho > span {
+    background-image: url("/assets/images/crests/ho_crest_18px_x2.png");
+  }
+  .logo-mod > span {
+    background-image: url("/assets/images/crests/mod_crest_18px_x2.png");
+  }
+  .logo-single > span {
+    background-image: url("/assets/images/crests/org_crest_18px_x2.png");
+  }
+}
+
+
+
+
+@include department-colours('.organisation-logo', border-color);

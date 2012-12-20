@@ -34,4 +34,12 @@ require(['modules/magna-charta.min'], function() {
   });
 });
 
+// show toggle links
+require(['modules/jquery.toggle'], function() {
+  $(".show-hide").toggle({
+    headingSelector: "h3",
+    contentSelector: ".show-hide-content"
+  });
+});
+
 

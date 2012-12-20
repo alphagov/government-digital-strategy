@@ -8,7 +8,8 @@
 @import 'partials/conditionals';           // Media queries  
 @import 'partials/shims';                  // Shims   
 @import 'partials/regular-grid';           // Regular grid              
-@import "partials/common";                 // Global template styles
+@import "partials/common";                 // Global template styles  
+@import "partials/organisations";                 // 
 @import "partials/media-player"; // styling for videos
 
 // DEFAULTS
@@ -19,11 +20,13 @@ $content-width: 80%;                       // Width of the main content area
 $colour-scheme: $blue;               			 // Sets primary colour for document
 
 
+
 // --------------------------------------------------------------------------------
 // PAGE HEADERS
-
+//
 
 .home-header,
+.action-header,
 .case-study-header{
   overflow: hidden;
   *zoom: 1;  
@@ -56,6 +59,35 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
 }
 
 // --------------------------------------------------------------------------------
+// ACTION PAGE HEADER
+//
+
+.logo-wrapper{
+  margin-top: 77px;
+  a{
+    width: $base-unit;
+    &:hover span{
+      border-width: 8px;
+    }
+  }
+}
+.logo-wrapper{
+float: left;
+width: 3 * $base-unit;
+margin-left: -100%;
+}
+
+.action-footer{
+  width: 90%;
+  padding: 50px 0 100px 0;
+}
+
+
+
+
+
+
+// --------------------------------------------------------------------------------
 // HOME PAGE HEADER
 //
 
@@ -78,7 +110,8 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
 // CASE STUDY PAGE HEADER
 //
 
-.case-study-header {
+.case-study-header,
+.action-header{
   .title{
     margin: 0 0 0 $margin;
     h1, 
@@ -112,6 +145,13 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
   }
 }
 
+.action-header {
+    .content-wrapper .title p{
+    @include core-19;
+    margin-top: 10px;
+  }
+}
+
 // --------------------------------------------------------------------------------
 // SECTIONS
 //
@@ -137,7 +177,8 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
   >blockquote,
   >.strategy,
   >.action,
-  >.documents{
+  >.documents,
+  >.departments{
     @include media(mobile){
       margin-left: $margin / 2; 
     }
@@ -150,7 +191,8 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
   } 
 }
 
-.case-study-page {
+.case-study-page,
+.action-page {
   .content-wrapper{
     margin-bottom: 0;
   }
@@ -177,8 +219,58 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
         margin-left: 0;
       }
     }
+    >.section-title{
+      margin-left: 0;
+      .title-index,
+      .title-text{
+        font-size: 34px;
+      }
+    }
   }
 }
+
+.action-page{
+  .department-intro{
+    margin-top: $base-unit / 2;
+    overflow: hidden;
+    *zoom: 1;
+    background-color: lighten($light-grey, 15%);
+    padding: 0 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    padding-left: 200px;
+    .next-link{
+      float: right;
+      border-left: 1px solid $light-grey;
+      padding-left: 25px;
+    }
+    .prev-link{ 
+      margin-left: -200px;
+      float: left;
+      padding-left: 25px;
+      border-right: 1px solid $light-grey;
+      padding-right: 25px;
+    }
+  }
+  .department{
+    margin-left: $base-unit;
+    margin-top: $base-unit / 2;
+    border-top: 1px solid $light-grey;
+    padding-top: $base-unit / 2;
+    @extend %contain-floats;
+    h2{
+      width: 200px;
+      float: left;
+      margin-top: 10px;
+      margin-bottom: $base-unit / 2;
+    }
+    .statement{
+      float: left;
+      width: 78%;
+    }
+  }
+}
+
 
 // ---------------------------------------------------------
 // FOREWARD
@@ -301,7 +393,7 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
 
 .documents{
   @include media(desktop){
-    @include regular-grid(3, 200px);
+    @include regular-grid(4, 250px);
   }
 }
 
@@ -348,7 +440,8 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
 }
 
 
-.profile{
+.profile,
+.profiles{
   font-size: 18px;
   border: 1px solid $light-grey;
   padding: 10px;
@@ -363,4 +456,100 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
     margin-right: 15px;
     float: left;
   }
-} 
+}
+.profiles{
+  padding-right: 0;
+  strong{
+    display: block;
+  }
+}
+
+.case-study-page .section a{
+  img{
+    //border: 1px solid $light-grey;
+    //margin-top: 25px;
+    //margin-bottom: 25px;
+  }
+  &:hover img{
+    border-color: $blue;
+  }
+}
+
+
+// --------------------------------------------
+// ARROWS
+//
+
+.arrow-next,
+.arrow-prev{
+  height: 50px;
+  width: 50px;
+  -moz-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+}
+.arrow-next{
+  border-top: 5px solid $light-grey;
+  border-right: 5px solid $light-grey;
+}
+.arrow-prev{
+  border-bottom: 5px solid $light-grey;
+  border-left: 5px solid $light-grey;
+}
+
+
+
+// ---------------------------------------------------------
+// ACTION PAGE STYLES
+
+
+// PREV / NEXT BUTTONS
+
+.prev-next{
+  border-top: 5px solid $blue;
+  margin-left: $base-unit;
+  .previous-action,
+  .next-action{
+    //background-color: #ebebeb;
+    display: inline-block;
+    width: 50%;
+    font-size: 2.4rem;
+    a{
+      padding: 35px;
+      display: inline-block;
+    }
+  }
+  .previous-action{
+    &:before{
+      content: "<";
+    }
+  }
+  .next-action{
+    text-align: right;
+    &:after{
+      content: ">";
+    }
+  }
+}
+
+// ---------------------------------------------------------
+// DEPARTMENTS LIST
+
+
+.departments {
+    margin-top: 25px;
+}
+
+.read-strategies{
+  margin-top: 25px;
+}
+
+.action-page .section h3{
+  margin-left: 50px;
+  font-size: 16px;
+  width: 200px;
+  position: absolute;
+}
+
