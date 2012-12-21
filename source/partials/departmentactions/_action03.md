@@ -37,7 +37,7 @@ We will undertake a full audit of digital demand and capability across BIS and o
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
