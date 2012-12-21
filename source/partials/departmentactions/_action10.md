@@ -59,11 +59,31 @@ DFE will align to government defined procurement processes. As we continue to ra
 {/div}
 {/div}
 
+
+{div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will work with Government Digital Service and Cabinet Office to make best possible use of procurement frameworks, and attempt to develop services and commission work and projects using agile methodologies and small and medium sized enterprises wherever appropriate. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+
 {div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra welcomes Cabinet Office’s efforts to develop new procurement arrangements that will help departments use a wider range of digital partners, while maintaining appropriate commercial and contractual safeguards. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
+
+
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+Department of Health will actively seek opportunities to make use of small and medium sized enterprises and the Cloudstore when procuring digital products and services wherever possible. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -91,22 +111,7 @@ We support fully the move to leaner and more lightweight tendering processes, an
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will work with Government Digital Service and Cabinet Office to make best possible use of procurement frameworks, and attempt to develop services and commission work and projects using agile methodologies and small and medium sized enterprises wherever appropriate. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
 
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-Department of Health will actively seek opportunities to make use of small and medium sized enterprises and the Cloudstore when procuring digital products and services wherever possible. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
