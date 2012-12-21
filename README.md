@@ -20,9 +20,9 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 5. `cd` into the project directory.
 6. Run `npm install` to install all Node dependencies.
 7. Run `bundle` (short for `bundle install`) to install all Ruby dependencies.
-8. Run the deploy script `./deploy.sh`
-9. Run the server: `ruby scripts/deploy-server.rb`
-10. Visit `http://localhost:9090/digital` to view.
+8. Run the build script: `./local-build.sh`
+9. Run the server: `ruby scripts/built-server.rb`
+10. Visit `http://localhost:8080/digital` to view.
 
 # Before running the build script
 
@@ -53,14 +53,6 @@ Run the shell script:
 ```
 
 This compiles everything into the `built` folder. To view it locally, run `ruby built-server.rb` and head to `http://localhost:8080`
-
-# Offline Build Script
-
-Useful for if you're sans-internet but want to build. Just run:
-
-```
-./offline-build.sh
-```
 
 This wont attempt to pull in any content from other Github repositories, so can be run when you're sans-internet.
 
@@ -265,6 +257,11 @@ Remember, all this parsing is done __before__ the Markdown is parsed. Kramdown i
 ## Changelist
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
+
+__21/12/12__
+- Added the department responses to each Actions
+- Published the Assisted Digital Paper
+- lots more small tweaks and bug fixing
 
 __18/12/12__
 - fixed bug with the video on the strategy site that meant it wouldn't work in some versions of Firefox.
