@@ -59,10 +59,27 @@ DfE has identified the immediate transactional services that will be re-designed
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+DECC fully supports the principle of digital services being overseen by dedicated and suitably-skilled Service Managers. We will aim to have such individuals in place for all re-designed high volume transactional services after April 2013 and for all existing services with over 100,000 transactions by April 2015. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra has committed to 2 high-profile ‘exemplar’ transactional developments. In light of the experiences from these exemplar developments, we will review our other high-volume transactions. As redevelopments take effect, Service Managers will be put in place when appropriate. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health does not currently directly deliver services handling over 100,000 transactions each year to the public. Should this change in future, it will put in place the necessary Service Managers to design and operate them. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -90,22 +107,6 @@ We will ensure that new and redesigned transactional services are operated and i
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-DECC fully supports the principle of digital services being overseen by dedicated and suitably-skilled Service Managers. We will aim to have such individuals in place for all re-designed high volume transactional services after April 2013 and for all existing services with over 100,000 transactions by April 2015. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health does not currently directly deliver services handling over 100,000 transactions each year to the public. Should this change in future, it will put in place the necessary Service Managers to design and operate them. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
