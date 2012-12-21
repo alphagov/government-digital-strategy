@@ -58,7 +58,14 @@ DCMS does not provide digital services, however we are committed to ensuring our
 {: .logo-single}
 {div .statement}
 While DfE is not aware of any significant legislative barriers to achieving digital by default for our services, we will work with Cabinet Office to identify and amend any legislative barriers, in particular as we rebuild services to be digital by default. [Read more »](http://www.education.gov.uk/digitalstrategy)
+{/div}
+{/div}
 
+{div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will work with Cabinet Office and assist in assessing whether obstructive legislation is necessary and addressing any issues. When drafting new legislation, policy makers will work with digital service delivery as a consideration from the outset, in order to minimise incidents of unnecessary obstructive legislation in the future. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
 {/div}
 {/div}
 
@@ -67,6 +74,14 @@ While DfE is not aware of any significant legislative barriers to achieving digi
 {: .logo-single}
 {div .statement}
 Defra will review relevant regulations to identify where they are a real barrier to digital service delivery. We support Cabinet Office’s efforts to address these barriers, and the intention to legislate to allow greater data sharing between government organisations. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health does not currently directly deliver transactional services to the public. Should it do so in future, it will work with Cabinet Office to remove any legislative barriers which unnecessarily prevent the development of straightforward and convenient digital services. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -92,25 +107,6 @@ We will develop plans to remove the barriers that make it difficult for people t
 {: .logo-single}
 {div .statement}
 Legislation can be a barrier to effective service design. Where possible, we will remove any legislative barriers to digitisation at the earliest opportunity, and build flexibility into future legislation to enable us to experiment with new approaches and respond to user feedback. [Read more »](http://www.dwp.gov.uk/publications/corporate-publications/digital-strategy.shtml)
-{/div}
-{/div}
-
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will work with Cabinet Office and assist in assessing whether obstructive legislation is necessary and addressing any issues. When drafting new legislation, policy makers will work with digital service delivery as a consideration from the outset, in order to minimise incidents of unnecessary obstructive legislation in the future. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health does not currently directly deliver transactional services to the public. Should it do so in future, it will work with Cabinet Office to remove any legislative barriers which unnecessarily prevent the development of straightforward and convenient digital services. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-
 {/div}
 {/div}
 
