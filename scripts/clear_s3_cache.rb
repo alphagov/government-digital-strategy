@@ -30,7 +30,7 @@ class CloudfrontInvalidator
         expanded = path.split '/'
         expanded.pop
         folder = expanded.join "/"
-        puts "Need to clear path #{folder}"
+        puts "Need to clear path #{folder}/"
         folders_to_clear.push "#{folder}/"
       end
     end
