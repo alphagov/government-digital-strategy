@@ -36,6 +36,9 @@ $content-width: 80%;                      // Width of main content area
     }
     @include media(desktop){
       margin-left: $column-width;
+    }  
+    @include ie(6) {
+      margin-left: $margin;
     }
 }
 
@@ -273,6 +276,9 @@ hr {
         display: block;
         @include border('top');
         background-color: white;
+        @include ie(6) {
+          background-color: transparent;
+        }
       }
       .title-text{
         @include media(mobile){ min-height: 60px;}
@@ -293,7 +299,16 @@ hr {
         padding-bottom: 15px;
         border-bottom: 0 solid;
         @include heading-27;
-        font-weight: 400;
+        font-weight: 400;  
+        @include ie(6) {
+          position: static;
+          height: 25px;
+          padding: 5px 0;
+          margin-left: 0;
+          background-color: transparent;
+          @include border('bottom');
+          
+        }
         // Duplicated headers in left column
         .title-text{
           position: relative;

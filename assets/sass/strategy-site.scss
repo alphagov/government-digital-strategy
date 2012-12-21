@@ -321,21 +321,26 @@ margin-left: -100%;
 .action {
   h2{
     font-weight: 300;
-    width: 3 * $base-unit;
-    // The word 'action'
-    span{
-      font-weight: 300;
-      display: block;
-      text-transform: uppercase;
-      font-size: 23px;
-      margin-top: 29px;
-    }
-    // The number
-    width: 147px;
-    margin-left: 2 * $base-unit;
-    margin-right: $base-unit;
-    padding: 0;
     text-align: center;
+
+  }
+  @include media(desktop){
+    h2{
+      width: 3 * $base-unit;
+      // The word 'action'
+      span{
+        font-weight: 300;
+        display: block;
+        text-transform: uppercase;
+        font-size: 23px;
+        margin-top: 29px;
+      }
+      // The number
+      width: 147px;
+      margin-left: 2 * $base-unit;
+      margin-right: $base-unit;
+      padding: 0;
+    }
   }
   // The action text
   .action-text{
@@ -364,27 +369,20 @@ margin-left: -100%;
 .actions .action{
   @include media(mobile){
     margin-bottom: $margin / 2;
-    padding: 25px;
   }
   @include media(tablet){
     margin-bottom: $margin / 2;
-    padding: 25px;
   }
   @include media(desktop){
     margin-bottom: $margin;
     padding: 0;
   }
-  h2,
-  .text{
-    @include inline-block;
-    vertical-align: middle;
-  }
   h2{
-    display: none;
     @include media(desktop){
       @include inline-block;
+      vertical-align: middle;
+      padding: 25px 0;
     }
-    padding: 25px 0;
     margin-left: 0;
     margin-right: 0;
     @include gradient($blue, #52BBD9);
@@ -394,15 +392,28 @@ margin-left: -100%;
     }
   }
   .text{
-    @include media(desktop){
-      width: 76%;
-    }
+    @include inline-block;
+    vertical-align: middle;
     p{
-      margin-top: 0;
-      margin-left: 2%;
+      margin: 10px;
     }
     a{
-      margin: 10px 2%;
+      margin: 10px;
+      display: block;
+    }
+    @include media(desktop){
+      width: 72%;
+      p{
+        margin: 0 0 10px 2%;
+      }
+      .dep-resp{
+        border-left: 1px solid #666;
+        padding-left: 20px;
+      }
+      a{
+        margin: 10px 0 10px 2%;
+        display: inline;
+      }
     }
   }
 }

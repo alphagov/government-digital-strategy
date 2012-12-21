@@ -133,6 +133,9 @@
     margin: 20px 0;
     width: $content-width;
   }
+  @include ie(6) {
+    margin-left: $margin;
+  }
 
   // BASIC ELEMENTS
   >p,
