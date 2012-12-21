@@ -130,7 +130,7 @@ HMRC will train and develop policy makers to understand and use a wider range of
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-Coming soon...
+We will make greater use of the Government Digital Service consultation tools matrix to find tools that are suitable for us, as well as using channels such as Twitter and Facebook to help canvass opinions from those affected by our policies. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy.htm)
 {/div}
 {/div}
 
