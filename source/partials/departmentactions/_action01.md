@@ -37,7 +37,7 @@ Board member Stephen Lovegrove is BIS’s digital leader, and there is an existi
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
