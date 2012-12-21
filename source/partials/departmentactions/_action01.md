@@ -59,10 +59,26 @@ DfE has a Digital Leader in place to orchestrate digital direction throughout th
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will recruit a replacement to our board-level Digital Leader and review how far it is necessary to have digital skills represented at board level across all our network of delivery bodies. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra already has a board-level Digital Leader, who takes management responsibility for some of our key agencies. We will review whether it is necessary to have digital skills represented at board level across our delivery bodies. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health is committed to stewarding a Digital First health and care system and to becoming itself a Digital First department of state. The departmental Digital Leader works directly on this agenda with 2 Director General board members. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -90,22 +106,6 @@ To strengthen departmental leadership, we have appointed a new board-level Digit
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will recruit a replacement to our board-level Digital Leader and review how far it is necessary to have digital skills represented at board level across all our network of delivery bodies. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health is committed to stewarding a Digital First health and care system and to becoming itself a Digital First department of state. The departmental Digital Leader works directly on this agenda with 2 Director General board members. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
