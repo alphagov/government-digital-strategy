@@ -128,7 +128,7 @@ HMRC will put in place Digital Service Managers for all our transactional digita
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-Coming soon...
+This is not applicable to HMT as we are not a transactional department. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy.htm)
 {/div}
 {/div}
 
