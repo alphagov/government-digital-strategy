@@ -60,10 +60,31 @@ As new or redesigned services go-live, the launch and communication activities t
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+While we recognise that non-digital channels will remain essential in many cases, particularly given the level of digital engagement within some of our customer groups, we will work to raise awareness of digital options and encourage the use of them by those who are able. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+
+{/div}
+{/div}
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra will take steps to move our customers toward greater use of the digital services we provide. We will consider the use of a broad range of incentives and techniques to move people towards use of our digital channels including raising awareness of digital channels, effective engagement and promotion by staff, and rewarding digital users. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+
+{/div}
+{/div}
+
+
+
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health does not currently directly deliver transactional services to the public. However the department will work with the health and care system to raise awareness of Digital First across the NHS and the creation of the new integrated customer service platform for citizens. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 
 {/div}
 {/div}
@@ -93,24 +114,7 @@ We have plans in place to drive take up of our existing transactional services, 
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-While we recognise that non-digital channels will remain essential in many cases, particularly given the level of digital engagement within some of our customer groups, we will work to raise awareness of digital options and encourage the use of them by those who are able. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
 
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health does not currently directly deliver transactional services to the public. However the department will work with the health and care system to raise awareness of Digital First across the NHS and the creation of the new integrated customer service platform for citizens. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
