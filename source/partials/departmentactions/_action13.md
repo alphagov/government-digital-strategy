@@ -38,7 +38,7 @@ BIS partner organisations with high volume transactions have processes in place 
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
