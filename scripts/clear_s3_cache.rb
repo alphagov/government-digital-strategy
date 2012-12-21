@@ -23,12 +23,23 @@ class CloudfrontInvalidator
       'Content-Type' => 'text/xml',
       'Authorization' => "AWS %s:%s" % [@aws_account, digest]
     })
-    paths.unshift "digital/"
-    paths.unshift "la-ida-review/"
-    paths.unshift "digital/strategy/"
-    paths.unshift "digital/research/"
-    paths.unshift "digital/efficiency/"
-    paths.unshift "digital/assisted/"
+
+    folders_to_clear = []
+    paths.each do |path|
+      if path.end_with?('html')
+        expanded = path.split '/'
+        expanded.pop
+        folder = expanded.join "/"
+        puts "Need to clear path #{folder}"
+        folders_to_clear.push "#{folder}/"
+      end
+    end
+    paths = paths + folders_to_clear
+
+    paths.select! { |path|
+      path != "/"
+    }
+
     paths.map! { |path|
       "<Path>#{URI::encode("/#{path}")}</Path>"
     }
@@ -36,6 +47,7 @@ class CloudfrontInvalidator
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+    # puts req.body
     res = http.request(req)
     puts res
     # it was successful if response code was a 201
