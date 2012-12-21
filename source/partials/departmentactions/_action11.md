@@ -50,7 +50,6 @@ Although DCMS does not directly deliver any transactional services, we look forw
 {/div}
 {/div}
 
-
 {div .department}
 ##Department for<br>Education
 {: .logo-single}
@@ -60,10 +59,26 @@ DfE is nearing the completion of a significant IT rationalisation programme foll
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will cooperate with Government Digital Service and other departments in the development of common platforms to facilitate the provision of information and services. This will include adoption of shared Identity Assurance tools, and potentially the opening up of data to third parties via APIs. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Where justified by cost and efficiency, Defra supports the delivery of common technology platforms to underpin digital services in the future. Trust is a particularly important issue for the development and usage of digital services in the future, and we will support Government Digital Service’s development of a common federated approach to Identity Assurance, in replacement of the existing Government Gateway system. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health will ensure that the need to consider Open Source is embedded in its procedures and processes, achieving level 4 in Open Source Maturity by April 2014. It will reuse existing solutions before building tailored solutions, and ensure that commissioning processes enable the use of open source and common platform solutions. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -88,23 +103,6 @@ We will refresh our technical platforms to allow us to achieve our digital aspir
 {: .logo-single}
 {div .statement}
 We support the use of common technology platforms. Our new IT platforms are being built around new technologies such as APIs which offer opportunities to create a more integrated experience for users. We will also explore opportunities to work with other government departments, potentially by sharing platforms and technology or by designing joint services. [Read more »](http://www.dwp.gov.uk/publications/corporate-publications/digital-strategy.shtml)
-{/div}
-{/div}
-
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will cooperate with Government Digital Service and other departments in the development of common platforms to facilitate the provision of information and services. This will include adoption of shared Identity Assurance tools, and potentially the opening up of data to third parties via APIs. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health will ensure that the need to consider Open Source is embedded in its procedures and processes, achieving level 4 in Open Source Maturity by April 2014. It will reuse existing solutions before building tailored solutions, and ensure that commissioning processes enable the use of open source and common platform solutions. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 

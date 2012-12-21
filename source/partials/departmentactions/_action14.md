@@ -61,11 +61,26 @@ The DfE will initiate a digital literacy programme to upskill staff who will hav
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will ensure that the principle of digital by default extends throughout all of our work, including policymaking and information services. We will therefore develop a ‘digital toolkit’ for policy makers to ensure they are able to efficiently consult through digital channels. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Excellent digital services start with better policy making. Defra will make more use of digital tools (including social media) to support customer insight, policy development and service delivery. These will enhance, but not replace, more traditional non-digital methods of engagement. We welcome the provision of central tools and standards by the Cabinet Office to support this. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
 
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health will use digital tools and techniques to engage with and consult the public by: creating a new minimum digital standard for all formal consultations; using stakeholder and influencer mapping, social media monitoring, crowd-sourcing ideas and opinion, and online metrics to inform policy development, engage different audiences and evaluate effectiveness; developing a toolkit to help policymakers identify the most appropriate digital tools and techniques for each stage of the policy cycle. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -91,25 +106,6 @@ We will open up the use of social media and collaboration tools for our staff, s
 {: .logo-single}
 {div .statement}
 We will introduce a more open approach to policymaking. This includes using digital to engage with a wider range of people during upcoming consultations and embedding digital channels in the everyday policymaking process, so that policies can be continually developed on the basis of the widest range of views possible. [Read more »](http://www.dwp.gov.uk/publications/corporate-publications/digital-strategy.shtml)
-{/div}
-{/div}
-
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will ensure that the principle of digital by default extends throughout all of our work, including policymaking and information services. We will therefore develop a ‘digital toolkit’ for policy makers to ensure they are able to efficiently consult through digital channels. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health will use digital tools and techniques to engage with and consult the public by: creating a new minimum digital standard for all formal consultations; using stakeholder and influencer mapping, social media monitoring, crowd-sourcing ideas and opinion, and online metrics to inform policy development, engage different audiences and evaluate effectiveness; developing a toolkit to help policymakers identify the most appropriate digital tools and techniques for each stage of the policy cycle. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-
 {/div}
 {/div}
 

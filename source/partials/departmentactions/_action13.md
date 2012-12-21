@@ -60,10 +60,26 @@ DfE’s Digital Intelligence Team is fully engaged with Government Digital Servi
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will make consistent management information available to internal teams and to Government Digital Service for all digital by default services. So far Government Digital Service has requested, and DECC will provide for each service: cost per transaction, user satisfaction, transaction completion rates, and  take-up levels. This data will be and available to Government Digital Service and internal teams, as part of our effort to continuously improve our services. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra is already providing management data for some transactions. From April 2013 we will ensure consistent reporting on the key indicators that Government Digital Service have identified, except where existing systems would need amending at significant cost. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health will report against all relevant data sets from April 2013. It will also systematically use digital data and insight to inform policymaking by using specialist techniques such as influencer mapping, and by developing the capability of its staff to do this for themselves. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -88,23 +104,6 @@ We will collect and analyse performance data on our services to help us identify
 {: .logo-single}
 {div .statement}
 We will provide a consistent set of management information wherever systems allow, and ensure that new systems are built with this in mind. [Read more »](http://www.dwp.gov.uk/publications/corporate-publications/digital-strategy.shtml)
-{/div}
-{/div}
-
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will make consistent management information available to internal teams and to Government Digital Service for all digital by default services. So far Government Digital Service has requested, and DECC will provide for each service: cost per transaction, user satisfaction, transaction completion rates, and  take-up levels. This data will be and available to Government Digital Service and internal teams, as part of our effort to continuously improve our services. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health will report against all relevant data sets from April 2013. It will also systematically use digital data and insight to inform policymaking by using specialist techniques such as influencer mapping, and by developing the capability of its staff to do this for themselves. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
