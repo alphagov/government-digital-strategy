@@ -40,7 +40,7 @@ We are aware of few significant legislative barriers to achieving digital by def
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
