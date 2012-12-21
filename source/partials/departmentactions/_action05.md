@@ -59,12 +59,30 @@ Amongst others, DfE has instigated 2 key projects which will support the governm
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will re-design existing services to be digital by default (subject to business cases reviews), collaborating with arm's length bodies and partners where necessary and using the Coal Authority’s Mining Reports as our pilot. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Our 2 ‘exemplar’ transactional redevelopments are: the Common Agricultural Policy Delivery Programme (for farmer payments) and Waste Registration & Applications. In light of the experiences from these exemplar developments, we will review our other high-volume transactions. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
 {/div}
 {/div}
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health does not currently directly deliver services handling over 100,000 transactions each year to the public. Should this change in future, it will ensure these services are designed to meet the digital by default standard. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
+{/div}
+{/div}
+
 
 {div .department}
 ##Department for<br>International<br>Development
@@ -87,14 +105,6 @@ We will re-design 3 exemplar transactions by 2015: DVLA vehicles online, DVLA pe
 {: .logo-single}
 {div .statement}
 We will redesign services handling over 100,000 transactions each year, starting with 3 exemplar services: Universal Credit, Personal Independence Payment and Carer’s Allowance. As well as these transactional services, our ambition is to digitalise as much of the department’s activity as possible, where this could deliver a better service for the user and better outcomes for the department. [Read more »](http://www.dwp.gov.uk/publications/corporate-publications/digital-strategy.shtml)
-{/div}
-{/div}
-
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will re-design existing services to be digital by default (subject to business cases reviews), collaborating with arm's length bodies and partners where necessary and using the Coal Authority’s Mining Reports as our pilot. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
 {/div}
 {/div}
 
