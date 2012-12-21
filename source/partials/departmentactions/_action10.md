@@ -38,7 +38,7 @@ BIS welcomes the support that Cabinet Office and Government Digital Service will
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
