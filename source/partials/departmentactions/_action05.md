@@ -37,7 +37,7 @@ All BIS partner organisations responsible for services over 100,000 transactions
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
