@@ -130,7 +130,7 @@ Legislation enacted before the digital age can constrain the development of simp
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-Coming soon...
+This is not applicable to HMT as we do not offer online services. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy.htm)
 {/div}
 {/div}
 
