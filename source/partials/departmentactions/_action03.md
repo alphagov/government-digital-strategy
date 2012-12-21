@@ -59,12 +59,30 @@ To maximise the benefits of becoming a digital by default department we will nee
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+The move to digital by default will require us to develop new skills and capabilities and also a significant change in culture and mind-set. We will conduct a skills and capabilities audit to identify capacity building requirements across the full range of capabilities from leadership through policy, service management and procurement. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Our ‘exemplars’ will be the catalyst for the development of appropriate in-house digital capability in Defra in the future, demonstrating what expertise and skills we will need in the future. We aim to include our plans for developing this capability in the Defra Business Plan for 2013/14. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
 {/div}
 {/div}
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+To help staff get the digital skills they need, we will work with heads of profession and Civil Service Learning and ensure that the department’s 2013 learning and development strategy reflects the digital ambitions in the Civil Service Capabilities Plan. The department will develop a programme of internal digital masterclasses to share experiences, knowledge and best practice, and review its in-house capability to develop and manage digital products, revising existing and creating new roles as required. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
+{/div}
+{/div}
+
 
 {div .department}
 ##Department for<br>International<br>Development
@@ -90,22 +108,7 @@ To become a digital organisation, we will ensure we have the right digital skill
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-The move to digital by default will require us to develop new skills and capabilities and also a significant change in culture and mind-set. We will conduct a skills and capabilities audit to identify capacity building requirements across the full range of capabilities from leadership through policy, service management and procurement. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
 
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-To help staff get the digital skills they need, we will work with heads of profession and Civil Service Learning and ensure that the department’s 2013 learning and development strategy reflects the digital ambitions in the Civil Service Capabilities Plan. The department will develop a programme of internal digital masterclasses to share experiences, knowledge and best practice, and review its in-house capability to develop and manage digital products, revising existing and creating new roles as required. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
