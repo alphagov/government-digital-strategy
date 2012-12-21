@@ -39,7 +39,7 @@ BIS will build on existing successful examples of online, open policy making so 
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
