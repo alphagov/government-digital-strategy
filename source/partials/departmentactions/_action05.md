@@ -110,14 +110,6 @@ We will redesign services handling over 100,000 transactions each year, starting
 
 
 {div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health does not currently directly deliver services handling over 100,000 transactions each year to the public. Should this change in future, it will ensure these services are designed to meet the digital by default standard. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-{/div}
-{/div}
-
-{div .department}
 ##Foreign and<br>Commonwealth<br>Office
 {: .logo-single}
 {div .statement}
