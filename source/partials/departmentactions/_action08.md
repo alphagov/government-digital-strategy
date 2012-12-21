@@ -137,7 +137,7 @@ We want our customers to seek out our digital offerings because they have a repu
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-Coming soon...
+This is not applicable to HMT as we do not offer online services.[Read more »](http://www.hm-treasury.gov.uk/digital_strategy.htm)
 {/div}
 {/div}
 
