@@ -38,7 +38,7 @@ We will improve the usability of existing digital services to improve customer s
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
