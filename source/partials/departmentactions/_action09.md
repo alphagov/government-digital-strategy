@@ -59,11 +59,30 @@ DfE recognise that not all of our customers and audiences are online, and that n
 {/div}
 {/div}
 
+
+{div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+We will ensure that every digital service has an excellent offline alternative for those who really need it, and that those who could reasonably be expected to use digital, but do not currently, are encouraged and assisted in becoming digitally literate and using our digital channels. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
 {div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra welcomes the planned provision by Government Digital Service of a common procurement framework to make it easier to set up assisted digital support services. We will encourage the development of intermediaries and ‘franchises’ (with partners like farm software providers) which will allow others to provide services on our behalf. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+{/div}
+{/div}
+
+
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+Department of Health is committed to ensuring the accessibility of all its digital channels and where necessary producing alternative formats of policy and corporate material for those unable to access them online. The department will also support the NHS to partner with organisations that help those that are unable to use digital channels to manage their health to do so in line with the cross-government approach to assisted digital. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -91,22 +110,7 @@ Some users of DWP services currently cannot or do not access the internet. We wi
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-We will ensure that every digital service has an excellent offline alternative for those who really need it, and that those who could reasonably be expected to use digital, but do not currently, are encouraged and assisted in becoming digitally literate and using our digital channels. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
 
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-Department of Health is committed to ensuring the accessibility of all its digital channels and where necessary producing alternative formats of policy and corporate material for those unable to access them online. The department will also support the NHS to partner with organisations that help those that are unable to use digital channels to manage their health to do so in line with the cross-government approach to assisted digital. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
