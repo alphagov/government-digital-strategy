@@ -12,7 +12,7 @@
 - [Department for Work and Pensions Digital Strategy](http://www.dwp.gov.uk/publications/corporate-publications/digital-strategy.shtml)
 - [Foreign and Commonwealth Office Digital Strategy](https://www.gov.uk/government/publications/the-fco-digital-strategy)
 - [Her Majesty's Revenue & Customs Digital Strategy](http://www.hmrc.gov.uk/about/2012-digital-strategy.pdf)
-- Her Majesty’s Treasury Digital Strategy (Coming soon)
+- [Her Majesty’s Treasury Digital Strategy](http://www.hm-treasury.gov.uk/digital_strategy.htm)
 - [Home Office Digital Strategy](http://www.homeoffice.gov.uk/publications/about-us/corporate-publications/ho-digital-strategy/)
 - [Ministry of Defence Digital Strategy](https://www.gov.uk/government/publications/digital-in-defence)
 - [Ministry of Justice Digital Strategy](http://open.justice.gov.uk/digital-strategy/)
