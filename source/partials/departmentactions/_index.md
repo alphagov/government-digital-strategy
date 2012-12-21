@@ -1,6 +1,6 @@
 - [Attorney General’s Office Digital Strategy](https://www.gov.uk/government/publications/law-officers-departments-digital-strategy)
-- [Department for Business, Innovation and Skills Digital Strategy](http://discuss.bis.gov.uk/digitalstrategy)
 - [Cabinet Office Digital Strategy](http://www.cabinetoffice.gov.uk/resource-library/cabinet-office-digital-strategy)
+- [Department for Business, Innovation and Skills Digital Strategy](http://discuss.bis.gov.uk/digitalstrategy)
 - Department for Communities and Local Government Digital Strategy (Coming soon)
 - [Department for Culture, Media and Sport Digital Strategy](http://www.dcms.gov.uk/publications/9586.aspx)
 - [Department for Education Digital Strategy](http://www.education.gov.uk/digitalstrategy)
