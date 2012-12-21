@@ -127,7 +127,6 @@ To support delivery of our digital strategy, HMRC will develop new organisationa
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-Coming soon...
 {/div}
 {/div}
 
