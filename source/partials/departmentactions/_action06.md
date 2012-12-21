@@ -41,7 +41,7 @@ As part of the implementation of the digital strategy we will establish a team i
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
