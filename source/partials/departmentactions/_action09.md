@@ -38,7 +38,7 @@ In each digital by default project – starting with the 4 exemplar projects ide
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
