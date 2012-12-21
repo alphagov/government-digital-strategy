@@ -128,7 +128,7 @@ HMRC will begin reporting against defined data-sets provided by Cabinet office f
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-This is not applicable to HMT as we are not a transactional department. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy)
+Coming soon...
 {/div}
 {/div}
 
