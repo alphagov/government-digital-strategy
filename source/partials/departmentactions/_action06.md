@@ -62,12 +62,31 @@ Digital by default service standards now form part of the design requirements fo
 {/div}
 {/div}
 
+
+{div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+DECC intends to comply with the digital by default service standard once it is published, although this will require approval once the contents of the standard have been finalised. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+{/div}
+{/div}
+
 {div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra welcomes the new digital by default service standard, which will be used as the basis for all our digital development from April 2014. [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
 
+{/div}
+{/div}
+
+
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health does not currently directly transactional services to the public. Should this change in future, it will ensure these services are designed to meet the digital by default standard. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 {/div}
 {/div}
 
@@ -95,22 +114,7 @@ We will work closely with Government Digital Service to develop the digital by d
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-DECC intends to comply with the digital by default service standard once it is published, although this will require approval once the contents of the standard have been finalised. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
-{/div}
-{/div}
 
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health does not currently directly transactional services to the public. Should this change in future, it will ensure these services are designed to meet the digital by default standard. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
