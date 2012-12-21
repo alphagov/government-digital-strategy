@@ -276,6 +276,9 @@ hr {
         display: block;
         @include border('top');
         background-color: white;
+        @include ie(6) {
+          background-color: transparent;
+        }
       }
       .title-text{
         @include media(mobile){ min-height: 60px;}
