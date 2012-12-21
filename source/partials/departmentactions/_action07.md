@@ -61,10 +61,31 @@ DfE are aligned with Government Digital Service's corporate publishing move to G
 {/div}
 
 {div .department}
+##Department of<br>Energy and<br>Climate Change
+{: .logo-single}
+{div .statement}
+DECC’s eCommunications team is currently engaged in transferring its online information services from their current locations to the GOV.UK domain. DECC recognises that this will make it easier to find the information we make available efficiently. This process will be completed by March 2013. DECC’s arms's length bodies will also transfer their information services to GOV.UK. DECC is assisting in coordinating this process, which will be completed by March 2014. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
+
+{/div}
+{/div}
+
+{div .department}
 ##Department for<br>Environment<br>Food &<br>Rural Affairs
 {: .logo-single}
 {div .statement}
 Defra is already engaged in moving its online publishing activity to GOV.UK by 31 March 2013 (with specialist content following by 31 December 2013). We will work to support the subsequent effort to transfer online publishing from the websites of our delivery bodies (except where exceptions have been agreed). [Read more »](http://www.defra.gov.uk/publications/2012/12/20/pb13863-digital-strategy-2012/)
+
+{/div}
+{/div}
+
+
+
+
+{div .department}
+##Department of<br>Health
+{: .logo-single}
+{div .statement}
+The Department of Health will move its corporate publishing activities to GOV.UK in March 2013. Those of its arm’s length bodies that are scheduled to move to GOV.UK will do so at the same time. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
 
 {/div}
 {/div}
@@ -95,24 +116,7 @@ All of our new and redesigned services will be accessed through GOV.UK. We are w
 {/div}
 {/div}
 
-{div .department}
-##Department of<br>Energy and<br>Climate Change
-{: .logo-single}
-{div .statement}
-DECC’s eCommunications team is currently engaged in transferring its online information services from their current locations to the GOV.UK domain. DECC recognises that this will make it easier to find the information we make available efficiently. This process will be completed by March 2013. DECC’s arms's length bodies will also transfer their information services to GOV.UK. DECC is assisting in coordinating this process, which will be completed by March 2014. [Read more »](http://www.decc.gov.uk/en/content/cms/about/our_goals/our_goals.aspx#dds)
 
-{/div}
-{/div}
-
-
-{div .department}
-##Department of<br>Health
-{: .logo-single}
-{div .statement}
-The Department of Health will move its corporate publishing activities to GOV.UK in March 2013. Those of its arm’s length bodies that are scheduled to move to GOV.UK will do so at the same time. [Read more »](http://digitalhealth.dh.gov.uk/digital-strategy)
-
-{/div}
-{/div}
 
 {div .department}
 ##Foreign and<br>Commonwealth<br>Office
