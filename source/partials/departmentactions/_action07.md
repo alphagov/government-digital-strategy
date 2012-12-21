@@ -138,7 +138,7 @@ Between November 2012 and March 2013, the corporate publishing activities of HMR
 ##Her Majesty's<br>Treasury
 {: .logo-single}
 {div .statement}
-Coming soon...
+Our website will close during 2013 and the websites of our arm’s length bodies in early 2014. This presents a unique opportunity to achieve 3 things: move away from a content management system  and website platform which is no longer fit for purpose; move our content to a new, cost-neutral platform which will be better focussed on the needs of our audiences; and include new content which is better in quality and greater in ambition than we currently offer. [Read more »](http://www.hm-treasury.gov.uk/digital_strategy.htm)
 {/div}
 {/div}
 
