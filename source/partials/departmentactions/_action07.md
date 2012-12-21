@@ -39,7 +39,7 @@ The BIS website went live on GOV.UK in December 2012. We will work with BIS part
 ##Department for<br>Communities and<br>Local Government
 {: .logo-single}
 {div .statement}
-Coming soon...
+Awaiting DCLG confirmation
 {/div}
 {/div}
 
