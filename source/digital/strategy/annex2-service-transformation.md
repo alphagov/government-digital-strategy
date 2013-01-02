@@ -36,7 +36,7 @@ maintainable digital services.
     Commercial Models Team
 -   all propositions must deliver user value and financial savings
 
-![Tranformation programme governanace](/assets/images/strategy/opportunity_map.png)
+[![Tranformation programme governanace](/assets/images/strategy/opportunity_map.png)](/assets/images/strategy/opportunity_map.png)
  
 ###Assessment criteria
 
@@ -58,4 +58,5 @@ their own service proposition (portfolio) management process.
 An example of an existing departmental proposition management process
 is given below.
 
-![Departmental proposition management process](/assets/images/strategy/management_process.png)
+[![Departmental proposition management process](/assets/images/strategy/management_process.png)](/assets/images/strategy/management_process.png)
+
