@@ -1,5 +1,4 @@
 require "fileutils"
-require "wicked_pdf"
 require "pdfcrowd"
 require "yaml"
 require "shell/executer.rb"
@@ -78,6 +77,8 @@ class CompilePdf
     # lets do some regexing on the HTML
     index = IO.read "#{folder}/index.html"
 
+    url_path = folder.gsub("built", "")
+
     # find all images
     index.gsub!(/<img[^']*?src=\"([^']*?)\"[^']*?>/) { |m|
       image_name = $1.split("/").last
@@ -93,6 +94,21 @@ class CompilePdf
       new_assets = '<script src="jquery.min.js"></script><script src="magna-charta.min.js"></script><script src="pdf.js"></script><link rel="stylesheet" href="style.css" media="print" />'
       "#{new_assets}\n\n</head>"
     }
+
+    # remove all internal link URLs with the proper URL
+    # matches any link that starts with a / or with a #
+    # turns href='/foo' to href='http://publications.cabinetoffice.gov.uk/foo'
+    index.gsub!(/href="(\/)(.+?)"/) { |m|
+      prefix = ""
+      if $1 == "#"
+        prefix = "#{url_path}#"
+      else
+        # $1 is a /
+        prefix = "/"
+      end
+      "href='http://publications.cabinetoffice.gov.uk#{prefix}#{$2}'"
+    }
+
 
     # save file
     File.open("#{pdf_path}/index-pdf.html", 'w') { |f| f.write(index) }
