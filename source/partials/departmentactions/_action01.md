@@ -86,7 +86,7 @@ The Department of Health is committed to stewarding a Digital First health and c
 ##Department for<br>International<br>Development
 {: .logo-single}
 {div .statement}
-DFID has no service that carries out this volume of transactions. However, we will work with our corporate service teams to ensure that where current services need to be improved, streamlined or made simpler, we will ensure those involved in the process have access to the appropriate advice and guidance. [Read more »](http://www.dfid.gov.uk/about-us/How-we-measure-progress/dfid-digital-strategy/)
+We currently have a Digital Leader who is both on DFID’s departmental board and the Executive Management Committee. We will establish a digital operations unit, reporting to the Digital Leader, that will take responsibility for overseeing the delivery of this strategy. [Read more »](http://www.dfid.gov.uk/about-us/How-we-measure-progress/dfid-digital-strategy/)
 {/div}
 {/div}
 
