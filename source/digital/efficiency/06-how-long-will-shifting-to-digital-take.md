@@ -92,13 +92,13 @@ relevant approvals needs to be minimised wherever possible.
 
 ####Managing security risks        
 
-Digital services bring unique challenges in making sure users’ personal
-information and identity is protected. Identity assurance has the
-potential to increase the security requirements, complexity and cost of
-digital services. To reduce the cost and risk of owning sensitive data,
-some services (eg free school meal applications) have made links to
-databases hosted in other areas of government (in this case, those held by DWP). This has helped to reduce
-security risk and avoid unnecessary duplication of storage systems.
+Digital services bring unique challenges in making sure users’ personal 
+information and identity is protected.  Identity assurance will create a 
+simple, trusted and secure environment for users to access digital public 
+services.  The identity assurance approach is based on standards and is 
+technology neutral, reducing the complexity and cost for government, while 
+creating new opportunities for reducing fraud through collaboration between 
+the public and private sectors.
 
 ####Working with partner organisations
 
