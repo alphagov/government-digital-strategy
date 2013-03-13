@@ -55,7 +55,6 @@ spending review.
   <a class="captions" href="/assets/data/transcript-tor-intro.xml">Captions</a></p>
 </figure>
 </div>
-<p><a href="http://www.youtube.com/watch?v=3tnvttt_1TE" rel="external">Watch on YouTube</a></p>
 </div>
 
 Watch Tim O’Reilly, the founder and CEO of O'Reilly Media, talk about the

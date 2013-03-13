@@ -10,7 +10,6 @@
   <p><a href="http://www.youtube.com/watch?v=cKj9MNXmvtM" rel="external">Watch on YouTube</a></p>
 </figure>
 </div>
-<p><a href="http://www.youtube.com/watch?v=cKj9MNXmvtM" rel="external">Watch on YouTube</a></p>
 </div>
 </div>
 

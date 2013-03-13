@@ -10,7 +10,6 @@
   <p><a href="http://www.youtube.com/watch?v=a-RDuI18glc" rel="external">Watch on YouTube</a></p>
 </figure>
 </div>
-<p><a href="http://www.youtube.com/watch?v=a-RDuI18glc" rel="external">Watch on YouTube</a></p>
 </div>
 </div>
 The [Government Digital Strategy](/digital/strategy/) set out how government will become digital by default. By digital by
