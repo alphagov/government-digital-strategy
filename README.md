@@ -20,7 +20,7 @@ The following 10 steps should get you up and running pretty quickly. All steps a
 5. `cd` into the project directory.
 6. Run `npm install` to install all Node dependencies.
 7. Run `bundle` (short for `bundle install`) to install all Ruby dependencies.
-8. Run the build script: `./local-build.sh`
+8. Run the build script: `bundle exec ./local-build.sh`
 9. Run the server: `ruby scripts/built-server.rb`
 10. Visit `http://localhost:8080/digital` to view.
 
@@ -49,8 +49,10 @@ __If you ever get any errors, in particular Ruby errors or Node / JS errors, you
 Run the shell script:
 
 ```
-./local-build.sh
+bundle exec ./local-build.sh
 ```
+
+Calling these scripts with `bundle exec` makes sure the commands are run within the context of your local Bundle (the gems defined in `Gemfile`).
 
 This compiles everything into the `built` folder. To view it locally, run `ruby built-server.rb` and head to `http://localhost:8080`
 
@@ -61,15 +63,15 @@ This wont attempt to pull in any content from other Github repositories, so can 
 The local-build script is great for viewing locally but doesn't do any of the performance stuff we want - minifying CSS, JS and so on. The production build script does.
 
 ```
-./deploy.sh
+bundle exec ./deploy.sh
 ```
 
-It will compile and minify the JS and CSS. This uses the RequireJS optimizer.
+It will compile and minify the JS and CSS. This uses the RequireJS optimizer, so you need to have run `npm install` first.
 
 To make it generate the PDFs, you need to pass in the argument:
 
 ```
-./deploy.sh pdf
+bundle exec ./deploy.sh pdf
 ```
 
 Once it's done, you're left with a `deploy/` folder which is the production-ready files. This is what should be deployed to the server.
@@ -89,14 +91,14 @@ The PDF JavaScript assets are stored within the [pdf-only](https://github.com/al
 Make sure the S3 credentials are okay in `config/s3.config.yml`. Then run:
 
 ```
-./deploy.sh
-ruby scripts/push_to_s3.rb
+bundle exec ./deploy.sh
+bundle exec ruby scripts/push_to_s3.rb
 ```
 
 Then you need to check the site, and once you're happy, invalidate the Cloudfront cache so the live site updates.
 
 ```
-ruby scripts/clear_s3_cache.rb
+bundle exec ruby scripts/clear_s3_cache.rb
 ```
 
 # Assets
@@ -257,6 +259,9 @@ Remember, all this parsing is done __before__ the Markdown is parsed. Kramdown i
 ## Changelist
 
 _These document all the larger updates to the site we've done sinch the launch. If you'd like a full list, just view the commits log. A lot of minor changes or very small bug fixes are not listed here, else we'd just be duplicating the Git commit log._
+
+__15/03/13__
+- switched to our version of the Accessible video player. Many improvements to this.
 
 __21/12/12__
 - Added the department responses to each Actions
