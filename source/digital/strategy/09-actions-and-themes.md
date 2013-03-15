@@ -236,10 +236,10 @@ For the remaining departments:
 
 Government Digital Service will:
 
--   publish the digital by default service standard, which will
+-   publish the [digital by default service standard](https://www.gov.uk/service-manual/digital-by-default), which will
     describe the performance metrics and capabilities that services must
     achieve. An indicative outline is published in Annex 3
--   provide a programme of support, guidance and tools that help
+-   provide [a programme of support, guidance and tools](https://www.gov.uk/service-manual) that help
     service teams meet the standard throughout the development and life
     of the service
 -   agree with departments the deadlines for when digital services are

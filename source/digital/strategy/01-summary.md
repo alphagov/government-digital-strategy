@@ -57,7 +57,7 @@ support improved digital capability across departments.
 All departments will undertake end-to-end service redesign of all
 transactional services with over 100,000 transactions each year. All new
 or redesigned transactional services going live after April 2014 will
-meet a new digital by default service standard.
+meet a new [digital by default service standard](https://www.gov.uk/service-manual/digital-by-default).
 
 There are 7 departments which between them handle the majority of central government transactions. These are:
 
