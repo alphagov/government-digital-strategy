@@ -1,7 +1,7 @@
 require 'webrick'
 
-include WEBrick    # let's import the namespace so 
-                   # I don't have to keep typing 
+include WEBrick    # let's import the namespace so
+                   # I don't have to keep typing
                    # WEBrick:: in this documentation.
 
 def start_webrick(config = {})
@@ -16,4 +16,6 @@ def start_webrick(config = {})
 
 end
 
+puts "Site now running on http://localhost:8080"
 start_webrick(:DocumentRoot => 'built')
+

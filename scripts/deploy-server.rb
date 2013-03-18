@@ -1,11 +1,10 @@
 require 'webrick'
 
-include WEBrick    # let's import the namespace so 
-                   # I don't have to keep typing 
+include WEBrick    # let's import the namespace so
+                   # I don't have to keep typing
                    # WEBrick:: in this documentation.
 
 def start_webrick(config = {})
-  # always listen on port 8080
   config.update(:Port => 9090)
   server = HTTPServer.new(config)
   yield server if block_given?
@@ -16,5 +15,6 @@ def start_webrick(config = {})
 
 end
 
+puts "Site now running on http://localhost:9090"
 start_webrick(:DocumentRoot => 'deploy')
 
