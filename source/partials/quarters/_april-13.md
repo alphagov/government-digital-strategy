@@ -51,7 +51,7 @@ The exemplars and the way they are being delivered do not fit with traditional m
 
 __GOV.UK__
 
-Most departments have now moved their corporate information web publishing across to GOV.UK. The remainder, Defra, DWP, DfE, MOJ, Her Majesty’s Treasury (HMT), and No.10, are scheduled to move during April.
+Most departments have now moved their corporate information web publishing across to GOV.UK. The remainder, Defra, DWP, DfE, MOJ, Her Majesty’s Treasury (HMT), the Deputy Prime Minster's Office and No.10, are scheduled to move during April.
 
 Use of GOV.UK reached a new high of 6.13 million unique visitors during the final week of February; around 1 million higher than the equivalent use of the services it has replaced.
 
