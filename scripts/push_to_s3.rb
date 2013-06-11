@@ -19,8 +19,18 @@ files = Dir.glob("deploy/**/*").select { |file| file.include?(".") }
 files.each do |file|
   file_path = file.gsub("deploy/", "")
   puts "-> Uploading #{file_path}"
+  options = {}
+  if file.include?("csv")
+    puts "--> File is CSV, setting content options"
+    options[:content_type] = "text/csv"
+    options[:content_disposition] = "attachment"
+  end
+  if file.include?("css")
+    puts "--> File is CSS, setting content_type"
+    options[:content_type] = "text/css"
+  end
   obj = bucket.objects[file_path]
-  obj.write(Pathname.new(file))
+  obj.write(Pathname.new(file), options)
 end
 
 puts "-> Done"
