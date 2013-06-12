@@ -30,7 +30,6 @@ class CloudfrontInvalidator
         expanded = path.split '/'
         expanded.pop
         folder = expanded.join "/"
-        puts "Need to clear path #{folder}/"
         folders_to_clear.push "#{folder}/"
       end
     end
@@ -41,6 +40,7 @@ class CloudfrontInvalidator
     }
 
     paths.map! { |path|
+      puts "Clearing path: #{path}"
       "<Path>#{URI::encode("/#{path}")}</Path>"
     }
     req.body = "<?xml version='1.0' encoding='UTF-8'?><InvalidationBatch xmlns='http://cloudfront.amazonaws.com/doc/2012-07-01/'><Paths><Quantity>#{paths.length}</Quantity><Items>#{ paths.join("\n") }</Items></Paths><CallerReference>INVALIDATE_#{Time.now.utc.to_i}</CallerReference></InvalidationBatch>"
@@ -49,9 +49,8 @@ class CloudfrontInvalidator
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
     # puts req.body
     res = http.request(req)
-    puts res
     # it was successful if response code was a 201
-    return res.code == '201'
+    res.code == '201'
   end
 end
 files = Dir.glob("deploy/**/*").select { |file| file.include?(".") }.map { |file|
