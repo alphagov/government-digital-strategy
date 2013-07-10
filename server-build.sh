@@ -6,7 +6,10 @@ export LC_ALL=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 
 echo "Pulling all branches down"
-git pull origin master
+git checkout master
+git pull origin
+git checkout 6month-report
+git pull origin 6month-report
 
 echo "Bundling"
 /usr/local/bin/bundle
