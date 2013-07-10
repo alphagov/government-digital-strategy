@@ -160,6 +160,10 @@
     color: $colour-scheme;
     margin-top: -10px;
   }
+  .pull-right {
+    float: right;
+    border: 1px solid red;
+  }
   // Case studies
   .case-study{
     overflow: hidden;
