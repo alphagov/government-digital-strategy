@@ -26,9 +26,6 @@ Since April 2013, we've:
 
 * started recruiting and training Service Managers to run them
 
-![](http://placekitten.com/200/300)
-{pull-right}
-
 The [Government Digital Strategy](http://publications.cabinetoffice.gov.uk/digital/) was published in November 2012. It included a list of 14 actions for building government services that are digital by default. [Each government department has its own digital strategy](http://publications.cabinetoffice.gov.uk/digital/#departmental-strategies), setting out what it will do to respond to those actions.
 
 We’re monitoring the work done on these actions, and keeping track of the progress made. Every 3 months, we publish a short summary of what’s been done. This is the second of those reports (the [first](http://publications.cabinetoffice.gov.uk/digital/quarterly-reports/april-13/) was published in April 2013). 
