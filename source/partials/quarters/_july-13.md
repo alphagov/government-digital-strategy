@@ -4,17 +4,17 @@
 
 **[boxout on one side]**
 
-The [Government Digital Strategy](http://publications.cabinetoffice.gov.uk/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department [apart from DCLG] has its own digital strategy](http://publications.cabinetoffice.gov.uk/digital/#departmental-strategies), setting out what it will do to respond to those actions.
+The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department [apart from DCLG] has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
 
-Every 3 months, we publish a short summary of what’s been done. This is the second of those reports; the [first](http://publications.cabinetoffice.gov.uk/digital/quarterly-reports/april-13/) was published in April 2013.
+Every 3 months, we publish a short summary of what’s been done. This is the second of those reports; the [first](/digital/quarterly-reports/april-13/) was published in April 2013.
 
-We’re pushing on with implementing the [Government Digital Strategy](http://publications.cabinetoffice.gov.uk/digital/); the National Audit Office (NAO) report, [Digital Britain 2](http://www.nao.org.uk/report/digital-britain-2-putting-users-at-the-heart-of-governments-digital-services/), commented that the digital agenda had firm leadership and was based on sound evidence.
+We’re pushing on with implementing the [Government Digital Strategy](/digital/); the National Audit Office (NAO) report, [Digital Britain 2](http://www.nao.org.uk/report/digital-britain-2-putting-users-at-the-heart-of-governments-digital-services/), commented that the digital agenda had firm leadership and was based on sound evidence.
 
 GOV.UK is an award-winning website and continues to grow, but now our primary focus is on digital transformation - rebuilding government services for the way people live today. We've started work on redesigning 25 of the biggest and most-used transactional public services - we call them exemplars, leading the way for others to follow. Since April, we’ve done a great deal of work, often behind the scenes, and confirmed multi-million pound cost savings. We haven’t got as far as we would have liked; some projects were delayed because of difficulties in finalising funding.  This held up recruitment, which meant we didn’t have enough people to do all the work. That’s something we’re already tackling. There’s still a huge amount of work to do but we hope to make up for lost time through the rest of the year.
 
 There’s more detail in the report below, but at a quick glance, in the 3 months between April and June, we:
 
-* provided help to departments as they recruit and train the skilled people they need; so far we’ve recruited to 11 digital specialist posts for DWP, been involved in recruitment processes for 29 senior technology posts, started running an induction and development programme for [Service Managers](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-02), and advised 3 of the 7 major transactional departments on organisational design needed to make digital transformation happen
+* provided help to departments as they recruit and train the skilled people they need; so far we’ve recruited to 11 digital specialist posts for DWP, been involved in recruitment processes for 29 senior technology posts, started running an induction and development programme for [Service Managers](/digital/strategy/#action-02), and advised 3 of the 7 major transactional departments on organisational design needed to make digital transformation happen
 
 * published the [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) and its accompanying [Manual](https://www.gov.uk/service-manual)
 
@@ -52,24 +52,24 @@ In the next 3 months (July to September 2013), we plan to:
 
 * help departments find specialist digital and technology staff from inside and outside government through a Recruitment Hub based in GDS
 
-* take our [Service Manager induction](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-02) programme live, and integrate digital into existing training for senior civil servants
+* take our [Service Manager induction](/digital/strategy/#action-02) programme live, and integrate digital into existing training for senior civil servants
 
 
 ####Digital capability and leadership
 
 [insert CSL video from YouTube, possibly Job Centre one]
 
-The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabilities-plan-for-the-civil-service), published in April, identified digital capability (in other words, having civil servants who understand how digital can improve policy outcomes and know how to build, maintain and run digital services) as a high priority. [Government Digital Service (GDS) has helped by: ](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-04)
+The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabilities-plan-for-the-civil-service), published in April, identified digital capability (in other words, having civil servants who understand how digital can improve policy outcomes and know how to build, maintain and run digital services) as a high priority. [Government Digital Service (GDS) has helped by: ](/digital/strategy/#action-04)
 
 * advising departments (including the Department for Work and Pensions (DWP), HMRC,  and the Home Office) on how to recruit senior people with the right digital and technology skills, and integrate those roles with the rest of the team
 
-* running an alpha of the [Service Manager induction and development programme](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-02), and using what we’ve learned from it to build a beta version for July
+* running an alpha of the [Service Manager induction and development programme](/digital/strategy/#action-02), and using what we’ve learned from it to build a beta version for July
 
 * making 4 videos for civil servants, explaining the ways digital technology is already being used to transform services
 
-The Ministry of Justice (MoJ) has appointed a new [Digital Leader](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-01), as have half of the agencies within the Department for Business, Industry and Skills (BIS), which has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
+The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/strategy/#action-01), as have half of the agencies within the Department for Business, Industry and Skills (BIS), which has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
 
-Other [departments are working on building their own teams](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-03):
+Other [departments are working on building their own teams](/digital/strategy/#action-03):
 
 * The Foreign and Commonwealth Office (FCO) set up a team covering portfolio management, product management, training and digital policy development
 
@@ -89,7 +89,7 @@ The National Audit Office (NAO) report, [Digital Britain 2](http://www.nao.org.u
 
 The [Government Service Design Manual](http://www.gov.uk/service-manual), published in mid-April, aims to help departments achieve the Digital by Default Service Standard. It got a positive reception, attracting attention internationally from both public and private sector organisations. Work continues on iterating and improving it in response to user feedback.
 
-[Meeting the Standard will be mandatory for all new and redesigned services handling over 100,000 transactions each year from April 2014](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-06). Initial assessment against the Standard has already started for new services applying to be made available via GOV.UK, looking at each one’s:
+[Meeting the Standard will be mandatory for all new and redesigned services handling over 100,000 transactions each year from April 2014](/digital/strategy/#action-06). Initial assessment against the Standard has already started for new services applying to be made available via GOV.UK, looking at each one’s:
 
 * fit with user needs
 
@@ -103,7 +103,7 @@ Ten assessments have been done so far. Three services passed, subject to meeting
 
 [insert 25 logo]
 
-The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-05). We have begun work on all 25 exemplar services across 8 different departments. Progress has been good; but was held back by delays in funding. Once discovery is complete we will have:
+The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](/digital/strategy/#action-05). We have begun work on all 25 exemplar services across 8 different departments. Progress has been good; but was held back by delays in funding. Once discovery is complete we will have:
 
 * the transformation strategy and business case for each service
 
@@ -115,7 +115,7 @@ Agile working methods are catching on within departments, most notably in Land R
 
 There are still issues to resolve across a number of departments around procurement support, IT provision and improving the rules we work within. To get the most from new digital services, they need to be developed as a part of wider business change, which is why we are looking at how organisational structures and culture need to adapt, alongside improving skills in the team.
 
-The [assisted digital](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-09) team has started working with exemplar services (CAP Delivery, Lasting Power of Attorney, Civil Claims and Prisoner Visits Booking). They are gathering ideas for assisted digital provision in an open way, and collating data about user needs. There is an[ Assisted Digital Action Plan](https://www.gov.uk/service-manual/assisted-digital/action-plan.html) in the Service Manual to help with this.  GDS held 2 events in June for potential providers from commercial and voluntary sectors, and Department for Transport (DFT), DEFRA, HMRC and DWP gave presentations. The assisted digital team is [blogging regularly](http://digital.cabinetoffice.gov.uk/category/assisted-digital/) about its work.
+The [assisted digital](/digital/strategy/#action-09) team has started working with exemplar services (CAP Delivery, Lasting Power of Attorney, Civil Claims and Prisoner Visits Booking). They are gathering ideas for assisted digital provision in an open way, and collating data about user needs. There is an[ Assisted Digital Action Plan](https://www.gov.uk/service-manual/assisted-digital/action-plan.html) in the Service Manual to help with this.  GDS held 2 events in June for potential providers from commercial and voluntary sectors, and Department for Transport (DFT), DEFRA, HMRC and DWP gave presentations. The assisted digital team is [blogging regularly](http://digital.cabinetoffice.gov.uk/category/assisted-digital/) about its work.
 
 Service redesign is not just for exemplars. Other departments are transforming services they identified in their departmental strategies.  Examples include:
 
@@ -127,7 +127,7 @@ Service redesign is not just for exemplars. Other departments are transforming s
 
 [insert graph showing visits since launch]
 
-All ministerial departments have now [moved their corporate information publishing across to GOV.UK](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-07). Usage of GOV.UK rose steadily. Average daily visits exceeded 1.3 million throughout April.
+All ministerial departments have now [moved their corporate information publishing across to GOV.UK](/digital/strategy/#action-07). Usage of GOV.UK rose steadily. Average daily visits exceeded 1.3 million throughout April.
 
 Also in that month, GOV.UK was awarded the prestigious [Design of the Year award](https://www.gov.uk/government/news/govuk-wins-design-of-the-year-2013). Judges unanimously voted for GOV.UK for its "well thought out, yet understated design". This was followed in June by GOV.UK winning a both a yellow pencil and the coveted  black pencil at the Design and Art Direction ([D&AD) awards](http://www.youtube.com/watch?v=7hvFXnCZGF8).
 
@@ -141,7 +141,7 @@ Work began to move agency and arm’s length body websites across to GOV.UK.  De
 
 New common platforms are being developed:
 
-* [Transactions Explorer](http://transactionsexplorer.cabinetoffice.gov.uk/) had its second release, with updated data on over 600 transactions across government. It now contains data on [digital take-up](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-08) as well as additional data on the [70 highest volume services](http://transactionsexplorer.cabinetoffice.gov.uk/highVolumeTransactions), showing some of the [key performance indicators used to assess transactional services](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-13)
+* [Transactions Explorer](http://transactionsexplorer.cabinetoffice.gov.uk/) had its second release, with updated data on over 600 transactions across government. It now contains data on [digital take-up](/digital/strategy/#action-08) as well as additional data on the [70 highest volume services](http://transactionsexplorer.cabinetoffice.gov.uk/highVolumeTransactions), showing some of the [key performance indicators used to assess transactional services](/digital/strategy/#action-13)
 
 * The [Performance Platform](https://www.gov.uk/performance) was released, with dashboards for all the different licences, notices, and registrations that people and organisations can apply for. These will be the first of many similar platform services
 
@@ -159,9 +159,9 @@ In June, the Identity Assurance Privacy and Consumer Advisory Group published an
 
 GDS has been working with departments to help them deliver technology to best support the digital agenda. For example, we are helping MoJ with recruitment, capability assessment and their End User Device procurement. They are now organising an event in Tech City to encourage new suppliers to come forward, potentially to support their [rehabilitation revolution](http://www.official-documents.gov.uk/document/cm85/8517/8517.pdf) programme.
 
-Departments agreed to highlight any [legislative barriers](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-12) that might get in the way of building digital processes and services. For example, requiring a "wet signature" on paper for citizens to get through some services. Departments are assessing whether and how these could be changed.
+Departments agreed to highlight any [legislative barriers](/digital/strategy/#action-12) that might get in the way of building digital processes and services. For example, requiring a "wet signature" on paper for citizens to get through some services. Departments are assessing whether and how these could be changed.
 
-They are also exploring the [use of digital tools to engage with the public and improve policy-making](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-14), and we are pulling together examples of ways to do it well.
+They are also exploring the [use of digital tools to engage with the public and improve policy-making](/digital/strategy/#action-14), and we are pulling together examples of ways to do it well.
 
 Already:
 
