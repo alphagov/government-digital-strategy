@@ -24,7 +24,7 @@ There’s more detail in the report below, but at a quick glance, in the 3 month
 
 * published the [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) and its accompanying [Manual](https://www.gov.uk/service-manual)
 
-* moved the 25 digital exemplars forward; by the end of June, 13 were in discovery phase, 6 were in alpha, 5 in beta, and elements of 1 were live
+* moved the [25 digital exemplars](https:www.gov.uk/transformation) forward; by the end of June, 13 were in discovery phase, 6 were in alpha, 5 in beta, and elements of 1 were live
 
 * moved 6 more ministerial department websites to [GOV.UK](http://gov.uk), and started work on moving across 300 more websites of other government agencies and public bodies
 
@@ -46,7 +46,7 @@ In the next 3 months (July to September 2013), we plan to:
 
 * move more than 30 agency and arms length body websites across to [GOV.UK](http://gov.uk)
 
-* continue work on all 25 exemplar services, moving 2 more into beta (including [Lasting Power of Attorney](http://digital.cabinetoffice.gov.uk/2013/07/02/lasting-power-of-attorney-beta/)) and 1 into alpha.  This includes joint DWP/GDS work to explore enhancing the IT for [Universal Credit](https://www.gov.uk/government/news/universal-credit-roll-out-from-october-2013) to make use of advances in technology since the current system was developed
+* continue work on all [25 exemplar services](https:www.gov.uk/transformation) moving 2 more into beta including [Lasting Power of Attorney](http://digital.cabinetoffice.gov.uk/2013/07/02/lasting-power-of-attorney-beta/) and 1 into alpha.  This includes joint DWP/GDS work to explore enhancing the IT for [Universal Credit](https://www.gov.uk/government/news/universal-credit-roll-out-from-october-2013) to make use of advances in technology since the current system was developed
 
 * [invite suppliers to help us deliver the digital agenda](https://www.gov.uk/government/news/government-invites-suppliers-to-support-digital-by-default-agenda) through a new procurement framework
 
@@ -117,7 +117,7 @@ Ten assessments have been done so far. Three services passed, subject to meeting
 ![25 Logo](/assets/images/july-report/transformation-logo.png)
 {: .pull-right}
 
-The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](/digital/strategy/#action-05). We have begun work on all 25 exemplar services across 8 different departments. Progress has been good; but was held back by delays in funding. Once discovery is complete we will have:
+The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](/digital/strategy/#action-05). We have begun work on all [25 exemplar services](https:www.gov.uk/transformation) across 8 different departments. Progress has been good; but was held back by delays in funding. Once discovery is complete we will have:
 
 * the transformation strategy and business case for each service
 
