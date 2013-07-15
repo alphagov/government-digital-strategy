@@ -1,5 +1,47 @@
+@import "partials/common";                        // Global template styles
+@import "partials/media-player";
 .quarter-report {
   .pull-right {
-    float: right;
+    @include media(tablet) {
+      float: none;
+      margin-left: 25px;
+    }
+    @include media(desktop) {
+      float: right;
+      margin-left: 10px;
+    }
+  }
+  p.pull-right {
+    @include media(desktop) {
+      width: 50%;
+    }
+  }
+  .pull-right .media-player {
+    margin-left: 10px;
+    @include media(mobile){
+      width: $small-player-width;
+    }
+    @include media(tablet){
+      width: $small-player-width;
+    }
+    @include media(desktop){
+      width: $medium-player-width;
+    }
+    .media-player-wrapper{
+      margin: 0;
+      .player-container{
+        .video{
+          @include media(mobile){
+            width: $small-player-width;
+          }
+          @include media(tablet){
+            width: $small-player-width;
+          }
+          @include media(desktop){
+            width: $medium-player-width;
+          }
+        }
+      }
+    }
   }
 }

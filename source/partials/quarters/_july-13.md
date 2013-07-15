@@ -62,7 +62,13 @@ In the next 3 months (July to September 2013), we plan to:
 
 ####Digital capability and leadership
 
-[insert CSL video from YouTube, possibly Job Centre one]
+<div class="pull-right">
+<div class="media-player">
+<figure class="media-player-wrapper">
+  <p><a href="http://www.youtube.com/watch?v=kB1aoOUrO5g">Watch on YouTube</a></p>
+</figure>
+</div>
+</div>
 
 The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabilities-plan-for-the-civil-service), published in April, identified digital capability (in other words, having civil servants who understand how digital can improve policy outcomes and know how to build, maintain and run digital services) as a high priority. [Government Digital Service (GDS) has helped by: ](/digital/strategy/#action-04)
 
@@ -90,7 +96,8 @@ The National Audit Office (NAO) report, [Digital Britain 2](http://www.nao.org.u
 
 ####Service design and operation
 
-[insert screengrab of Service Manual homepage]
+![Service Manual Homepage Screenshot](/assets/images/july-report/servicemanual.jpg)
+{: .pull-right}
 
 The [Government Service Design Manual](http://www.gov.uk/service-manual), published in mid-April, aims to help departments achieve the Digital by Default Service Standard. It got a positive reception, attracting attention internationally from both public and private sector organisations. Work continues on iterating and improving it in response to user feedback.
 
@@ -142,7 +149,8 @@ Work began to move agency and arm’s length body websites across to GOV.UK.  De
 
 ####Other Government-wide initiatives supporting departmental digital work
 
-[insert Transactions Explorer image/screenshot]
+![Transactions Explorer](/assets/images/july-report/transactionsexplorer.jpg)
+{: .pull-right}
 
 New common platforms are being developed:
 
@@ -182,7 +190,8 @@ Already:
 
 ####Digital inclusion
 
-[insert digital inclusion image]
+![Digital Inclusion](/assets/images/july-report/digitalinclusion.jpg)
+{: .pull-right}
 
 In mid-June, BIS released the [Information Economy Industrial Strategy](https://www.gov.uk/government/publications/information-economy-strategy) (IEIS) to boost growth for digital industries.
 

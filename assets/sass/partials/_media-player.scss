@@ -34,31 +34,3 @@ $aspect-ratio: 0.41;
   }
 }
 
-.pull-right .media-player {
-  margin-left: 10px;
-  @include media(mobile){
-    width: $small-player-width;
-  }
-  @include media(tablet){
-    width: $medium-player-width;
-  }
-  @include media(desktop){
-    width: $medium-player-width;
-  }
-  .media-player-wrapper{
-    margin: 0;
-    .player-container{
-      .video{
-        @include media(mobile){
-          width: $small-player-width;
-        }
-        @include media(tablet){
-          width: $medium-player-width;
-        }
-        @include media(desktop){
-          width: $medium-player-width;
-        }
-      }
-    }
-  }
-}
