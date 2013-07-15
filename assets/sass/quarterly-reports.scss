@@ -13,7 +13,7 @@
   }
   p.pull-right {
     @include media(desktop) {
-      width: 50%;
+      max-width: 50%;
     }
   }
   .pull-right .media-player {
