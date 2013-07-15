@@ -3,7 +3,8 @@
 <div class="pull-right">
 <div class="media-player">
 <figure class="media-player-wrapper">
-  <p><a href="http://www.youtube.com/watch?v=Bn5zEQLluoc">Watch on YouTube</a></p>
+  <p><a href="http://www.youtube.com/watch?v=Bn5zEQLluoc">Watch on YouTube</a>
+  <a class="captions" href="/assets/data/july-quarter-intro-captions.xml">Captions</a></p>
 </figure>
 </div>
 </div>
