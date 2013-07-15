@@ -9,7 +9,7 @@
 </div>
 
 
-The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department [apart from DCLG] has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
+The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department apart from DCLG has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
 
 Every 3 months, we publish a short summary of what’s been done. This is the second of those reports; the [first](/digital/quarterly-reports/april-13/) was published in April 2013.
 
