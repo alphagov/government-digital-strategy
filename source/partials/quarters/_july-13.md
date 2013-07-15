@@ -1,8 +1,13 @@
 ## From Awards to Transactions
 
-**Mike Bracken (video) Foreword to go in here**
+<div class="pull-right">
+<div class="media-player">
+<figure class="media-player-wrapper">
+  <p><a href="http://www.youtube.com/watch?v=Bn5zEQLluoc">Watch on YouTube</a></p>
+</figure>
+</div>
+</div>
 
-**[boxout on one side]**
 
 The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department [apart from DCLG] has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
 
