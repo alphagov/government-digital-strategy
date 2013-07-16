@@ -190,6 +190,8 @@ Already:
 
 * FCO has shared case studies on how to use digital to improve foreign policy work on its [digital diplomacy blog](http://blogs.fco.gov.uk/digitaldiplomacy/)
 
+* Department of Health launched a beta version of its [digital resource centre for policy-makers](http://digitalhealth.dh.gov.uk/digital-policymaking/) at Civil Service Live in July
+
 ####Digital inclusion
 
 ![Digital Inclusion](/assets/images/july-report/digitalinclusion.jpg)
