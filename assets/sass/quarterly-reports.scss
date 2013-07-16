@@ -48,8 +48,9 @@
   
   
 // LAST MINUTE STYLE CHANGES
-// MARK HURRELL  15 JULY 2013
-// SORRY
+// MARK HURRELL
+// 15 JULY 2013
+// S O R R Y
 
 
   // typography improvements
@@ -59,26 +60,40 @@
   -webkit-font-smoothing: antialiased;
   
   // layout
-  width: 66.666%;
   max-width: 735px;
   margin-top: 0;
   @include media(tablet){
+    width: 66.666%;
     padding-right: 25%;
-    
     img {
       width: auto;
       max-width: 100%;
+    }
+    .media-player {
+      margin-left: 50px;
+      margin-bottom: 50px;
     }
   }
       
   .pull-right {
     position: relative;
     margin-left: 0;
+    margin-left: 25px;
     @include media(tablet){
       overflow: hidden;
-      padding-top: 15px;
+      margin-top: -10px;
       margin-left: 10px;
+      padding-left: 25px;
+      width: 33.333%;
       margin-right: -33.333%;
+    }
+    p {
+      font-size: 12px;
+      line-height: 18px;
+      @include media(tablet){
+        font-size: 14px;
+        line-height: 20px;
+      }
     }
   }
   
@@ -89,10 +104,14 @@
   
   h2, h3, h4, h5, h6 {
     font-weight: 400;
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 37px;
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 37px;
+    @include media(tablet){
+      font-size: 42px;
+      line-height: 50px;
+    }
   }
   
   p, li {

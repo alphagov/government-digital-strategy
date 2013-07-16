@@ -1,18 +1,19 @@
 ## From Awards to Transactions
 
-<div class="pull-right">
 <div class="media-player">
 <figure class="media-player-wrapper">
   <p><a href="http://www.youtube.com/watch?v=Bn5zEQLluoc">Watch on YouTube</a>
   <a class="captions" href="/assets/data/july-quarter-intro-captions.xml">Captions</a></p>
 </figure>
 </div>
-</div>
 
+<div class="pull-right">
 
 The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department apart from Department for Communities and Local Government (DCLG) has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
 
 Every 3 months, we publish a short summary of what’s been done. This is the second of those reports; the [first](/digital/quarterly-reports/april-13/) was published in April 2013.
+
+</div>
 
 We’re pushing on with implementing the [Government Digital Strategy](/digital/); the National Audit Office (NAO) report, [Digital Britain 2](http://www.nao.org.uk/report/digital-britain-2-putting-users-at-the-heart-of-governments-digital-services/), commented that the digital agenda had firm leadership and was based on sound evidence.
 
@@ -63,13 +64,11 @@ In the next 3 months (July to September 2013), we plan to:
 
 ####Digital capability and leadership
 
-<div class="pull-right">
 <div class="media-player">
 <figure class="media-player-wrapper">
   <p><a href="http://www.youtube.com/watch?v=ZRvrosexh_Y">Watch on YouTube</a>
   <a class="captions" href="/assets/data/july-quarter-oldham-captions.xml">Captions</a></p>
 </figure>
-</div>
 </div>
 
 The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabilities-plan-for-the-civil-service), published in April, identified digital capability (in other words, having civil servants who understand how digital can improve policy outcomes and know how to build, maintain and run digital services) as a high priority. [Government Digital Service (GDS) has helped by: ](/digital/strategy/#action-04)
@@ -141,7 +140,6 @@ Service redesign is not just for exemplars. Other departments are transforming s
 ####GOV.UK
 
 ![Visits to GOV.UK since launch](/assets/images/july-report/govukvisits.png)
-{: .pull-right}
 
 All ministerial departments have now [moved their corporate information publishing across to GOV.UK](/digital/strategy/#action-07). Usage of GOV.UK rose steadily. Average daily visits exceeded 1.3 million throughout April.
 
