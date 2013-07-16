@@ -117,7 +117,7 @@ Ten assessments have been done so far. Three services passed, subject to meeting
 ![25 Logo](/assets/images/july-report/transformation-logo.png)
 {: .pull-right}
 
-The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](/digital/strategy/#action-05). We have begun work on all [25 exemplar services](https:www.gov.uk/transformation) across 8 different departments. Progress has been good; but was held back by delays in funding. Once discovery is complete we will have:
+The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](/digital/strategy/#action-05). We have begun work on all [25 exemplar services](https:www.gov.uk/transformation) across 8 different departments. Progress has been good; but was held back by resourcing delays. Once discovery is complete we will have:
 
 * the transformation strategy and business case for each service
 
