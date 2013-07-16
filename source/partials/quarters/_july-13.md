@@ -16,7 +16,7 @@ Every 3 months, we publish a short summary of what’s been done. This is the se
 
 We’re pushing on with implementing the [Government Digital Strategy](/digital/); the National Audit Office (NAO) report, [Digital Britain 2](http://www.nao.org.uk/report/digital-britain-2-putting-users-at-the-heart-of-governments-digital-services/), commented that the digital agenda had firm leadership and was based on sound evidence.
 
-GOV.UK is an award-winning website and continues to grow, but now our primary focus is on digital transformation - rebuilding government services for the way people live today. We've started work on redesigning 25 of the biggest and most-used transactional public services - we call them exemplars, leading the way for others to follow. Since April, we’ve done a great deal of work, often behind the scenes, and confirmed multi-million pound cost savings. We haven’t got as far as we would have liked; some projects were delayed because of difficulties in finalising funding.  This held up recruitment, which meant we didn’t have enough people to do all the work. That’s something we’re already tackling. There’s still a huge amount of work to do but we hope to make up for lost time through the rest of the year.
+GOV.UK is an award-winning website and continues to grow, but now our primary focus is on digital transformation - rebuilding government services for the way people live today. We've started work on redesigning 25 of the biggest and most-used transactional public services - we call them exemplars, leading the way for others to follow. Since April, we’ve done a great deal of work, often behind the scenes, and confirmed multi-million pound cost savings. We haven’t got as far as we would have liked; some projects were delayed because of difficulties in resourcing, which meant we didn’t have enough people to do all the work. That’s something we’re already tackling. There’s still a huge amount of work to do but we hope to make up for lost time through the rest of the year.
 
 There’s more detail in the report below, but at a quick glance, in the 3 months between April and June, we:
 
@@ -147,7 +147,7 @@ Also in that month, GOV.UK was awarded the prestigious [Design of the Year award
 
 We [improved search](http://digital.cabinetoffice.gov.uk/2013/06/11/improving-site-search-on-gov-uk/#more-11940) on the site, based on user feedback, behaviour analytics, and different user needs.
 
-Work began to move agency and arm’s length body websites across to GOV.UK.  Despite some delays caused by confirming funding to recruit specialist content editors, around 15% of these sites have already been moved across.
+Work began to move agency and arm’s length body websites across to GOV.UK.  Despite some delays around 15% of these sites have already been moved across.
 
 ####Other Government-wide initiatives supporting departmental digital work
 
