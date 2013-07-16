@@ -79,7 +79,7 @@ The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabil
 
 * making 4 videos for civil servants, explaining the ways digital technology is already being used to transform services
 
-The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/strategy/#action-01), as have half of the agencies within the Department for Business, Industry and Skills (BIS), which has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
+The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/strategy/#action-01), as have half of the agencies within the Department for Business, Innovation and Skills (BIS), which has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
 
 Other [departments are working on building their own teams](/digital/strategy/#action-03):
 
