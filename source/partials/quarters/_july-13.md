@@ -139,7 +139,8 @@ Service redesign is not just for exemplars. Other departments are transforming s
 
 ####GOV.UK
 
-[insert graph showing visits since launch]
+![Visits to GOV.UK since launch](/assets/images/july-report/govukvisits.png)
+{: .pull-right}
 
 All ministerial departments have now [moved their corporate information publishing across to GOV.UK](/digital/strategy/#action-07). Usage of GOV.UK rose steadily. Average daily visits exceeded 1.3 million throughout April.
 
