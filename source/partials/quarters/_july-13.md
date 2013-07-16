@@ -56,7 +56,7 @@ In the next 3 months (July to September 2013), we plan to:
 
 * propose a [new model for running government technology](http://digital.cabinetoffice.gov.uk/2013/06/04/reforming-governance-in-government-technology/)
 
-* help departments find specialist digital and technology staff from inside and outside government through a Recruitment Hub based in GDS
+* [help departments find specialist digital and technology staff](http://digital.cabinetoffice.gov.uk/2013/07/12/talent-scouting/) from inside and outside government through a Recruitment Hub based in GDS
 
 * take our [Service Manager induction](/digital/strategy/#action-02) programme live, and integrate digital into existing training for senior civil servants
 
