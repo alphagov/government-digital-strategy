@@ -10,7 +10,7 @@
 </div>
 
 
-The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department apart from DCLG has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
+The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department apart from Department for Communities and Local Government (DCLG) has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
 
 Every 3 months, we publish a short summary of what’s been done. This is the second of those reports; the [first](/digital/quarterly-reports/april-13/) was published in April 2013.
 
@@ -89,7 +89,7 @@ Other [departments are working on building their own teams](/digital/strategy/#a
 
 * Ministry of Defence (MOD) and Department for International Development (DfID) are setting up new roles or repurposing existing job descriptions
 
-* Department for Communities and Local Government (DCLG) and Department for Culture, Media and Sport (DCMS) are planning digital skills training for staff. DCMS is doing this alongside work on [a new intranet](http://digital.cabinetoffice.gov.uk/2013/03/18/intranets-dcms/) built using agile thinking at a fraction of the cost of the site it replaces
+* DCLG and Department for Culture, Media and Sport (DCMS) are planning digital skills training for staff. DCMS is doing this alongside work on [a new intranet](http://digital.cabinetoffice.gov.uk/2013/03/18/intranets-dcms/) built using agile thinking at a fraction of the cost of the site it replaces
 
 Following the closure of the cross-government Chief Information Officer (CIO) and Head of Profession for ICT positions, GDS has started reviewing the best ways to [run and use technology](http://digital.cabinetoffice.gov.uk/2013/06/04/reforming-governance-in-government-technology/), interviewing senior leaders across government and the private sector to find out what works for them and how it might be put to use elsewhere.
 
