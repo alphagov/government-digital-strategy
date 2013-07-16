@@ -22,17 +22,15 @@ $aspect-ratio: 0.41;
       .video{
         @include media(mobile){
           width: $small-player-width;
-          // height: $aspect-ratio * $small-player-width;
         }
         @include media(tablet){
           width: $medium-player-width;
-          // height: $aspect-ratio * $medium-player-width;
         }
         @include media(desktop){
           width: $large-player-width;
-          // height: $aspect-ratio * $large-player-width;
         }
       }
     }
   }
 }
+

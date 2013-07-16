@@ -129,6 +129,7 @@ class ProcessContents
     contents.gsub!(/{pull}/) { "{: .pull}" }
     contents.gsub!(/{big-pull}/) { "{: .big-pull}" }
     contents.gsub!(/{fig}/) { "{: .fig}" }
+    contents.gsub!(/{pull-right}/) { "{: .pull-right}" }
 
     # lets escape some unicode characters
     contents.gsub!(/([£])/, '&pound;')

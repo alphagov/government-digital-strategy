@@ -1,0 +1,129 @@
+@import "partials/common";                        // Global template styles
+@import "partials/media-player";
+.quarter-report {
+  .pull-right {
+    @include media(tablet) {
+      float: none;
+      margin-left: 25px;
+    }
+    @include media(desktop) {
+      float: right;
+      margin-left: 10px;
+    }
+  }
+  p.pull-right {
+    @include media(desktop) {
+      max-width: 50%;
+    }
+  }
+  .pull-right .media-player {
+    margin-left: 10px;
+    @include media(mobile){
+      width: $small-player-width;
+    }
+    @include media(tablet){
+      width: $small-player-width;
+    }
+    @include media(desktop){
+      width: $medium-player-width;
+    }
+    .media-player-wrapper{
+      margin: 0;
+      .player-container{
+        .video{
+          @include media(mobile){
+            width: $small-player-width;
+          }
+          @include media(tablet){
+            width: $small-player-width;
+          }
+          @include media(desktop){
+            width: $medium-player-width;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  
+// LAST MINUTE STYLE CHANGES
+// MARK HURRELL
+// 15 JULY 2013
+// S O R R Y
+
+
+  // typography improvements
+  color: #222;
+  line-height: 25px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  
+  // layout
+  max-width: 735px;
+  margin-top: 0;
+  @include media(tablet){
+    width: 66.666%;
+    padding-right: 25%;
+    img {
+      width: auto;
+      max-width: 100%;
+    }
+    .media-player {
+      margin-left: 50px;
+      margin-bottom: 50px;
+    }
+  }
+      
+  .pull-right {
+    position: relative;
+    margin-left: 0;
+    margin-left: 25px;
+    @include media(tablet){
+      overflow: hidden;
+      margin-top: -10px;
+      margin-left: 10px;
+      padding-left: 25px;
+      width: 33.333%;
+      margin-right: -33.333%;
+    }
+    p {
+      font-size: 12px;
+      line-height: 18px;
+      @include media(tablet){
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+  
+  h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 37px;
+    padding-top: 50px;
+    padding-bottom: 37px;
+    @include media(tablet){
+      font-size: 42px;
+      line-height: 50px;
+    }
+  }
+  
+  p, li {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+}
