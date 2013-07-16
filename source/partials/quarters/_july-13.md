@@ -48,7 +48,7 @@ In the next 3 months (July to September 2013), we plan to:
 
 * continue work on all [25 exemplar services](https:www.gov.uk/transformation) moving 2 more into beta including [Lasting Power of Attorney](http://digital.cabinetoffice.gov.uk/2013/07/02/lasting-power-of-attorney-beta/) and 1 into alpha.  This includes joint DWP/GDS work to explore enhancing the IT for [Universal Credit](https://www.gov.uk/government/news/universal-credit-roll-out-from-october-2013) to make use of advances in technology since the current system was developed
 
-* [invite suppliers to help us deliver the digital agenda](https://www.gov.uk/government/news/government-invites-suppliers-to-support-digital-by-default-agenda) through a new procurement framework
+* [invite suppliers to help us deliver the digital agenda](http://digital.cabinetoffice.gov.uk/2013/07/09/digital-services-framework/) through a new procurement framework
 
 * create an online library of best practice case studies to help departments with digital policy-making
 
