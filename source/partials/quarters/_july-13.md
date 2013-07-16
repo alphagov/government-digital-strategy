@@ -83,7 +83,7 @@ The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/stra
 
 Other [departments are working on building their own teams](/digital/strategy/#action-03):
 
-* The Foreign and Commonwealth Office (FCO) set up a team covering portfolio management, product management, training and digital policy development
+* The Foreign and Commonwealth Office (FCO) is setting up a team covering portfolio management, product management, training and digital policy development
 
 * Department for Environment and Climate Change (DECC) has established a small team to work on digital programme management, capability building, and service design and delivery
 
