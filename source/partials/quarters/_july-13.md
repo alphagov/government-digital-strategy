@@ -66,7 +66,8 @@ In the next 3 months (July to September 2013), we plan to:
 <div class="pull-right">
 <div class="media-player">
 <figure class="media-player-wrapper">
-  <p><a href="http://www.youtube.com/watch?v=kB1aoOUrO5g">Watch on YouTube</a></p>
+  <p><a href="http://www.youtube.com/watch?v=ZRvrosexh_Y">Watch on YouTube</a>
+  <a class="captions" href="/assets/data/july-quarter-oldham-captions.xml">Captions</a></p>
 </figure>
 </div>
 </div>
