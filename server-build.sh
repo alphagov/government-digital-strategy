@@ -7,9 +7,7 @@ export LANGUAGE=en_US.UTF-8
 
 echo "Pulling all branches down"
 git checkout master
-git pull origin
-git checkout 6month-report
-git pull origin 6month-report
+git pull origin master
 
 echo "Bundling"
 /usr/local/bin/bundle
