@@ -79,7 +79,7 @@ The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabil
 
 * making 4 videos for civil servants, explaining the ways digital technology is already being used to transform services
 
-The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/strategy/#action-01). All key agencies within the Department for Business, Innovation and Skills (BIS) have digital leaders, half of them at Board level. BIS has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
+The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/strategy/#action-01). All key agencies within the Department for Business, Innovation and Skills (BIS) now have digital leaders, half of them at Board level. BIS has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
 
 Other [departments are working on building their own teams](/digital/strategy/#action-03):
 
@@ -139,8 +139,7 @@ Service redesign is not just for exemplars. Other departments are transforming s
 
 ####GOV.UK
 
-![Visits to GOV.UK since launch](/assets/images/july-report/govukvisits.png)
-{: .pull-right}
+[insert graph showing visits since launch]
 
 All ministerial departments have now [moved their corporate information publishing across to GOV.UK](/digital/strategy/#action-07). Usage of GOV.UK rose steadily. Average daily visits exceeded 1.3 million throughout April.
 
