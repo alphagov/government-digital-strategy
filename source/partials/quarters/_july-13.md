@@ -87,9 +87,9 @@ Other [departments are working on building their own teams](/digital/strategy/#a
 
 * Department for Environment and Climate Change (DECC) has established a small team to work on digital programme management, capability building, and service design and delivery
 
-* Ministry of Defence (MOD) and Department for International Development (DfID) are setting up new roles or repurposing existing job descriptions
+* Ministry of Defence (MOD), Department of Health (DH) and Department for International Development (DfID) are setting up new roles or repurposing existing job descriptions
 
-* DCLG and Department for Culture, Media and Sport (DCMS) are planning digital skills training for staff. DCMS is doing this alongside work on [a new intranet](http://digital.cabinetoffice.gov.uk/2013/03/18/intranets-dcms/) built using agile thinking at a fraction of the cost of the site it replaces
+* DCLG, DH and Department for Culture, Media and Sport (DCMS) are planning digital skills training for staff. DCMS is doing this alongside work on [a new intranet](http://digital.cabinetoffice.gov.uk/2013/03/18/intranets-dcms/) built using agile thinking at a fraction of the cost of the site it replaces
 
 Following the closure of the cross-government Chief Information Officer (CIO) and Head of Profession for ICT positions, GDS has started reviewing the best ways to [run and use technology](http://digital.cabinetoffice.gov.uk/2013/06/04/reforming-governance-in-government-technology/), interviewing senior leaders across government and the private sector to find out what works for them and how it might be put to use elsewhere.
 
@@ -190,7 +190,7 @@ Already:
 
 * FCO has shared case studies on how to use digital to improve foreign policy work on its [digital diplomacy blog](http://blogs.fco.gov.uk/digitaldiplomacy/)
 
-* Department of Health launched a beta version of its [digital resource centre for policy-makers](http://digitalhealth.dh.gov.uk/digital-policymaking/) at Civil Service Live in July
+* DH launched a beta version of its [digital resource centre for policy-makers](http://digitalhealth.dh.gov.uk/digital-policymaking/) at Civil Service Live in July
 
 ####Digital inclusion
 
