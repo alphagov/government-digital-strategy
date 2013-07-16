@@ -10,13 +10,13 @@
 </div>
 
 
-The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department apart from DCLG has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
+The [Government Digital Strategy](/digital/) was published in November 2012. It included a list of 14 actions for redesigning government digital services to make them so straightforward and convenient that all those who can use them prefer to do so. [Each government department apart from Department for Communities and Local Government (DCLG) has its own digital strategy](/digital/#departmental-strategies), setting out what it will do to respond to those actions.
 
 Every 3 months, we publish a short summary of what’s been done. This is the second of those reports; the [first](/digital/quarterly-reports/april-13/) was published in April 2013.
 
 We’re pushing on with implementing the [Government Digital Strategy](/digital/); the National Audit Office (NAO) report, [Digital Britain 2](http://www.nao.org.uk/report/digital-britain-2-putting-users-at-the-heart-of-governments-digital-services/), commented that the digital agenda had firm leadership and was based on sound evidence.
 
-GOV.UK is an award-winning website and continues to grow, but now our primary focus is on digital transformation - rebuilding government services for the way people live today. We've started work on redesigning 25 of the biggest and most-used transactional public services - we call them exemplars, leading the way for others to follow. Since April, we’ve done a great deal of work, often behind the scenes, and confirmed multi-million pound cost savings. We haven’t got as far as we would have liked; some projects were delayed because of difficulties in finalising funding.  This held up recruitment, which meant we didn’t have enough people to do all the work. That’s something we’re already tackling. There’s still a huge amount of work to do but we hope to make up for lost time through the rest of the year.
+GOV.UK is an award-winning website and continues to grow, but now our primary focus is on digital transformation - rebuilding government services for the way people live today. We've started work on redesigning 25 of the biggest and most-used transactional public services - we call them exemplars, leading the way for others to follow. Since April, we’ve done a great deal of work, often behind the scenes, and confirmed multi-million pound cost savings. We haven’t got as far as we would have liked; some projects were delayed because of difficulties in resourcing, which meant we didn’t have enough people to do all the work. That’s something we’re already tackling. There’s still a huge amount of work to do but we hope to make up for lost time through the rest of the year.
 
 There’s more detail in the report below, but at a quick glance, in the 3 months between April and June, we:
 
@@ -24,7 +24,7 @@ There’s more detail in the report below, but at a quick glance, in the 3 month
 
 * published the [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) and its accompanying [Manual](https://www.gov.uk/service-manual)
 
-* moved the 25 digital exemplars forward; by the end of June, 13 were in discovery phase, 6 were in alpha, 5 in beta, and elements of 1 were live
+* moved the [25 digital exemplars](https:www.gov.uk/transformation) forward; by the end of June, 13 were in discovery phase, 6 were in alpha, 5 in beta, and elements of 1 were live
 
 * moved 6 more ministerial department websites to [GOV.UK](http://gov.uk), and started work on moving across 300 more websites of other government agencies and public bodies
 
@@ -46,9 +46,9 @@ In the next 3 months (July to September 2013), we plan to:
 
 * move more than 30 agency and arms length body websites across to [GOV.UK](http://gov.uk)
 
-* continue work on all 25 exemplar services, moving 2 more into beta (including [Lasting Power of Attorney](http://digital.cabinetoffice.gov.uk/2013/07/02/lasting-power-of-attorney-beta/)) and 1 into alpha.  This includes joint DWP/GDS work to explore enhancing the IT for [Universal Credit](https://www.gov.uk/government/news/universal-credit-roll-out-from-october-2013) to make use of advances in technology since the current system was developed
+* continue work on all [25 exemplar services](https:www.gov.uk/transformation) moving 2 more into beta including [Lasting Power of Attorney](http://digital.cabinetoffice.gov.uk/2013/07/02/lasting-power-of-attorney-beta/) and 1 into alpha.  This includes joint DWP/GDS work to explore enhancing the IT for [Universal Credit](https://www.gov.uk/government/news/universal-credit-roll-out-from-october-2013) to make use of advances in technology since the current system was developed
 
-* [invite suppliers to help us deliver the digital agenda](https://www.gov.uk/government/news/government-invites-suppliers-to-support-digital-by-default-agenda) through a new procurement framework
+* [invite suppliers to help us deliver the digital agenda](http://digital.cabinetoffice.gov.uk/2013/07/09/digital-services-framework/) through a new procurement framework
 
 * create an online library of best practice case studies to help departments with digital policy-making
 
@@ -56,7 +56,7 @@ In the next 3 months (July to September 2013), we plan to:
 
 * propose a [new model for running government technology](http://digital.cabinetoffice.gov.uk/2013/06/04/reforming-governance-in-government-technology/)
 
-* help departments find specialist digital and technology staff from inside and outside government through a Recruitment Hub based in GDS
+* [help departments find specialist digital and technology staff](http://digital.cabinetoffice.gov.uk/2013/07/12/talent-scouting/) from inside and outside government through a Recruitment Hub based in GDS
 
 * take our [Service Manager induction](/digital/strategy/#action-02) programme live, and integrate digital into existing training for senior civil servants
 
@@ -79,17 +79,17 @@ The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabil
 
 * making 4 videos for civil servants, explaining the ways digital technology is already being used to transform services
 
-The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/strategy/#action-01), as have half of the agencies within the Department for Business, Industry and Skills (BIS), which has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
+The Ministry of Justice (MoJ) has appointed a new [Digital Leader](/digital/strategy/#action-01). All key agencies within the Department for Business, Innovation and Skills (BIS) have digital leaders, half of them at Board level. BIS has also completed its own [digital capability review](http://discuss.bis.gov.uk/bisdigital/2013/06/25/delivering-our-digital-strategy-an-update-on-the-bis-digital-capability-review/).
 
 Other [departments are working on building their own teams](/digital/strategy/#action-03):
 
-* The Foreign and Commonwealth Office (FCO) set up a team covering portfolio management, product management, training and digital policy development
+* The Foreign and Commonwealth Office (FCO) is setting up a team covering portfolio management, product management, training and digital policy development
 
 * Department for Environment and Climate Change (DECC) has established a small team to work on digital programme management, capability building, and service design and delivery
 
-* Ministry of Defence (MOD) and Department for International Development (DfID) are setting up new roles or repurposing existing job descriptions
+* Ministry of Defence (MOD), Department of Health (DH) and Department for International Development (DfID) are setting up new roles or repurposing existing job descriptions
 
-* Department for Communities and Local Government (DCLG) and Department for Culture, Media and Sport (DCMS) are planning digital skills training for staff. DCMS is doing this alongside work on [a new intranet](http://digital.cabinetoffice.gov.uk/2013/03/18/intranets-dcms/) built using agile thinking at a fraction of the cost of the site it replaces
+* DCLG, DH and Department for Culture, Media and Sport (DCMS) are planning digital skills training for staff. DCMS is doing this alongside work on [a new intranet](http://digital.cabinetoffice.gov.uk/2013/03/18/intranets-dcms/) built using agile thinking at a fraction of the cost of the site it replaces
 
 Following the closure of the cross-government Chief Information Officer (CIO) and Head of Profession for ICT positions, GDS has started reviewing the best ways to [run and use technology](http://digital.cabinetoffice.gov.uk/2013/06/04/reforming-governance-in-government-technology/), interviewing senior leaders across government and the private sector to find out what works for them and how it might be put to use elsewhere.
 
@@ -117,7 +117,7 @@ Ten assessments have been done so far. Three services passed, subject to meeting
 ![25 Logo](/assets/images/july-report/transformation-logo.png)
 {: .pull-right}
 
-The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](/digital/strategy/#action-05). We have begun work on all 25 exemplar services across 8 different departments. Progress has been good; but was held back by delays in funding. Once discovery is complete we will have:
+The Government Digital Strategy asked departments to [identify ‘exemplar’ services for transformation](/digital/strategy/#action-05). We have begun work on all [25 exemplar services](https:www.gov.uk/transformation) across 8 different departments. Progress has been good; but was held back by resourcing delays. Once discovery is complete we will have:
 
 * the transformation strategy and business case for each service
 
@@ -148,7 +148,7 @@ Also in that month, GOV.UK was awarded the prestigious [Design of the Year award
 
 We [improved search](http://digital.cabinetoffice.gov.uk/2013/06/11/improving-site-search-on-gov-uk/#more-11940) on the site, based on user feedback, behaviour analytics, and different user needs.
 
-Work began to move agency and arm’s length body websites across to GOV.UK.  Despite some delays caused by confirming funding to recruit specialist content editors, around 15% of these sites have already been moved across.
+Work began to move agency and arm’s length body websites across to GOV.UK.  Despite some delays around 15% of these sites have already been moved across.
 
 ####Other Government-wide initiatives supporting departmental digital work
 
@@ -190,6 +190,8 @@ Already:
 * The Digital Communications Team within BIS is working to embed digital tools in the policy-making process. Early case studies were published in May on the[ digital@BIS](http://discuss.bis.gov.uk/bisdigital/) blog
 
 * FCO has shared case studies on how to use digital to improve foreign policy work on its [digital diplomacy blog](http://blogs.fco.gov.uk/digitaldiplomacy/)
+
+* DH launched a beta version of its [digital resource centre for policy-makers](http://digitalhealth.dh.gov.uk/digital-policymaking/) at Civil Service Live in July
 
 ####Digital inclusion
 
