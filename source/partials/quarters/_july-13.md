@@ -85,7 +85,7 @@ Other [departments are working on building their own teams](/digital/strategy/#a
 
 * The Foreign and Commonwealth Office (FCO) is setting up a team covering portfolio management, product management, training and digital policy development
 
-* Department for Environment and Climate Change (DECC) has established a small team to work on digital programme management, capability building, and service design and delivery
+* Department for Energy and Climate Change (DECC) has established a small team to work on digital programme management, capability building, and service design and delivery
 
 * Ministry of Defence (MOD), Department of Health (DH) and Department for International Development (DfID) are setting up new roles or repurposing existing job descriptions
 
@@ -160,7 +160,7 @@ New common platforms are being developed:
 
 * The [Performance Platform](https://www.gov.uk/performance) was released, with dashboards for all the different licences, notices, and registrations that people and organisations can apply for. These will be the first of many similar platform services
 
-* The [GOV.UK blogging platform](https://blog.gov.uk/) was launched, initially featuring a ‘history of government’ blog operated by the The National Archives. Existing blogs will soon be migrated to the new platform
+* The [GOV.UK blogging platform](https://blog.gov.uk/) was launched, initially featuring a ‘history of government’ blog operated by The National Archives. Existing blogs will soon be migrated to the new platform
 
 The [Identity Assurance Programme](http://digital.cabinetoffice.gov.uk/2012/10/04/less-about-identity-more-about-trust/) is:
 
