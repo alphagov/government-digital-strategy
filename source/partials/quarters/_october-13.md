@@ -53,7 +53,11 @@ In quarter 4 (October to December) we expect to:
 
 ## Digital capability and leadership
 
-[Service Manager blog video clip?]
+<div class="media-player">
+<figure class="media-player-wrapper">
+  <p><a href="http://www.youtube.com/watch?v=0rmk5COdvZI">Watch on YouTube</a></p>
+</figure>
+</div>
 
 The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabilities-plan-for-the-civil-service), published in April, identified digital capability as a high priority. When we say “digital capability,” we mean having civil servants who truly understand the internet and technology, and how they can be used to make government policy and digital services better.
 
@@ -85,7 +89,8 @@ Departments continue to promote digital in their own training and development pr
 
 ## Service design and operation - best practice guidance and advice
 
-[image/video needed here - Design Manual home page/logo?]
+![Digital by Default Service Standard logo](/assets/images/october-report/digital-by-default-service-standard.png)
+{: .pull-right}
 
 The [Government Service Design Manual](/service-manual), published in mid-April, aims to help departments achieve the Digital by Default Service Standard. GDS has begun looking at other ways to share and disseminate best practice; for example, by establishing a wider range of specialist digital communities to support service transformation and publishing.
 
@@ -99,7 +104,11 @@ Twelve assessments were undertaken this quarter, all but one of which were seeki
 
 ## Service transformations
 
-[image/video here - Sprint Alpha]
+<div class="media-player">
+<figure class="media-player-wrapper">
+  <p><a href="http://www.youtube.com/watch?v=lMNyzl0dlpo">Watch on YouTube</a></p>
+</figure>
+</div>
 
 The Government Digital Strategy required major transactional departments to [identify ‘exemplar’ services for transformation](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-05). We have begun work on all 25 exemplar projects.  Progress has been good; by the end of September, 1 service had elements already live, 11 were in beta, 6 were in alpha, and discovery was complete for the remaining 7 exemplars.
 
@@ -138,6 +147,8 @@ All departments have now [moved their corporate information publishing across to
 
 We worked with colleagues from the NHS, Department for Transport, Department for Health and the Cabinet Office’s [Behaviour Insights team](https://www.gov.uk/government/organisations/behavioural-insights-team) to run [experiments](http://digital.cabinetoffice.gov.uk/2013/08/06/organ-donation-and-ab-testing/) to learn how GOV.UK might increase the numbers of people choosing to register as organ donors. One small change to a page on GOV.UK has led to around 10,000 additional people joining the organ donor register each month, meaning it’s now the third biggest source of new registrations, behind doctors’ surgeries and the DVLA.
 
+![Graph showing visits to GOV.UK in September 2013](/assets/images/october-report/govuk-image.png)
+
 On Monday 30 September [GOV.UK](/) had its busiest day ever with 2,010,203 visits, passing 2 million for the first time. Popular topical content included the Royal Mail Share Offer, the Help to Buy scheme, National Minimum Wage rates increasing, and the usual end-of-month car tax renewals.
 
 Since launch in October 2012, GOV.UK has handled over 1 billion page views from 150 million unique devices.
@@ -148,6 +159,9 @@ To support the transition, GDS is providing user needs training to these organis
 
 ## Digital inclusion
 
+![Digital inclusion workshop at Sprint Alpha](/assets/images/october-report/digital-inclusion-workshop.jpg)
+{: .pull-right}
+
 Following the BIS release of the [Information Economy Industrial Strategy](https://www.gov.uk/government/publications/information-economy-strategy) to boost growth opportunities for digital industries, a new cross-government team has been established in GDS to help people, businesses and charities get online. It has begun to:
 
 * draft a digital inclusion strategy setting out the nature of the challenge, the scale of government's ambition and an action plan for delivering it
@@ -155,6 +169,9 @@ Following the BIS release of the [Information Economy Industrial Strategy](https
 * build knowledge on ‘what works’ in digital inclusion, to use for planning and evaluating future work
 
 ## Other government-wide initiatives supporting departmental digital work
+
+![Transactions Explorer screenshot](/assets/images/october-report/transactions-explorer.jpg)
+{: .pull-right}
 
 The [Open Standards Board](http://standards.data.gov.uk/osb/members) has recommended the approval of the first open standards for government technology, based on [advice from specialist advisory panels and peer review](http://digital.cabinetoffice.gov.uk/2013/09/06/opening-up-open-standards/).  These will be adopted as the [first open standards for government](http://digital.cabinetoffice.gov.uk/2013/09/27/first-open-standards-selected/).
 
