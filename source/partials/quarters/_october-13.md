@@ -114,7 +114,7 @@ The Government Digital Strategy required major transactional departments to [ide
 
 The services that are now in public beta are [lasting power of attorney](https://www.gov.uk/lasting-power-of-attorney), [employment tribunal fees](https://www.gov.uk/apply-employment-tribunal) and [probate search](https://probatesearch.service.gov.uk/).
 
-Once all projects have completed discovery, we will then have a delivery plan for each service and will form a delivery approach for the overarching GDS programme that will support this.
+Now all projects have completed discovery, we will draw up a delivery plan for each service and will form a delivery approach for the overarching GDS programme that will support this.
 
 We continue to encounter issues across the programme including challenges to new ways of working presented by traditional procurement approaches; and integrating agile projects into broader programmes managed using traditional ‘waterfall’ project management methods. We have set up a forum with Digital Leaders from the departments with exemplar projects to begin addressing these concerns.
 
