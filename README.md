@@ -54,7 +54,7 @@ bundle exec ./local-build.sh
 
 Calling these scripts with `bundle exec` makes sure the commands are run within the context of your local Bundle (the gems defined in `Gemfile`).
 
-This compiles everything into the `built` folder. To view it locally, run `ruby built-server.rb` and head to `http://localhost:8080`
+This compiles everything into the `built` folder. To view it locally, run `ruby scripts/built-server.rb` and head to `http://localhost:8080`
 
 This wont attempt to pull in any content from other Github repositories, so can be run when you're sans-internet.
 
