@@ -1,10 +1,10 @@
-<div class="pull-right">
+## Foreword by Mike Bracken: Delivery and structural reform
+
+<div class="pull-right no-video">
   The [Government Digital Strategy](/digital) was published in November 2012. It sets out 14 actions including: what we will do to create digital services so good that people will choose to use them, and support those who can’t; build digital capability across government; and use digital to improve policymaking. [Each department has its own digital strategy](http://publications.cabinetoffice.gov.uk/digital/#departmental-strategies), setting out what it will do to respond to those 14 actions.
 
   Each quarter, we summarise our progress against the Government Digital Strategy.  This is our third report; the [first](http://publications.cabinetoffice.gov.uk/digital/quarterly-reports/april-13/) appeared in April and the [second](http://publications.cabinetoffice.gov.uk/digital/quarterly-reports/july-13/) in July (a more detailed Annual Review will be published in December 2013).
 </div>
-
-## Foreword by Mike Bracken: Delivery and structural reform
 
 This has been a rewarding and hugely challenging quarter for departments and GDS. Whilst hundreds of agencies gear up to migrate to the [GOV.UK](/) platform, our joint teams are making great improvements in transforming some of the most important government transactions.
 
