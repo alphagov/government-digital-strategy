@@ -67,7 +67,7 @@ The [Civil Service Capabilities Plan](https://www.gov.uk/government/news/capabil
 * responding to departmental requests for help in recruiting 9 senior level posts across government; and 20 other specialist digital roles in 7 departments
 * running a beta of the [Service Manager](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-02) induction and development programme in July and building on that to launch a [full live programme](https://www.gov.uk/service-manual/the-team/induction-and-development.html) in September
 * starting to work with the main professions in the civil service, particularly the [Operational Delivery profession](http://www.civilservice.gov.uk/all/head-civil-service/the-biggest-profession) (which covers around 70% of all civil servants), to further embed digital skills in their roles
-* working with the Government Communications Network on their review of digital communications
+* working with the [Government Communications Network](https://gcn.civilservice.gov.uk/) on their review of digital communications
 * bringing responsibility for the [Technology in Business (TiB) fast stream](http://it.civilservice.gov.uk/the-government-it-profession/technology-in-business-fast-stream/) into GDS
 * holding an alpha [digital learning day](http://digital.cabinetoffice.gov.uk/2013/08/05/digital-learning-day/) at Manchester TechHub, run by a fast streamer from the TiB fast stream
 
@@ -112,17 +112,17 @@ Twelve assessments were undertaken this quarter, all but one of which were seeki
 
 The Government Digital Strategy required major transactional departments to [identify ‘exemplar’ services for transformation](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-05). We have begun work on all 25 exemplar projects.  Progress has been good; by the end of September, 1 service had elements already live, 11 were in beta, 6 were in alpha, and discovery was complete for the remaining 7 exemplars.
 
-The services that are now in public beta are [lasting power of attorney](https://www.gov.uk/lasting-power-of-attorney), [employment tribunal fees](https://www.gov.uk/apply-employment-tribunal) and [probate search](https://probatesearch.service.gov.uk/).
+The services in public beta by the end of this quarter are [lasting power of attorney](https://www.gov.uk/lasting-power-of-attorney), [employment tribunal fees](https://www.gov.uk/apply-employment-tribunal) and [probate search](https://probatesearch.service.gov.uk/).
 
 Now all projects have completed discovery, we will draw up a delivery plan for each service and will form a delivery approach for the overarching GDS programme that will support this.
 
-We continue to encounter issues across the programme including challenges to new ways of working presented by traditional procurement approaches; and integrating agile projects into broader programmes managed using traditional ‘waterfall’ project management methods. We have set up a forum with Digital Leaders from the departments with exemplar projects to begin addressing these concerns.
+We continue to encounter issues across the programme including challenges to new ways of working presented by traditional procurement approaches; and integrating agile projects into broader programmes managed using traditional ‘waterfall’ project management methods. We have set up a forum of Digital Leaders from the departments with exemplar projects to begin addressing these concerns.
 
 We want to make sure we learn from the transformation work. We’re looking at how organisational structures and culture need to adapt, alongside improving staff skills. To do this, GDS has developed an approach to assess capability within exemplars. We will help exemplar services and departments work through this over the next quarter. Outcomes will be fed back to those involved by December.  They will also be used to inform future capability building initiatives; both in the teams and departments involved, and potentially more widely across the civil service.
 
 We also ran [Sprint Alpha](http://digital.cabinetoffice.gov.uk/2013/07/18/transforming-government-services/), an event intended to showcase and share learning between those working on digital transformation.  This was attended by ministers and permanent secretaries, demonstrating their keen interest in the potential of digital to improve services and increase efficiency.
 
-We are working with HMT to refine the business case approval process, to make it work better with agile project delivery. We expect updated guidance to be published in the next quarter.
+We are working with Her Majesty's Treasury (HMT) to refine the business case approval process, to make it work better with agile project delivery. We expect updated guidance to be published in the next quarter.
 
 We have published guidance on [increasing digital take-up](https://www.gov.uk/service-manual/communications/increasing-digital-takeup.html#how-to-increase-your-digital-take-up) and we are working with a number of departments, agencies, and other public sector bodies to identify practical examples of how these organisations have successfully achieved [channel shift](http://publications.cabinetoffice.gov.uk/digital/strategy/#action-08). For example, DWP [Job Seeker Allowance online claims](https://www.gov.uk/government/news/jobseekers-embrace-digital-revolution) increased to 82% in August 2013, up from 32% the year before. The service now sees an average of around 5 million online job searches each day. We will add to or update these case studies as we learn about more good examples, and improve the guidance in line with user feedback. Both DfE and HMRC are working on channel shift strategies involving their executive agencies and frontline services.
 
