@@ -8,7 +8,7 @@
 
 This has been a rewarding and hugely challenging quarter for departments and GDS. Whilst hundreds of agencies gear up to migrate to the [GOV.UK](/) platform, our joint teams are making great improvements in transforming some of the most important government transactions.
 
-Back at GDS, we’ve also had to face the challenge of growing our organisation and its supporting corporate services. We’re now starting to reap the rewards of making changes to our HR resources and centralising recruitment for all of government’s senior technology and digital roles. Helping HMRC attract Mark Dearnley as Chief Digital Officer is an excellent example, and there are many more to come.
+Back at GDS, we’ve also had to face the challenge of growing our organisation and its supporting corporate services. We’re now starting to reap the rewards of making changes to our HR resources and centralising recruitment for all of government’s senior technology and digital roles. Helping HMRC attract Mark Dearnley as Chief Information Officer is an excellent example, and there are many more to come.
 
 Similarly, our work on getting the right companies in to work with government has taken a huge amount of effort. G-Cloud continues to attract new suppliers, most of them SMEs, and great progress has been made on building the digital services framework which will be unveiled within weeks.
 
