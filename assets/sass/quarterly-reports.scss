@@ -44,9 +44,9 @@
       }
     }
   }
-  
-  
-  
+
+
+
 // LAST MINUTE STYLE CHANGES
 // MARK HURRELL
 // 15 JULY 2013
@@ -58,7 +58,7 @@
   line-height: 25px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  
+
   // layout
   max-width: 735px;
   margin-top: 0;
@@ -74,7 +74,7 @@
       margin-bottom: 50px;
     }
   }
-      
+
   .pull-right {
     position: relative;
     margin-left: 0;
@@ -95,13 +95,19 @@
         line-height: 20px;
       }
     }
+
+    &.no-video {
+      @include media(tablet) {
+        margin-top: 0;
+      }
+    }
   }
-  
+
   h2 {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  
+
   h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-size: 35px;
@@ -113,11 +119,11 @@
       line-height: 50px;
     }
   }
-  
+
   p, li {
     margin-bottom: 15px;
   }
-  
+
   a {
     text-decoration: none;
     &:hover,
