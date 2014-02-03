@@ -1,5 +1,13 @@
 *"Publish, don't send."* - Mike Bracken
 
+# The Digital Strategy has moved
+
+We now publish and host this document on [GOV.UK](https://www.gov.uk):
+
+https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research
+
+This code base is maintained for historical purposes only.
+
 # What is this?
 
 This repository contains the code and content behind the Government Digital
