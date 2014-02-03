@@ -18,11 +18,6 @@ If we successfully transform our services so they are digital by
 default, we can earn a reputation for offering high-quality, responsive, convenient and
 up-to-date services.
 
-If we successfully transform our services so they are digital by
-default, we can earn a reputation for offering high-quality, responsive, convenient and
-up-to-date services.
-{pull}
-
 We made this commitment in response to the review
 of Government Online ['Directgov 2010 and Beyond: Revolution not Evolution’](http://www.cabinetoffice.gov.uk/resource-library/directgov-2010-and-beyond-revolution-not-evolution) carried out by Martha Lane Fox as UK
 Digital Champion in 2010.
